@@ -1,5 +1,11 @@
-import os
+# Jose X. Moreno 20387773
+# Andrea Garza 20581964
+# Leonardo Pérez 0444297
+# Misael Garay 20522356
 
+import os
+from zipfile import ZipFile
+from io import BytesIO
 class Node:
     def __init__(self, doc_id, frequency=1):
         self.doc_id = doc_id
@@ -64,25 +70,43 @@ def extract_words_from_files(directory_path):
         print("Error occurred")
     return word_frequency, doc_id_to_file
 
-file_path = 'Extract_List.txt'
-contextWord = "null"
-matchWord = "null"
-searchWord = "null"
+#same as above except for zip folder
+def extract_from_zip(zip_path):
+    word_frequency = {}
+    doc_id_to_file = {}
+    i = 0
+    try:
+        with ZipFile(zip_path, 'r') as zip_archive:
+            files = zip_archive.namelist()
+            for file_name in files:
+                with zip_archive.open(file_name) as file_in_zip:
+                    doc_id_to_file[i] = file_name
+                    
+                    file_info_undecoded = file_in_zip.read()
+                    file_info = file_info_undecoded.decode('utf-8')
+                    split_info = file_info.split()
+                    for term in split_info:
+                        if term.isalpha():
+                            word = term.lower()
+                            if word not in word_frequency:
+                                word_frequency[word] = LinkedList()
+                            word_frequency[word].update_list(i)
+                    i += 1
+    except FileNotFoundError:
+        print("Directory not found")
+    except Exception:
+        print("Error occurred")
+    return word_frequency, doc_id_to_file
+
+
 
 #looks for where the script is and changes to its directory before extracting from folder Jan
 script_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir(script_dir)
-all_file_data, doc_id_to_file = extract_words_from_files("Jan")
+all_file_data, doc_id_to_file = extract_from_zip("Jan.zip")
 
-#shows the data extracted from the folder
-for word, linked_list in all_file_data.items():
-    print(f"Word: {word}")
-    linked_list.display()
-    print("---")
 
-print("Web Searchers Part 1 \n\nTask 1:")
-if matchWord == searchWord and matchWord != "null":
-    print("\n The Words Match! \n")
+
 
 
 # Task 2
