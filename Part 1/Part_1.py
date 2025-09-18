@@ -74,15 +74,17 @@ script_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir(script_dir)
 all_file_data, doc_id_to_file = extract_words_from_files("Jan")
 
-#shows the data extracted from the folder
-for word, linked_list in all_file_data.items():
-    print(f"Word: {word}")
-    linked_list.display()
-    print("---")
+# Writes extracted data into Extract_List.txt
+with open(file_path, 'w') as output_file:
+    for word, linked_list in all_file_data.items():
+        output_file.write(f"{word}:\n")
+        current = linked_list.head
+        while current:
+            output_file.write(f"doc: {current.doc_id} frequency: {current.frequency}\n")
+            current = current.next
+        output_file.write("\n")
 
-print("Web Searchers Part 1 \n\nTask 1:")
-if matchWord == searchWord and matchWord != "null":
-    print("\n The Words Match! \n")
+print(f"Web Searchers Part 1 \n\nTask 1:\n{file_path} completed\n")
 
 
 # Task 2
@@ -90,6 +92,7 @@ if matchWord == searchWord and matchWord != "null":
 # If the word is found, it prints the names of the files containing that word
 # If not found, it displays a "No match" message to the user
 def search_loop(word_frequency, doc_id_to_file):
+    print("Task 2:")
     while True:
         search_key = input("Enter a word to search: ").strip().lower()
         if search_key == '':

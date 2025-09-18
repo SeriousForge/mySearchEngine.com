@@ -1,31 +1,6033 @@
-subject
-provided
-start
-stuff
-ismap
-end
-rhf
-joke
-archives
-subject
-much
-was
-hosting
-survey
-worst
-music
-videos
-beating
-poison
-house
-milli
-vanilli
-took
-award
-for
-cheesiest
-band
-said
-from
-milli
-vanilli
+quickies:
+doc: 0 frequency: 2
+doc: 24 frequency: 2
+doc: 28 frequency: 1
+
+digest:
+doc: 0 frequency: 2
+doc: 24 frequency: 2
+doc: 28 frequency: 2
+
+a:
+doc: 0 frequency: 6
+doc: 1 frequency: 7
+doc: 2 frequency: 5
+doc: 3 frequency: 6
+doc: 4 frequency: 1
+doc: 5 frequency: 2
+doc: 6 frequency: 5
+doc: 7 frequency: 3
+doc: 8 frequency: 14
+doc: 9 frequency: 2
+doc: 10 frequency: 3
+doc: 11 frequency: 2
+doc: 12 frequency: 1
+doc: 13 frequency: 12
+doc: 14 frequency: 13
+doc: 15 frequency: 10
+doc: 16 frequency: 4
+doc: 17 frequency: 7
+doc: 18 frequency: 5
+doc: 19 frequency: 7
+doc: 20 frequency: 4
+doc: 21 frequency: 5
+doc: 22 frequency: 2
+doc: 23 frequency: 3
+doc: 24 frequency: 9
+doc: 25 frequency: 1
+doc: 26 frequency: 1
+doc: 27 frequency: 1
+doc: 28 frequency: 10
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+start:
+doc: 0 frequency: 2
+doc: 1 frequency: 2
+doc: 2 frequency: 2
+doc: 3 frequency: 2
+doc: 4 frequency: 2
+doc: 5 frequency: 2
+doc: 6 frequency: 2
+doc: 7 frequency: 2
+doc: 8 frequency: 2
+doc: 9 frequency: 2
+doc: 10 frequency: 2
+doc: 11 frequency: 2
+doc: 12 frequency: 2
+doc: 13 frequency: 2
+doc: 14 frequency: 2
+doc: 15 frequency: 2
+doc: 16 frequency: 2
+doc: 17 frequency: 4
+doc: 18 frequency: 2
+doc: 19 frequency: 2
+doc: 20 frequency: 2
+doc: 21 frequency: 2
+doc: 22 frequency: 2
+doc: 23 frequency: 2
+doc: 24 frequency: 2
+doc: 25 frequency: 2
+doc: 26 frequency: 2
+doc: 27 frequency: 2
+doc: 28 frequency: 3
+doc: 29 frequency: 2
+doc: 30 frequency: 2
+
+of:
+doc: 0 frequency: 7
+doc: 1 frequency: 3
+doc: 2 frequency: 2
+doc: 3 frequency: 4
+doc: 4 frequency: 2
+doc: 5 frequency: 7
+doc: 6 frequency: 5
+doc: 7 frequency: 4
+doc: 8 frequency: 12
+doc: 9 frequency: 2
+doc: 10 frequency: 5
+doc: 11 frequency: 2
+doc: 12 frequency: 4
+doc: 13 frequency: 11
+doc: 14 frequency: 6
+doc: 15 frequency: 8
+doc: 16 frequency: 2
+doc: 17 frequency: 7
+doc: 18 frequency: 10
+doc: 19 frequency: 12
+doc: 20 frequency: 2
+doc: 21 frequency: 2
+doc: 22 frequency: 2
+doc: 23 frequency: 3
+doc: 24 frequency: 8
+doc: 25 frequency: 2
+doc: 26 frequency: 2
+doc: 27 frequency: 2
+doc: 28 frequency: 19
+doc: 29 frequency: 9
+doc: 30 frequency: 3
+
+stuff:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+doc: 26 frequency: 1
+doc: 27 frequency: 1
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+ismap:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+doc: 26 frequency: 1
+doc: 27 frequency: 1
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+end:
+doc: 0 frequency: 2
+doc: 1 frequency: 2
+doc: 2 frequency: 2
+doc: 3 frequency: 2
+doc: 4 frequency: 2
+doc: 5 frequency: 2
+doc: 6 frequency: 3
+doc: 7 frequency: 2
+doc: 8 frequency: 2
+doc: 9 frequency: 2
+doc: 10 frequency: 2
+doc: 11 frequency: 2
+doc: 12 frequency: 2
+doc: 13 frequency: 2
+doc: 14 frequency: 2
+doc: 15 frequency: 2
+doc: 16 frequency: 2
+doc: 17 frequency: 2
+doc: 18 frequency: 2
+doc: 19 frequency: 3
+doc: 20 frequency: 2
+doc: 21 frequency: 2
+doc: 22 frequency: 2
+doc: 23 frequency: 2
+doc: 24 frequency: 2
+doc: 25 frequency: 2
+doc: 26 frequency: 2
+doc: 27 frequency: 2
+doc: 28 frequency: 3
+doc: 29 frequency: 2
+doc: 30 frequency: 2
+
+rhf:
+doc: 0 frequency: 3
+doc: 1 frequency: 2
+doc: 2 frequency: 2
+doc: 3 frequency: 2
+doc: 4 frequency: 2
+doc: 5 frequency: 2
+doc: 6 frequency: 2
+doc: 7 frequency: 2
+doc: 8 frequency: 2
+doc: 9 frequency: 2
+doc: 10 frequency: 2
+doc: 11 frequency: 2
+doc: 12 frequency: 2
+doc: 13 frequency: 2
+doc: 14 frequency: 2
+doc: 15 frequency: 2
+doc: 16 frequency: 2
+doc: 17 frequency: 2
+doc: 18 frequency: 2
+doc: 19 frequency: 2
+doc: 20 frequency: 2
+doc: 21 frequency: 2
+doc: 22 frequency: 2
+doc: 23 frequency: 2
+doc: 24 frequency: 3
+doc: 25 frequency: 2
+doc: 26 frequency: 2
+doc: 27 frequency: 2
+doc: 28 frequency: 3
+doc: 29 frequency: 2
+doc: 30 frequency: 2
+
+joke:
+doc: 0 frequency: 2
+doc: 1 frequency: 2
+doc: 2 frequency: 2
+doc: 3 frequency: 2
+doc: 4 frequency: 2
+doc: 5 frequency: 2
+doc: 6 frequency: 2
+doc: 7 frequency: 2
+doc: 8 frequency: 2
+doc: 9 frequency: 3
+doc: 10 frequency: 2
+doc: 11 frequency: 2
+doc: 12 frequency: 2
+doc: 13 frequency: 2
+doc: 14 frequency: 2
+doc: 15 frequency: 2
+doc: 16 frequency: 2
+doc: 17 frequency: 2
+doc: 18 frequency: 2
+doc: 19 frequency: 2
+doc: 20 frequency: 2
+doc: 21 frequency: 2
+doc: 22 frequency: 2
+doc: 23 frequency: 2
+doc: 24 frequency: 2
+doc: 25 frequency: 2
+doc: 26 frequency: 2
+doc: 27 frequency: 2
+doc: 28 frequency: 3
+doc: 29 frequency: 2
+doc: 30 frequency: 2
+
+archives:
+doc: 0 frequency: 2
+doc: 1 frequency: 2
+doc: 2 frequency: 2
+doc: 3 frequency: 2
+doc: 4 frequency: 2
+doc: 5 frequency: 2
+doc: 6 frequency: 2
+doc: 7 frequency: 2
+doc: 8 frequency: 2
+doc: 9 frequency: 2
+doc: 10 frequency: 2
+doc: 11 frequency: 2
+doc: 12 frequency: 2
+doc: 13 frequency: 2
+doc: 14 frequency: 2
+doc: 15 frequency: 2
+doc: 16 frequency: 2
+doc: 17 frequency: 2
+doc: 18 frequency: 2
+doc: 19 frequency: 2
+doc: 20 frequency: 2
+doc: 21 frequency: 2
+doc: 22 frequency: 2
+doc: 23 frequency: 2
+doc: 24 frequency: 2
+doc: 25 frequency: 2
+doc: 26 frequency: 2
+doc: 27 frequency: 2
+doc: 28 frequency: 2
+doc: 29 frequency: 2
+doc: 30 frequency: 2
+
+heard:
+doc: 0 frequency: 2
+doc: 1 frequency: 1
+doc: 3 frequency: 1
+doc: 11 frequency: 1
+doc: 20 frequency: 1
+doc: 24 frequency: 2
+doc: 26 frequency: 1
+doc: 27 frequency: 1
+doc: 28 frequency: 1
+
+find:
+doc: 0 frequency: 1
+
+the:
+doc: 0 frequency: 19
+doc: 1 frequency: 4
+doc: 2 frequency: 4
+doc: 3 frequency: 11
+doc: 4 frequency: 9
+doc: 5 frequency: 11
+doc: 6 frequency: 7
+doc: 7 frequency: 4
+doc: 8 frequency: 18
+doc: 9 frequency: 2
+doc: 10 frequency: 3
+doc: 11 frequency: 28
+doc: 12 frequency: 6
+doc: 13 frequency: 32
+doc: 14 frequency: 18
+doc: 15 frequency: 8
+doc: 16 frequency: 1
+doc: 17 frequency: 5
+doc: 18 frequency: 18
+doc: 19 frequency: 19
+doc: 20 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 11
+doc: 24 frequency: 17
+doc: 25 frequency: 2
+doc: 26 frequency: 3
+doc: 28 frequency: 48
+doc: 29 frequency: 5
+doc: 30 frequency: 3
+
+most:
+doc: 0 frequency: 1
+doc: 10 frequency: 1
+doc: 13 frequency: 2
+doc: 15 frequency: 2
+doc: 28 frequency: 1
+
+noteworthy:
+doc: 0 frequency: 1
+
+recent:
+doc: 0 frequency: 2
+doc: 13 frequency: 1
+
+submissions:
+doc: 0 frequency: 1
+
+regarding:
+doc: 0 frequency: 1
+doc: 13 frequency: 1
+doc: 28 frequency: 1
+
+aol:
+doc: 0 frequency: 4
+
+and:
+doc: 0 frequency: 8
+doc: 1 frequency: 3
+doc: 2 frequency: 3
+doc: 3 frequency: 2
+doc: 4 frequency: 3
+doc: 5 frequency: 6
+doc: 6 frequency: 1
+doc: 7 frequency: 6
+doc: 8 frequency: 13
+doc: 9 frequency: 1
+doc: 10 frequency: 8
+doc: 11 frequency: 12
+doc: 12 frequency: 1
+doc: 13 frequency: 6
+doc: 14 frequency: 12
+doc: 15 frequency: 6
+doc: 16 frequency: 1
+doc: 17 frequency: 2
+doc: 18 frequency: 6
+doc: 19 frequency: 2
+doc: 21 frequency: 1
+doc: 23 frequency: 8
+doc: 24 frequency: 3
+doc: 28 frequency: 12
+doc: 29 frequency: 7
+doc: 30 frequency: 1
+
+these:
+doc: 0 frequency: 1
+doc: 18 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+are:
+doc: 0 frequency: 3
+doc: 2 frequency: 1
+doc: 5 frequency: 2
+doc: 8 frequency: 2
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 15 frequency: 1
+doc: 19 frequency: 2
+doc: 24 frequency: 5
+doc: 28 frequency: 6
+doc: 30 frequency: 1
+
+jokes:
+doc: 0 frequency: 2
+doc: 24 frequency: 2
+doc: 28 frequency: 2
+
+which:
+doc: 0 frequency: 2
+doc: 3 frequency: 1
+doc: 5 frequency: 1
+doc: 8 frequency: 8
+doc: 13 frequency: 2
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 24 frequency: 2
+doc: 28 frequency: 2
+
+but:
+doc: 0 frequency: 1
+doc: 1 frequency: 2
+doc: 3 frequency: 1
+doc: 5 frequency: 1
+doc: 8 frequency: 3
+doc: 10 frequency: 2
+doc: 13 frequency: 2
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 18 frequency: 1
+doc: 20 frequency: 2
+doc: 24 frequency: 2
+doc: 28 frequency: 2
+doc: 29 frequency: 1
+
+really:
+doc: 0 frequency: 1
+doc: 4 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+warrant:
+doc: 0 frequency: 2
+doc: 24 frequency: 2
+doc: 28 frequency: 2
+
+posting:
+doc: 0 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+i:
+doc: 0 frequency: 6
+doc: 1 frequency: 1
+doc: 3 frequency: 1
+doc: 4 frequency: 2
+doc: 7 frequency: 5
+doc: 8 frequency: 5
+doc: 11 frequency: 7
+doc: 13 frequency: 5
+doc: 14 frequency: 8
+doc: 16 frequency: 1
+doc: 19 frequency: 5
+doc: 20 frequency: 1
+doc: 21 frequency: 2
+doc: 23 frequency: 1
+doc: 24 frequency: 6
+doc: 26 frequency: 1
+doc: 28 frequency: 21
+doc: 30 frequency: 3
+
+post:
+doc: 0 frequency: 1
+doc: 11 frequency: 2
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+such:
+doc: 0 frequency: 1
+doc: 2 frequency: 1
+doc: 14 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+whenever:
+doc: 0 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+have:
+doc: 0 frequency: 1
+doc: 2 frequency: 2
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 2
+doc: 8 frequency: 1
+doc: 11 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 3
+doc: 15 frequency: 3
+doc: 17 frequency: 1
+doc: 19 frequency: 1
+doc: 21 frequency: 1
+doc: 23 frequency: 2
+doc: 24 frequency: 1
+doc: 26 frequency: 1
+doc: 28 frequency: 5
+doc: 30 frequency: 5
+
+enough:
+doc: 0 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+doc: 30 frequency: 1
+
+entries:
+doc: 0 frequency: 1
+doc: 24 frequency: 2
+doc: 28 frequency: 1
+
+to:
+doc: 0 frequency: 10
+doc: 1 frequency: 2
+doc: 2 frequency: 3
+doc: 3 frequency: 4
+doc: 4 frequency: 3
+doc: 5 frequency: 15
+doc: 6 frequency: 4
+doc: 7 frequency: 2
+doc: 8 frequency: 15
+doc: 9 frequency: 1
+doc: 10 frequency: 3
+doc: 11 frequency: 5
+doc: 13 frequency: 10
+doc: 14 frequency: 7
+doc: 15 frequency: 4
+doc: 17 frequency: 2
+doc: 18 frequency: 8
+doc: 19 frequency: 10
+doc: 21 frequency: 1
+doc: 23 frequency: 3
+doc: 24 frequency: 6
+doc: 25 frequency: 2
+doc: 28 frequency: 23
+doc: 29 frequency: 2
+doc: 30 frequency: 2
+
+particularly:
+doc: 0 frequency: 1
+doc: 19 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+selective:
+doc: 0 frequency: 1
+doc: 15 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+readers:
+doc: 0 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+will:
+doc: 0 frequency: 2
+doc: 5 frequency: 2
+doc: 6 frequency: 2
+doc: 19 frequency: 3
+doc: 23 frequency: 4
+doc: 24 frequency: 1
+doc: 28 frequency: 2
+
+probably:
+doc: 0 frequency: 1
+doc: 13 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+not:
+doc: 0 frequency: 1
+doc: 1 frequency: 2
+doc: 5 frequency: 2
+doc: 6 frequency: 1
+doc: 11 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 3
+doc: 16 frequency: 1
+doc: 18 frequency: 3
+doc: 19 frequency: 1
+doc: 20 frequency: 2
+doc: 22 frequency: 1
+doc: 23 frequency: 3
+doc: 24 frequency: 2
+doc: 25 frequency: 1
+doc: 28 frequency: 6
+doc: 29 frequency: 2
+doc: 30 frequency: 1
+
+enjoy:
+doc: 0 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+may:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 3 frequency: 1
+doc: 5 frequency: 3
+doc: 10 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 3
+
+want:
+doc: 0 frequency: 2
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 15 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+killfile:
+doc: 0 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+with:
+doc: 0 frequency: 3
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 8 frequency: 4
+doc: 9 frequency: 1
+doc: 11 frequency: 1
+doc: 14 frequency: 2
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 17 frequency: 3
+doc: 18 frequency: 2
+doc: 19 frequency: 2
+doc: 20 frequency: 1
+doc: 24 frequency: 1
+doc: 26 frequency: 1
+doc: 28 frequency: 6
+doc: 30 frequency: 1
+
+in:
+doc: 0 frequency: 5
+doc: 1 frequency: 3
+doc: 2 frequency: 4
+doc: 3 frequency: 2
+doc: 5 frequency: 6
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 4
+doc: 10 frequency: 1
+doc: 11 frequency: 4
+doc: 12 frequency: 1
+doc: 13 frequency: 9
+doc: 15 frequency: 3
+doc: 17 frequency: 4
+doc: 18 frequency: 6
+doc: 19 frequency: 9
+doc: 22 frequency: 1
+doc: 23 frequency: 2
+doc: 24 frequency: 4
+doc: 25 frequency: 1
+doc: 28 frequency: 7
+doc: 29 frequency: 3
+doc: 30 frequency: 1
+
+title:
+doc: 0 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+what:
+doc: 0 frequency: 2
+doc: 4 frequency: 1
+doc: 5 frequency: 3
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 11 frequency: 4
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+
+about:
+doc: 0 frequency: 1
+doc: 1 frequency: 2
+doc: 4 frequency: 1
+doc: 9 frequency: 1
+doc: 11 frequency: 1
+doc: 13 frequency: 2
+doc: 19 frequency: 1
+doc: 20 frequency: 2
+doc: 26 frequency: 1
+doc: 27 frequency: 3
+doc: 28 frequency: 2
+
+just:
+doc: 0 frequency: 1
+doc: 7 frequency: 1
+doc: 11 frequency: 10
+doc: 12 frequency: 1
+doc: 19 frequency: 2
+doc: 20 frequency: 1
+doc: 22 frequency: 2
+doc: 29 frequency: 1
+
+editor:
+doc: 0 frequency: 1
+
+consisting:
+doc: 0 frequency: 1
+
+time:
+doc: 0 frequency: 3
+doc: 11 frequency: 1
+doc: 15 frequency: 1
+
+we:
+doc: 0 frequency: 2
+doc: 1 frequency: 1
+doc: 9 frequency: 1
+doc: 13 frequency: 1
+doc: 17 frequency: 1
+doc: 19 frequency: 1
+doc: 24 frequency: 2
+doc: 28 frequency: 1
+doc: 30 frequency: 2
+
+know:
+doc: 0 frequency: 1
+doc: 24 frequency: 1
+
+real:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 16 frequency: 1
+
+reason:
+doc: 0 frequency: 1
+doc: 6 frequency: 1
+
+for:
+doc: 0 frequency: 2
+doc: 1 frequency: 1
+doc: 2 frequency: 2
+doc: 3 frequency: 3
+doc: 5 frequency: 2
+doc: 6 frequency: 1
+doc: 7 frequency: 2
+doc: 8 frequency: 1
+doc: 10 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 4
+doc: 15 frequency: 4
+doc: 16 frequency: 2
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 21 frequency: 3
+doc: 24 frequency: 3
+doc: 25 frequency: 2
+doc: 28 frequency: 9
+doc: 29 frequency: 2
+doc: 30 frequency: 2
+
+ted:
+doc: 0 frequency: 1
+doc: 19 frequency: 1
+
+too:
+doc: 0 frequency: 1
+doc: 18 frequency: 1
+doc: 30 frequency: 2
+
+much:
+doc: 0 frequency: 1
+doc: 10 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 19 frequency: 2
+doc: 29 frequency: 1
+doc: 30 frequency: 2
+
+babe:
+doc: 0 frequency: 1
+
+ever:
+doc: 0 frequency: 1
+doc: 28 frequency: 1
+
+go:
+doc: 0 frequency: 1
+doc: 5 frequency: 1
+doc: 17 frequency: 1
+doc: 21 frequency: 1
+doc: 23 frequency: 1
+
+out:
+doc: 0 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 5 frequency: 1
+doc: 7 frequency: 1
+doc: 12 frequency: 1
+doc: 17 frequency: 1
+doc: 19 frequency: 2
+doc: 21 frequency: 1
+doc: 23 frequency: 1
+doc: 26 frequency: 1
+doc: 28 frequency: 1
+
+guy:
+doc: 0 frequency: 1
+
+who:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+
+has:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 6 frequency: 3
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 28 frequency: 3
+
+an:
+doc: 0 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 8 frequency: 2
+doc: 12 frequency: 1
+doc: 13 frequency: 2
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 18 frequency: 2
+doc: 19 frequency: 3
+doc: 24 frequency: 2
+doc: 28 frequency: 1
+
+york:
+doc: 0 frequency: 1
+doc: 8 frequency: 1
+
+top:
+doc: 0 frequency: 1
+
+internet:
+doc: 0 frequency: 1
+
+service:
+doc: 0 frequency: 1
+doc: 8 frequency: 1
+doc: 28 frequency: 1
+
+provider:
+doc: 0 frequency: 1
+
+america:
+doc: 0 frequency: 2
+doc: 24 frequency: 1
+
+online:
+doc: 0 frequency: 2
+
+buy:
+doc: 0 frequency: 1
+doc: 24 frequency: 1
+
+warner:
+doc: 0 frequency: 3
+
+biggest:
+doc: 0 frequency: 1
+
+media:
+doc: 0 frequency: 1
+
+billion:
+doc: 0 frequency: 1
+doc: 18 frequency: 1
+
+companies:
+doc: 0 frequency: 1
+
+said:
+doc: 0 frequency: 1
+doc: 5 frequency: 1
+doc: 8 frequency: 1
+doc: 11 frequency: 2
+doc: 12 frequency: 1
+doc: 14 frequency: 1
+doc: 18 frequency: 2
+
+guess:
+doc: 0 frequency: 1
+doc: 28 frequency: 2
+
+this:
+doc: 0 frequency: 1
+doc: 2 frequency: 1
+doc: 5 frequency: 2
+doc: 6 frequency: 3
+doc: 7 frequency: 1
+doc: 11 frequency: 2
+doc: 13 frequency: 6
+doc: 15 frequency: 1
+doc: 17 frequency: 2
+doc: 18 frequency: 2
+doc: 19 frequency: 2
+doc: 22 frequency: 2
+doc: 23 frequency: 2
+doc: 24 frequency: 3
+doc: 28 frequency: 6
+doc: 29 frequency: 1
+
+means:
+doc: 0 frequency: 1
+
+that:
+doc: 0 frequency: 1
+doc: 2 frequency: 1
+doc: 4 frequency: 1
+doc: 5 frequency: 3
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 5
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 5
+doc: 14 frequency: 4
+doc: 15 frequency: 1
+doc: 18 frequency: 3
+doc: 19 frequency: 3
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 23 frequency: 4
+doc: 24 frequency: 3
+doc: 26 frequency: 1
+doc: 28 frequency: 9
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+next:
+doc: 0 frequency: 1
+doc: 3 frequency: 1
+doc: 11 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 2
+
+try:
+doc: 0 frequency: 2
+doc: 2 frequency: 1
+doc: 12 frequency: 1
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 18 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+watch:
+doc: 0 frequency: 1
+doc: 28 frequency: 1
+
+move:
+doc: 0 frequency: 1
+
+on:
+doc: 0 frequency: 2
+doc: 5 frequency: 4
+doc: 6 frequency: 7
+doc: 7 frequency: 1
+doc: 8 frequency: 3
+doc: 10 frequency: 1
+doc: 11 frequency: 3
+doc: 12 frequency: 1
+doc: 13 frequency: 3
+doc: 14 frequency: 4
+doc: 15 frequency: 1
+doc: 17 frequency: 2
+doc: 18 frequency: 1
+doc: 19 frequency: 5
+doc: 23 frequency: 3
+doc: 24 frequency: 3
+doc: 28 frequency: 2
+doc: 29 frequency: 1
+
+get:
+doc: 0 frequency: 1
+doc: 2 frequency: 3
+doc: 5 frequency: 1
+doc: 8 frequency: 1
+doc: 13 frequency: 2
+doc: 19 frequency: 1
+doc: 23 frequency: 2
+doc: 28 frequency: 1
+
+busy:
+doc: 0 frequency: 1
+
+got:
+doc: 0 frequency: 3
+doc: 4 frequency: 3
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 11 frequency: 3
+doc: 14 frequency: 1
+doc: 21 frequency: 1
+
+begin:
+doc: 0 frequency: 2
+
+wonder:
+doc: 0 frequency: 1
+doc: 5 frequency: 1
+
+if:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 4 frequency: 2
+doc: 5 frequency: 6
+doc: 6 frequency: 1
+doc: 13 frequency: 1
+doc: 17 frequency: 1
+doc: 24 frequency: 2
+doc: 25 frequency: 1
+doc: 28 frequency: 1
+doc: 30 frequency: 1
+
+cnn:
+doc: 0 frequency: 1
+
+is:
+doc: 0 frequency: 2
+doc: 1 frequency: 4
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 5 frequency: 4
+doc: 6 frequency: 1
+doc: 8 frequency: 1
+doc: 10 frequency: 1
+doc: 13 frequency: 6
+doc: 14 frequency: 2
+doc: 15 frequency: 1
+doc: 19 frequency: 5
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 2
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+doc: 28 frequency: 9
+
+going:
+doc: 0 frequency: 1
+doc: 4 frequency: 1
+
+its:
+doc: 0 frequency: 1
+doc: 5 frequency: 1
+doc: 8 frequency: 2
+doc: 10 frequency: 1
+doc: 28 frequency: 1
+
+broadcasts:
+doc: 0 frequency: 1
+doc: 5 frequency: 1
+
+how:
+doc: 0 frequency: 2
+doc: 17 frequency: 1
+doc: 19 frequency: 1
+doc: 25 frequency: 1
+doc: 28 frequency: 1
+
+merger:
+doc: 0 frequency: 2
+
+vision:
+doc: 0 frequency: 1
+
+was:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 3 frequency: 2
+doc: 4 frequency: 1
+doc: 6 frequency: 1
+doc: 7 frequency: 3
+doc: 8 frequency: 2
+doc: 9 frequency: 1
+doc: 11 frequency: 2
+doc: 12 frequency: 3
+doc: 13 frequency: 2
+doc: 17 frequency: 1
+doc: 18 frequency: 6
+doc: 20 frequency: 1
+doc: 24 frequency: 1
+doc: 26 frequency: 2
+doc: 28 frequency: 4
+doc: 29 frequency: 2
+
+planned:
+doc: 0 frequency: 1
+
+goes:
+doc: 0 frequency: 1
+doc: 5 frequency: 1
+
+something:
+doc: 0 frequency: 1
+doc: 5 frequency: 1
+doc: 13 frequency: 1
+doc: 26 frequency: 1
+doc: 29 frequency: 1
+
+like:
+doc: 0 frequency: 1
+doc: 5 frequency: 1
+doc: 8 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 2
+doc: 17 frequency: 1
+
+steve:
+doc: 0 frequency: 2
+
+home:
+doc: 0 frequency: 1
+doc: 23 frequency: 1
+
+lighting:
+doc: 0 frequency: 1
+
+oddly:
+doc: 0 frequency: 1
+
+dark:
+doc: 0 frequency: 1
+
+addition:
+doc: 0 frequency: 1
+doc: 28 frequency: 1
+
+open:
+doc: 0 frequency: 1
+doc: 6 frequency: 1
+doc: 13 frequency: 1
+doc: 23 frequency: 1
+
+wine:
+doc: 0 frequency: 1
+doc: 14 frequency: 1
+
+bottle:
+doc: 0 frequency: 1
+
+there:
+doc: 0 frequency: 1
+doc: 5 frequency: 1
+doc: 9 frequency: 1
+doc: 10 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 18 frequency: 1
+doc: 26 frequency: 1
+doc: 28 frequency: 1
+
+some:
+doc: 0 frequency: 1
+doc: 9 frequency: 1
+doc: 11 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 15 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 2
+
+odd:
+doc: 0 frequency: 1
+
+burbling:
+doc: 0 frequency: 1
+
+beakers:
+doc: 0 frequency: 1
+
+visible:
+doc: 0 frequency: 1
+doc: 13 frequency: 1
+
+background:
+doc: 0 frequency: 1
+
+gerry:
+doc: 0 frequency: 2
+
+do:
+doc: 0 frequency: 3
+doc: 3 frequency: 2
+doc: 5 frequency: 3
+doc: 6 frequency: 1
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 17 frequency: 1
+doc: 23 frequency: 1
+doc: 25 frequency: 1
+doc: 28 frequency: 1
+
+you:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 2 frequency: 5
+doc: 3 frequency: 2
+doc: 4 frequency: 1
+doc: 5 frequency: 6
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 3
+doc: 11 frequency: 10
+doc: 13 frequency: 1
+doc: 15 frequency: 1
+doc: 17 frequency: 1
+doc: 19 frequency: 2
+doc: 20 frequency: 1
+doc: 23 frequency: 7
+doc: 28 frequency: 3
+doc: 30 frequency: 2
+
+every:
+doc: 0 frequency: 1
+doc: 10 frequency: 1
+doc: 20 frequency: 1
+
+take:
+doc: 0 frequency: 1
+doc: 13 frequency: 1
+doc: 17 frequency: 1
+doc: 23 frequency: 2
+doc: 28 frequency: 1
+
+over:
+doc: 0 frequency: 1
+doc: 5 frequency: 1
+doc: 8 frequency: 1
+doc: 11 frequency: 3
+doc: 13 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 28 frequency: 1
+
+ad:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 3 frequency: 1
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 2
+doc: 17 frequency: 1
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 1
+doc: 25 frequency: 1
+doc: 26 frequency: 1
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+mirrored:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+doc: 26 frequency: 1
+doc: 27 frequency: 1
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+from:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 3
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 2
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 10 frequency: 3
+doc: 11 frequency: 1
+doc: 12 frequency: 3
+doc: 13 frequency: 4
+doc: 14 frequency: 1
+doc: 15 frequency: 2
+doc: 16 frequency: 2
+doc: 17 frequency: 2
+doc: 18 frequency: 2
+doc: 19 frequency: 2
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 2
+doc: 25 frequency: 1
+doc: 26 frequency: 3
+doc: 27 frequency: 1
+doc: 28 frequency: 5
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+by:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 2 frequency: 2
+doc: 3 frequency: 2
+doc: 4 frequency: 1
+doc: 5 frequency: 2
+doc: 6 frequency: 1
+doc: 7 frequency: 2
+doc: 8 frequency: 3
+doc: 9 frequency: 2
+doc: 10 frequency: 2
+doc: 11 frequency: 2
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 2
+doc: 16 frequency: 1
+doc: 17 frequency: 2
+doc: 18 frequency: 4
+doc: 19 frequency: 2
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 3
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+doc: 26 frequency: 1
+doc: 27 frequency: 1
+doc: 28 frequency: 4
+doc: 29 frequency: 1
+doc: 30 frequency: 2
+
+httrack:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+doc: 26 frequency: 1
+doc: 27 frequency: 1
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+website:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 3
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+doc: 26 frequency: 1
+doc: 27 frequency: 1
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+nov:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+doc: 26 frequency: 1
+doc: 27 frequency: 1
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+gmt:
+doc: 0 frequency: 1
+doc: 1 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 4 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 10 frequency: 1
+doc: 11 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 21 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+doc: 26 frequency: 1
+doc: 27 frequency: 1
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+anyways:
+doc: 1 frequency: 1
+
+williams:
+doc: 1 frequency: 1
+
+medical:
+doc: 1 frequency: 1
+doc: 3 frequency: 1
+doc: 10 frequency: 3
+doc: 15 frequency: 1
+
+my:
+doc: 1 frequency: 2
+doc: 7 frequency: 5
+doc: 8 frequency: 6
+doc: 11 frequency: 4
+doc: 13 frequency: 4
+doc: 14 frequency: 2
+doc: 16 frequency: 5
+doc: 19 frequency: 6
+doc: 21 frequency: 2
+doc: 24 frequency: 1
+doc: 26 frequency: 1
+doc: 28 frequency: 7
+
+best:
+doc: 1 frequency: 1
+doc: 5 frequency: 1
+doc: 24 frequency: 1
+
+friends:
+doc: 1 frequency: 1
+
+lieutenant:
+doc: 1 frequency: 1
+
+local:
+doc: 1 frequency: 1
+doc: 5 frequency: 1
+doc: 8 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 28 frequency: 2
+
+police:
+doc: 1 frequency: 1
+
+were:
+doc: 1 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 13 frequency: 5
+doc: 18 frequency: 2
+doc: 24 frequency: 1
+
+talking:
+doc: 1 frequency: 1
+doc: 3 frequency: 1
+
+events:
+doc: 1 frequency: 1
+
+movies:
+doc: 1 frequency: 1
+
+life:
+doc: 1 frequency: 1
+doc: 14 frequency: 1
+
+relating:
+doc: 1 frequency: 1
+
+law:
+doc: 1 frequency: 1
+
+enforcement:
+doc: 1 frequency: 1
+
+question:
+doc: 1 frequency: 1
+
+common:
+doc: 1 frequency: 1
+
+phrase:
+doc: 1 frequency: 1
+
+all:
+doc: 1 frequency: 1
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 2
+doc: 10 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 4
+doc: 15 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 6
+doc: 29 frequency: 7
+
+person:
+doc: 1 frequency: 3
+
+considered:
+doc: 1 frequency: 3
+
+it:
+doc: 1 frequency: 1
+doc: 3 frequency: 2
+doc: 6 frequency: 1
+doc: 10 frequency: 1
+doc: 11 frequency: 2
+doc: 12 frequency: 1
+doc: 13 frequency: 5
+doc: 17 frequency: 2
+doc: 18 frequency: 2
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 4
+doc: 24 frequency: 1
+doc: 28 frequency: 7
+doc: 29 frequency: 1
+
+possible:
+doc: 1 frequency: 1
+
+be:
+doc: 1 frequency: 1
+doc: 3 frequency: 1
+doc: 5 frequency: 3
+doc: 6 frequency: 1
+doc: 9 frequency: 2
+doc: 10 frequency: 2
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 16 frequency: 1
+doc: 18 frequency: 2
+doc: 19 frequency: 5
+doc: 23 frequency: 2
+doc: 24 frequency: 1
+doc: 28 frequency: 2
+doc: 29 frequency: 2
+
+as:
+doc: 1 frequency: 1
+doc: 3 frequency: 2
+doc: 5 frequency: 6
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 11 frequency: 4
+doc: 13 frequency: 2
+doc: 14 frequency: 2
+doc: 15 frequency: 1
+doc: 18 frequency: 1
+doc: 23 frequency: 2
+doc: 28 frequency: 4
+doc: 30 frequency: 2
+
+situation:
+doc: 1 frequency: 1
+
+involve:
+doc: 1 frequency: 1
+
+ccw:
+doc: 1 frequency: 1
+
+permit:
+doc: 1 frequency: 1
+
+his:
+doc: 1 frequency: 1
+doc: 3 frequency: 1
+doc: 4 frequency: 2
+doc: 9 frequency: 1
+doc: 11 frequency: 2
+doc: 18 frequency: 2
+doc: 19 frequency: 3
+doc: 28 frequency: 1
+
+response:
+doc: 1 frequency: 1
+doc: 19 frequency: 1
+doc: 20 frequency: 2
+doc: 28 frequency: 1
+
+could:
+doc: 1 frequency: 1
+doc: 10 frequency: 1
+doc: 19 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+see:
+doc: 1 frequency: 1
+doc: 24 frequency: 1
+
+guys:
+doc: 1 frequency: 1
+
+our:
+doc: 1 frequency: 1
+doc: 15 frequency: 1
+doc: 28 frequency: 1
+doc: 30 frequency: 1
+
+department:
+doc: 1 frequency: 1
+
+latest:
+doc: 2 frequency: 2
+
+southern:
+doc: 2 frequency: 3
+
+baptist:
+doc: 2 frequency: 2
+
+outreach:
+doc: 2 frequency: 2
+
+geodesic:
+doc: 2 frequency: 1
+
+order:
+doc: 2 frequency: 1
+
+their:
+doc: 2 frequency: 1
+doc: 3 frequency: 2
+doc: 8 frequency: 1
+doc: 15 frequency: 2
+doc: 28 frequency: 2
+doc: 29 frequency: 1
+doc: 30 frequency: 1
+
+members:
+doc: 2 frequency: 2
+
+deeply:
+doc: 2 frequency: 1
+
+engaged:
+doc: 2 frequency: 1
+doc: 13 frequency: 1
+
+reaching:
+doc: 2 frequency: 1
+
+new:
+doc: 2 frequency: 2
+doc: 5 frequency: 1
+doc: 8 frequency: 7
+doc: 14 frequency: 3
+doc: 19 frequency: 2
+doc: 20 frequency: 1
+doc: 21 frequency: 3
+doc: 24 frequency: 1
+doc: 28 frequency: 6
+
+baptists:
+doc: 2 frequency: 1
+
+set:
+doc: 2 frequency: 1
+
+up:
+doc: 2 frequency: 1
+doc: 6 frequency: 2
+doc: 13 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+doc: 28 frequency: 4
+doc: 29 frequency: 1
+
+incentive:
+doc: 2 frequency: 1
+
+bring:
+doc: 2 frequency: 3
+
+one:
+doc: 2 frequency: 1
+doc: 7 frequency: 1
+doc: 13 frequency: 1
+doc: 19 frequency: 1
+doc: 23 frequency: 1
+doc: 28 frequency: 1
+
+convert:
+doc: 2 frequency: 1
+
+pay:
+doc: 2 frequency: 1
+
+any:
+doc: 2 frequency: 1
+doc: 3 frequency: 1
+doc: 8 frequency: 1
+doc: 13 frequency: 1
+doc: 17 frequency: 1
+doc: 28 frequency: 4
+
+dues:
+doc: 2 frequency: 1
+
+five:
+doc: 2 frequency: 1
+doc: 21 frequency: 1
+doc: 23 frequency: 1
+
+two:
+doc: 2 frequency: 1
+doc: 5 frequency: 1
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 2
+
+converts:
+doc: 2 frequency: 2
+
+allowed:
+doc: 2 frequency: 1
+
+three:
+doc: 2 frequency: 1
+
+special:
+doc: 2 frequency: 1
+doc: 8 frequency: 1
+doc: 13 frequency: 1
+doc: 24 frequency: 1
+
+diploma:
+doc: 2 frequency: 1
+
+proving:
+doc: 2 frequency: 1
+
+clear:
+doc: 2 frequency: 1
+
+biblical:
+doc: 2 frequency: 1
+
+argument:
+doc: 2 frequency: 1
+
+never:
+doc: 2 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+
+only:
+doc: 2 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 8 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 2
+doc: 24 frequency: 1
+
+way:
+doc: 2 frequency: 1
+doc: 9 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 17 frequency: 1
+doc: 23 frequency: 1
+
+can:
+doc: 2 frequency: 1
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 13 frequency: 1
+doc: 15 frequency: 1
+doc: 24 frequency: 1
+
+inflatable:
+doc: 2 frequency: 1
+doc: 12 frequency: 1
+doc: 16 frequency: 1
+doc: 18 frequency: 1
+doc: 24 frequency: 1
+
+advice:
+doc: 3 frequency: 2
+doc: 17 frequency: 2
+doc: 28 frequency: 1
+
+doctor:
+doc: 3 frequency: 5
+
+lawyer:
+doc: 3 frequency: 1
+
+at:
+doc: 3 frequency: 1
+doc: 4 frequency: 2
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 12 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 16 frequency: 1
+doc: 17 frequency: 3
+doc: 18 frequency: 2
+doc: 23 frequency: 2
+doc: 24 frequency: 1
+doc: 28 frequency: 4
+doc: 29 frequency: 1
+
+conversation:
+doc: 3 frequency: 1
+
+constantly:
+doc: 3 frequency: 1
+
+interrupted:
+doc: 3 frequency: 1
+
+people:
+doc: 3 frequency: 2
+doc: 8 frequency: 1
+doc: 18 frequency: 2
+doc: 24 frequency: 1
+
+describing:
+doc: 3 frequency: 1
+
+ailments:
+doc: 3 frequency: 1
+
+asking:
+doc: 3 frequency: 2
+
+free:
+doc: 3 frequency: 1
+doc: 8 frequency: 1
+doc: 10 frequency: 1
+doc: 19 frequency: 1
+doc: 28 frequency: 1
+
+after:
+doc: 3 frequency: 1
+doc: 5 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 18 frequency: 3
+doc: 23 frequency: 1
+doc: 28 frequency: 1
+
+hour:
+doc: 3 frequency: 1
+doc: 8 frequency: 2
+
+exasperated:
+doc: 3 frequency: 1
+
+asked:
+doc: 3 frequency: 1
+doc: 4 frequency: 1
+doc: 7 frequency: 1
+doc: 11 frequency: 2
+doc: 18 frequency: 1
+doc: 20 frequency: 1
+
+stop:
+doc: 3 frequency: 1
+doc: 23 frequency: 1
+doc: 28 frequency: 1
+
+legal:
+doc: 3 frequency: 1
+
+when:
+doc: 3 frequency: 2
+doc: 13 frequency: 1
+doc: 14 frequency: 2
+doc: 18 frequency: 3
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 26 frequency: 1
+doc: 28 frequency: 1
+
+give:
+doc: 3 frequency: 2
+doc: 8 frequency: 1
+doc: 28 frequency: 1
+
+replied:
+doc: 3 frequency: 1
+
+then:
+doc: 3 frequency: 1
+doc: 4 frequency: 1
+doc: 8 frequency: 3
+doc: 18 frequency: 1
+doc: 28 frequency: 1
+
+send:
+doc: 3 frequency: 1
+
+them:
+doc: 3 frequency: 2
+doc: 7 frequency: 1
+
+agreed:
+doc: 3 frequency: 1
+
+still:
+doc: 3 frequency: 1
+doc: 8 frequency: 3
+doc: 13 frequency: 1
+
+feeling:
+doc: 3 frequency: 1
+
+slightly:
+doc: 3 frequency: 1
+
+prepared:
+doc: 3 frequency: 1
+doc: 14 frequency: 1
+
+he:
+doc: 3 frequency: 2
+doc: 4 frequency: 2
+doc: 9 frequency: 1
+doc: 11 frequency: 1
+doc: 12 frequency: 2
+doc: 18 frequency: 12
+doc: 19 frequency: 2
+doc: 20 frequency: 1
+doc: 24 frequency: 2
+doc: 28 frequency: 4
+
+went:
+doc: 3 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 18 frequency: 1
+doc: 29 frequency: 1
+
+place:
+doc: 3 frequency: 1
+doc: 23 frequency: 1
+
+found:
+doc: 3 frequency: 1
+doc: 17 frequency: 3
+doc: 28 frequency: 1
+
+bill:
+doc: 3 frequency: 1
+doc: 9 frequency: 1
+
+accounting:
+doc: 3 frequency: 1
+
+web:
+doc: 3 frequency: 1
+doc: 19 frequency: 2
+
+news:
+doc: 3 frequency: 1
+
+letter:
+doc: 3 frequency: 1
+
+copyright:
+doc: 3 frequency: 1
+
+rights:
+doc: 3 frequency: 1
+doc: 19 frequency: 1
+
+reproduced:
+doc: 3 frequency: 1
+
+medium:
+doc: 3 frequency: 1
+
+purposes:
+doc: 3 frequency: 1
+
+long:
+doc: 3 frequency: 1
+doc: 5 frequency: 1
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+
+attribution:
+doc: 3 frequency: 1
+
+birds:
+doc: 4 frequency: 3
+
+bees:
+doc: 4 frequency: 1
+
+e:
+doc: 4 frequency: 1
+
+asks:
+doc: 4 frequency: 1
+
+aged:
+doc: 4 frequency: 1
+
+knows:
+doc: 4 frequency: 1
+
+child:
+doc: 4 frequency: 1
+doc: 7 frequency: 1
+
+bursting:
+doc: 4 frequency: 1
+
+into:
+doc: 4 frequency: 1
+doc: 9 frequency: 1
+doc: 29 frequency: 1
+
+father:
+doc: 4 frequency: 1
+doc: 16 frequency: 1
+
+son:
+doc: 4 frequency: 1
+
+age:
+doc: 4 frequency: 3
+
+six:
+doc: 4 frequency: 1
+
+no:
+doc: 4 frequency: 3
+doc: 5 frequency: 2
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 17 frequency: 1
+
+seven:
+doc: 4 frequency: 1
+
+easter:
+doc: 4 frequency: 1
+doc: 18 frequency: 1
+
+hit:
+doc: 4 frequency: 1
+
+me:
+doc: 4 frequency: 2
+doc: 6 frequency: 1
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 13 frequency: 1
+doc: 16 frequency: 1
+doc: 20 frequency: 1
+doc: 22 frequency: 1
+doc: 25 frequency: 1
+doc: 28 frequency: 4
+
+tooth:
+doc: 4 frequency: 1
+
+tell:
+doc: 4 frequency: 1
+
+now:
+doc: 4 frequency: 1
+doc: 8 frequency: 2
+doc: 10 frequency: 1
+doc: 15 frequency: 1
+doc: 17 frequency: 1
+doc: 19 frequency: 1
+doc: 21 frequency: 1
+doc: 23 frequency: 1
+
+nothing:
+doc: 4 frequency: 1
+doc: 13 frequency: 1
+doc: 28 frequency: 1
+
+left:
+doc: 4 frequency: 1
+doc: 6 frequency: 1
+doc: 8 frequency: 1
+doc: 11 frequency: 2
+
+live:
+doc: 4 frequency: 1
+
+bunker:
+doc: 5 frequency: 5
+
+manual:
+doc: 5 frequency: 2
+
+excerpt:
+doc: 5 frequency: 1
+
+manuals:
+doc: 5 frequency: 1
+
+survivalists:
+doc: 5 frequency: 1
+
+your:
+doc: 5 frequency: 11
+doc: 6 frequency: 7
+doc: 9 frequency: 1
+doc: 17 frequency: 2
+doc: 23 frequency: 6
+doc: 28 frequency: 4
+
+family:
+doc: 5 frequency: 1
+doc: 16 frequency: 1
+
+enter:
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+
+dec:
+doc: 5 frequency: 1
+
+tune:
+doc: 5 frequency: 1
+
+using:
+doc: 5 frequency: 2
+
+reinforced:
+doc: 5 frequency: 1
+
+tv:
+doc: 5 frequency: 5
+
+antenna:
+doc: 5 frequency: 1
+
+track:
+doc: 5 frequency: 1
+doc: 13 frequency: 1
+
+course:
+doc: 5 frequency: 1
+doc: 14 frequency: 1
+
+rely:
+doc: 5 frequency: 1
+
+cable:
+doc: 5 frequency: 1
+
+based:
+doc: 5 frequency: 2
+doc: 19 frequency: 2
+
+sure:
+doc: 5 frequency: 1
+doc: 23 frequency: 1
+doc: 25 frequency: 1
+
+worst:
+doc: 5 frequency: 1
+doc: 12 frequency: 1
+doc: 24 frequency: 1
+
+case:
+doc: 5 frequency: 3
+doc: 19 frequency: 1
+doc: 29 frequency: 1
+
+likely:
+doc: 5 frequency: 2
+doc: 18 frequency: 1
+doc: 28 frequency: 1
+
+scenario:
+doc: 5 frequency: 1
+
+total:
+doc: 5 frequency: 1
+doc: 15 frequency: 1
+
+collapse:
+doc: 5 frequency: 2
+
+world:
+doc: 5 frequency: 2
+
+civilization:
+doc: 5 frequency: 2
+
+logistic:
+doc: 5 frequency: 1
+
+systems:
+doc: 5 frequency: 1
+doc: 29 frequency: 1
+
+break:
+doc: 5 frequency: 1
+doc: 13 frequency: 1
+
+radio:
+doc: 5 frequency: 1
+
+entirely:
+doc: 5 frequency: 1
+
+off:
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 11 frequency: 1
+doc: 13 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 28 frequency: 1
+
+prepare:
+doc: 5 frequency: 1
+doc: 30 frequency: 1
+
+least:
+doc: 5 frequency: 1
+doc: 17 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+months:
+doc: 5 frequency: 1
+doc: 18 frequency: 1
+
+ration:
+doc: 5 frequency: 1
+
+food:
+doc: 5 frequency: 1
+doc: 10 frequency: 1
+doc: 14 frequency: 1
+
+once:
+doc: 5 frequency: 1
+doc: 6 frequency: 1
+doc: 14 frequency: 1
+doc: 20 frequency: 1
+
+venture:
+doc: 5 frequency: 1
+
+heavily:
+doc: 5 frequency: 1
+
+check:
+doc: 5 frequency: 1
+
+avoid:
+doc: 5 frequency: 1
+
+leading:
+doc: 5 frequency: 1
+
+looters:
+doc: 5 frequency: 1
+
+partly:
+doc: 5 frequency: 1
+
+trade:
+doc: 5 frequency: 1
+
+resources:
+doc: 5 frequency: 1
+
+stockpiled:
+doc: 5 frequency: 2
+
+listed:
+doc: 5 frequency: 1
+
+chapter:
+doc: 5 frequency: 1
+
+minor:
+doc: 5 frequency: 1
+
+problems:
+doc: 5 frequency: 2
+doc: 28 frequency: 1
+
+social:
+doc: 5 frequency: 1
+doc: 15 frequency: 1
+
+society:
+doc: 5 frequency: 1
+
+back:
+doc: 5 frequency: 1
+doc: 11 frequency: 2
+doc: 18 frequency: 1
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+
+feet:
+doc: 5 frequency: 1
+
+little:
+doc: 5 frequency: 1
+doc: 8 frequency: 1
+doc: 13 frequency: 1
+doc: 20 frequency: 1
+
+continue:
+doc: 5 frequency: 1
+doc: 24 frequency: 1
+
+arm:
+doc: 5 frequency: 2
+
+offer:
+doc: 5 frequency: 1
+
+limited:
+doc: 5 frequency: 1
+
+amounts:
+doc: 5 frequency: 1
+
+supplies:
+doc: 5 frequency: 2
+
+generously:
+doc: 5 frequency: 1
+
+use:
+doc: 5 frequency: 2
+doc: 6 frequency: 1
+
+help:
+doc: 5 frequency: 1
+doc: 15 frequency: 1
+
+rebuild:
+doc: 5 frequency: 1
+
+respected:
+doc: 5 frequency: 1
+
+hero:
+doc: 5 frequency: 1
+
+those:
+doc: 5 frequency: 1
+doc: 8 frequency: 2
+doc: 10 frequency: 1
+doc: 14 frequency: 1
+doc: 23 frequency: 1
+doc: 29 frequency: 4
+
+around:
+doc: 5 frequency: 1
+doc: 13 frequency: 1
+
+takeover:
+doc: 5 frequency: 1
+
+reports:
+doc: 5 frequency: 2
+
+effectively:
+doc: 5 frequency: 1
+
+zero:
+doc: 5 frequency: 1
+
+due:
+doc: 5 frequency: 1
+
+extreme:
+doc: 5 frequency: 1
+
+chance:
+doc: 5 frequency: 1
+
+being:
+doc: 5 frequency: 1
+doc: 9 frequency: 1
+doc: 20 frequency: 1
+
+actual:
+doc: 5 frequency: 1
+doc: 15 frequency: 1
+doc: 28 frequency: 1
+
+bugs:
+doc: 5 frequency: 1
+
+so:
+doc: 5 frequency: 1
+doc: 8 frequency: 4
+doc: 9 frequency: 1
+doc: 11 frequency: 3
+doc: 13 frequency: 2
+doc: 15 frequency: 1
+doc: 23 frequency: 3
+doc: 24 frequency: 3
+doc: 28 frequency: 2
+
+small:
+doc: 5 frequency: 1
+doc: 8 frequency: 1
+doc: 23 frequency: 1
+
+more:
+doc: 5 frequency: 1
+doc: 15 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+doc: 21 frequency: 1
+
+broadcast:
+doc: 5 frequency: 1
+
+stations:
+doc: 5 frequency: 1
+
+institutions:
+doc: 5 frequency: 1
+
+been:
+doc: 5 frequency: 1
+doc: 6 frequency: 3
+doc: 18 frequency: 1
+doc: 28 frequency: 2
+doc: 30 frequency: 1
+
+taken:
+doc: 5 frequency: 1
+doc: 28 frequency: 1
+
+forces:
+doc: 5 frequency: 1
+
+united:
+doc: 5 frequency: 1
+
+nations:
+doc: 5 frequency: 1
+
+they:
+doc: 5 frequency: 1
+doc: 8 frequency: 2
+doc: 9 frequency: 1
+doc: 10 frequency: 3
+doc: 13 frequency: 2
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+
+broadcasting:
+doc: 5 frequency: 1
+
+fake:
+doc: 5 frequency: 1
+
+propaganda:
+doc: 5 frequency: 1
+
+tapes:
+doc: 5 frequency: 1
+
+showing:
+doc: 5 frequency: 1
+
+business:
+doc: 5 frequency: 1
+
+usual:
+doc: 5 frequency: 1
+doc: 13 frequency: 1
+
+control:
+doc: 5 frequency: 1
+doc: 8 frequency: 1
+doc: 23 frequency: 2
+
+stay:
+doc: 5 frequency: 1
+
+last:
+doc: 5 frequency: 1
+doc: 8 frequency: 2
+doc: 14 frequency: 2
+doc: 28 frequency: 1
+
+heavy:
+doc: 5 frequency: 1
+
+parties:
+doc: 5 frequency: 1
+doc: 14 frequency: 1
+
+come:
+doc: 5 frequency: 1
+doc: 15 frequency: 1
+doc: 18 frequency: 1
+doc: 19 frequency: 1
+
+pretending:
+doc: 5 frequency: 1
+
+shoot:
+doc: 5 frequency: 1
+
+kill:
+doc: 5 frequency: 1
+doc: 7 frequency: 1
+
+clean:
+doc: 6 frequency: 2
+
+access:
+doc: 6 frequency: 1
+
+sent:
+doc: 6 frequency: 1
+doc: 28 frequency: 1
+
+via:
+doc: 6 frequency: 1
+doc: 28 frequency: 1
+
+email:
+doc: 6 frequency: 1
+
+part:
+doc: 6 frequency: 1
+
+message:
+doc: 6 frequency: 1
+doc: 28 frequency: 1
+
+commercial:
+doc: 6 frequency: 1
+
+id:
+doc: 6 frequency: 1
+
+number:
+doc: 6 frequency: 1
+doc: 15 frequency: 1
+
+work:
+doc: 6 frequency: 1
+doc: 15 frequency: 1
+doc: 23 frequency: 1
+doc: 29 frequency: 1
+
+sequence:
+doc: 6 frequency: 1
+
+numbers:
+doc: 6 frequency: 2
+doc: 8 frequency: 1
+
+space:
+doc: 6 frequency: 1
+
+problem:
+doc: 6 frequency: 1
+doc: 8 frequency: 1
+
+occurred:
+doc: 6 frequency: 1
+doc: 28 frequency: 2
+
+solution:
+doc: 6 frequency: 1
+
+netscape:
+doc: 6 frequency: 1
+
+toolbar:
+doc: 6 frequency: 1
+
+click:
+doc: 6 frequency: 6
+doc: 17 frequency: 1
+
+close:
+doc: 6 frequency: 1
+doc: 23 frequency: 1
+
+shut:
+doc: 6 frequency: 1
+
+computer:
+doc: 6 frequency: 4
+doc: 21 frequency: 1
+
+carefully:
+doc: 6 frequency: 1
+doc: 23 frequency: 1
+
+code:
+doc: 6 frequency: 1
+
+procedure:
+doc: 6 frequency: 2
+
+seem:
+doc: 6 frequency: 1
+doc: 10 frequency: 1
+
+slower:
+doc: 6 frequency: 1
+
+until:
+doc: 6 frequency: 1
+doc: 18 frequency: 1
+doc: 28 frequency: 2
+doc: 30 frequency: 1
+
+cache:
+doc: 6 frequency: 1
+
+restored:
+doc: 6 frequency: 1
+
+normally:
+doc: 6 frequency: 1
+
+accessed:
+doc: 6 frequency: 1
+
+hammer:
+doc: 6 frequency: 1
+
+please:
+doc: 6 frequency: 1
+
+save:
+doc: 6 frequency: 1
+doc: 13 frequency: 1
+
+future:
+doc: 6 frequency: 1
+doc: 29 frequency: 1
+
+reference:
+doc: 6 frequency: 1
+
+since:
+doc: 6 frequency: 1
+doc: 21 frequency: 1
+
+solves:
+doc: 6 frequency: 1
+
+mystifying:
+doc: 6 frequency: 1
+
+related:
+doc: 6 frequency: 1
+
+surfing:
+doc: 7 frequency: 1
+
+nameless:
+doc: 7 frequency: 1
+
+geek:
+doc: 7 frequency: 1
+
+clothing:
+doc: 7 frequency: 1
+
+outlet:
+doc: 7 frequency: 1
+
+saw:
+doc: 7 frequency: 1
+doc: 22 frequency: 1
+
+cool:
+doc: 7 frequency: 1
+
+kids:
+doc: 7 frequency: 1
+
+across:
+doc: 7 frequency: 1
+doc: 28 frequency: 1
+
+credit:
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+
+card:
+doc: 7 frequency: 1
+doc: 8 frequency: 4
+doc: 28 frequency: 1
+
+starting:
+doc: 7 frequency: 1
+
+purchase:
+doc: 7 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+
+each:
+doc: 7 frequency: 1
+doc: 8 frequency: 1
+doc: 14 frequency: 1
+
+wife:
+doc: 7 frequency: 1
+doc: 11 frequency: 1
+doc: 17 frequency: 1
+doc: 28 frequency: 1
+
+walked:
+doc: 7 frequency: 1
+doc: 11 frequency: 1
+doc: 14 frequency: 1
+
+showed:
+doc: 7 frequency: 1
+
+her:
+doc: 7 frequency: 2
+doc: 8 frequency: 1
+doc: 11 frequency: 7
+doc: 19 frequency: 1
+
+picture:
+doc: 7 frequency: 1
+
+shirt:
+doc: 7 frequency: 1
+
+she:
+doc: 7 frequency: 1
+doc: 11 frequency: 2
+doc: 17 frequency: 2
+doc: 19 frequency: 2
+doc: 28 frequency: 1
+
+tilted:
+doc: 7 frequency: 1
+
+head:
+doc: 7 frequency: 1
+doc: 11 frequency: 1
+
+routinely:
+doc: 7 frequency: 1
+
+closed:
+doc: 7 frequency: 1
+
+browser:
+doc: 7 frequency: 1
+
+opted:
+doc: 7 frequency: 1
+
+instead:
+doc: 7 frequency: 1
+doc: 15 frequency: 1
+
+show:
+doc: 7 frequency: 1
+doc: 9 frequency: 1
+
+affection:
+doc: 7 frequency: 1
+
+girls:
+doc: 7 frequency: 1
+
+reading:
+doc: 7 frequency: 1
+
+finance:
+doc: 8 frequency: 2
+
+modern:
+doc: 8 frequency: 2
+
+era:
+doc: 8 frequency: 1
+
+r:
+doc: 8 frequency: 1
+
+someone:
+doc: 8 frequency: 1
+doc: 13 frequency: 1
+
+had:
+doc: 8 frequency: 1
+doc: 9 frequency: 1
+doc: 16 frequency: 2
+doc: 18 frequency: 2
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+
+trouble:
+doc: 8 frequency: 1
+
+handing:
+doc: 8 frequency: 1
+
+conference:
+doc: 8 frequency: 1
+
+explained:
+doc: 8 frequency: 1
+
+hi:
+doc: 8 frequency: 1
+
+mastercard:
+doc: 8 frequency: 1
+
+gave:
+doc: 8 frequency: 1
+doc: 29 frequency: 1
+
+cooperating:
+doc: 8 frequency: 1
+
+charge:
+doc: 8 frequency: 1
+
+says:
+doc: 8 frequency: 2
+doc: 28 frequency: 2
+
+bad:
+doc: 8 frequency: 1
+doc: 15 frequency: 2
+
+account:
+doc: 8 frequency: 2
+
+because:
+doc: 8 frequency: 2
+doc: 13 frequency: 1
+doc: 16 frequency: 1
+doc: 29 frequency: 1
+
+continental:
+doc: 8 frequency: 4
+
+airlines:
+doc: 8 frequency: 2
+
+successor:
+doc: 8 frequency: 4
+
+texas:
+doc: 8 frequency: 1
+doc: 24 frequency: 4
+
+air:
+doc: 8 frequency: 1
+
+corporation:
+doc: 8 frequency: 1
+
+former:
+doc: 8 frequency: 1
+doc: 18 frequency: 1
+
+subsidiaries:
+doc: 8 frequency: 1
+
+marine:
+doc: 8 frequency: 2
+
+midland:
+doc: 8 frequency: 1
+
+bank:
+doc: 8 frequency: 9
+doc: 28 frequency: 2
+
+indirect:
+doc: 8 frequency: 1
+
+subsidiary:
+doc: 8 frequency: 5
+
+hong:
+doc: 8 frequency: 1
+
+kong:
+doc: 8 frequency: 1
+
+shanghai:
+doc: 8 frequency: 1
+
+banking:
+doc: 8 frequency: 1
+
+renamed:
+doc: 8 frequency: 3
+
+hsbc:
+doc: 8 frequency: 1
+
+master:
+doc: 8 frequency: 1
+
+visa:
+doc: 8 frequency: 2
+
+sold:
+doc: 8 frequency: 2
+
+chase:
+doc: 8 frequency: 2
+
+manhattan:
+doc: 8 frequency: 2
+
+chemical:
+doc: 8 frequency: 2
+
+bought:
+doc: 8 frequency: 2
+
+itself:
+doc: 8 frequency: 2
+
+better:
+doc: 8 frequency: 2
+doc: 19 frequency: 1
+doc: 28 frequency: 1
+
+known:
+doc: 8 frequency: 3
+doc: 18 frequency: 1
+
+issued:
+doc: 8 frequency: 4
+
+cards:
+doc: 8 frequency: 3
+
+different:
+doc: 8 frequency: 2
+
+later:
+doc: 8 frequency: 1
+
+cancelled:
+doc: 8 frequency: 1
+
+yet:
+doc: 8 frequency: 1
+
+another:
+doc: 8 frequency: 1
+doc: 24 frequency: 1
+
+other:
+doc: 8 frequency: 3
+doc: 13 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+tops:
+doc: 8 frequency: 2
+
+friendly:
+doc: 8 frequency: 1
+
+markets:
+doc: 8 frequency: 1
+
+ahold:
+doc: 8 frequency: 1
+
+traders:
+doc: 8 frequency: 1
+
+formerly:
+doc: 8 frequency: 5
+doc: 18 frequency: 1
+
+empire:
+doc: 8 frequency: 1
+
+state:
+doc: 8 frequency: 1
+doc: 20 frequency: 1
+doc: 26 frequency: 1
+doc: 28 frequency: 1
+
+dropped:
+doc: 8 frequency: 1
+
+became:
+doc: 8 frequency: 1
+
+plain:
+doc: 8 frequency: 1
+
+accounts:
+doc: 8 frequency: 1
+
+mbna:
+doc: 8 frequency: 1
+
+delaware:
+doc: 8 frequency: 1
+
+holding:
+doc: 8 frequency: 1
+doc: 19 frequency: 1
+
+company:
+doc: 8 frequency: 1
+doc: 15 frequency: 1
+doc: 19 frequency: 1
+doc: 28 frequency: 1
+
+maryland:
+doc: 8 frequency: 1
+
+even:
+doc: 8 frequency: 1
+doc: 14 frequency: 2
+doc: 18 frequency: 2
+
+though:
+doc: 8 frequency: 1
+doc: 28 frequency: 1
+
+say:
+doc: 8 frequency: 1
+doc: 12 frequency: 1
+doc: 23 frequency: 1
+
+would:
+doc: 8 frequency: 1
+doc: 13 frequency: 3
+doc: 14 frequency: 1
+doc: 18 frequency: 3
+doc: 24 frequency: 1
+
+except:
+doc: 8 frequency: 1
+
+year:
+doc: 8 frequency: 1
+doc: 14 frequency: 2
+doc: 18 frequency: 2
+doc: 21 frequency: 1
+doc: 28 frequency: 2
+
+discontinued:
+doc: 8 frequency: 1
+
+miles:
+doc: 8 frequency: 2
+
+require:
+doc: 8 frequency: 1
+
+drive:
+doc: 8 frequency: 1
+
+rochester:
+doc: 8 frequency: 1
+
+or:
+doc: 8 frequency: 3
+doc: 9 frequency: 1
+doc: 10 frequency: 1
+doc: 13 frequency: 2
+doc: 14 frequency: 2
+doc: 17 frequency: 2
+doc: 18 frequency: 1
+doc: 22 frequency: 1
+doc: 23 frequency: 1
+doc: 25 frequency: 1
+doc: 28 frequency: 2
+doc: 30 frequency: 1
+
+half:
+doc: 8 frequency: 1
+
+elmira:
+doc: 8 frequency: 1
+
+binghamton:
+doc: 8 frequency: 1
+
+served:
+doc: 8 frequency: 2
+
+northwest:
+doc: 8 frequency: 2
+
+republic:
+doc: 8 frequency: 1
+
+hughes:
+doc: 8 frequency: 1
+
+exchanges:
+doc: 8 frequency: 1
+
+through:
+doc: 8 frequency: 1
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+
+voting:
+doc: 8 frequency: 1
+
+trust:
+doc: 8 frequency: 1
+doc: 17 frequency: 2
+
+holds:
+doc: 8 frequency: 1
+
+class:
+doc: 8 frequency: 1
+
+airports:
+doc: 8 frequency: 1
+
+also:
+doc: 8 frequency: 1
+doc: 10 frequency: 1
+doc: 13 frequency: 1
+doc: 19 frequency: 1
+
+away:
+doc: 8 frequency: 1
+
+connect:
+doc: 8 frequency: 1
+
+detroit:
+doc: 8 frequency: 1
+
+where:
+doc: 8 frequency: 1
+doc: 13 frequency: 1
+doc: 18 frequency: 1
+doc: 23 frequency: 1
+
+sitting:
+doc: 8 frequency: 1
+doc: 11 frequency: 3
+
+runway:
+doc: 8 frequency: 1
+
+eight:
+doc: 8 frequency: 1
+
+hours:
+doc: 8 frequency: 1
+doc: 18 frequency: 2
+doc: 19 frequency: 1
+
+usairways:
+doc: 8 frequency: 1
+
+variety:
+doc: 8 frequency: 1
+
+dead:
+doc: 8 frequency: 1
+
+nationsbank:
+doc: 8 frequency: 2
+
+many:
+doc: 8 frequency: 1
+doc: 15 frequency: 1
+doc: 19 frequency: 1
+
+italy:
+doc: 8 frequency: 1
+
+east:
+doc: 8 frequency: 1
+
+exp:
+doc: 8 frequency: 1
+
+feel:
+doc: 8 frequency: 1
+doc: 19 frequency: 1
+doc: 28 frequency: 1
+
+debugging:
+doc: 9 frequency: 1
+
+watching:
+doc: 9 frequency: 1
+
+idiot:
+doc: 9 frequency: 1
+
+box:
+doc: 9 frequency: 1
+
+dna:
+doc: 9 frequency: 2
+
+program:
+doc: 9 frequency: 1
+
+gates:
+doc: 9 frequency: 1
+
+invested:
+doc: 9 frequency: 1
+
+million:
+doc: 9 frequency: 1
+doc: 19 frequency: 2
+
+interviewed:
+doc: 9 frequency: 1
+
+him:
+doc: 9 frequency: 1
+
+responded:
+doc: 9 frequency: 1
+
+should:
+doc: 9 frequency: 1
+doc: 16 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 2
+
+able:
+doc: 9 frequency: 1
+
+debug:
+doc: 9 frequency: 2
+
+same:
+doc: 9 frequency: 1
+doc: 13 frequency: 1
+doc: 18 frequency: 3
+doc: 19 frequency: 1
+doc: 20 frequency: 1
+doc: 28 frequency: 1
+
+originally:
+doc: 9 frequency: 1
+
+mark:
+doc: 9 frequency: 1
+
+denholm:
+doc: 9 frequency: 1
+
+posted:
+doc: 9 frequency: 1
+
+insert:
+doc: 9 frequency: 1
+doc: 28 frequency: 1
+
+favorite:
+doc: 9 frequency: 1
+
+gpf:
+doc: 9 frequency: 1
+
+illegal:
+doc: 9 frequency: 1
+
+operation:
+doc: 9 frequency: 1
+
+here:
+doc: 9 frequency: 1
+doc: 11 frequency: 1
+doc: 15 frequency: 1
+doc: 18 frequency: 1
+
+text:
+doc: 10 frequency: 2
+
+humor:
+doc: 10 frequency: 1
+
+veterinarians:
+doc: 10 frequency: 1
+
+born:
+doc: 10 frequency: 1
+doc: 18 frequency: 1
+
+knowing:
+doc: 10 frequency: 1
+
+whole:
+doc: 10 frequency: 1
+
+books:
+doc: 10 frequency: 1
+
+devoted:
+doc: 10 frequency: 1
+
+staid:
+doc: 10 frequency: 1
+
+lists:
+doc: 10 frequency: 1
+
+words:
+doc: 10 frequency: 1
+doc: 18 frequency: 1
+
+bit:
+doc: 10 frequency: 1
+doc: 14 frequency: 1
+
+personality:
+doc: 10 frequency: 1
+
+shows:
+doc: 10 frequency: 1
+
+comprehensive:
+doc: 10 frequency: 1
+
+veterinary:
+doc: 10 frequency: 1
+
+blood:
+doc: 10 frequency: 1
+
+virginia:
+doc: 10 frequency: 1
+
+following:
+doc: 10 frequency: 1
+doc: 13 frequency: 2
+doc: 25 frequency: 1
+doc: 28 frequency: 2
+
+entry:
+doc: 10 frequency: 1
+
+appears:
+doc: 10 frequency: 1
+doc: 30 frequency: 1
+
+page:
+doc: 10 frequency: 1
+doc: 15 frequency: 1
+doc: 19 frequency: 3
+doc: 28 frequency: 1
+
+right:
+doc: 10 frequency: 1
+doc: 11 frequency: 2
+doc: 13 frequency: 1
+doc: 28 frequency: 2
+
+between:
+doc: 10 frequency: 1
+doc: 13 frequency: 1
+
+glands:
+doc: 10 frequency: 1
+
+brush:
+doc: 10 frequency: 1
+
+companion:
+doc: 10 frequency: 1
+
+animal:
+doc: 10 frequency: 1
+doc: 17 frequency: 1
+
+admired:
+doc: 10 frequency: 1
+
+low:
+doc: 10 frequency: 1
+doc: 13 frequency: 1
+doc: 15 frequency: 1
+
+requirements:
+doc: 10 frequency: 1
+
+excellent:
+doc: 10 frequency: 1
+
+house:
+doc: 10 frequency: 1
+doc: 12 frequency: 1
+doc: 28 frequency: 1
+
+high:
+doc: 10 frequency: 1
+doc: 13 frequency: 1
+doc: 16 frequency: 1
+
+emotional:
+doc: 10 frequency: 1
+
+output:
+doc: 10 frequency: 1
+
+complete:
+doc: 10 frequency: 1
+doc: 15 frequency: 1
+
+freedom:
+doc: 10 frequency: 1
+
+called:
+doc: 10 frequency: 1
+
+ursus:
+doc: 10 frequency: 1
+
+theodorus:
+doc: 10 frequency: 1
+
+paddington:
+doc: 10 frequency: 1
+
+brideshead:
+doc: 10 frequency: 1
+
+bear:
+doc: 10 frequency: 1
+
+add:
+doc: 10 frequency: 1
+
+susceptible:
+doc: 10 frequency: 1
+
+lacerations:
+doc: 10 frequency: 1
+
+requiring:
+doc: 10 frequency: 1
+
+surgical:
+doc: 10 frequency: 1
+
+things:
+doc: 11 frequency: 7
+doc: 27 frequency: 3
+
+farmer:
+doc: 11 frequency: 8
+
+neighborhood:
+doc: 11 frequency: 1
+
+bar:
+doc: 11 frequency: 1
+
+getting:
+doc: 11 frequency: 2
+
+man:
+doc: 11 frequency: 7
+
+came:
+doc: 11 frequency: 1
+doc: 18 frequency: 1
+
+why:
+doc: 11 frequency: 1
+doc: 17 frequency: 1
+
+beautiful:
+doc: 11 frequency: 1
+
+shook:
+doc: 11 frequency: 1
+
+happened:
+doc: 11 frequency: 2
+
+sat:
+doc: 11 frequency: 3
+
+down:
+doc: 11 frequency: 4
+doc: 23 frequency: 1
+
+milking:
+doc: 11 frequency: 2
+
+bucket:
+doc: 11 frequency: 4
+
+lifted:
+doc: 11 frequency: 1
+
+leg:
+doc: 11 frequency: 4
+
+kicked:
+doc: 11 frequency: 2
+
+took:
+doc: 11 frequency: 4
+doc: 12 frequency: 1
+doc: 18 frequency: 1
+
+tied:
+doc: 11 frequency: 3
+
+continued:
+doc: 11 frequency: 1
+
+milk:
+doc: 11 frequency: 1
+
+laughed:
+doc: 11 frequency: 1
+
+did:
+doc: 11 frequency: 2
+doc: 13 frequency: 1
+
+began:
+doc: 11 frequency: 1
+
+stupid:
+doc: 11 frequency: 1
+
+cow:
+doc: 11 frequency: 1
+
+knocked:
+doc: 11 frequency: 1
+
+nodded:
+doc: 11 frequency: 1
+
+anymore:
+doc: 11 frequency: 1
+
+belt:
+doc: 11 frequency: 1
+
+tail:
+doc: 11 frequency: 1
+
+pants:
+doc: 11 frequency: 1
+doc: 28 frequency: 1
+
+fell:
+doc: 11 frequency: 1
+doc: 18 frequency: 1
+
+subject:
+doc: 12 frequency: 2
+doc: 24 frequency: 1
+
+provided:
+doc: 12 frequency: 1
+
+vj:
+doc: 12 frequency: 1
+
+hosting:
+doc: 12 frequency: 1
+
+survey:
+doc: 12 frequency: 1
+doc: 24 frequency: 1
+
+music:
+doc: 12 frequency: 1
+
+videos:
+doc: 12 frequency: 1
+
+beating:
+doc: 12 frequency: 1
+
+poison:
+doc: 12 frequency: 1
+
+milli:
+doc: 12 frequency: 2
+
+vanilli:
+doc: 12 frequency: 2
+
+award:
+doc: 12 frequency: 1
+
+cheesiest:
+doc: 12 frequency: 1
+
+band:
+doc: 12 frequency: 1
+
+committed:
+doc: 12 frequency: 1
+
+suicide:
+doc: 12 frequency: 1
+
+humiliation:
+doc: 12 frequency: 1
+
+revelation:
+doc: 12 frequency: 1
+
+fab:
+doc: 12 frequency: 1
+
+sang:
+doc: 12 frequency: 1
+
+michael:
+doc: 12 frequency: 1
+
+properties:
+doc: 13 frequency: 3
+
+flinders:
+doc: 13 frequency: 2
+
+university:
+doc: 13 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+south:
+doc: 13 frequency: 1
+
+responce:
+doc: 13 frequency: 2
+
+arose:
+doc: 13 frequency: 2
+doc: 14 frequency: 1
+
+mailing:
+doc: 13 frequency: 2
+
+list:
+doc: 13 frequency: 2
+
+discussion:
+doc: 13 frequency: 2
+
+car:
+doc: 13 frequency: 3
+
+story:
+doc: 13 frequency: 1
+
+begins:
+doc: 13 frequency: 1
+
+couple:
+doc: 13 frequency: 1
+doc: 15 frequency: 1
+doc: 24 frequency: 1
+
+weeks:
+doc: 13 frequency: 1
+doc: 16 frequency: 1
+
+gb:
+doc: 13 frequency: 3
+
+lock:
+doc: 13 frequency: 1
+doc: 23 frequency: 1
+
+figured:
+doc: 13 frequency: 1
+
+locking:
+doc: 13 frequency: 1
+
+encourage:
+doc: 13 frequency: 1
+
+actually:
+doc: 13 frequency: 1
+
+window:
+doc: 13 frequency: 1
+
+rather:
+doc: 13 frequency: 1
+
+than:
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 19 frequency: 1
+doc: 21 frequency: 2
+
+worry:
+doc: 13 frequency: 1
+
+make:
+doc: 13 frequency: 1
+
+care:
+doc: 13 frequency: 1
+
+leave:
+doc: 13 frequency: 1
+
+value:
+doc: 13 frequency: 1
+
+expensive:
+doc: 13 frequency: 1
+
+thing:
+doc: 13 frequency: 1
+
+spare:
+doc: 13 frequency: 1
+
+oil:
+doc: 13 frequency: 1
+
+brake:
+doc: 13 frequency: 1
+
+fluid:
+doc: 13 frequency: 1
+
+boot:
+doc: 13 frequency: 1
+
+notable:
+doc: 13 frequency: 1
+
+facts:
+doc: 13 frequency: 1
+
+galant:
+doc: 13 frequency: 2
+
+worth:
+doc: 13 frequency: 2
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+
+choke:
+doc: 13 frequency: 5
+
+spring:
+doc: 13 frequency: 2
+
+zeal:
+doc: 13 frequency: 1
+
+previous:
+doc: 13 frequency: 1
+
+owner:
+doc: 13 frequency: 1
+doc: 28 frequency: 1
+
+devised:
+doc: 13 frequency: 1
+
+ingenious:
+doc: 13 frequency: 1
+
+strategy:
+doc: 13 frequency: 1
+
+keeping:
+doc: 13 frequency: 3
+
+ash:
+doc: 13 frequency: 1
+
+tray:
+doc: 13 frequency: 1
+
+contains:
+doc: 13 frequency: 1
+
+coin:
+doc: 13 frequency: 1
+
+size:
+doc: 13 frequency: 1
+
+fit:
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+
+dash:
+doc: 13 frequency: 1
+
+board:
+doc: 13 frequency: 1
+
+handle:
+doc: 13 frequency: 1
+
+jam:
+doc: 13 frequency: 1
+
+added:
+doc: 13 frequency: 1
+doc: 28 frequency: 2
+
+piece:
+doc: 13 frequency: 3
+
+recently:
+doc: 13 frequency: 1
+doc: 24 frequency: 1
+
+summer:
+doc: 13 frequency: 1
+
+driving:
+doc: 13 frequency: 1
+
+night:
+doc: 13 frequency: 1
+
+thief:
+doc: 13 frequency: 4
+
+decide:
+doc: 13 frequency: 1
+doc: 28 frequency: 1
+
+advantage:
+doc: 13 frequency: 1
+
+unlocked:
+doc: 13 frequency: 1
+
+doors:
+doc: 13 frequency: 1
+
+rifled:
+doc: 13 frequency: 1
+
+interior:
+doc: 13 frequency: 1
+
+looking:
+doc: 13 frequency: 1
+doc: 15 frequency: 1
+doc: 17 frequency: 1
+
+street:
+doc: 13 frequency: 2
+doc: 28 frequency: 1
+
+directory:
+doc: 13 frequency: 1
+
+cheap:
+doc: 13 frequency: 1
+
+sunglasses:
+doc: 13 frequency: 1
+
+adjustments:
+doc: 13 frequency: 1
+
+longer:
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+
+thieves:
+doc: 13 frequency: 1
+
+desperate:
+doc: 13 frequency: 1
+
+stole:
+doc: 13 frequency: 1
+
+announcing:
+doc: 13 frequency: 1
+
+labf:
+doc: 13 frequency: 1
+
+various:
+doc: 13 frequency: 1
+
+comments:
+doc: 13 frequency: 1
+
+made:
+doc: 13 frequency: 1
+doc: 19 frequency: 1
+doc: 23 frequency: 2
+doc: 28 frequency: 2
+
+ranging:
+doc: 13 frequency: 1
+
+body:
+doc: 13 frequency: 1
+
+kilo:
+doc: 13 frequency: 1
+
+large:
+doc: 13 frequency: 1
+doc: 17 frequency: 1
+
+dog:
+doc: 13 frequency: 1
+
+tethered:
+doc: 13 frequency: 1
+
+hand:
+doc: 13 frequency: 1
+
+during:
+doc: 13 frequency: 1
+doc: 23 frequency: 1
+
+good:
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+
+object:
+doc: 13 frequency: 1
+
+file:
+doc: 13 frequency: 1
+
+disk:
+doc: 13 frequency: 1
+
+operating:
+doc: 13 frequency: 1
+doc: 28 frequency: 1
+
+distress:
+doc: 13 frequency: 1
+
+finding:
+doc: 13 frequency: 1
+
+sentimental:
+doc: 13 frequency: 1
+
+cars:
+doc: 13 frequency: 1
+
+rummaged:
+doc: 13 frequency: 1
+
+thus:
+doc: 13 frequency: 1
+
+scene:
+doc: 13 frequency: 1
+
+wandering:
+doc: 13 frequency: 1
+
+red:
+doc: 13 frequency: 1
+
+wearing:
+doc: 13 frequency: 1
+
+black:
+doc: 13 frequency: 2
+
+tattered:
+doc: 13 frequency: 1
+
+beanie:
+doc: 13 frequency: 1
+
+glances:
+doc: 13 frequency: 1
+
+shiftily:
+doc: 13 frequency: 1
+
+loiters:
+doc: 13 frequency: 1
+
+toward:
+doc: 13 frequency: 1
+
+chrysler:
+doc: 13 frequency: 1
+
+wheelbase:
+doc: 13 frequency: 1
+
+seats:
+doc: 13 frequency: 1
+
+sept:
+doc: 13 frequency: 1
+
+january:
+doc: 13 frequency: 2
+doc: 14 frequency: 1
+doc: 15 frequency: 1
+doc: 24 frequency: 1
+
+associated:
+doc: 13 frequency: 1
+
+beach:
+doc: 13 frequency: 1
+
+very:
+doc: 13 frequency: 1
+doc: 15 frequency: 2
+doc: 19 frequency: 1
+doc: 23 frequency: 2
+
+hot:
+doc: 13 frequency: 1
+doc: 14 frequency: 1
+doc: 17 frequency: 1
+
+vinyl:
+doc: 13 frequency: 1
+
+super:
+doc: 13 frequency: 1
+
+fuel:
+doc: 13 frequency: 1
+
+uni:
+doc: 13 frequency: 1
+
+parking:
+doc: 13 frequency: 1
+
+ok:
+doc: 13 frequency: 1
+
+apply:
+doc: 13 frequency: 1
+doc: 17 frequency: 1
+
+bloody:
+doc: 13 frequency: 1
+
+well:
+doc: 13 frequency: 1
+doc: 19 frequency: 1
+
+wanders:
+doc: 13 frequency: 1
+
+search:
+doc: 13 frequency: 1
+doc: 26 frequency: 1
+
+month:
+doc: 14 frequency: 1
+
+garment:
+doc: 14 frequency: 1
+
+cookies:
+doc: 14 frequency: 1
+
+eggnog:
+doc: 14 frequency: 1
+
+holiday:
+doc: 14 frequency: 1
+doc: 24 frequency: 2
+
+straight:
+doc: 14 frequency: 1
+
+scales:
+doc: 14 frequency: 1
+
+store:
+doc: 14 frequency: 1
+doc: 28 frequency: 1
+
+walk:
+doc: 14 frequency: 1
+
+thought:
+doc: 14 frequency: 1
+doc: 16 frequency: 2
+doc: 26 frequency: 1
+doc: 28 frequency: 2
+
+marvelous:
+doc: 14 frequency: 1
+
+meals:
+doc: 14 frequency: 1
+
+gravies:
+doc: 14 frequency: 1
+
+sauces:
+doc: 14 frequency: 1
+
+beef:
+doc: 14 frequency: 1
+
+nicely:
+doc: 14 frequency: 1
+
+rum:
+doc: 14 frequency: 1
+
+bread:
+doc: 14 frequency: 1
+
+thank:
+doc: 14 frequency: 1
+
+put:
+doc: 14 frequency: 1
+doc: 17 frequency: 1
+doc: 29 frequency: 1
+
+old:
+doc: 14 frequency: 1
+doc: 15 frequency: 2
+doc: 29 frequency: 1
+
+again:
+doc: 14 frequency: 1
+
+batle:
+doc: 14 frequency: 1
+
+spend:
+doc: 14 frequency: 1
+
+winter:
+doc: 14 frequency: 1
+
+disguised:
+doc: 14 frequency: 1
+
+sour:
+doc: 14 frequency: 1
+
+cream:
+doc: 14 frequency: 1
+
+cracker:
+doc: 14 frequency: 1
+
+must:
+doc: 14 frequency: 1
+doc: 25 frequency: 1
+
+additional:
+doc: 14 frequency: 1
+
+ounces:
+doc: 14 frequency: 1
+
+ice:
+doc: 14 frequency: 1
+
+chew:
+doc: 14 frequency: 1
+
+celery:
+doc: 14 frequency: 1
+
+munch:
+doc: 14 frequency: 1
+
+carrot:
+doc: 14 frequency: 1
+
+quietly:
+doc: 14 frequency: 1
+
+unable:
+doc: 14 frequency: 1
+
+happy:
+doc: 14 frequency: 1
+doc: 28 frequency: 3
+
+making:
+doc: 14 frequency: 1
+doc: 19 frequency: 1
+
+days:
+doc: 15 frequency: 1
+doc: 18 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+convex:
+doc: 15 frequency: 1
+
+motor:
+doc: 15 frequency: 1
+
+dealerships:
+doc: 15 frequency: 2
+
+upgraded:
+doc: 15 frequency: 1
+
+greasy:
+doc: 15 frequency: 1
+
+motorcycle:
+doc: 15 frequency: 1
+
+customers:
+doc: 15 frequency: 1
+
+expect:
+doc: 15 frequency: 1
+doc: 24 frequency: 1
+
+comes:
+doc: 15 frequency: 1
+
+pricy:
+doc: 15 frequency: 1
+
+bike:
+doc: 15 frequency: 1
+
+become:
+doc: 15 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+
+hiring:
+doc: 15 frequency: 1
+
+ads:
+doc: 15 frequency: 1
+
+mechanics:
+doc: 15 frequency: 1
+
+shop:
+doc: 15 frequency: 2
+
+lines:
+doc: 15 frequency: 1
+doc: 29 frequency: 1
+
+progressive:
+doc: 15 frequency: 1
+
+dental:
+doc: 15 frequency: 1
+
+approach:
+doc: 15 frequency: 1
+
+customer:
+doc: 15 frequency: 1
+doc: 28 frequency: 1
+
+issue:
+doc: 15 frequency: 1
+
+national:
+doc: 15 frequency: 1
+
+bunch:
+doc: 15 frequency: 1
+
+toothless:
+doc: 15 frequency: 1
+
+bastards:
+doc: 15 frequency: 1
+
+filthy:
+doc: 15 frequency: 1
+
+smells:
+doc: 15 frequency: 1
+
+bathroom:
+doc: 15 frequency: 1
+
+door:
+doc: 15 frequency: 1
+
+tuna:
+doc: 15 frequency: 1
+
+mostly:
+doc: 15 frequency: 1
+
+brainless:
+doc: 15 frequency: 1
+
+slob:
+doc: 15 frequency: 1
+
+position:
+doc: 15 frequency: 1
+
+dungeon:
+doc: 15 frequency: 1
+
+shipping:
+doc: 15 frequency: 1
+
+receiving:
+doc: 15 frequency: 1
+
+fire:
+doc: 15 frequency: 1
+
+read:
+doc: 15 frequency: 1
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+call:
+doc: 15 frequency: 1
+
+paul:
+doc: 15 frequency: 1
+
+name:
+doc: 15 frequency: 1
+doc: 19 frequency: 1
+
+phone:
+doc: 15 frequency: 1
+doc: 21 frequency: 1
+doc: 23 frequency: 1
+
+changed:
+doc: 15 frequency: 1
+
+protect:
+doc: 15 frequency: 1
+
+history:
+doc: 16 frequency: 2
+
+few:
+doc: 16 frequency: 1
+doc: 18 frequency: 1
+doc: 28 frequency: 3
+
+triple:
+doc: 16 frequency: 1
+
+bypass:
+doc: 16 frequency: 1
+
+clogged:
+doc: 16 frequency: 1
+
+first:
+doc: 16 frequency: 2
+doc: 18 frequency: 1
+doc: 19 frequency: 4
+doc: 28 frequency: 1
+
+careful:
+doc: 16 frequency: 1
+
+diet:
+doc: 16 frequency: 1
+
+puts:
+doc: 16 frequency: 1
+
+risk:
+doc: 16 frequency: 1
+
+heart:
+doc: 16 frequency: 2
+
+attack:
+doc: 16 frequency: 1
+
+soon:
+doc: 16 frequency: 1
+doc: 19 frequency: 1
+
+am:
+doc: 16 frequency: 1
+doc: 23 frequency: 1
+doc: 28 frequency: 2
+
+west:
+doc: 16 frequency: 1
+
+sites:
+doc: 17 frequency: 1
+doc: 19 frequency: 1
+
+today:
+doc: 17 frequency: 1
+doc: 22 frequency: 1
+doc: 26 frequency: 1
+doc: 28 frequency: 2
+
+usps:
+doc: 17 frequency: 1
+
+site:
+doc: 17 frequency: 1
+doc: 19 frequency: 2
+
+stuck:
+doc: 17 frequency: 1
+
+among:
+doc: 17 frequency: 1
+
+pack:
+doc: 17 frequency: 1
+
+packing:
+doc: 17 frequency: 1
+
+hippos:
+doc: 17 frequency: 1
+
+tank:
+doc: 17 frequency: 2
+
+per:
+doc: 17 frequency: 1
+
+gallons:
+doc: 17 frequency: 2
+
+soothing:
+doc: 17 frequency: 2
+
+hippo:
+doc: 17 frequency: 5
+
+aspirin:
+doc: 17 frequency: 1
+
+fill:
+doc: 17 frequency: 1
+doc: 28 frequency: 2
+
+takes:
+doc: 17 frequency: 1
+
+hold:
+doc: 17 frequency: 2
+
+followed:
+doc: 17 frequency: 1
+
+winch:
+doc: 17 frequency: 1
+
+relax:
+doc: 17 frequency: 1
+
+bath:
+doc: 17 frequency: 1
+
+before:
+doc: 17 frequency: 1
+doc: 18 frequency: 1
+
+forklift:
+doc: 17 frequency: 1
+
+advocate:
+doc: 17 frequency: 1
+
+moving:
+doc: 17 frequency: 2
+
+without:
+doc: 17 frequency: 1
+doc: 30 frequency: 1
+
+express:
+doc: 17 frequency: 1
+
+consent:
+doc: 17 frequency: 1
+
+vet:
+doc: 17 frequency: 1
+
+zoo:
+doc: 17 frequency: 1
+
+veterinarian:
+doc: 17 frequency: 1
+
+pets:
+doc: 17 frequency: 1
+
+fatally:
+doc: 18 frequency: 3
+
+burned:
+doc: 18 frequency: 3
+
+fireworks:
+doc: 18 frequency: 2
+
+jan:
+doc: 18 frequency: 1
+
+jesus:
+doc: 18 frequency: 1
+
+lord:
+doc: 18 frequency: 2
+
+savior:
+doc: 18 frequency: 1
+
+christians:
+doc: 18 frequency: 1
+
+morning:
+doc: 18 frequency: 1
+doc: 28 frequency: 1
+
+reappearing:
+doc: 18 frequency: 1
+
+stroke:
+doc: 18 frequency: 1
+
+clad:
+doc: 18 frequency: 1
+
+flowing:
+doc: 18 frequency: 1
+
+white:
+doc: 18 frequency: 1
+
+robes:
+doc: 18 frequency: 1
+
+wore:
+doc: 18 frequency: 1
+
+ascending:
+doc: 18 frequency: 1
+
+heaven:
+doc: 18 frequency: 1
+
+several:
+doc: 18 frequency: 1
+
+reappeared:
+doc: 18 frequency: 1
+
+faithful:
+doc: 18 frequency: 1
+
+atop:
+doc: 18 frequency: 1
+
+tower:
+doc: 18 frequency: 1
+
+central:
+doc: 18 frequency: 1
+
+square:
+doc: 18 frequency: 1
+
+years:
+doc: 18 frequency: 1
+doc: 28 frequency: 1
+
+massive:
+doc: 18 frequency: 1
+
+display:
+doc: 18 frequency: 1
+
+celebrate:
+doc: 18 frequency: 1
+
+moment:
+doc: 18 frequency: 1
+
+quickly:
+doc: 18 frequency: 1
+
+igniting:
+doc: 18 frequency: 1
+
+century:
+doc: 18 frequency: 1
+
+pelted:
+doc: 18 frequency: 1
+
+crazed:
+doc: 18 frequency: 1
+
+doves:
+doc: 18 frequency: 1
+
+released:
+doc: 18 frequency: 1
+
+amid:
+doc: 18 frequency: 1
+
+god:
+doc: 18 frequency: 1
+
+prince:
+doc: 18 frequency: 1
+
+rushed:
+doc: 18 frequency: 1
+
+nearly:
+doc: 18 frequency: 1
+
+mount:
+doc: 18 frequency: 1
+
+sinai:
+doc: 18 frequency: 1
+
+burn:
+doc: 18 frequency: 1
+
+unit:
+doc: 18 frequency: 1
+
+burns:
+doc: 18 frequency: 1
+
+died:
+doc: 18 frequency: 1
+
+brief:
+doc: 18 frequency: 1
+
+interview:
+doc: 18 frequency: 1
+
+member:
+doc: 18 frequency: 1
+
+holy:
+doc: 18 frequency: 1
+
+trinity:
+doc: 18 frequency: 1
+
+mainly:
+doc: 18 frequency: 1
+
+remind:
+doc: 18 frequency: 1
+
+told:
+doc: 18 frequency: 1
+
+prophets:
+doc: 18 frequency: 1
+
+thousand:
+doc: 18 frequency: 2
+
+indicated:
+doc: 18 frequency: 1
+
+stopped:
+doc: 18 frequency: 1
+
+coming:
+doc: 18 frequency: 1
+
+truly:
+doc: 18 frequency: 1
+
+bizarre:
+doc: 18 frequency: 1
+
+interpretations:
+doc: 18 frequency: 1
+
+worried:
+doc: 18 frequency: 1
+
+hockey:
+doc: 18 frequency: 1
+
+match:
+doc: 18 frequency: 1
+
+survived:
+doc: 18 frequency: 1
+
+josh:
+doc: 18 frequency: 1
+
+levi:
+doc: 18 frequency: 1
+
+think:
+doc: 18 frequency: 1
+doc: 19 frequency: 2
+doc: 28 frequency: 2
+
+remarked:
+doc: 18 frequency: 1
+
+realized:
+doc: 18 frequency: 1
+
+grader:
+doc: 19 frequency: 3
+
+offers:
+doc: 19 frequency: 2
+
+ipo:
+doc: 19 frequency: 2
+
+makes:
+doc: 19 frequency: 2
+doc: 28 frequency: 1
+
+day:
+doc: 19 frequency: 3
+doc: 24 frequency: 2
+doc: 28 frequency: 2
+
+trading:
+doc: 19 frequency: 1
+
+paper:
+doc: 19 frequency: 1
+
+weekly:
+doc: 19 frequency: 2
+
+ca:
+doc: 19 frequency: 1
+
+second:
+doc: 19 frequency: 1
+doc: 28 frequency: 1
+
+timmy:
+doc: 19 frequency: 2
+
+watson:
+doc: 19 frequency: 1
+
+announced:
+doc: 19 frequency: 2
+doc: 28 frequency: 1
+
+initial:
+doc: 19 frequency: 2
+
+public:
+doc: 19 frequency: 1
+doc: 26 frequency: 1
+
+offering:
+doc: 19 frequency: 1
+
+titled:
+doc: 19 frequency: 1
+
+love:
+doc: 19 frequency: 5
+
+nasdaq:
+doc: 19 frequency: 1
+
+stock:
+doc: 19 frequency: 3
+doc: 28 frequency: 1
+
+exchange:
+doc: 19 frequency: 1
+
+kitty:
+doc: 19 frequency: 3
+
+llc:
+doc: 19 frequency: 2
+
+rocketed:
+doc: 19 frequency: 1
+
+dollars:
+doc: 19 frequency: 2
+doc: 28 frequency: 1
+
+share:
+doc: 19 frequency: 2
+
+whopping:
+doc: 19 frequency: 1
+
+explains:
+doc: 19 frequency: 1
+
+everyone:
+doc: 19 frequency: 2
+
+loves:
+doc: 19 frequency: 1
+
+investors:
+doc: 19 frequency: 3
+
+hoping:
+doc: 19 frequency: 1
+
+radical:
+doc: 19 frequency: 1
+
+according:
+doc: 19 frequency: 1
+
+saul:
+doc: 19 frequency: 1
+
+expert:
+doc: 19 frequency: 1
+
+mean:
+doc: 19 frequency: 1
+doc: 28 frequency: 1
+
+cute:
+doc: 19 frequency: 1
+
+strongest:
+doc: 19 frequency: 1
+
+wet:
+doc: 19 frequency: 1
+
+excited:
+doc: 19 frequency: 1
+
+older:
+doc: 19 frequency: 1
+
+sister:
+doc: 19 frequency: 1
+
+tanya:
+doc: 19 frequency: 1
+
+reported:
+doc: 19 frequency: 1
+
+creating:
+doc: 19 frequency: 1
+
+own:
+doc: 19 frequency: 1
+
+entitled:
+doc: 19 frequency: 1
+
+buying:
+doc: 19 frequency: 1
+
+ilmk:
+doc: 19 frequency: 2
+
+ilmb:
+doc: 19 frequency: 1
+
+turns:
+doc: 19 frequency: 1
+
+positioned:
+doc: 19 frequency: 1
+
+market:
+doc: 19 frequency: 1
+
+daniel:
+doc: 19 frequency: 1
+doc: 28 frequency: 1
+
+codpiece:
+doc: 19 frequency: 1
+
+investment:
+doc: 19 frequency: 1
+
+firm:
+doc: 19 frequency: 1
+
+morton:
+doc: 19 frequency: 2
+
+noted:
+doc: 19 frequency: 1
+
+fourth:
+doc: 19 frequency: 1
+
+us:
+doc: 19 frequency: 1
+doc: 29 frequency: 1
+
+suspect:
+doc: 19 frequency: 1
+
+marketable:
+doc: 19 frequency: 1
+
+fears:
+doc: 19 frequency: 1
+
+eclipsed:
+doc: 19 frequency: 1
+
+big:
+doc: 19 frequency: 1
+
+poopy:
+doc: 19 frequency: 1
+
+informed:
+doc: 19 frequency: 1
+
+press:
+doc: 19 frequency: 1
+
+seems:
+doc: 19 frequency: 1
+doc: 24 frequency: 1
+
+virulent:
+doc: 19 frequency: 1
+
+strain:
+doc: 19 frequency: 1
+
+fine:
+doc: 19 frequency: 1
+
+article:
+doc: 19 frequency: 1
+
+brought:
+doc: 19 frequency: 1
+
+gist:
+doc: 19 frequency: 1
+
+pass:
+doc: 19 frequency: 1
+
+include:
+doc: 19 frequency: 1
+
+tim:
+doc: 20 frequency: 1
+
+sam:
+doc: 20 frequency: 1
+
+houston:
+doc: 20 frequency: 1
+doc: 22 frequency: 1
+
+friend:
+doc: 20 frequency: 1
+
+ribbing:
+doc: 20 frequency: 1
+
+magazine:
+doc: 20 frequency: 1
+
+married:
+doc: 20 frequency: 1
+
+woman:
+doc: 20 frequency: 1
+
+usually:
+doc: 20 frequency: 1
+
+fast:
+doc: 20 frequency: 1
+
+immediately:
+doc: 20 frequency: 1
+
+frequency:
+doc: 20 frequency: 1
+
+christmas:
+doc: 21 frequency: 1
+
+mhz:
+doc: 21 frequency: 1
+
+cordless:
+doc: 21 frequency: 1
+
+forced:
+doc: 21 frequency: 1
+doc: 28 frequency: 1
+
+replace:
+doc: 21 frequency: 1
+
+pentium:
+doc: 21 frequency: 1
+
+times:
+doc: 21 frequency: 1
+
+faster:
+doc: 21 frequency: 1
+
+protest:
+doc: 22 frequency: 1
+
+headline:
+doc: 22 frequency: 1
+
+chronicle:
+doc: 22 frequency: 1
+
+row:
+doc: 22 frequency: 1
+
+prisoners:
+doc: 22 frequency: 1
+
+launch:
+doc: 22 frequency: 1
+
+hunger:
+doc: 22 frequency: 1
+
+job:
+doc: 23 frequency: 1
+
+shove:
+doc: 23 frequency: 1
+
+pharmacy:
+doc: 23 frequency: 1
+
+section:
+doc: 23 frequency: 1
+
+need:
+doc: 23 frequency: 1
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+rectal:
+doc: 23 frequency: 2
+
+thermometer:
+doc: 23 frequency: 5
+
+draw:
+doc: 23 frequency: 1
+
+disconnect:
+doc: 23 frequency: 1
+
+disturbed:
+doc: 23 frequency: 1
+
+change:
+doc: 23 frequency: 1
+
+comfortable:
+doc: 23 frequency: 1
+
+sweat:
+doc: 23 frequency: 1
+
+lie:
+doc: 23 frequency: 1
+
+package:
+doc: 23 frequency: 1
+
+containing:
+doc: 23 frequency: 1
+
+remove:
+doc: 23 frequency: 1
+
+bedside:
+doc: 23 frequency: 1
+
+table:
+doc: 23 frequency: 1
+
+chipped:
+doc: 23 frequency: 1
+
+written:
+doc: 23 frequency: 1
+
+material:
+doc: 23 frequency: 1
+
+accompanies:
+doc: 23 frequency: 1
+
+notice:
+doc: 23 frequency: 1
+doc: 28 frequency: 1
+
+print:
+doc: 23 frequency: 1
+
+statement:
+doc: 23 frequency: 1
+
+personally:
+doc: 23 frequency: 1
+
+eyes:
+doc: 23 frequency: 1
+
+loud:
+doc: 23 frequency: 1
+
+glad:
+doc: 23 frequency: 1
+
+quality:
+doc: 23 frequency: 1
+
+follows:
+doc: 24 frequency: 1
+
+short:
+doc: 24 frequency: 1
+
+submitted:
+doc: 24 frequency: 1
+
+topical:
+doc: 24 frequency: 1
+
+includes:
+doc: 24 frequency: 1
+
+millennium:
+doc: 24 frequency: 2
+doc: 30 frequency: 1
+
+voice:
+doc: 24 frequency: 1
+
+shortwave:
+doc: 24 frequency: 1
+
+early:
+doc: 24 frequency: 1
+
+announcer:
+doc: 24 frequency: 1
+
+remark:
+doc: 24 frequency: 1
+
+entire:
+doc: 24 frequency: 1
+
+quite:
+doc: 24 frequency: 1
+
+wished:
+doc: 24 frequency: 1
+doc: 28 frequency: 1
+
+word:
+doc: 24 frequency: 3
+
+removed:
+doc: 24 frequency: 1
+
+reinstate:
+doc: 24 frequency: 1
+
+hundred:
+doc: 24 frequency: 1
+
+m:
+doc: 24 frequency: 2
+
+officials:
+doc: 24 frequency: 1
+
+conducting:
+doc: 24 frequency: 1
+
+bonfire:
+doc: 24 frequency: 1
+
+poled:
+doc: 24 frequency: 1
+
+waiting:
+doc: 24 frequency: 1
+
+official:
+doc: 24 frequency: 1
+
+selling:
+doc: 24 frequency: 2
+
+toy:
+doc: 24 frequency: 1
+
+licences:
+doc: 24 frequency: 1
+
+season:
+doc: 24 frequency: 1
+
+aggietown:
+doc: 24 frequency: 1
+
+edition:
+doc: 24 frequency: 1
+
+lincon:
+doc: 24 frequency: 1
+
+logs:
+doc: 24 frequency: 1
+
+jenga:
+doc: 24 frequency: 1
+
+lined:
+doc: 24 frequency: 1
+
+discount:
+doc: 24 frequency: 1
+
+spotted:
+doc: 24 frequency: 1
+
+daily:
+doc: 24 frequency: 1
+
+calendars:
+doc: 24 frequency: 1
+
+sale:
+doc: 24 frequency: 1
+doc: 25 frequency: 1
+
+smartest:
+doc: 24 frequency: 1
+
+planet:
+doc: 24 frequency: 1
+
+leap:
+doc: 24 frequency: 1
+
+exactly:
+doc: 25 frequency: 1
+
+submit:
+doc: 25 frequency: 1
+
+appropriate:
+doc: 25 frequency: 1
+
+url:
+doc: 25 frequency: 1
+
+exceptionally:
+doc: 25 frequency: 1
+
+item:
+doc: 25 frequency: 1
+
+buyer:
+doc: 25 frequency: 1
+
+pick:
+doc: 25 frequency: 1
+
+located:
+doc: 25 frequency: 1
+
+north:
+doc: 25 frequency: 1
+
+carolina:
+doc: 25 frequency: 1
+
+pornography:
+doc: 26 frequency: 2
+
+often:
+doc: 26 frequency: 1
+
+questionable:
+doc: 26 frequency: 1
+
+concern:
+doc: 26 frequency: 1
+
+validated:
+doc: 26 frequency: 1
+
+librarian:
+doc: 26 frequency: 1
+
+skokie:
+doc: 26 frequency: 1
+
+library:
+doc: 26 frequency: 2
+
+engines:
+doc: 26 frequency: 1
+
+filters:
+doc: 26 frequency: 1
+
+preventing:
+doc: 26 frequency: 1
+
+patrons:
+doc: 26 frequency: 1
+
+accessing:
+doc: 26 frequency: 1
+
+blocked:
+doc: 26 frequency: 1
+
+superbowl:
+doc: 26 frequency: 1
+
+ten:
+doc: 27 frequency: 3
+
+men:
+doc: 27 frequency: 3
+
+understand:
+doc: 27 frequency: 3
+
+women:
+doc: 27 frequency: 2
+
+boris:
+doc: 28 frequency: 1
+
+yeltsin:
+doc: 28 frequency: 1
+
+retirement:
+doc: 28 frequency: 1
+
+presidency:
+doc: 28 frequency: 1
+
+russia:
+doc: 28 frequency: 1
+
+surprise:
+doc: 28 frequency: 1
+
+checked:
+doc: 28 frequency: 1
+
+j:
+doc: 28 frequency: 1
+
+bug:
+doc: 28 frequency: 1
+doc: 30 frequency: 4
+
+scarcely:
+doc: 28 frequency: 1
+
+overhyped:
+doc: 28 frequency: 1
+
+event:
+doc: 28 frequency: 2
+doc: 29 frequency: 1
+
+behind:
+doc: 28 frequency: 1
+
+star:
+doc: 28 frequency: 1
+
+episode:
+doc: 28 frequency: 1
+
+piclab:
+doc: 28 frequency: 1
+
+electronic:
+doc: 28 frequency: 1
+
+device:
+doc: 28 frequency: 1
+
+benefitted:
+doc: 28 frequency: 1
+
+positively:
+doc: 28 frequency: 1
+
+main:
+doc: 28 frequency: 1
+
+unplugged:
+doc: 28 frequency: 1
+
+vcr:
+doc: 28 frequency: 1
+
+plugged:
+doc: 28 frequency: 1
+
+date:
+doc: 28 frequency: 1
+
+stsci:
+doc: 28 frequency: 1
+
+archive:
+doc: 28 frequency: 1
+
+gap:
+doc: 28 frequency: 5
+
+employee:
+doc: 28 frequency: 1
+
+wishes:
+doc: 28 frequency: 1
+
+remain:
+doc: 28 frequency: 1
+
+earlier:
+doc: 28 frequency: 2
+
+discussions:
+doc: 28 frequency: 1
+
+zipper:
+doc: 28 frequency: 4
+
+while:
+doc: 28 frequency: 1
+
+true:
+doc: 28 frequency: 1
+
+user:
+doc: 28 frequency: 1
+
+labelled:
+doc: 28 frequency: 1
+
+system:
+doc: 28 frequency: 2
+
+japanese:
+doc: 28 frequency: 1
+
+certified:
+doc: 28 frequency: 1
+
+zippers:
+doc: 28 frequency: 2
+
+vendors:
+doc: 28 frequency: 1
+
+confident:
+doc: 28 frequency: 1
+
+including:
+doc: 28 frequency: 1
+
+compliant:
+doc: 28 frequency: 2
+
+operate:
+doc: 28 frequency: 1
+
+perfectly:
+doc: 28 frequency: 1
+
+difficulties:
+doc: 28 frequency: 2
+
+arising:
+doc: 28 frequency: 1
+
+downed:
+doc: 28 frequency: 1
+
+coincidental:
+doc: 28 frequency: 1
+
+cases:
+doc: 28 frequency: 1
+
+safety:
+doc: 28 frequency: 1
+
+step:
+doc: 28 frequency: 1
+
+downing:
+doc: 28 frequency: 1
+
+necessary:
+doc: 28 frequency: 2
+
+contact:
+doc: 28 frequency: 1
+
+line:
+doc: 28 frequency: 1
+
+celebrating:
+doc: 28 frequency: 1
+
+approximately:
+doc: 28 frequency: 1
+
+withdraw:
+doc: 28 frequency: 2
+
+preparing:
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+
+opening:
+doc: 28 frequency: 1
+
+splash:
+doc: 28 frequency: 1
+
+screen:
+doc: 28 frequency: 1
+
+near:
+doc: 28 frequency: 1
+
+obviously:
+doc: 28 frequency: 1
+
+management:
+doc: 28 frequency: 1
+
+felt:
+doc: 28 frequency: 1
+
+clients:
+doc: 28 frequency: 1
+
+extra:
+doc: 28 frequency: 2
+
+assurance:
+doc: 28 frequency: 1
+
+banks:
+doc: 28 frequency: 1
+
+preparations:
+doc: 28 frequency: 2
+
+atm:
+doc: 28 frequency: 1
+
+ready:
+doc: 28 frequency: 2
+
+marie:
+doc: 28 frequency: 1
+
+coda:
+doc: 28 frequency: 1
+
+roll:
+doc: 28 frequency: 1
+
+doing:
+doc: 28 frequency: 1
+
+booting:
+doc: 28 frequency: 1
+
+dates:
+doc: 28 frequency: 1
+
+readiness:
+doc: 28 frequency: 1
+
+western:
+doc: 28 frequency: 1
+
+ontario:
+doc: 28 frequency: 1
+
+third:
+doc: 28 frequency: 1
+
+millennia:
+doc: 28 frequency: 1
+
+gregorian:
+doc: 28 frequency: 1
+
+possibility:
+doc: 28 frequency: 1
+
+errors:
+doc: 28 frequency: 1
+
+computing:
+doc: 28 frequency: 1
+
+artificial:
+doc: 28 frequency: 1
+
+intelligence:
+doc: 28 frequency: 1
+
+fail:
+doc: 28 frequency: 1
+
+ethical:
+doc: 28 frequency: 1
+
+dilemma:
+doc: 28 frequency: 1
+
+liquor:
+doc: 28 frequency: 1
+
+picking:
+doc: 28 frequency: 1
+
+scotch:
+doc: 28 frequency: 1
+
+saturday:
+doc: 28 frequency: 1
+
+jeopardized:
+doc: 28 frequency: 1
+
+hearing:
+doc: 28 frequency: 1
+
+sorts:
+doc: 28 frequency: 1
+
+gloom:
+doc: 28 frequency: 1
+
+doom:
+doc: 28 frequency: 1
+
+predictions:
+doc: 28 frequency: 1
+
+heed:
+doc: 28 frequency: 1
+
+experts:
+doc: 28 frequency: 1
+
+gas:
+doc: 28 frequency: 2
+
+canned:
+doc: 28 frequency: 1
+
+bathtub:
+doc: 28 frequency: 2
+
+fully:
+doc: 28 frequency: 1
+
+awake:
+doc: 28 frequency: 1
+
+completed:
+doc: 28 frequency: 1
+
+late:
+doc: 28 frequency: 1
+doc: 29 frequency: 1
+
+kitchen:
+doc: 28 frequency: 1
+
+shelves:
+doc: 28 frequency: 1
+
+soaked:
+doc: 28 frequency: 1
+
+water:
+doc: 28 frequency: 1
+
+filled:
+doc: 28 frequency: 1
+
+baked:
+doc: 28 frequency: 1
+
+followup:
+doc: 29 frequency: 1
+
+lot:
+doc: 29 frequency: 1
+
+anticipation:
+doc: 29 frequency: 1
+
+feared:
+doc: 29 frequency: 1
+
+relief:
+doc: 29 frequency: 1
+
+stockpiling:
+doc: 29 frequency: 1
+
+documents:
+doc: 29 frequency: 1
+
+files:
+doc: 29 frequency: 1
+
+millions:
+doc: 29 frequency: 1
+
+billions:
+doc: 29 frequency: 1
+
+laboriously:
+doc: 29 frequency: 1
+
+scanned:
+doc: 29 frequency: 1
+
+tiniest:
+doc: 29 frequency: 1
+
+let:
+doc: 29 frequency: 1
+
+forget:
+doc: 29 frequency: 1
+
+individuals:
+doc: 29 frequency: 1
+
+evening:
+doc: 29 frequency: 1
+
+december:
+doc: 29 frequency: 1
+
+someday:
+doc: 29 frequency: 1
+
+look:
+doc: 29 frequency: 1
+
+farts:
+doc: 29 frequency: 1
+
+microsoft:
+doc: 30 frequency: 4
+
+passed:
+doc: 30 frequency: 1
+
+believe:
+doc: 30 frequency: 2
+
+paid:
+doc: 30 frequency: 1
+
+attention:
+doc: 30 frequency: 2
+
+warn:
+doc: 30 frequency: 1
+
+dear:
+doc: 30 frequency: 1
+
+everything:
+doc: 30 frequency: 1
+
+delayed:
+doc: 30 frequency: 1
+
+release:
+doc: 30 frequency: 1
+
