@@ -142,7 +142,7 @@ def search_loop(word_frequency, doc_id_to_file):
             while current:
                 # doc ID to file name mapping
                 file_name = doc_id_to_file[current.doc_id]
-                print(f"  {file_name}")
+                print(f"  {file_name}    frequency: {current.frequency}")
                 current = current.next
         else:
             print(f"No match.")
