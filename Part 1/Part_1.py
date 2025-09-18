@@ -92,7 +92,7 @@ if matchWord == searchWord and matchWord != "null":
 def search_loop(word_frequency, doc_id_to_file):
     while True:
         search_key = input("Enter a word to search (or 'exit' to quit): ").strip().lower()
-        if search_key == 'exit':
+        if search_key == '':
             print("Exiting the search...")
             break
 
