@@ -36,6 +36,35 @@ class LinkedList:
             print(f"doc: {current.doc_id} frequency: {current.frequency}")
             current = current.next
 
+def extract_words_from_html(text):
+    words = []
+    current_word = []
+    in_tag = False
+
+    # Iterate through each character in the text
+    for char in text:
+        # Start of HTML tag
+        if char == '<':
+            in_tag = True
+            if current_word:
+                words.append(''.join(current_word))
+                current_word = []
+        # End of HTML tag
+        elif char == '>':
+            in_tag = False
+        # Outside of HTML tags
+        elif not in_tag:
+            if char.isalpha():
+                current_word.append(char)
+            else:
+                if current_word:
+                    words.append(''.join(current_word))
+                    current_word = []
+    # Add the last word to the list if exists
+    if current_word:
+        words.append(''.join(current_word))
+
+    return words
 
 # Task 1 
 #extracts all of the information from a folder, file by file
@@ -54,13 +83,12 @@ def extract_words_from_files(directory_path):
                     with open(full_path, 'r') as f:
                         
                         file_info = f.read()
-                        split_info = file_info.split()
-                        for term in split_info:
-                            if term.isalpha():
-                                word = term.lower()
-                                if word not in word_frequency:
-                                    word_frequency[word] = LinkedList()
-                                word_frequency[word].update_list(i)
+        
+                        for term in extract_words_from_html(file_info):
+                            word = term.lower()
+                            if word not in word_frequency:
+                                word_frequency[word] = LinkedList()
+                            word_frequency[word].update_list(i)
                         i += 1
                 except Exception as e:
                     print(f"Error reading file {file_name}")
@@ -84,13 +112,12 @@ def extract_from_zip(zip_path):
                     
                     file_info_undecoded = file_in_zip.read()
                     file_info = file_info_undecoded.decode('utf-8')
-                    split_info = file_info.split()
-                    for term in split_info:
-                        if term.isalpha():
-                            word = term.lower()
-                            if word not in word_frequency:
-                                word_frequency[word] = LinkedList()
-                            word_frequency[word].update_list(i)
+
+                    for term in extract_words_from_html(file_info):
+                        word = term.lower()
+                        if word not in word_frequency:
+                            word_frequency[word] = LinkedList()
+                        word_frequency[word].update_list(i)
                     i += 1
     except FileNotFoundError:
         print("Directory not found")
