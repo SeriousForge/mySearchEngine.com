@@ -7,34 +7,37 @@ import os
 from zipfile import ZipFile
 from io import BytesIO
 class Node:
-    def __init__(self, doc_id, frequency=1):
+    def __init__(self, doc_id, position, frequency=1):
         self.doc_id = doc_id
         self.frequency = frequency
+        self.position = [position]
         self.next = None
 
 class LinkedList:
     def __init__(self):
         self.head = None
 
-    def update_list(self, doc_id):
+    def update_list(self, doc_id, position):
         if self.head is None:
-            self.head = Node(doc_id)
+            self.head = Node(doc_id, position)
         else:
             current = self.head
             while current:
                 if current.doc_id == doc_id:
                     current.frequency += 1
+                    current.position.append(position)
                     return
                 if current.next == None:
-                    current.next = Node(doc_id)
+                    current.next = Node(doc_id, position)
                     return
                 current = current.next
             
     def display(self):
         current = self.head
         while current:
-            print(f"doc: {current.doc_id} frequency: {current.frequency}")
+            print(f"doc: {current.doc_id} frequency: {current.frequency} positions: {current.position}")
             current = current.next
+    
 #returns true if the word is a stopword, false otherwise
 def check_stopword(word):
     stopwords = ["a", 'able', 'about', 'above', 'according', 'accordingly', 'across', 'actually', 'after', 'afterwards', 'again', 'against', "ain", 'all', 'allow', 'allows', 'almost', 'alone', 'along', 'already', 'also', 'although', 'always', 'am', 'among', 'amongst', 'an', 'and', 'another', 'any', 'anybody', 'anyhow', 'anyone', 'anything', 'anyway', 'anyways', 'anywhere', 'apart', 'appear', 'appreciate', 'appropriate', 'are', "aren", 'around', 'as', 'aside', 'ask', 'asking', 'associated', 'at', 'available', 'away', 'awfully', 'be', 'became', 'because', 'become', 'becomes', 'becoming', 'been', 'before', 'beforehand', 'behind', 'being', 'believe', 'below', 'beside', 'besides', 'best', 'better', 'between', 'beyond', 'both', 'brief', 'but', 'by', "c", "mon", 'came', "can", 'cannot', 'cant', 'cause', 'causes', 'certain', 'certainly', 'changes', 'clearly', 'co', 'com', 'come', 'comes', 'concerning', 'consequently', 'consider', 'considering', 'contain', 'containing', 'contains', 'corresponding', 'could', "couldn", 'course', 'currently', 'definitely', 'described', 'despite', 'did', "didn", 'different', 'do', 'does', "doesn", 'doing', "don", 'done', 'down', 'downwards', 'during', 'each', 'edu', 'eg', 'eight', 'either', 'else', 'elsewhere', 'enough', 'entirely', 'especially', 'et', 'etc', 'even', 'ever', 'every', 'everybody', 'everyone', 'everything', 'everywhere', 'ex', 'exactly', 'example', 'except', 'far', 'few', 'fifth', 'first', 'five', 'followed', 'following', 'follows', 'for', 'former', 'formerly', 'forth', 'four', 'from', 'further', 'furthermore', 'get', 'gets', 'getting', 'given', 'gives', 'go', 'goes', 'going', 'gone', 'got', 'gotten', 'greetings', 'had', "hadn", 'happens', 'hardly', 'has', "hasn", 'have', "haven", 'having', 'he', 'hello', 'help', 'hence', 'her', 'here', 'hereafter', 'hereby', 'herein', 'hereupon', 'hers', 'herself', 'hi', 'him', 'himself', 'his', 'hither', 'hopefully', 'how', 'howbeit', 'however', "i", 'ie', 'if', 'ignored', 'immediate', 'in', 'inasmuch', 'inc', 'indeed', 'indicate', 'indicated', 'indicates', 'inner', 'insofar', 'instead', 'into', 'inward', 'is', "isn", 'it', 'its', 'itself', 'just', 'keep', 'keeps', 'kept', 'know', 'known', 'knows', 'last', 'lately', 'later', 'latter', 'latterly', 'least', 'less', 'lest', 'let', 'like', 'liked', 'likely', 'little', 'look', 'looking', 'looks', 'ltd', 'mainly', 'many', 'may', 'maybe', 'me', 'mean', 'meanwhile', 'merely', 'might', 'more', 'moreover', 'most', 'mostly', 'much', 'must', 'my', 'myself', 'name', 'namely', 'nd', 'near', 'nearly', 'necessary', 'need', 'needs', 'neither', 'never', 'nevertheless', 'new', 'next', 'nine', 'no', 'nobody', 'non', 'none', 'noone', 'nor', 'normally', 'not', 'nothing', 'novel', 'now', 'nowhere', 'obviously', 'of', 'off', 'often', 'oh', 'ok', 'okay', 'old', 'on', 'once', 'one', 'ones', 'only', 'onto', 'or', 'other', 'others', 'otherwise', 'ought', 'our', 'ours', 'ourselves', 'out', 'outside', 'over', 'overall', 'own', 'particular', 'particularly', 'per', 'perhaps', 'placed', 'please', 'plus', 'possible', 'presumably', 'probably', 'provides', 'que', 'quite', 'qv', 'rather', 'rd', 're', 'really', 'reasonably', 'regarding', 'regardless', 'regards', 'relatively', 'respectively', 'right', 'said', 'same', 'saw', 'say', 'saying', 'says', 'second', 'secondly', 'see', 'seeing', 'seem', 'seemed', 'seeming', 'seems', 'seen', 'self', 'selves', 'sensible', 'sent', 'serious', 'seriously', 'seven', 'several', 'shall', 'she', 'should', "shouldn", 'since', 'six', 'so', 'some', 'somebody', 'somehow', 'someone', 'something', 'sometime', 'sometimes', 'somewhat', 'somewhere', 'soon', 'sorry', 'specified', 'specify', 'specifying', 'still', 'sub', 'such', 'sup', 'sure', "s", "t", 'take', 'taken', 'tell', 'tends', 'th', 'than', 'thank', 'thanks', 'thanx', 'that', 'thats', 'the', 'their', 'theirs', 'them', 'themselves', 'then', 'thence', 'there', 'thereafter', 'thereby', 'therefore', 'therein', 'theres', 'thereupon', 'these', 'they', "ll", "ve", 'think', 'third', 'this', 'thorough', 'thoroughly', 'those', 'though', 'three', 'through', 'throughout', 'thru', 'thus', 'to', 'together', 'too', 'took', 'toward', 'towards', 'tried', 'tries', 'truly', 'try', 'trying', 'twice', 'two', 'un', 'under', 'unfortunately', 'unless', 'unlikely', 'until', 'unto', 'up', 'upon', 'us', 'use', 'used', 'useful', 'uses', 'using', 'usually', 'value', 'various', 'very', 'via', 'viz', 'vs', 'want', 'wants', 'was', 'way', 'we', "d", 'welcome', 'well', 'went', 'were', "weren", 'what', 'whatever', 'when', 'whence', 'whenever', 'where', 'whereafter', 'whereas', 'whereby', 'wherein', 'whereupon', 'wherever', 'whether', 'which', 'while', 'whither', 'who', 'whoever', 'whole', 'whom', 'whose', 'why', 'will', 'willing', 'wish', 'with', 'within', 'without', "won", 'wonder', 'would', "wouldn", 'yes', 'yet', 'you', 'your', 'yours', 'yourself', 'yourselves', 'zero']
@@ -79,6 +82,7 @@ def extract_words_from_files(directory_path):
     word_frequency = {}
     doc_id_to_file = {}
     i = 0
+    pos = 0
     try:
         for file_name in os.listdir(directory_path):
             full_path = os.path.join(directory_path, file_name)
@@ -88,13 +92,15 @@ def extract_words_from_files(directory_path):
                     with open(full_path, 'r') as f:
                         
                         file_info = f.read()
+                        pos = 0
         
                         for term in extract_words_from_html(file_info):
                             word = term.lower()
                             if not check_stopword(word):
                                 if word not in word_frequency:
                                     word_frequency[word] = LinkedList()
-                                word_frequency[word].update_list(i)
+                                word_frequency[word].update_list(i, pos)
+                                pos += 1
                         i += 1
                 except Exception as e:
                     print(f"Error reading file {file_name}")
@@ -109,6 +115,7 @@ def extract_from_zip(zip_path):
     word_frequency = {}
     doc_id_to_file = {}
     i = 0
+    pos = 0
     try:
         with ZipFile(zip_path, 'r') as zip_archive:
             files = zip_archive.namelist()
@@ -118,13 +125,15 @@ def extract_from_zip(zip_path):
                     
                     file_info_undecoded = file_in_zip.read()
                     file_info = file_info_undecoded.decode('utf-8')
+                    pos = 0
 
                     for term in extract_words_from_html(file_info):
                         word = term.lower()
                         if not check_stopword(word):
                             if word not in word_frequency:
                                 word_frequency[word] = LinkedList()
-                            word_frequency[word].update_list(i)
+                            word_frequency[word].update_list(i, pos)
+                            pos += 1
                     i += 1
     except FileNotFoundError:
         print("Directory not found")
