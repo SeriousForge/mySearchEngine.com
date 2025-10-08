@@ -37,6 +37,13 @@ class LinkedList:
         while current:
             print(f"doc: {current.doc_id} frequency: {current.frequency} positions: {current.position}")
             current = current.next
+    def list_doc_ids(self):
+        current = self.head
+        doc_ids = []
+        while current:
+            doc_ids.append(current.doc_id)
+            current = current.next
+        return doc_ids
     
 #returns true if the word is a stopword, false otherwise
 def check_stopword(word):
@@ -167,27 +174,75 @@ print(f"Web Searchers Part 1 \n\nTask 1:\n{file_path} completed\n")
 # Creates a loop that allows the user to search for words
 # If the word is found, it prints the names of the files containing that word
 # If not found, it displays a "No match" message to the user
+# it keeps track of 3 modes: or, and, and but. These modes help with boolean queries
+# if it finds either word in the search, it turns on the respective mode
+# if a mode is on, it will perform the boolean query with the current list and the next word that follows
+# for and, it only keeps doc_ids that match both sides. for but, it removes from the left any doc_ids that appear in the right
+# the vector space and phrasal search aren't implemented yet, if no boolean expressions are in the query, it treats it as or
 def search_loop(word_frequency, doc_id_to_file):
     print("Task 2:")
     while True:
         search_key = input("Enter a word to search: ").strip().lower()
+        or_mode = False
+        and_mode = False
+        but_mode = False
+        lefthandside = []
+        righthandside = []
         if search_key == '':
             print("Exiting the search...")
             break
+        
+        querie_words = extract_words_from_html(search_key)
+        for search_word in querie_words:
+            if or_mode:
+                or_mode = False
+                for id in word_frequency[search_word].list_doc_ids():
+                    if id not in lefthandside:
+                        lefthandside.append(id)
+            elif and_mode:
+                and_mode = False
+                leftandright = []
+                for id in word_frequency[search_word].list_doc_ids():
+                    if id not in righthandside:
+                        righthandside.append(id)
+                for left_doc_id in lefthandside:
+                    for right_doc_id in righthandside:
+                        if left_doc_id == right_doc_id and left_doc_id not in leftandright:
+                            leftandright.append(left_doc_id)
+                lefthandside = []
+                righthandside = []
+                for accepted_ids in leftandright:
+                    lefthandside.append(accepted_ids)
+            elif but_mode:
+                but_mode = False
+                for id in word_frequency[search_word].list_doc_ids():
+                    if id not in righthandside:
+                        righthandside.append(id)
+                for left_doc_id in lefthandside:
+                    for right_doc_id in righthandside:
+                        if left_doc_id == right_doc_id:
+                            lefthandside.remove(left_doc_id)
+                righthandside = []
+                    
+                        
+            elif search_word == "or":
+                or_mode = True
+            elif search_word == "and":
+                and_mode = True
+            elif search_word == "but":
+                but_mode = True
+            elif search_word in word_frequency:
+                
+                for id in word_frequency[search_word].list_doc_ids():
+                    if id not in lefthandside:
+                        lefthandside.append(id)
 
-        if search_key in word_frequency:
-            print(f"Found a match!:")
-
-            # Gets the linked list for the searched word
-            current = word_frequency[search_key].head
-
-            # Iterate through the linked list and print file names
-            while current:
-                # doc ID to file name mapping
-                file_name = doc_id_to_file[current.doc_id]
+        if lefthandside:
+            print("Found a match!:")
+            for doc in lefthandside:
+                file_name = doc_id_to_file[doc]
                 print(f"  {file_name}")
-                current = current.next
         else:
-            print(f"No match.")
+            print("No match found")
 
 search_loop(all_file_data, doc_id_to_file)
