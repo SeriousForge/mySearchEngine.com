@@ -196,32 +196,37 @@ def search_loop(word_frequency, doc_id_to_file):
         for search_word in querie_words:
             if or_mode:
                 or_mode = False
-                for id in word_frequency[search_word].list_doc_ids():
-                    if id not in lefthandside:
-                        lefthandside.append(id)
+                if search_word in word_frequency:
+                    for id in word_frequency[search_word].list_doc_ids():
+                        if id not in lefthandside:
+                            lefthandside.append(id)
             elif and_mode:
                 and_mode = False
                 leftandright = []
-                for id in word_frequency[search_word].list_doc_ids():
-                    if id not in righthandside:
-                        righthandside.append(id)
-                for left_doc_id in lefthandside:
-                    for right_doc_id in righthandside:
-                        if left_doc_id == right_doc_id and left_doc_id not in leftandright:
-                            leftandright.append(left_doc_id)
-                lefthandside = []
-                righthandside = []
-                for accepted_ids in leftandright:
-                    lefthandside.append(accepted_ids)
+                if search_word in word_frequency:
+                    for id in word_frequency[search_word].list_doc_ids():
+                        if id not in righthandside:
+                            righthandside.append(id)
+                    for left_doc_id in lefthandside:
+                        for right_doc_id in righthandside:
+                            if left_doc_id == right_doc_id and left_doc_id not in leftandright:
+                                leftandright.append(left_doc_id)
+                    lefthandside = []
+                    righthandside = []
+                    for accepted_ids in leftandright:
+                        lefthandside.append(accepted_ids)
+                else:
+                    lefthandside = []
             elif but_mode:
                 but_mode = False
-                for id in word_frequency[search_word].list_doc_ids():
-                    if id not in righthandside:
-                        righthandside.append(id)
-                for left_doc_id in lefthandside:
-                    for right_doc_id in righthandside:
-                        if left_doc_id == right_doc_id:
-                            lefthandside.remove(left_doc_id)
+                if search_word in word_frequency:
+                    for id in word_frequency[search_word].list_doc_ids():
+                        if id not in righthandside:
+                            righthandside.append(id)
+                    for left_doc_id in lefthandside:
+                        for right_doc_id in righthandside:
+                            if left_doc_id == right_doc_id:
+                                lefthandside.remove(left_doc_id)
                 righthandside = []
                     
                         
