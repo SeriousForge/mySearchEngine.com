@@ -44,6 +44,13 @@ class LinkedList:
             doc_ids.append(current.doc_id)
             current = current.next
         return doc_ids
+    def id_positions(self, id):
+        current = self.head
+        while current:
+            if current.doc_id == id:
+                return current.position
+            current = current.next
+        return []
     
 #returns true if the word is a stopword, false otherwise
 def check_stopword(word):
@@ -167,9 +174,60 @@ with open(file_path, 'w') as output_file:
             current = current.next
         output_file.write("\n")
 
-print(f"Web Searchers Part 1 \n\nTask 1:\n{file_path} completed\n")
 
 
+def phrasal_search(word_frequency, query_words):
+    indexes = {}
+    lefthandside = []
+    righthandside = []
+    #go through the words in the query, it ignores stop words
+    #if the word is missing from word_frequency return [] since phrase doesn't match
+    #it first adds all of the ids from the first word, then it filters out ids by removing any doc_ids that don't have all the words
+    #if at any point it removes all ids, it returns []
+    for search_word in query_words:
+        if not check_stopword(search_word):
+            if search_word not in word_frequency:
+                return []
+            elif not lefthandside:
+                for id in word_frequency[search_word].list_doc_ids():
+                    if id not in lefthandside:
+                        lefthandside.append(id)
+                        indexes[id] = word_frequency[search_word].id_positions(id)
+            else:
+                leftandright = []
+                for id in word_frequency[search_word].list_doc_ids():
+                    if id not in righthandside:
+                        righthandside.append(id)
+                for left_doc_id in lefthandside:
+                    for right_doc_id in righthandside:
+                        if left_doc_id == right_doc_id and left_doc_id not in leftandright:
+                            leftandright.append(left_doc_id)
+                lefthandside = []
+                righthandside = []
+                if leftandright:
+                    for accepted_ids in leftandright:
+                        lefthandside.append(accepted_ids)
+                else:
+                    return []
+    #i helps keep track of the positions of the words in the phrase
+    #goes through query words and checks to see if it matches the position in the phrase (position in indexes[id]+i)
+    #if it isn't in position, it removes the position in indexes
+    #ignores stop words
+    i = 0
+    for search_word in query_words:
+        if not check_stopword(search_word):
+            for id in word_frequency[search_word].list_doc_ids():
+                if id in lefthandside:
+                    for poss in indexes[id]:
+                        if (poss+i) not in word_frequency[search_word].id_positions(id):
+                            indexes[id].remove(poss)
+            i += 1
+    #if indexes[id] is empty it removes the id from lefthandside since that means it didn't match the phrase
+    for id in lefthandside:
+        if not indexes[id]:
+            lefthandside.remove(id)
+    return lefthandside
+    
 # Task 2
 # Creates a loop that allows the user to search for words
 # If the word is found, it prints the names of the files containing that word
@@ -193,54 +251,58 @@ def search_loop(word_frequency, doc_id_to_file):
             break
         
         querie_words = extract_words_from_html(search_key)
-        for search_word in querie_words:
-            if or_mode:
-                or_mode = False
-                if search_word in word_frequency:
+        if search_key[0] == '"' and search_key.endswith('"'):
+            lefthandside = phrasal_search(word_frequency, querie_words)
+
+        else:
+            for search_word in querie_words:
+                if or_mode:
+                    or_mode = False
+                    if search_word in word_frequency:
+                        for id in word_frequency[search_word].list_doc_ids():
+                            if id not in lefthandside:
+                                lefthandside.append(id)
+                elif and_mode:
+                    and_mode = False
+                    leftandright = []
+                    if search_word in word_frequency:
+                        for id in word_frequency[search_word].list_doc_ids():
+                            if id not in righthandside:
+                                righthandside.append(id)
+                        for left_doc_id in lefthandside:
+                            for right_doc_id in righthandside:
+                                if left_doc_id == right_doc_id and left_doc_id not in leftandright:
+                                    leftandright.append(left_doc_id)
+                        lefthandside = []
+                        righthandside = []
+                        for accepted_ids in leftandright:
+                            lefthandside.append(accepted_ids)
+                    else:
+                        lefthandside = []
+                elif but_mode:
+                    but_mode = False
+                    if search_word in word_frequency:
+                        for id in word_frequency[search_word].list_doc_ids():
+                            if id not in righthandside:
+                                righthandside.append(id)
+                        for left_doc_id in lefthandside:
+                            for right_doc_id in righthandside:
+                                if left_doc_id == right_doc_id:
+                                    lefthandside.remove(left_doc_id)
+                    righthandside = []
+                        
+                            
+                elif search_word == "or":
+                    or_mode = True
+                elif search_word == "and":
+                    and_mode = True
+                elif search_word == "but":
+                    but_mode = True
+                elif search_word in word_frequency:
+                    
                     for id in word_frequency[search_word].list_doc_ids():
                         if id not in lefthandside:
                             lefthandside.append(id)
-            elif and_mode:
-                and_mode = False
-                leftandright = []
-                if search_word in word_frequency:
-                    for id in word_frequency[search_word].list_doc_ids():
-                        if id not in righthandside:
-                            righthandside.append(id)
-                    for left_doc_id in lefthandside:
-                        for right_doc_id in righthandside:
-                            if left_doc_id == right_doc_id and left_doc_id not in leftandright:
-                                leftandright.append(left_doc_id)
-                    lefthandside = []
-                    righthandside = []
-                    for accepted_ids in leftandright:
-                        lefthandside.append(accepted_ids)
-                else:
-                    lefthandside = []
-            elif but_mode:
-                but_mode = False
-                if search_word in word_frequency:
-                    for id in word_frequency[search_word].list_doc_ids():
-                        if id not in righthandside:
-                            righthandside.append(id)
-                    for left_doc_id in lefthandside:
-                        for right_doc_id in righthandside:
-                            if left_doc_id == right_doc_id:
-                                lefthandside.remove(left_doc_id)
-                righthandside = []
-                    
-                        
-            elif search_word == "or":
-                or_mode = True
-            elif search_word == "and":
-                and_mode = True
-            elif search_word == "but":
-                but_mode = True
-            elif search_word in word_frequency:
-                
-                for id in word_frequency[search_word].list_doc_ids():
-                    if id not in lefthandside:
-                        lefthandside.append(id)
 
         if lefthandside:
             print("Found a match!:")
@@ -249,5 +311,6 @@ def search_loop(word_frequency, doc_id_to_file):
                 print(f"  {file_name}")
         else:
             print("No match found")
+
 
 search_loop(all_file_data, doc_id_to_file)
