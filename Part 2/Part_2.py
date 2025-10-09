@@ -60,6 +60,11 @@ class LinkedList:
 # Containers
 DOC_LENGTHS = {}
 HYPERLINKS = []
+
+# Regular expression to find href links in HTML
+HREF_RE = re.compile(r'<a\s[^>]*?href\s*=\s*([\'"])(.*?)\1', re.IGNORECASE | re.DOTALL)
+SCRIPT_STYLE_RE = re.compile(r"(?is)<(script|style)\b.*?>.*?</\1>")
+TAG_RE = re.compile(r"(?s)<[^>]+>")
  
 # Returns true if the word is a stopword, false otherwise
 def check_stopword(word):
@@ -70,36 +75,26 @@ def check_stopword(word):
 
 # Extracts words from HTML content, ignoring tags and non-alphabetic characters
 def extract_words_from_html(text):
+    # Removes script and style content, then strip HTML tags
+    text = SCRIPT_STYLE_RE.sub(" ", text)
+    text = TAG_RE.sub(" ", text)
+
     words = []
     current_word = []
-    in_tag = False
 
     for char in text:
-        # Start of HTML tag
-        if char == '<':
-            in_tag = True
+        if char.isalpha():
+            current_word.append(char)
+        else:
             if current_word:
                 words.append(''.join(current_word))
                 current_word = []
-        # End of HTML tag
-        elif char == '>':
-            in_tag = False
-        # Outside of HTML tags
-        elif not in_tag:
-            if char.isalpha():
-                current_word.append(char)
-            else:
-                if current_word:
-                    words.append(''.join(current_word))
-                    current_word = []
     
     if current_word:
         words.append(''.join(current_word))
 
     return [w.lower() for w in words if not check_stopword(w.lower())]
 
-# Regular expression to find href links in HTML
-HREF_RE = re.compile(r'<a\s[^>]*?href\s*=\s*([\'"])(.*?)\1', re.IGNORECASE | re.DOTALL)
 def extract_links_from_html(text):
     return [m[1].strip() for m in HREF_RE.findall(text)]
 
