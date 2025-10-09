@@ -6,6 +6,8 @@
 import os
 from zipfile import ZipFile
 from io import BytesIO
+import re
+
 class Node:
     def __init__(self, doc_id, position, frequency=1):
         self.doc_id = doc_id
@@ -81,7 +83,14 @@ def extract_words_from_html(text):
     if current_word:
         words.append(''.join(current_word))
 
-    return words
+    return [w.lower() for w in words if not check_stopword(w.lower())]
+
+# Regular expression to find href links in HTML
+HREF_RE = re.compile(r'<a\s[^>]*?href\s*=\s*([\'"])(.*?)\1', re.IGNORECASE | re.DOTALL)
+
+def extract_links_from_html(text):
+    return [m[1].strip() for m in HREF_RE.findall(text)]
+
 
 # Extracts all of the information from a folder, file by file
 # Separates the info into tokens, removes any tokens that include non alphabet chars, returns all valid tokens
