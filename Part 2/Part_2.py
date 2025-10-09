@@ -7,12 +7,14 @@ import os
 from zipfile import ZipFile
 from io import BytesIO
 import re
+import math
 
 class Node:
     def __init__(self, doc_id, position, frequency=1):
         self.doc_id = doc_id
         self.frequency = frequency
         self.position = [position]
+        self.norm_tf_idf = 0.0
         self.next = None
 
 class LinkedList:
@@ -47,7 +49,14 @@ class LinkedList:
             doc_ids.append(current.doc_id)
             current = current.next
         return doc_ids
-
+    
+    def doc_freq(self):
+        c, count = self.head, 0
+        while c:
+            count += 1
+            c = c.next
+        return count
+    
 # Containers
 DOC_LENGTHS = {}
 HYPERLINKS = []
@@ -91,16 +100,55 @@ def extract_words_from_html(text):
 
 # Regular expression to find href links in HTML
 HREF_RE = re.compile(r'<a\s[^>]*?href\s*=\s*([\'"])(.*?)\1', re.IGNORECASE | re.DOTALL)
-
 def extract_links_from_html(text):
     return [m[1].strip() for m in HREF_RE.findall(text)]
 
 # Tokenizes a query string into lowercase words, ignoring non-alphabetic characters
 QUERY_RE = re.compile(r"[A-Za-z]+")
-
 def tokenize_query(text: str):
     tokens = [w.lower() for w in QUERY_RE.findall(text)]
     return tokens
+
+# Given an index dictionary, returns a dictionary w/ the doc frequencies for each term
+def compute_doc_freqs(index_dict):
+    return {term: postings.doc_freq() for term, postings in index_dict.items()}
+
+# Computes the normalized tf-idf weights for each term/doc
+def compute_norm_tf_idf(index_dict, doc_lengths, doc_freqs, num_docs):
+
+    # Compute raw tf-idf and accumulate squared sums for normalization
+    doc_norm2 = {}
+    for term, postings in index_dict.items():
+        # idf = log((N + 1) / df) + 1
+        df = max(1, doc_freqs.get(term, 1))
+        idf = math.log((num_docs + 1) / df) + 1.0
+
+        # Compute tf-idf for each document and accumulate squared sums
+        current = postings.head
+        while current:
+            tf = (current.frequency / max(1, doc_lengths.get(current.doc_id, 1)))
+            weight = tf * idf
+
+            doc_norm2[current.doc_id] = doc_norm2.get(current.doc_id, 0.0) + (weight * weight)
+            current._raw_w = weight
+
+            # Move to next node
+            current = current.next
+
+    # Normalize tf-idf
+    for term, postings in index_dict.items():
+        current = postings.head
+        while current:
+            denominator = math.sqrt(doc_norm2.get(current.doc_id, 1.0))
+            
+            if denominator > 0:
+                current.norm_tf_idf = (current._raw_w / denominator)
+            else:
+                current.norm_tf_idf = 0.0
+
+            # Clean up
+            del current._raw_w
+            current = current.next
 
 # Extracts all of the information from a folder, file by file
 # Separates the info into tokens, removes any tokens that include non alphabet chars, returns all valid tokens
@@ -181,6 +229,15 @@ script_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir(script_dir)
 all_file_data, doc_id_to_file = extract_from_zip("Jan.zip")
 
+# Computes the doc frequencies and normalized tf-idf weights
+DOC_FREQS = compute_doc_freqs(all_file_data)
+compute_norm_tf_idf(
+    index_dict = all_file_data,
+    doc_lengths = DOC_LENGTHS,
+    doc_freqs = DOC_FREQS,
+    num_docs = len(doc_id_to_file)
+)
+
 # Writes extracted data into Extract_List.txt
 with open(file_path, 'w') as output_file:
     for word, linked_list in all_file_data.items():
@@ -191,7 +248,22 @@ with open(file_path, 'w') as output_file:
             current = current.next
         output_file.write("\n")
 
-print(f"Web Searchers Part 1 \n\nTask 1:\n{file_path} completed\n")
+# Writes extracted data into TFIDF_List.txt
+tf_idf_path = "TFIDF_List.txt"
+with open(tf_idf_path, "w") as out:
+    for term in sorted(all_file_data.keys()):
+        postings = all_file_data[term]
+        out.write(f"{term} (df={DOC_FREQS.get(term, 0)}):\n")
+        current = postings.head
+        while current:
+            out.write(
+                f"doc:{current.doc_id}  tf:{current.frequency}  "
+                f"len:{DOC_LENGTHS.get(current.doc_id, 0)}  "
+                f"norm_tf_idf:{current.norm_tf_idf:.6f}  "
+                f"positions:{current.position}\n"
+            )
+            current = current.next
+        out.write("\n")
 
 # Creates a loop that allows the user to search for words
 # If the word is found, it prints the names of the files containing that word
@@ -202,7 +274,6 @@ print(f"Web Searchers Part 1 \n\nTask 1:\n{file_path} completed\n")
 # For and, it only keeps doc_ids that match both sides. for but, it removes from the left any doc_ids that appear in the right
 # The vector space and phrasal search aren't implemented yet, if no boolean expressions are in the query, it treats it as or
 def search_loop(word_frequency, doc_id_to_file):
-    print("Task 2:")
     while True:
         search_key = input("Enter a word to search: ").strip().lower()
         or_mode = False
