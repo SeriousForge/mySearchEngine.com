@@ -37,6 +37,7 @@ class LinkedList:
         while current:
             print(f"doc: {current.doc_id} frequency: {current.frequency} positions: {current.position}")
             current = current.next
+
     def list_doc_ids(self):
         current = self.head
         doc_ids = []
@@ -45,18 +46,19 @@ class LinkedList:
             current = current.next
         return doc_ids
     
-#returns true if the word is a stopword, false otherwise
+# Returns true if the word is a stopword, false otherwise
 def check_stopword(word):
     stopwords = ["a", 'able', 'about', 'above', 'according', 'accordingly', 'across', 'actually', 'after', 'afterwards', 'again', 'against', "ain", 'all', 'allow', 'allows', 'almost', 'alone', 'along', 'already', 'also', 'although', 'always', 'am', 'among', 'amongst', 'an', 'and', 'another', 'any', 'anybody', 'anyhow', 'anyone', 'anything', 'anyway', 'anyways', 'anywhere', 'apart', 'appear', 'appreciate', 'appropriate', 'are', "aren", 'around', 'as', 'aside', 'ask', 'asking', 'associated', 'at', 'available', 'away', 'awfully', 'be', 'became', 'because', 'become', 'becomes', 'becoming', 'been', 'before', 'beforehand', 'behind', 'being', 'believe', 'below', 'beside', 'besides', 'best', 'better', 'between', 'beyond', 'both', 'brief', 'but', 'by', "c", "mon", 'came', "can", 'cannot', 'cant', 'cause', 'causes', 'certain', 'certainly', 'changes', 'clearly', 'co', 'com', 'come', 'comes', 'concerning', 'consequently', 'consider', 'considering', 'contain', 'containing', 'contains', 'corresponding', 'could', "couldn", 'course', 'currently', 'definitely', 'described', 'despite', 'did', "didn", 'different', 'do', 'does', "doesn", 'doing', "don", 'done', 'down', 'downwards', 'during', 'each', 'edu', 'eg', 'eight', 'either', 'else', 'elsewhere', 'enough', 'entirely', 'especially', 'et', 'etc', 'even', 'ever', 'every', 'everybody', 'everyone', 'everything', 'everywhere', 'ex', 'exactly', 'example', 'except', 'far', 'few', 'fifth', 'first', 'five', 'followed', 'following', 'follows', 'for', 'former', 'formerly', 'forth', 'four', 'from', 'further', 'furthermore', 'get', 'gets', 'getting', 'given', 'gives', 'go', 'goes', 'going', 'gone', 'got', 'gotten', 'greetings', 'had', "hadn", 'happens', 'hardly', 'has', "hasn", 'have', "haven", 'having', 'he', 'hello', 'help', 'hence', 'her', 'here', 'hereafter', 'hereby', 'herein', 'hereupon', 'hers', 'herself', 'hi', 'him', 'himself', 'his', 'hither', 'hopefully', 'how', 'howbeit', 'however', "i", 'ie', 'if', 'ignored', 'immediate', 'in', 'inasmuch', 'inc', 'indeed', 'indicate', 'indicated', 'indicates', 'inner', 'insofar', 'instead', 'into', 'inward', 'is', "isn", 'it', 'its', 'itself', 'just', 'keep', 'keeps', 'kept', 'know', 'known', 'knows', 'last', 'lately', 'later', 'latter', 'latterly', 'least', 'less', 'lest', 'let', 'like', 'liked', 'likely', 'little', 'look', 'looking', 'looks', 'ltd', 'mainly', 'many', 'may', 'maybe', 'me', 'mean', 'meanwhile', 'merely', 'might', 'more', 'moreover', 'most', 'mostly', 'much', 'must', 'my', 'myself', 'name', 'namely', 'nd', 'near', 'nearly', 'necessary', 'need', 'needs', 'neither', 'never', 'nevertheless', 'new', 'next', 'nine', 'no', 'nobody', 'non', 'none', 'noone', 'nor', 'normally', 'not', 'nothing', 'novel', 'now', 'nowhere', 'obviously', 'of', 'off', 'often', 'oh', 'ok', 'okay', 'old', 'on', 'once', 'one', 'ones', 'only', 'onto', 'or', 'other', 'others', 'otherwise', 'ought', 'our', 'ours', 'ourselves', 'out', 'outside', 'over', 'overall', 'own', 'particular', 'particularly', 'per', 'perhaps', 'placed', 'please', 'plus', 'possible', 'presumably', 'probably', 'provides', 'que', 'quite', 'qv', 'rather', 'rd', 're', 'really', 'reasonably', 'regarding', 'regardless', 'regards', 'relatively', 'respectively', 'right', 'said', 'same', 'saw', 'say', 'saying', 'says', 'second', 'secondly', 'see', 'seeing', 'seem', 'seemed', 'seeming', 'seems', 'seen', 'self', 'selves', 'sensible', 'sent', 'serious', 'seriously', 'seven', 'several', 'shall', 'she', 'should', "shouldn", 'since', 'six', 'so', 'some', 'somebody', 'somehow', 'someone', 'something', 'sometime', 'sometimes', 'somewhat', 'somewhere', 'soon', 'sorry', 'specified', 'specify', 'specifying', 'still', 'sub', 'such', 'sup', 'sure', "s", "t", 'take', 'taken', 'tell', 'tends', 'th', 'than', 'thank', 'thanks', 'thanx', 'that', 'thats', 'the', 'their', 'theirs', 'them', 'themselves', 'then', 'thence', 'there', 'thereafter', 'thereby', 'therefore', 'therein', 'theres', 'thereupon', 'these', 'they', "ll", "ve", 'think', 'third', 'this', 'thorough', 'thoroughly', 'those', 'though', 'three', 'through', 'throughout', 'thru', 'thus', 'to', 'together', 'too', 'took', 'toward', 'towards', 'tried', 'tries', 'truly', 'try', 'trying', 'twice', 'two', 'un', 'under', 'unfortunately', 'unless', 'unlikely', 'until', 'unto', 'up', 'upon', 'us', 'use', 'used', 'useful', 'uses', 'using', 'usually', 'value', 'various', 'very', 'via', 'viz', 'vs', 'want', 'wants', 'was', 'way', 'we', "d", 'welcome', 'well', 'went', 'were', "weren", 'what', 'whatever', 'when', 'whence', 'whenever', 'where', 'whereafter', 'whereas', 'whereby', 'wherein', 'whereupon', 'wherever', 'whether', 'which', 'while', 'whither', 'who', 'whoever', 'whole', 'whom', 'whose', 'why', 'will', 'willing', 'wish', 'with', 'within', 'without', "won", 'wonder', 'would', "wouldn", 'yes', 'yet', 'you', 'your', 'yours', 'yourself', 'yourselves', 'zero']
     if word in stopwords:
         return True
     return False
+
+# Extracts words from HTML content, ignoring tags and non-alphabetic characters
 def extract_words_from_html(text):
     words = []
     current_word = []
     in_tag = False
 
-    # Iterate through each character in the text
     for char in text:
         # Start of HTML tag
         if char == '<':
@@ -75,16 +77,15 @@ def extract_words_from_html(text):
                 if current_word:
                     words.append(''.join(current_word))
                     current_word = []
-    # Add the last word to the list if exists
+    
     if current_word:
         words.append(''.join(current_word))
 
     return words
 
-# Task 1 
-#extracts all of the information from a folder, file by file
-#separates the info into tokens, removes any tokens that include non alphabet chars, returns all valid tokens
-#gives an error if the folder isn't found
+# Extracts all of the information from a folder, file by file
+# Separates the info into tokens, removes any tokens that include non alphabet chars, returns all valid tokens
+# Gives an error if the folder isn't found
 def extract_words_from_files(directory_path):
     word_frequency = {}
     doc_id_to_file = {}
@@ -117,7 +118,7 @@ def extract_words_from_files(directory_path):
         print("Error occurred")
     return word_frequency, doc_id_to_file
 
-#same as above except for zip folder
+# Same as above except for zip folder
 def extract_from_zip(zip_path):
     word_frequency = {}
     doc_id_to_file = {}
@@ -150,12 +151,10 @@ def extract_from_zip(zip_path):
 
 file_path = 'Extract_List.txt'
 
-
-#looks for where the script is and changes to its directory before extracting from folder Jan
+# Looks for where the script is and changes to its directory before extracting from folder Jan
 script_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir(script_dir)
 all_file_data, doc_id_to_file = extract_from_zip("Jan.zip")
-
 
 # Writes extracted data into Extract_List.txt
 with open(file_path, 'w') as output_file:
@@ -169,16 +168,14 @@ with open(file_path, 'w') as output_file:
 
 print(f"Web Searchers Part 1 \n\nTask 1:\n{file_path} completed\n")
 
-
-# Task 2
 # Creates a loop that allows the user to search for words
 # If the word is found, it prints the names of the files containing that word
 # If not found, it displays a "No match" message to the user
-# it keeps track of 3 modes: or, and, and but. These modes help with boolean queries
-# if it finds either word in the search, it turns on the respective mode
-# if a mode is on, it will perform the boolean query with the current list and the next word that follows
-# for and, it only keeps doc_ids that match both sides. for but, it removes from the left any doc_ids that appear in the right
-# the vector space and phrasal search aren't implemented yet, if no boolean expressions are in the query, it treats it as or
+# It keeps track of 3 modes: or, and, and but. These modes help with boolean queries
+# If it finds either word in the search, it turns on the respective mode
+# If a mode is on, it will perform the boolean query with the current list and the next word that follows
+# For and, it only keeps doc_ids that match both sides. for but, it removes from the left any doc_ids that appear in the right
+# The vector space and phrasal search aren't implemented yet, if no boolean expressions are in the query, it treats it as or
 def search_loop(word_frequency, doc_id_to_file):
     print("Task 2:")
     while True:
@@ -203,14 +200,17 @@ def search_loop(word_frequency, doc_id_to_file):
             elif and_mode:
                 and_mode = False
                 leftandright = []
+
                 if search_word in word_frequency:
                     for id in word_frequency[search_word].list_doc_ids():
                         if id not in righthandside:
                             righthandside.append(id)
+
                     for left_doc_id in lefthandside:
                         for right_doc_id in righthandside:
                             if left_doc_id == right_doc_id and left_doc_id not in leftandright:
                                 leftandright.append(left_doc_id)
+
                     lefthandside = []
                     righthandside = []
                     for accepted_ids in leftandright:
@@ -223,13 +223,13 @@ def search_loop(word_frequency, doc_id_to_file):
                     for id in word_frequency[search_word].list_doc_ids():
                         if id not in righthandside:
                             righthandside.append(id)
+
                     for left_doc_id in lefthandside:
                         for right_doc_id in righthandside:
                             if left_doc_id == right_doc_id:
                                 lefthandside.remove(left_doc_id)
                 righthandside = []
-                    
-                        
+                         
             elif search_word == "or":
                 or_mode = True
             elif search_word == "and":
