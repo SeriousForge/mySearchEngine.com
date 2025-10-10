@@ -1,0 +1,372 @@
+Doc 0 — Jan/aol.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - baptist.html
+  - galant.html
+  - mailto:funny-request@netfunny.com
+  - ../../../past.html
+
+Doc 1 — Jan/armed.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - explain.html
+  - phone.html
+  - mailto:rx4spd@access.mountain.net
+  - ../../../past.html
+
+Doc 2 — Jan/baptist.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - kitty.html
+  - aol.html
+  - mailto:cef@geodesic.com
+  - ../../../past.html
+
+Doc 3 — Jan/bill.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - child.html
+  - harley.html
+  - mailto:phudson@pobox.com
+  - ../../../past.html
+
+Doc 4 — Jan/birdnbee.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - superbowl.html
+  - ../Feb/lewis.html
+  - mailto:enge0213@tc.umn.edu
+  - ../../../past.html
+
+Doc 5 — Jan/bunker.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - gravies.html
+  - heartprob.html
+  - mailto:bt@templetons.com
+  - ../../../past.html
+
+Doc 6 — Jan/cache.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - qc.html
+  - hippos.html
+  - mailto:sehlat@uclink4.berkeley.edu
+  - ../../../past.html
+
+Doc 7 — Jan/child.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - phone.html
+  - bill.html
+  - mailto:iAm@bryanross.com
+  - ../../../past.html
+
+Doc 8 — Jan/creditcard.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - harley.html
+  - kitty.html
+  - mailto:johnl@iecc.com
+  - ../../../past.html
+
+Doc 9 — Jan/debug.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - heartprob.html
+  - quickies.html
+  - mailto:luke.p@staff.ihug.co.nz
+  - ../../../past.html
+
+Doc 10 — Jan/edwardii.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - ../../99/Dec/monica.html
+  - fab.html
+  - mailto:susie_cleland@hotmail.com
+  - ../../../past.html
+
+Doc 11 — Jan/explain.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - y2kms.html
+  - armed.html
+  - mailto:henry@nhcc.com
+  - ../../../past.html
+
+Doc 12 — Jan/fab.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - edwardii.html
+  - y2k.html
+  - mailto:aardvark@vcn.bc.ca
+  - ../../../past.html
+
+Doc 13 — Jan/galant.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - aol.html
+  - snow.html
+  - mailto:paul@ist.flinders.edu.au
+  - ../../../past.html
+
+Doc 14 — Jan/gravies.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - y2kfollow.html
+  - bunker.html
+  - mailto:dho@rcn.com
+  - ../../../past.html
+
+Doc 15 — Jan/harley.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - bill.html
+  - creditcard.html
+  - mailto:tmorris@mailhost.rsn.hp.com
+  - ../../../past.html
+
+Doc 16 — Jan/heartprob.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - bunker.html
+  - debug.html
+  - mailto:mpsingh@eos.ncsu.edu
+  - ../../../past.html
+
+Doc 17 — Jan/hippos.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - cache.html
+  - y2kms.html
+  - mailto:nivlac@widomaker.com
+  - ../../../past.html
+
+Doc 18 — Jan/jesus.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - problem.html
+  - y2kfollow.html
+  - mailto:bt@templetons.com
+  - ../../../past.html
+
+Doc 19 — Jan/kitty.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - creditcard.html
+  - baptist.html
+  - mailto:editor@weeklygrumble.com
+  - ../../../past.html
+
+Doc 20 — Jan/marriedplay.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - snow.html
+  - topten.html
+  - mailto:csc_tjm@shsu.edu
+  - ../../../past.html
+
+Doc 21 — Jan/phone.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - armed.html
+  - child.html
+  - mailto:bks4q@unix.mail.virginia.edu
+  - ../../../past.html
+
+Doc 22 — Jan/problem.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - y2k.html
+  - jesus.html
+  - mailto:chip_aucoin@hotmail.com
+  - ../../../past.html
+
+Doc 23 — Jan/qc.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - quickies.html
+  - cache.html
+  - mailto:hfarkas@us.ibm.com
+  - ../../../past.html
+
+Doc 24 — Jan/quickies.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - debug.html
+  - qc.html
+  - mailto:funny-request@netfunny.com
+  - ../../../past.html
+
+Doc 25 — Jan/snow.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - galant.html
+  - marriedplay.html
+  - mailto:alanh@nelson.oit.unc.edu
+  - ../../../past.html
+
+Doc 26 — Jan/superbowl.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - topten.html
+  - birdnbee.html
+  - mailto:DavyChild@aol.com
+  - ../../../past.html
+
+Doc 27 — Jan/topten.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - marriedplay.html
+  - superbowl.html
+  - mailto:markb@Stanford.EDU
+  - ../../../past.html
+
+Doc 28 — Jan/y2k.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - fab.html
+  - problem.html
+  - mailto:funny-request@netfunny.com
+  - ../../../past.html
+
+Doc 29 — Jan/y2kfollow.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - jesus.html
+  - gravies.html
+  - mailto:ack@netins.net
+  - ../../../past.html
+
+Doc 30 — Jan/y2kms.html  (status: unvisited)
+  - ../../../best.html
+  - ../../../current.html
+  - ../../../index.html
+  - ../../../search.html
+  - ../../../sponsor.html
+  - ../../../images/joke-header.html
+  - hippos.html
+  - explain.html
+  - mailto:user@coedana.in2home.co.uk
+  - ../../../past.html
+

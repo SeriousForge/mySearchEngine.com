@@ -1,0 +1,6209 @@
+aardvark (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[10]
+
+aaron (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[13]
+
+accesories (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[46]
+
+access (df=2):
+doc:1  tf:1  len:68  norm_tf_idf:0.101390  positions:[10]
+doc:6  tf:2  len:97  norm_tf_idf:0.152815  positions:[2, 11]
+
+accessed (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[75]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[214]
+
+accessing (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[34]
+
+accompanies (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[58]
+
+account (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[98]
+doc:8  tf:2  len:245  norm_tf_idf:0.075953  positions:[38, 71]
+
+accounting (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[61]
+
+accountingweb (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[66]
+
+accounts (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[133]
+
+ack (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[12]
+
+act (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[162]
+
+actual (df=3):
+doc:5  tf:1  len:176  norm_tf_idf:0.046045  positions:[126]
+doc:15  tf:1  len:135  norm_tf_idf:0.066248  positions:[70]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[173]
+
+ad (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[71]
+
+add (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[81]
+
+added (df=3):
+doc:13  tf:1  len:286  norm_tf_idf:0.030776  positions:[91]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[82]
+doc:28  tf:2  len:499  norm_tf_idf:0.035903  positions:[221, 311]
+
+addition (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[185]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[294]
+
+additional (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[75]
+
+adjustments (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[115]
+
+admired (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[59]
+
+admittedly (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[163]
+
+ads (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[52]
+
+advantage (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[102]
+
+advice (df=3):
+doc:3  tf:4  len:84  norm_tf_idf:0.294157  positions:[1, 9, 29, 38]
+doc:17  tf:2  len:114  norm_tf_idf:0.115014  positions:[94, 100]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[455]
+
+advocate (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[89]
+
+affection (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[51]
+
+afraid (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[38]
+
+age (df=1):
+doc:4  tf:3  len:61  norm_tf_idf:0.361574  positions:[35, 38, 42]
+
+aged (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[22]
+
+aggietown (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[128]
+
+ago (df=3):
+doc:13  tf:1  len:286  norm_tf_idf:0.030776  positions:[35]
+doc:16  tf:1  len:60  norm_tf_idf:0.104075  positions:[22]
+doc:18  tf:1  len:166  norm_tf_idf:0.054192  positions:[66]
+
+agreed (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[47]
+
+ahold (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[102]
+
+ailments (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[25]
+
+air (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[63]
+doc:8  tf:2  len:245  norm_tf_idf:0.075953  positions:[46, 54]
+
+airline (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[52]
+
+airlines (df=1):
+doc:8  tf:3  len:245  norm_tf_idf:0.134863  positions:[43, 178, 210]
+
+airport (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[158]
+
+airports (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[191]
+
+airwest (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[180]
+
+alan (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[14]
+
+alanh (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[10]
+
+album (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[47]
+
+allegheny (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[204]
+
+allo (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[186, 187]
+
+allowed (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[43]
+
+alt (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[193]
+
+amazing (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[106]
+
+amazon (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[96]
+
+america (df=3):
+doc:0  tf:2  len:221  norm_tf_idf:0.068002  positions:[115, 149]
+doc:8  tf:1  len:245  norm_tf_idf:0.033895  positions:[219]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[65]
+
+amid (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[88]
+
+amounts (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[105]
+
+amp (df=4):
+doc:0  tf:1  len:221  norm_tf_idf:0.031096  positions:[86]
+doc:8  tf:5  len:245  norm_tf_idf:0.154996  positions:[107, 114, 126, 129, 148]
+doc:24  tf:5  len:187  norm_tf_idf:0.230421  positions:[48, 93, 97, 130, 137]
+doc:25  tf:1  len:53  norm_tf_idf:0.109894  positions:[32]
+
+andrew (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[58]
+
+andrewd (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[54]
+
+animal (df=2):
+doc:10  tf:1  len:98  norm_tf_idf:0.090171  positions:[57]
+doc:17  tf:1  len:114  norm_tf_idf:0.064432  positions:[92]
+
+announced (df=2):
+doc:19  tf:2  len:193  norm_tf_idf:0.096699  positions:[35, 155]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[58]
+
+announcer (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[71]
+
+announcing (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[124]
+
+anonymous (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[154]
+
+antenna (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[40]
+
+anticipation (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[23]
+
+anymore (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[114]
+
+aol (df=3):
+doc:0  tf:11  len:221  norm_tf_idf:0.374012  positions:[0, 11, 27, 63, 68, 85, 97, 107, 145, 164, 170]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[89]
+doc:26  tf:1  len:48  norm_tf_idf:0.108951  positions:[11]
+
+appears (df=2):
+doc:10  tf:1  len:98  norm_tf_idf:0.090171  positions:[47]
+doc:30  tf:1  len:59  norm_tf_idf:0.098645  positions:[22]
+
+appliances (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[38]
+
+application (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[220]
+
+apply (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[264]
+doc:17  tf:1  len:114  norm_tf_idf:0.064432  positions:[68]
+
+approach (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[65]
+
+approximately (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[278]
+
+archive (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[140]
+
+archived (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[38]
+
+archives (df=31):
+doc:0  tf:2  len:221  norm_tf_idf:0.020837  positions:[10, 214]
+doc:1  tf:2  len:68  norm_tf_idf:0.055458  positions:[6, 61]
+doc:2  tf:2  len:67  norm_tf_idf:0.052165  positions:[10, 57]
+doc:3  tf:2  len:84  norm_tf_idf:0.045068  positions:[7, 77]
+doc:4  tf:2  len:61  norm_tf_idf:0.055691  positions:[7, 54]
+doc:5  tf:2  len:176  norm_tf_idf:0.028218  positions:[10, 169]
+doc:6  tf:2  len:97  norm_tf_idf:0.041793  positions:[8, 90]
+doc:7  tf:2  len:64  norm_tf_idf:0.060926  positions:[7, 57]
+doc:8  tf:2  len:245  norm_tf_idf:0.020772  positions:[9, 238]
+doc:9  tf:2  len:65  norm_tf_idf:0.059961  positions:[7, 58]
+doc:10  tf:2  len:98  norm_tf_idf:0.049321  positions:[8, 91]
+doc:11  tf:2  len:136  norm_tf_idf:0.023232  positions:[7, 129]
+doc:12  tf:2  len:64  norm_tf_idf:0.064496  positions:[7, 54]
+doc:13  tf:2  len:286  norm_tf_idf:0.018861  positions:[7, 279]
+doc:14  tf:2  len:122  norm_tf_idf:0.045480  positions:[7, 115]
+doc:15  tf:2  len:135  norm_tf_idf:0.040599  positions:[8, 128]
+doc:16  tf:2  len:60  norm_tf_idf:0.063781  positions:[7, 50]
+doc:17  tf:2  len:114  norm_tf_idf:0.035243  positions:[8, 107]
+doc:18  tf:2  len:166  norm_tf_idf:0.033211  positions:[10, 156]
+doc:19  tf:2  len:193  norm_tf_idf:0.026446  positions:[12, 186]
+doc:20  tf:2  len:51  norm_tf_idf:0.079235  positions:[7, 44]
+doc:21  tf:2  len:42  norm_tf_idf:0.090263  positions:[7, 35]
+doc:22  tf:2  len:37  norm_tf_idf:0.088099  positions:[7, 30]
+doc:23  tf:2  len:92  norm_tf_idf:0.044387  positions:[7, 85]
+doc:24  tf:2  len:187  norm_tf_idf:0.030880  positions:[8, 177]
+doc:25  tf:2  len:53  norm_tf_idf:0.073639  positions:[7, 46]
+doc:26  tf:2  len:48  norm_tf_idf:0.066769  positions:[7, 41]
+doc:27  tf:2  len:40  norm_tf_idf:0.063730  positions:[11, 33]
+doc:28  tf:2  len:499  norm_tf_idf:0.011001  positions:[8, 492]
+doc:29  tf:2  len:75  norm_tf_idf:0.061032  positions:[8, 68]
+doc:30  tf:2  len:59  norm_tf_idf:0.053956  positions:[9, 52]
+
+argument (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[52]
+
+arising (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[211]
+
+arm (df=1):
+doc:5  tf:2  len:176  norm_tf_idf:0.122137  positions:[102, 164]
+
+armed (df=2):
+doc:1  tf:4  len:68  norm_tf_idf:0.405562  positions:[0, 7, 39, 43]
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[74]
+
+arose (df=2):
+doc:13  tf:2  len:286  norm_tf_idf:0.068964  positions:[23, 143]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[32]
+
+arrives (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[87]
+
+arteries (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[27]
+
+article (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[166]
+
+artificial (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[384]
+
+ascending (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[51]
+
+ash (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[80, 117]
+
+asked (df=6):
+doc:3  tf:1  len:84  norm_tf_idf:0.058401  positions:[33]
+doc:4  tf:1  len:61  norm_tf_idf:0.072167  positions:[30]
+doc:7  tf:2  len:64  norm_tf_idf:0.157901  positions:[35, 42]
+doc:11  tf:5  len:136  norm_tf_idf:0.150529  positions:[24, 40, 64, 88, 112]
+doc:18  tf:1  len:166  norm_tf_idf:0.043036  positions:[124]
+doc:20  tf:1  len:51  norm_tf_idf:0.102676  positions:[26]
+
+asks (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[20]
+
+aspirin (df=1):
+doc:17  tf:2  len:114  norm_tf_idf:0.152541  positions:[52, 70]
+
+assurance (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[302]
+
+atl (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[46]
+
+atlantic (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[214]
+
+atm (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[286, 312]
+
+atop (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[58]
+
+att (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[327]
+
+attack (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[43]
+
+attention (df=1):
+doc:30  tf:2  len:59  norm_tf_idf:0.233539  positions:[29, 31]
+
+attribution (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[74]
+
+au (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[13]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[57]
+
+aucoin (df=1):
+doc:22  tf:2  len:37  norm_tf_idf:0.381321  positions:[11, 14]
+
+australia (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[20]
+
+authors (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[36]
+
+ave (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[188]
+
+avoid (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[77]
+
+aw (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[27]
+
+awake (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[471]
+
+award (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[33]
+
+axeice (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[137]
+
+b (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[89]
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[103]
+
+babe (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[95]
+
+back (df=5):
+doc:5  tf:1  len:176  norm_tf_idf:0.039060  positions:[97]
+doc:11  tf:2  len:136  norm_tf_idf:0.064317  positions:[72, 94]
+doc:18  tf:1  len:166  norm_tf_idf:0.045971  positions:[113]
+doc:28  tf:1  len:499  norm_tf_idf:0.015228  positions:[128]
+doc:29  tf:1  len:75  norm_tf_idf:0.084481  positions:[62]
+
+background (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[194]
+
+bad (df=3):
+doc:8  tf:1  len:245  norm_tf_idf:0.033895  positions:[37]
+doc:11  tf:1  len:136  norm_tf_idf:0.037910  positions:[57]
+doc:15  tf:2  len:135  norm_tf_idf:0.132495  positions:[1, 10]
+
+bailliere (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[39]
+
+baked (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[488]
+
+balls (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[49]
+
+band (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[35]
+
+banished (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[73]
+
+bank (df=2):
+doc:8  tf:11  len:245  norm_tf_idf:0.417744  positions:[57, 75, 78, 108, 111, 115, 119, 137, 141, 218, 220]
+doc:28  tf:2  len:499  norm_tf_idf:0.040226  positions:[283, 296]
+
+bankamerica (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[217]
+
+banking (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[63]
+
+banks (df=2):
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[215]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[304]
+
+baptist (df=1):
+doc:2  tf:2  len:67  norm_tf_idf:0.225786  positions:[2, 13]
+
+baptists (df=1):
+doc:2  tf:2  len:67  norm_tf_idf:0.225786  positions:[24, 32]
+
+bar (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[21]
+
+barbie (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[120]
+
+based (df=2):
+doc:5  tf:2  len:176  norm_tf_idf:0.103179  positions:[47, 50]
+doc:19  tf:2  len:193  norm_tf_idf:0.096699  positions:[72, 87]
+
+bastards (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[90]
+
+bath (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[85]
+
+bathroom (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[99]
+
+bathtub (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[466, 486]
+
+batle (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[58]
+
+bc (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[12]
+
+beach (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[246]
+
+beakers (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[192]
+
+beanie (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[175]
+
+beans (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[489]
+
+bear (df=1):
+doc:10  tf:2  len:98  norm_tf_idf:0.213477  positions:[58, 79]
+
+beating (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[27]
+
+beautiful (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[28]
+
+bed (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[44]
+
+bedside (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[52]
+
+beef (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[44]
+
+bees (df=1):
+doc:4  tf:3  len:61  norm_tf_idf:0.361574  positions:[1, 9, 24]
+
+began (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[95]
+
+begin (df=1):
+doc:0  tf:2  len:221  norm_tf_idf:0.090190  positions:[153, 155]
+
+begins (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[32]
+
+belt (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[116]
+
+benefitted (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[120]
+
+berkeley (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[14]
+
+bethlehem (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[27, 62]
+
+bible (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[131]
+
+biblical (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[51]
+
+big (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[157]
+
+biggest (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[121]
+
+bike (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[45]
+
+bill (df=2):
+doc:3  tf:2  len:84  norm_tf_idf:0.164789  positions:[44, 59]
+doc:9  tf:1  len:65  norm_tf_idf:0.109623  positions:[28]
+
+billion (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[124]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[35]
+
+billions (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[44]
+
+bills (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[55]
+
+binghamton (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[169]
+
+birds (df=1):
+doc:4  tf:3  len:61  norm_tf_idf:0.361574  positions:[0, 8, 23]
+
+biscuits (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[86]
+
+bit (df=2):
+doc:10  tf:1  len:98  norm_tf_idf:0.090171  positions:[35]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[71]
+
+bizarre (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[129]
+
+bks (df=1):
+doc:21  tf:1  len:42  norm_tf_idf:0.195344  positions:[10]
+
+black (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[172, 250]
+
+blankie (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[241]
+
+bleach (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[172]
+
+blocked (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[36]
+
+blood (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[43]
+
+bloody (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[270]
+
+blouse (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[22]
+
+board (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[87]
+
+boat (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[102]
+
+body (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[133]
+
+bomb (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[219]
+
+bonfire (df=1):
+doc:24  tf:2  len:187  norm_tf_idf:0.133660  positions:[95, 104]
+
+books (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[26]
+
+boot (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[59]
+
+booting (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[347]
+
+boots (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[42]
+
+border (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[52]
+
+bore (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[98]
+
+boris (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[56]
+
+born (df=2):
+doc:10  tf:1  len:98  norm_tf_idf:0.090171  positions:[21]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[63]
+
+boston (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[51]
+
+bottle (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[188]
+
+bottom (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[295]
+
+bought (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[79, 216]
+
+bout (df=1):
+doc:11  tf:2  len:136  norm_tf_idf:0.100558  positions:[49, 76]
+
+boutique (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[36]
+
+box (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[22]
+
+boy (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[24]
+
+brad (df=2):
+doc:5  tf:2  len:176  norm_tf_idf:0.103179  positions:[18, 22]
+doc:18  tf:2  len:166  norm_tf_idf:0.121436  positions:[18, 22]
+
+brainless (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[103]
+
+brake (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[57, 141]
+
+brand (df=2):
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[123]
+doc:23  tf:1  len:92  norm_tf_idf:0.081151  positions:[28]
+
+branded (df=1):
+doc:8  tf:4  len:245  norm_tf_idf:0.179817  positions:[41, 91, 97, 201]
+
+branom (df=1):
+doc:27  tf:1  len:40  norm_tf_idf:0.137923  positions:[21]
+
+bread (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[50]
+
+break (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[60]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[42]
+
+brian (df=1):
+doc:21  tf:1  len:42  norm_tf_idf:0.195344  positions:[15]
+
+brideshead (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[78]
+
+bring (df=1):
+doc:2  tf:3  len:67  norm_tf_idf:0.338679  positions:[36, 41, 45]
+
+broadcast (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[131]
+
+broadcasting (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[140]
+
+broadcasts (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[156]
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[37]
+
+broken (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[55]
+
+brought (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[167]
+
+brown (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[15]
+
+browser (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[48]
+
+brunner (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[49]
+
+brunus (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[53]
+
+brush (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[51]
+
+bryan (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[12]
+
+bryanross (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[11]
+
+bsod (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[50]
+
+bt (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[16]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[16]
+
+bucket (df=1):
+doc:11  tf:6  len:136  norm_tf_idf:0.301673  positions:[48, 55, 75, 80, 97, 102]
+
+bug (df=4):
+doc:5  tf:1  len:176  norm_tf_idf:0.042111  positions:[44]
+doc:28  tf:2  len:499  norm_tf_idf:0.032835  positions:[85, 308]
+doc:29  tf:1  len:75  norm_tf_idf:0.091081  positions:[26]
+doc:30  tf:5  len:59  norm_tf_idf:0.402604  positions:[1, 11, 25, 41, 47]
+
+buggy (df=1):
+doc:9  tf:2  len:65  norm_tf_idf:0.259530  positions:[0, 8]
+
+bugs (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[129]
+
+build (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[82]
+
+bunch (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[88]
+
+bunker (df=1):
+doc:5  tf:7  len:176  norm_tf_idf:0.427479  positions:[2, 13, 34, 67, 80, 156, 162]
+
+bunny (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[40]
+
+burbling (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[191]
+
+burn (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[99]
+
+burned (df=1):
+doc:18  tf:3  len:166  norm_tf_idf:0.215622  positions:[3, 14, 38]
+
+burns (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[101]
+
+bursting (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[26]
+
+business (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[145]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[94]
+
+busy (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[134]
+
+buy (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[117]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[115]
+
+buyer (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[38]
+
+buying (df=2):
+doc:7  tf:1  len:64  norm_tf_idf:0.111387  positions:[36]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[123]
+
+buyout (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[147]
+
+bypass (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[25]
+
+byu (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[73]
+
+ca (df=4):
+doc:0  tf:1  len:221  norm_tf_idf:0.031096  positions:[54]
+doc:12  tf:1  len:64  norm_tf_idf:0.096250  positions:[13]
+doc:19  tf:1  len:193  norm_tf_idf:0.039466  positions:[31]
+doc:28  tf:2  len:499  norm_tf_idf:0.032835  positions:[267, 351]
+
+cable (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[46]
+
+cache (df=1):
+doc:6  tf:2  len:97  norm_tf_idf:0.180892  positions:[48, 73]
+
+calendar (df=2):
+doc:24  tf:3  len:187  norm_tf_idf:0.169371  positions:[158, 162, 168]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[378]
+
+calendars (df=2):
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[165]
+doc:30  tf:1  len:59  norm_tf_idf:0.098645  positions:[30]
+
+call (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[116]
+
+called (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[72]
+
+cancel (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[265, 271]
+
+cancelled (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[89]
+
+candywhip (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[88]
+
+canned (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[463]
+
+caps (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[76]
+
+car (df=2):
+doc:13  tf:5  len:286  norm_tf_idf:0.172410  positions:[29, 51, 54, 123, 132]
+doc:28  tf:2  len:499  norm_tf_idf:0.040226  positions:[459, 483]
+
+card (df=3):
+doc:7  tf:1  len:64  norm_tf_idf:0.099416  positions:[29]
+doc:8  tf:6  len:245  norm_tf_idf:0.203371  positions:[69, 96, 127, 132, 161, 225]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[289]
+
+cards (df=1):
+doc:8  tf:3  len:245  norm_tf_idf:0.134863  positions:[85, 144, 146]
+
+care (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[49]
+
+careful (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[30]
+
+carefully (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[64]
+doc:23  tf:1  len:92  norm_tf_idf:0.081151  positions:[50]
+
+carolina (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[43]
+
+carrot (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[90]
+
+cars (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[158]
+
+case (df=4):
+doc:0  tf:6  len:221  norm_tf_idf:0.186576  positions:[177, 200, 207, 208, 209, 210]
+doc:5  tf:4  len:176  norm_tf_idf:0.168444  positions:[52, 90, 100, 115]
+doc:19  tf:1  len:193  norm_tf_idf:0.039466  positions:[126]
+doc:29  tf:1  len:75  norm_tf_idf:0.091081  positions:[57]
+
+cases (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[216]
+
+cats (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[100]
+
+caution (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[124]
+
+ccw (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[49]
+
+cef (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[16]
+
+celebrate (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[70]
+
+celebrating (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[257]
+
+celery (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[83]
+
+central (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[60]
+
+century (df=2):
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[80]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[417]
+
+certified (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[181]
+
+cgi (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[28]
+
+chance (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[125]
+
+change (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[38]
+
+changed (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[30]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[123]
+
+chapter (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[88]
+
+charge (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[34]
+
+charles (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[18]
+
+chase (df=1):
+doc:8  tf:5  len:245  norm_tf_idf:0.224772  positions:[73, 80, 83, 93, 151]
+
+cheap (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[111]
+
+check (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[75]
+
+checked (df=2):
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[66]
+doc:29  tf:3  len:75  norm_tf_idf:0.334747  positions:[41, 42, 43]
+
+cheese (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[51]
+
+cheesiest (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[34]
+
+chemical (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[77, 224]
+
+chew (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[81]
+
+child (df=2):
+doc:4  tf:1  len:61  norm_tf_idf:0.101817  positions:[25]
+doc:7  tf:4  len:64  norm_tf_idf:0.445550  positions:[0, 8, 25, 45]
+
+china (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[37]
+
+chip (df=2):
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[70]
+doc:22  tf:2  len:37  norm_tf_idf:0.322135  positions:[10, 13]
+
+chipped (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[54]
+
+choke (df=1):
+doc:13  tf:7  len:286  norm_tf_idf:0.285722  positions:[65, 77, 88, 96, 114, 228, 233]
+
+chops (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[140]
+
+christ (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[32]
+
+christians (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[26, 36]
+
+christmas (df=3):
+doc:14  tf:1  len:122  norm_tf_idf:0.074213  positions:[18]
+doc:21  tf:1  len:42  norm_tf_idf:0.147288  positions:[21]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[156]
+
+chrome (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[43]
+
+chronicle (df=1):
+doc:22  tf:1  len:37  norm_tf_idf:0.190661  positions:[19]
+
+chrysler (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[197]
+
+chuckle (df=7):
+doc:8  tf:1  len:245  norm_tf_idf:0.025366  positions:[20]
+doc:9  tf:1  len:65  norm_tf_idf:0.073221  positions:[17]
+doc:11  tf:1  len:136  norm_tf_idf:0.028370  positions:[15]
+doc:18  tf:1  len:166  norm_tf_idf:0.040555  positions:[24]
+doc:19  tf:1  len:193  norm_tf_idf:0.032294  positions:[27]
+doc:23  tf:1  len:92  norm_tf_idf:0.054203  positions:[12]
+doc:27  tf:1  len:40  norm_tf_idf:0.077824  positions:[22]
+
+city (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[21]
+
+civilization (df=1):
+doc:5  tf:2  len:176  norm_tf_idf:0.122137  positions:[57, 81]
+
+clad (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[46]
+
+class (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[189]
+
+clean (df=1):
+doc:6  tf:2  len:97  norm_tf_idf:0.180892  positions:[0, 9]
+
+clear (df=2):
+doc:2  tf:1  len:67  norm_tf_idf:0.095370  positions:[50]
+doc:6  tf:2  len:97  norm_tf_idf:0.152815  positions:[50, 53]
+
+cleland (df=1):
+doc:10  tf:2  len:98  norm_tf_idf:0.213477  positions:[13, 16]
+
+click (df=2):
+doc:6  tf:6  len:97  norm_tf_idf:0.458446  positions:[42, 44, 47, 49, 52, 55]
+doc:17  tf:1  len:114  norm_tf_idf:0.064432  positions:[104]
+
+clients (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[300]
+
+clogged (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[26]
+
+close (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[56]
+doc:23  tf:1  len:92  norm_tf_idf:0.081151  positions:[72]
+
+closed (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[47]
+
+clothing (df=3):
+doc:7  tf:1  len:64  norm_tf_idf:0.099416  positions:[20]
+doc:15  tf:1  len:135  norm_tf_idf:0.066248  positions:[41]
+doc:23  tf:1  len:92  norm_tf_idf:0.072429  positions:[40]
+
+cnn (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[154]
+
+coast (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[229]
+
+coda (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[334]
+
+code (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[66]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[46]
+
+codpiece (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[133]
+
+coedana (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[15]
+
+coin (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[83]
+
+coincidental (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[215]
+
+collapse (df=1):
+doc:5  tf:2  len:176  norm_tf_idf:0.122137  positions:[55, 95]
+
+colossus (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[102]
+
+columbus (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[138]
+
+comeau (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[136]
+
+comeback (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[36]
+
+comfortable (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[39]
+
+coming (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[128]
+
+comments (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[128]
+
+commerce (df=1):
+doc:19  tf:2  len:193  norm_tf_idf:0.114466  positions:[85, 103]
+
+commercial (df=2):
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[71]
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[22]
+
+committed (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[41]
+
+common (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[33]
+
+companies (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[126]
+
+companion (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[56]
+
+company (df=6):
+doc:0  tf:1  len:221  norm_tf_idf:0.027002  positions:[123]
+doc:8  tf:1  len:245  norm_tf_idf:0.026918  positions:[139]
+doc:15  tf:1  len:135  norm_tf_idf:0.052610  positions:[25]
+doc:19  tf:1  len:193  norm_tf_idf:0.034270  positions:[110]
+doc:23  tf:1  len:92  norm_tf_idf:0.057519  positions:[82]
+doc:28  tf:1  len:499  norm_tf_idf:0.014256  positions:[180]
+
+complete (df=2):
+doc:10  tf:1  len:98  norm_tf_idf:0.090171  positions:[69]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[39]
+
+completed (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[472]
+
+completely (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[61]
+
+compliance (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[161]
+
+compliancy (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[69]
+
+compliant (df=1):
+doc:28  tf:5  len:499  norm_tf_idf:0.119042  positions:[186, 199, 338, 343, 407]
+
+comprehensive (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[40]
+
+computer (df=2):
+doc:6  tf:5  len:97  norm_tf_idf:0.382038  positions:[27, 60, 63, 71, 85]
+doc:21  tf:3  len:42  norm_tf_idf:0.495072  positions:[1, 9, 32]
+
+computers (df=7):
+doc:6  tf:1  len:97  norm_tf_idf:0.051035  positions:[18]
+doc:7  tf:1  len:64  norm_tf_idf:0.074399  positions:[16]
+doc:9  tf:1  len:65  norm_tf_idf:0.073221  positions:[18]
+doc:17  tf:1  len:114  norm_tf_idf:0.043036  positions:[36]
+doc:21  tf:1  len:42  norm_tf_idf:0.110224  positions:[19]
+doc:26  tf:1  len:48  norm_tf_idf:0.081535  positions:[14]
+doc:30  tf:1  len:59  norm_tf_idf:0.065888  positions:[21]
+
+computing (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[381]
+
+concealed (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[50]
+
+concern (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[20]
+
+conducting (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[101]
+
+conference (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[23]
+
+confident (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[191]
+
+confused (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[28]
+
+connect (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[193]
+
+consent (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[95]
+
+considered (df=1):
+doc:1  tf:3  len:68  norm_tf_idf:0.360058  positions:[38, 42, 53]
+
+consisting (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[75]
+
+constantly (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[21]
+
+contact (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[238]
+
+contents (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[222]
+
+continental (df=1):
+doc:8  tf:6  len:245  norm_tf_idf:0.269726  positions:[42, 92, 150, 154, 171, 183]
+
+continue (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[101]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[103]
+
+continued (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[73]
+
+control (df=3):
+doc:5  tf:1  len:176  norm_tf_idf:0.046045  positions:[147]
+doc:8  tf:1  len:245  norm_tf_idf:0.033895  positions:[184]
+doc:23  tf:3  len:92  norm_tf_idf:0.217287  positions:[1, 9, 79]
+
+conversation (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[20]
+
+convert (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[37]
+
+converts (df=1):
+doc:2  tf:2  len:67  norm_tf_idf:0.225786  positions:[42, 46]
+
+convex (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[18]
+
+cookies (df=1):
+doc:14  tf:2  len:122  norm_tf_idf:0.196853  positions:[23, 68]
+
+cool (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[22]
+
+cooperating (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[33]
+
+cooties (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[164]
+
+copyright (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[65]
+
+copyrighted (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[175]
+
+cordless (df=1):
+doc:21  tf:1  len:42  norm_tf_idf:0.195344  positions:[23]
+
+cornbread (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[87]
+
+corp (df=1):
+doc:8  tf:3  len:245  norm_tf_idf:0.134863  positions:[64, 116, 120]
+
+corporation (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[47]
+
+correct (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[131]
+
+couple (df=3):
+doc:13  tf:1  len:286  norm_tf_idf:0.030776  positions:[33]
+doc:15  tf:1  len:135  norm_tf_idf:0.066248  positions:[112]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[46]
+
+cow (df=1):
+doc:11  tf:2  len:136  norm_tf_idf:0.100558  positions:[46, 100]
+
+cracker (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[69]
+
+crane (df=1):
+doc:17  tf:2  len:114  norm_tf_idf:0.152541  positions:[46, 82]
+
+crazed (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[83]
+
+cream (df=1):
+doc:14  tf:2  len:122  norm_tf_idf:0.196853  positions:[65, 79]
+
+creating (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[116]
+
+creation (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[210]
+
+credit (df=2):
+doc:7  tf:1  len:64  norm_tf_idf:0.111387  positions:[28]
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[131]
+
+crocker (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[106]
+
+cry (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[92]
+
+cs (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[72]
+
+csc (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[10]
+
+cunnin (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[79]
+
+cunningham (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[82]
+
+curiosity (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[66]
+
+current (df=31):
+doc:0  tf:1  len:221  norm_tf_idf:0.010419  positions:[216]
+doc:1  tf:1  len:68  norm_tf_idf:0.027729  positions:[63]
+doc:2  tf:1  len:67  norm_tf_idf:0.026082  positions:[59]
+doc:3  tf:1  len:84  norm_tf_idf:0.022534  positions:[79]
+doc:4  tf:1  len:61  norm_tf_idf:0.027846  positions:[56]
+doc:5  tf:1  len:176  norm_tf_idf:0.014109  positions:[171]
+doc:6  tf:1  len:97  norm_tf_idf:0.020896  positions:[92]
+doc:7  tf:1  len:64  norm_tf_idf:0.030463  positions:[59]
+doc:8  tf:1  len:245  norm_tf_idf:0.010386  positions:[240]
+doc:9  tf:1  len:65  norm_tf_idf:0.029980  positions:[60]
+doc:10  tf:1  len:98  norm_tf_idf:0.024660  positions:[93]
+doc:11  tf:1  len:136  norm_tf_idf:0.011616  positions:[131]
+doc:12  tf:1  len:64  norm_tf_idf:0.032248  positions:[56]
+doc:13  tf:1  len:286  norm_tf_idf:0.009430  positions:[281]
+doc:14  tf:1  len:122  norm_tf_idf:0.022740  positions:[117]
+doc:15  tf:1  len:135  norm_tf_idf:0.020299  positions:[130]
+doc:16  tf:1  len:60  norm_tf_idf:0.031890  positions:[52]
+doc:17  tf:1  len:114  norm_tf_idf:0.017621  positions:[109]
+doc:18  tf:1  len:166  norm_tf_idf:0.016606  positions:[158]
+doc:19  tf:1  len:193  norm_tf_idf:0.013223  positions:[188]
+doc:20  tf:1  len:51  norm_tf_idf:0.039618  positions:[46]
+doc:21  tf:1  len:42  norm_tf_idf:0.045132  positions:[37]
+doc:22  tf:1  len:37  norm_tf_idf:0.044050  positions:[32]
+doc:23  tf:1  len:92  norm_tf_idf:0.022194  positions:[87]
+doc:24  tf:1  len:187  norm_tf_idf:0.015440  positions:[179]
+doc:25  tf:1  len:53  norm_tf_idf:0.036819  positions:[48]
+doc:26  tf:1  len:48  norm_tf_idf:0.033385  positions:[43]
+doc:27  tf:1  len:40  norm_tf_idf:0.031865  positions:[35]
+doc:28  tf:1  len:499  norm_tf_idf:0.005501  positions:[494]
+doc:29  tf:1  len:75  norm_tf_idf:0.030516  positions:[70]
+doc:30  tf:1  len:59  norm_tf_idf:0.026978  positions:[54]
+
+customer (df=2):
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[67]
+doc:28  tf:2  len:499  norm_tf_idf:0.040226  positions:[240, 435]
+
+customers (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[33]
+
+cute (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[98]
+
+dad (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[33]
+
+daily (df=2):
+doc:20  tf:1  len:51  norm_tf_idf:0.144861  positions:[40]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[164]
+
+dan (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[441]
+
+dangerous (df=1):
+doc:1  tf:2  len:68  norm_tf_idf:0.240038  positions:[40, 44]
+
+daniel (df=2):
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[132]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[105]
+
+dark (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[183]
+
+dash (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[86]
+
+date (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[209]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[129]
+
+dates (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[359, 372]
+
+daughters (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[32]
+
+dave (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[12]
+
+david (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[48, 352]
+
+davidrs (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[45]
+
+davidson (df=1):
+doc:15  tf:2  len:135  norm_tf_idf:0.175725  positions:[23, 119]
+
+davis (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[59]
+
+davychild (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[10]
+
+day (df=5):
+doc:3  tf:1  len:84  norm_tf_idf:0.062383  positions:[49]
+doc:11  tf:1  len:136  norm_tf_idf:0.032158  positions:[29]
+doc:19  tf:3  len:193  norm_tf_idf:0.109819  positions:[5, 18, 55]
+doc:24  tf:2  len:187  norm_tf_idf:0.085489  positions:[161, 167]
+doc:28  tf:2  len:499  norm_tf_idf:0.030456  positions:[375, 382]
+
+days (df=5):
+doc:15  tf:2  len:135  norm_tf_idf:0.112394  positions:[2, 11]
+doc:18  tf:1  len:166  norm_tf_idf:0.045971  positions:[53]
+doc:23  tf:1  len:92  norm_tf_idf:0.061441  positions:[15]
+doc:24  tf:1  len:187  norm_tf_idf:0.042745  positions:[68]
+doc:28  tf:1  len:499  norm_tf_idf:0.015228  positions:[321]
+
+dead (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[209]
+
+dealership (df=1):
+doc:15  tf:2  len:135  norm_tf_idf:0.175725  positions:[58, 120]
+
+dealerships (df=1):
+doc:15  tf:2  len:135  norm_tf_idf:0.175725  positions:[27, 48]
+
+dear (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[35]
+
+death (df=1):
+doc:22  tf:1  len:37  norm_tf_idf:0.190661  positions:[21]
+
+debug (df=1):
+doc:9  tf:2  len:65  norm_tf_idf:0.259530  positions:[34, 36]
+
+debugging (df=1):
+doc:9  tf:2  len:65  norm_tf_idf:0.259530  positions:[1, 9]
+
+dec (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[35]
+
+decade (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[422]
+
+december (df=2):
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[276]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[55]
+
+decide (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[101]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[281]
+
+deeply (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[27]
+
+definitions (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[34]
+
+delaware (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[135]
+
+delayed (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[43]
+
+denholm (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[42]
+
+dental (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[61]
+
+department (df=2):
+doc:1  tf:2  len:68  norm_tf_idf:0.202781  positions:[23, 57]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[109]
+
+describing (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[24]
+
+desperate (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[121]
+
+detroit (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[194]
+
+device (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[118]
+
+devised (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[73]
+
+devoted (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[27]
+
+dho (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[10]
+
+dictionary (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[42]
+
+died (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[103]
+
+diet (df=2):
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[107]
+doc:16  tf:1  len:60  norm_tf_idf:0.116607  positions:[31]
+
+difficulties (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[206, 232]
+
+digest (df=3):
+doc:0  tf:4  len:221  norm_tf_idf:0.136004  positions:[4, 15, 37, 47]
+doc:24  tf:4  len:187  norm_tf_idf:0.201557  positions:[2, 11, 32, 42]
+doc:28  tf:4  len:499  norm_tf_idf:0.071805  positions:[2, 11, 31, 41]
+
+digests (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[43]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[38]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[37]
+
+dilemma (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[389]
+
+dip (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[66]
+
+diploma (df=1):
+doc:2  tf:2  len:67  norm_tf_idf:0.225786  positions:[48, 54]
+
+directory (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[110, 225]
+
+dirt (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[59]
+
+disconnect (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[34]
+
+discontinued (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[155]
+
+discount (df=2):
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[157]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[436]
+
+discussion (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[26, 142]
+
+discussions (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[157]
+
+disease (df=1):
+doc:10  tf:2  len:98  norm_tf_idf:0.213477  positions:[71, 83]
+
+disguised (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[62]
+
+disk (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[54]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[149]
+
+display (df=2):
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[69]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[313]
+
+distress (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[154]
+
+disturbed (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[36]
+
+division (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[19]
+
+djfiander (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[349]
+
+dll (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[30]
+
+dna (df=1):
+doc:9  tf:2  len:65  norm_tf_idf:0.259530  positions:[25, 35]
+
+doctor (df=1):
+doc:3  tf:5  len:84  norm_tf_idf:0.487666  positions:[16, 26, 32, 45, 53]
+
+doctors (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[19]
+
+documents (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[36]
+
+dog (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[138]
+
+dollar (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[24]
+
+dollars (df=2):
+doc:19  tf:2  len:193  norm_tf_idf:0.096699  positions:[60, 65]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[285]
+
+doom (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[449]
+
+door (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[45]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[100]
+
+doors (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[104]
+doc:23  tf:1  len:92  norm_tf_idf:0.081151  positions:[31]
+
+doves (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[84, 85]
+
+downed (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[212]
+
+downing (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[224]
+
+dr (df=2):
+doc:18  tf:2  len:166  norm_tf_idf:0.121436  positions:[141, 148]
+doc:20  tf:1  len:51  norm_tf_idf:0.144861  positions:[13]
+
+drapes (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[33]
+
+draw (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[32]
+
+drgonzalez (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[100]
+
+drive (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[163]
+
+driving (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[95, 221]
+
+dropped (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[121]
+
+drunk (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[30]
+
+drwilliams (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[13]
+
+dry (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[30]
+
+due (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[120]
+
+dues (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[39]
+
+dungeon (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[106]
+
+durham (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[41]
+
+e (df=2):
+doc:4  tf:1  len:61  norm_tf_idf:0.101817  positions:[14]
+doc:19  tf:3  len:193  norm_tf_idf:0.145049  positions:[84, 93, 102]
+
+earlier (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[156, 409]
+
+early (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[67]
+
+east (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[228]
+
+easter (df=2):
+doc:4  tf:1  len:61  norm_tf_idf:0.101817  positions:[39]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[54]
+
+ebay (df=1):
+doc:25  tf:2  len:53  norm_tf_idf:0.318732  positions:[0, 8]
+
+ebayisapi (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[29]
+
+eclipsed (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[151]
+
+ed (df=6):
+doc:0  tf:2  len:221  norm_tf_idf:0.054003  positions:[49, 211]
+doc:9  tf:1  len:65  norm_tf_idf:0.077700  positions:[55]
+doc:12  tf:2  len:64  norm_tf_idf:0.167154  positions:[18, 37]
+doc:14  tf:1  len:122  norm_tf_idf:0.058935  positions:[112]
+doc:24  tf:1  len:187  norm_tf_idf:0.040016  positions:[44]
+doc:28  tf:1  len:499  norm_tf_idf:0.014256  positions:[43]
+
+edition (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[133]
+
+editor (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[74]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[20]
+
+edmund (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[55]
+
+edwardii (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[54]
+
+effectively (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[118]
+
+eggnog (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[25]
+
+egin (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[51]
+
+electronic (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[117]
+
+elmira (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[168]
+
+email (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[19]
+
+emotional (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[67]
+
+empire (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[117]
+
+employee (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[151]
+
+encourage (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[41]
+
+end (df=3):
+doc:6  tf:1  len:97  norm_tf_idf:0.068196  positions:[35]
+doc:19  tf:1  len:193  norm_tf_idf:0.043153  positions:[183]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[309]
+
+enforcement (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[31]
+
+engaged (df=2):
+doc:2  tf:1  len:67  norm_tf_idf:0.095370  positions:[28]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[78]
+
+enge (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[10]
+
+engelhart (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[15]
+
+engines (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[29]
+
+enjoy (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[42]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[37]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[36]
+
+enter (df=3):
+doc:5  tf:1  len:176  norm_tf_idf:0.046045  positions:[31]
+doc:6  tf:1  len:97  norm_tf_idf:0.068196  positions:[65]
+doc:13  tf:1  len:286  norm_tf_idf:0.030776  positions:[194]
+
+entire (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[73]
+
+entitled (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[118]
+
+entries (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[38]
+doc:24  tf:2  len:187  norm_tf_idf:0.100779  positions:[21, 33]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[32]
+
+entry (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[46]
+
+eos (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[11]
+
+episode (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[98]
+
+era (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[3, 13]
+
+ere (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[189]
+
+errors (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[380]
+
+ethical (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[388]
+
+evening (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[54]
+
+event (df=3):
+doc:5  tf:1  len:176  norm_tf_idf:0.046045  positions:[64]
+doc:28  tf:2  len:499  norm_tf_idf:0.035903  positions:[94, 124]
+doc:29  tf:1  len:75  norm_tf_idf:0.099590  positions:[22]
+
+events (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[25]
+
+exasperated (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[31]
+
+excellent (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[63]
+
+exceptionally (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[23]
+
+excerpt (df=1):
+doc:5  tf:2  len:176  norm_tf_idf:0.122137  positions:[4, 15]
+
+exchange (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[46]
+
+exchanges (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[181]
+
+excited (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[109]
+
+exercise (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[32]
+
+exp (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[232]
+
+expect (df=2):
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[34]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[169]
+
+expensive (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[52]
+
+experience (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[38]
+
+expert (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[92]
+
+experts (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[456]
+
+explain (df=1):
+doc:11  tf:7  len:136  norm_tf_idf:0.351952  positions:[1, 9, 36, 59, 86, 109, 126]
+
+explained (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[25]
+
+explains (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[76]
+
+explosions (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[89]
+
+express (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[93]
+
+external (df=6):
+doc:5  tf:1  len:176  norm_tf_idf:0.036566  positions:[20]
+doc:17  tf:1  len:114  norm_tf_idf:0.045669  positions:[19]
+doc:18  tf:1  len:166  norm_tf_idf:0.043036  positions:[20]
+doc:19  tf:1  len:193  norm_tf_idf:0.034270  positions:[170]
+doc:25  tf:1  len:53  norm_tf_idf:0.095425  positions:[25]
+doc:28  tf:2  len:499  norm_tf_idf:0.028512  positions:[110, 368]
+
+extra (df=2):
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[53]
+doc:28  tf:2  len:499  norm_tf_idf:0.040226  positions:[301, 320]
+
+extreme (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[123]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[102]
+
+eyes (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[73]
+
+fab (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[45]
+
+facts (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[62]
+
+fail (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[49]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[387]
+
+failure (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[219]
+
+fairy (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[45]
+
+faithful (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[57]
+
+fake (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[141]
+
+family (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[30]
+doc:16  tf:3  len:60  norm_tf_idf:0.349822  positions:[0, 8, 33]
+
+farkas (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[14]
+
+farmer (df=1):
+doc:11  tf:10  len:136  norm_tf_idf:0.502788  positions:[18, 25, 31, 42, 43, 60, 65, 83, 110, 113]
+
+farts (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[65]
+
+fashion (df=1):
+doc:30  tf:2  len:59  norm_tf_idf:0.233539  positions:[3, 13]
+
+fast (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[35]
+
+faster (df=1):
+doc:21  tf:1  len:42  norm_tf_idf:0.195344  positions:[31]
+
+fatally (df=1):
+doc:18  tf:3  len:166  norm_tf_idf:0.215622  positions:[2, 13, 37]
+
+father (df=2):
+doc:4  tf:1  len:61  norm_tf_idf:0.101817  positions:[29]
+doc:16  tf:2  len:60  norm_tf_idf:0.233215  positions:[23, 40]
+
+favorite (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[49]
+
+feared (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[24]
+
+fears (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[149]
+
+feature (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[116]
+
+february (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[432]
+
+feel (df=3):
+doc:8  tf:1  len:245  norm_tf_idf:0.033895  positions:[234]
+doc:19  tf:1  len:193  norm_tf_idf:0.043153  positions:[177]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[235]
+
+feeling (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[50]
+
+feet (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[98]
+
+fell (df=2):
+doc:11  tf:1  len:136  norm_tf_idf:0.042475  positions:[122]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[90]
+
+felt (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[298]
+
+fiander (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[354]
+
+fifty (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[23]
+
+figured (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[39]
+
+file (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[148]
+
+files (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[58]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[37]
+
+fill (df=2):
+doc:17  tf:1  len:114  norm_tf_idf:0.064432  positions:[54]
+doc:28  tf:2  len:499  norm_tf_idf:0.040226  positions:[458, 465]
+
+filled (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[487]
+
+filters (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[30]
+
+filthy (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[96]
+
+finance (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[1, 11]
+
+find (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[23]
+
+finder (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[246]
+
+finding (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[155]
+
+fine (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[165]
+
+fingerless (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[176]
+
+finke (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[15]
+
+fire (df=2):
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[111]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[78]
+
+fireworks (df=1):
+doc:18  tf:3  len:166  norm_tf_idf:0.215622  positions:[4, 15, 68]
+
+firm (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[135]
+
+fit (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[85]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[21]
+
+fiterman (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[19]
+
+fix (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[274]
+
+flinders (df=1):
+doc:13  tf:3  len:286  norm_tf_idf:0.122452  positions:[12, 17, 260]
+
+flowing (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[47]
+
+fluid (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[58]
+
+followup (df=1):
+doc:29  tf:2  len:75  norm_tf_idf:0.264167  positions:[2, 11]
+
+food (df=3):
+doc:5  tf:1  len:176  norm_tf_idf:0.046045  positions:[69]
+doc:10  tf:1  len:98  norm_tf_idf:0.080480  positions:[61]
+doc:14  tf:1  len:122  norm_tf_idf:0.074213  positions:[72]
+
+fooled (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[154]
+
+forced (df=2):
+doc:21  tf:1  len:42  norm_tf_idf:0.165024  positions:[26]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[65]
+
+forces (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[135]
+
+forget (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[51]
+
+forklift (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[86]
+
+formed (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[161]
+
+forwarded (df=2):
+doc:4  tf:1  len:61  norm_tf_idf:0.101817  positions:[18]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[15]
+
+found (df=3):
+doc:3  tf:1  len:84  norm_tf_idf:0.073539  positions:[58]
+doc:17  tf:3  len:114  norm_tf_idf:0.172521  positions:[18, 28, 32]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[477]
+
+fourth (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[141]
+
+freaks (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[82]
+
+free (df=6):
+doc:3  tf:1  len:84  norm_tf_idf:0.058401  positions:[27]
+doc:8  tf:1  len:245  norm_tf_idf:0.026918  positions:[235]
+doc:10  tf:1  len:98  norm_tf_idf:0.063912  positions:[82]
+doc:13  tf:1  len:286  norm_tf_idf:0.024441  positions:[208]
+doc:19  tf:1  len:193  norm_tf_idf:0.034270  positions:[178]
+doc:28  tf:1  len:499  norm_tf_idf:0.014256  positions:[236]
+
+freedom (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[70]
+
+frequency (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[39]
+
+frequent (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[434]
+
+frey (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[161]
+
+friend (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[23]
+
+friendly (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[99]
+
+friends (df=2):
+doc:1  tf:1  len:68  norm_tf_idf:0.101390  positions:[18]
+doc:30  tf:1  len:59  norm_tf_idf:0.098645  positions:[36]
+
+front (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[27]
+
+frozen (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[141]
+
+fruitcake (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[67]
+
+fuel (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[255]
+
+full (df=2):
+doc:11  tf:3  len:136  norm_tf_idf:0.127424  positions:[50, 77, 98]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[59]
+
+fully (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[470]
+
+fun (df=1):
+doc:25  tf:2  len:53  norm_tf_idf:0.318732  positions:[1, 9]
+
+fundtech (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[47]
+
+funny (df=31):
+doc:0  tf:4  len:221  norm_tf_idf:0.041674  positions:[7, 16, 19, 32]
+doc:1  tf:1  len:68  norm_tf_idf:0.027729  positions:[3]
+doc:2  tf:1  len:67  norm_tf_idf:0.026082  positions:[7]
+doc:3  tf:1  len:84  norm_tf_idf:0.022534  positions:[4]
+doc:4  tf:1  len:61  norm_tf_idf:0.027846  positions:[4]
+doc:5  tf:1  len:176  norm_tf_idf:0.014109  positions:[7]
+doc:6  tf:1  len:97  norm_tf_idf:0.020896  positions:[5]
+doc:7  tf:1  len:64  norm_tf_idf:0.030463  positions:[4]
+doc:8  tf:1  len:245  norm_tf_idf:0.010386  positions:[6]
+doc:9  tf:1  len:65  norm_tf_idf:0.029980  positions:[4]
+doc:10  tf:1  len:98  norm_tf_idf:0.024660  positions:[5]
+doc:11  tf:1  len:136  norm_tf_idf:0.011616  positions:[4]
+doc:12  tf:1  len:64  norm_tf_idf:0.032248  positions:[4]
+doc:13  tf:1  len:286  norm_tf_idf:0.009430  positions:[4]
+doc:14  tf:2  len:122  norm_tf_idf:0.045480  positions:[4, 14]
+doc:15  tf:1  len:135  norm_tf_idf:0.020299  positions:[5]
+doc:16  tf:1  len:60  norm_tf_idf:0.031890  positions:[4]
+doc:17  tf:1  len:114  norm_tf_idf:0.017621  positions:[5]
+doc:18  tf:1  len:166  norm_tf_idf:0.016606  positions:[7]
+doc:19  tf:1  len:193  norm_tf_idf:0.013223  positions:[9]
+doc:20  tf:1  len:51  norm_tf_idf:0.039618  positions:[4]
+doc:21  tf:1  len:42  norm_tf_idf:0.045132  positions:[4]
+doc:22  tf:1  len:37  norm_tf_idf:0.044050  positions:[4]
+doc:23  tf:1  len:92  norm_tf_idf:0.022194  positions:[4]
+doc:24  tf:4  len:187  norm_tf_idf:0.061761  positions:[5, 12, 15, 27]
+doc:25  tf:2  len:53  norm_tf_idf:0.073639  positions:[4, 24]
+doc:26  tf:1  len:48  norm_tf_idf:0.033385  positions:[4]
+doc:27  tf:1  len:40  norm_tf_idf:0.031865  positions:[8]
+doc:28  tf:4  len:499  norm_tf_idf:0.022002  positions:[5, 12, 15, 26]
+doc:29  tf:1  len:75  norm_tf_idf:0.030516  positions:[5]
+doc:30  tf:1  len:59  norm_tf_idf:0.026978  positions:[6]
+
+future (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[81]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[61]
+
+fwd (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[144, 145]
+
+galant (df=1):
+doc:13  tf:8  len:286  norm_tf_idf:0.326539  positions:[37, 63, 105, 168, 181, 192, 195, 199]
+
+gallon (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[41]
+
+gallons (df=1):
+doc:17  tf:3  len:114  norm_tf_idf:0.228811  positions:[44, 56, 65]
+
+gap (df=1):
+doc:28  tf:7  len:499  norm_tf_idf:0.166659  positions:[150, 168, 171, 189, 195, 239, 243]
+
+gardner (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[15]
+
+garment (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[20]
+
+gas (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[460, 484]
+
+gasoline (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[481]
+
+gates (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[29]
+
+gave (df=2):
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[32]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[53]
+
+gb (df=1):
+doc:13  tf:3  len:286  norm_tf_idf:0.122452  positions:[36, 167, 198]
+
+geek (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[19]
+
+generously (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[107]
+
+geodesic (df=1):
+doc:2  tf:2  len:67  norm_tf_idf:0.225786  positions:[17, 20]
+
+geoffrey (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[15]
+
+gerry (df=1):
+doc:0  tf:4  len:221  norm_tf_idf:0.180379  positions:[195, 202, 205, 206]
+
+giggle (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[101]
+
+gigs (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[43]
+
+gin (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[56]
+
+gina (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[329]
+
+girls (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[52]
+
+gist (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[176]
+
+give (df=3):
+doc:3  tf:2  len:84  norm_tf_idf:0.147078  positions:[40, 48]
+doc:8  tf:1  len:245  norm_tf_idf:0.033895  positions:[149]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[299]
+
+giving (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[457]
+
+glad (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[76]
+
+glances (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[178]
+
+glands (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[50]
+
+gloom (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[448]
+
+gloves (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[177]
+
+gmwade (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[325]
+
+god (df=2):
+doc:16  tf:1  len:60  norm_tf_idf:0.116607  positions:[45]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[92]
+
+gonzalez (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[104]
+
+good (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[144]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[106]
+
+goods (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[464]
+
+gpf (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[51]
+
+grade (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[142]
+
+grader (df=1):
+doc:19  tf:3  len:193  norm_tf_idf:0.171699  positions:[0, 13, 32]
+
+gravies (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[42]
+
+greasy (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[30]
+
+gregorian (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[377]
+
+grown (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[47]
+
+grumble (df=1):
+doc:19  tf:2  len:193  norm_tf_idf:0.114466  positions:[26, 169]
+
+gt (df=5):
+doc:0  tf:11  len:221  norm_tf_idf:0.317271  positions:[50, 57, 61, 77, 83, 99, 105, 136, 143, 158, 162]
+doc:8  tf:4  len:245  norm_tf_idf:0.115012  positions:[27, 29, 30, 36]
+doc:13  tf:4  len:286  norm_tf_idf:0.104428  positions:[183, 191, 196, 267]
+doc:24  tf:8  len:187  norm_tf_idf:0.341958  positions:[53, 60, 87, 90, 108, 113, 141, 147]
+doc:28  tf:39  len:499  norm_tf_idf:0.593889  positions:[44, 50, 70, 77, 99, 107, 112, 132, 137, 142, 162, 167, 175, 182, 187, 188, 192, 200, 204, 205, 209, 214, 220, 225, 229, 230, 237, 245, 251, 262, 270, 324, 332, 348, 355, 391, 397, 437, 443]
+
+guess (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[128]
+doc:28  tf:2  len:499  norm_tf_idf:0.040226  positions:[89, 468]
+
+gui (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[166]
+
+guilty (df=2):
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[52]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[125]
+
+guy (df=3):
+doc:0  tf:2  len:221  norm_tf_idf:0.068002  positions:[20, 96]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[16]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[16]
+
+guys (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[56]
+
+half (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[167]
+
+hammer (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[78]
+
+hammered (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[22]
+
+hand (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[140]
+
+handing (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[22]
+
+handle (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[89]
+
+hansen (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[264, 269]
+
+happened (df=2):
+doc:11  tf:2  len:136  norm_tf_idf:0.084950  positions:[37, 62]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[28]
+
+happy (df=2):
+doc:14  tf:3  len:122  norm_tf_idf:0.249448  positions:[0, 8, 104]
+doc:28  tf:4  len:499  norm_tf_idf:0.080452  positions:[413, 416, 421, 426]
+
+hardened (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[111]
+
+harley (df=1):
+doc:15  tf:3  len:135  norm_tf_idf:0.263588  positions:[22, 78, 118]
+
+hassle (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[26]
+
+hbo (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[133]
+
+head (df=3):
+doc:7  tf:1  len:64  norm_tf_idf:0.099416  positions:[41]
+doc:11  tf:2  len:136  norm_tf_idf:0.075819  positions:[33, 107]
+doc:19  tf:1  len:193  norm_tf_idf:0.043153  positions:[159]
+
+headline (df=1):
+doc:22  tf:1  len:37  norm_tf_idf:0.190661  positions:[16]
+
+heard (df=9):
+doc:0  tf:2  len:221  norm_tf_idf:0.045815  positions:[22, 67]
+doc:1  tf:1  len:68  norm_tf_idf:0.060968  positions:[35]
+doc:3  tf:1  len:84  norm_tf_idf:0.049545  positions:[15]
+doc:11  tf:1  len:136  norm_tf_idf:0.025541  positions:[17]
+doc:20  tf:1  len:51  norm_tf_idf:0.087107  positions:[27]
+doc:24  tf:2  len:187  norm_tf_idf:0.067897  positions:[19, 70]
+doc:26  tf:1  len:48  norm_tf_idf:0.073403  positions:[22]
+doc:27  tf:1  len:40  norm_tf_idf:0.070062  positions:[24]
+doc:28  tf:1  len:499  norm_tf_idf:0.012094  positions:[20]
+
+hearing (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[446]
+
+heart (df=1):
+doc:16  tf:2  len:60  norm_tf_idf:0.276064  positions:[38, 42]
+
+heaven (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[52]
+
+heavily (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[73]
+
+heavy (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[159]
+
+heed (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[454]
+
+hell (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[136]
+
+henry (df=1):
+doc:11  tf:2  len:136  norm_tf_idf:0.100558  positions:[10, 12]
+
+hero (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[113]
+
+hey (df=4):
+doc:11  tf:1  len:136  norm_tf_idf:0.034671  positions:[26]
+doc:15  tf:1  len:135  norm_tf_idf:0.060588  positions:[110]
+doc:18  tf:1  len:166  norm_tf_idf:0.049562  positions:[146]
+doc:25  tf:1  len:53  norm_tf_idf:0.109894  positions:[19]
+
+hfarkas (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[10]
+
+high (df=4):
+doc:8  tf:2  len:245  norm_tf_idf:0.061998  positions:[0, 10]
+doc:10  tf:1  len:98  norm_tf_idf:0.073604  positions:[66]
+doc:13  tf:1  len:286  norm_tf_idf:0.028147  positions:[229]
+doc:16  tf:1  len:60  norm_tf_idf:0.095183  positions:[36]
+
+hippo (df=1):
+doc:17  tf:7  len:114  norm_tf_idf:0.533893  positions:[43, 50, 63, 67, 74, 78, 91]
+
+hippos (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[40]
+
+hire (df=1):
+doc:17  tf:2  len:114  norm_tf_idf:0.152541  positions:[0, 9]
+
+hiring (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[50]
+
+history (df=1):
+doc:16  tf:3  len:60  norm_tf_idf:0.414096  positions:[1, 9, 34]
+
+hit (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[43]
+
+hmmm (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[104]
+
+hmmph (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[420]
+
+hoarding (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[32]
+
+hockey (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[134]
+
+hold (df=1):
+doc:17  tf:2  len:114  norm_tf_idf:0.152541  positions:[71, 72]
+
+holding (df=2):
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[138]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[122]
+
+holdouts (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[69]
+
+holds (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[187]
+
+holiday (df=2):
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[27]
+doc:24  tf:2  len:187  norm_tf_idf:0.112914  positions:[121, 126]
+
+holy (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[108]
+
+home (df=31):
+doc:0  tf:2  len:221  norm_tf_idf:0.020837  positions:[178, 219]
+doc:1  tf:1  len:68  norm_tf_idf:0.027729  positions:[66]
+doc:2  tf:1  len:67  norm_tf_idf:0.026082  positions:[62]
+doc:3  tf:1  len:84  norm_tf_idf:0.022534  positions:[82]
+doc:4  tf:1  len:61  norm_tf_idf:0.027846  positions:[59]
+doc:5  tf:1  len:176  norm_tf_idf:0.014109  positions:[174]
+doc:6  tf:1  len:97  norm_tf_idf:0.020896  positions:[95]
+doc:7  tf:1  len:64  norm_tf_idf:0.030463  positions:[62]
+doc:8  tf:1  len:245  norm_tf_idf:0.010386  positions:[243]
+doc:9  tf:1  len:65  norm_tf_idf:0.029980  positions:[63]
+doc:10  tf:1  len:98  norm_tf_idf:0.024660  positions:[96]
+doc:11  tf:1  len:136  norm_tf_idf:0.011616  positions:[134]
+doc:12  tf:1  len:64  norm_tf_idf:0.032248  positions:[59]
+doc:13  tf:1  len:286  norm_tf_idf:0.009430  positions:[284]
+doc:14  tf:1  len:122  norm_tf_idf:0.022740  positions:[120]
+doc:15  tf:1  len:135  norm_tf_idf:0.020299  positions:[133]
+doc:16  tf:1  len:60  norm_tf_idf:0.031890  positions:[55]
+doc:17  tf:1  len:114  norm_tf_idf:0.017621  positions:[112]
+doc:18  tf:1  len:166  norm_tf_idf:0.016606  positions:[161]
+doc:19  tf:1  len:193  norm_tf_idf:0.013223  positions:[191]
+doc:20  tf:1  len:51  norm_tf_idf:0.039618  positions:[49]
+doc:21  tf:1  len:42  norm_tf_idf:0.045132  positions:[40]
+doc:22  tf:1  len:37  norm_tf_idf:0.044050  positions:[35]
+doc:23  tf:3  len:92  norm_tf_idf:0.066581  positions:[16, 29, 90]
+doc:24  tf:1  len:187  norm_tf_idf:0.015440  positions:[182]
+doc:25  tf:1  len:53  norm_tf_idf:0.036819  positions:[51]
+doc:26  tf:1  len:48  norm_tf_idf:0.033385  positions:[46]
+doc:27  tf:1  len:40  norm_tf_idf:0.031865  positions:[38]
+doc:28  tf:1  len:499  norm_tf_idf:0.005501  positions:[497]
+doc:29  tf:1  len:75  norm_tf_idf:0.030516  positions:[73]
+doc:30  tf:3  len:59  norm_tf_idf:0.080934  positions:[16, 18, 57]
+
+hong (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[60]
+
+hoping (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[81]
+
+horrible (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[38]
+
+hospital (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[98]
+
+hosting (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[22]
+
+hot (df=3):
+doc:13  tf:1  len:286  norm_tf_idf:0.030776  positions:[249]
+doc:14  tf:1  len:122  norm_tf_idf:0.074213  positions:[85]
+doc:17  tf:1  len:114  norm_tf_idf:0.057507  positions:[84]
+
+hotmail (df=2):
+doc:10  tf:1  len:98  norm_tf_idf:0.090171  positions:[14]
+doc:22  tf:1  len:37  norm_tf_idf:0.161067  positions:[12]
+
+hour (df=2):
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[30]
+doc:8  tf:2  len:245  norm_tf_idf:0.075953  positions:[166, 192]
+
+hours (df=5):
+doc:8  tf:1  len:245  norm_tf_idf:0.028753  positions:[199]
+doc:15  tf:1  len:135  norm_tf_idf:0.056197  positions:[95]
+doc:18  tf:2  len:166  norm_tf_idf:0.091942  positions:[104, 139]
+doc:19  tf:1  len:193  norm_tf_idf:0.036606  positions:[67]
+doc:29  tf:1  len:75  norm_tf_idf:0.084481  positions:[34]
+
+house (df=4):
+doc:10  tf:1  len:98  norm_tf_idf:0.073604  positions:[64]
+doc:12  tf:1  len:64  norm_tf_idf:0.096250  positions:[29]
+doc:14  tf:1  len:122  norm_tf_idf:0.067872  positions:[19]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[119]
+
+housework (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[346]
+
+houston (df=2):
+doc:20  tf:1  len:51  norm_tf_idf:0.144861  positions:[17]
+doc:22  tf:1  len:37  norm_tf_idf:0.161067  positions:[18]
+
+howtopacka (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[22]
+
+hoyle (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[15]
+
+hp (df=1):
+doc:15  tf:2  len:135  norm_tf_idf:0.175725  positions:[15, 20]
+
+hsbc (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[66]
+
+htm (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[373]
+
+html (df=6):
+doc:5  tf:1  len:176  norm_tf_idf:0.036566  positions:[21]
+doc:17  tf:2  len:114  norm_tf_idf:0.091338  positions:[20, 23]
+doc:18  tf:1  len:166  norm_tf_idf:0.043036  positions:[21]
+doc:19  tf:1  len:193  norm_tf_idf:0.034270  positions:[171]
+doc:25  tf:1  len:53  norm_tf_idf:0.095425  positions:[26]
+doc:28  tf:2  len:499  norm_tf_idf:0.028512  positions:[111, 369]
+
+hudson (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[13]
+
+hugh (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[14]
+
+hughes (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[179]
+
+huh (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[59]
+
+humiliation (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[43]
+
+humor (df=31):
+doc:0  tf:1  len:221  norm_tf_idf:0.010419  positions:[6]
+doc:1  tf:1  len:68  norm_tf_idf:0.027729  positions:[2]
+doc:2  tf:1  len:67  norm_tf_idf:0.026082  positions:[6]
+doc:3  tf:1  len:84  norm_tf_idf:0.022534  positions:[3]
+doc:4  tf:1  len:61  norm_tf_idf:0.027846  positions:[3]
+doc:5  tf:1  len:176  norm_tf_idf:0.014109  positions:[6]
+doc:6  tf:1  len:97  norm_tf_idf:0.020896  positions:[4]
+doc:7  tf:1  len:64  norm_tf_idf:0.030463  positions:[3]
+doc:8  tf:1  len:245  norm_tf_idf:0.010386  positions:[5]
+doc:9  tf:1  len:65  norm_tf_idf:0.029980  positions:[3]
+doc:10  tf:3  len:98  norm_tf_idf:0.073981  positions:[2, 4, 11]
+doc:11  tf:1  len:136  norm_tf_idf:0.011616  positions:[3]
+doc:12  tf:1  len:64  norm_tf_idf:0.032248  positions:[3]
+doc:13  tf:1  len:286  norm_tf_idf:0.009430  positions:[3]
+doc:14  tf:1  len:122  norm_tf_idf:0.022740  positions:[3]
+doc:15  tf:1  len:135  norm_tf_idf:0.020299  positions:[4]
+doc:16  tf:1  len:60  norm_tf_idf:0.031890  positions:[3]
+doc:17  tf:1  len:114  norm_tf_idf:0.017621  positions:[4]
+doc:18  tf:1  len:166  norm_tf_idf:0.016606  positions:[6]
+doc:19  tf:1  len:193  norm_tf_idf:0.013223  positions:[8]
+doc:20  tf:1  len:51  norm_tf_idf:0.039618  positions:[3]
+doc:21  tf:1  len:42  norm_tf_idf:0.045132  positions:[3]
+doc:22  tf:1  len:37  norm_tf_idf:0.044050  positions:[3]
+doc:23  tf:1  len:92  norm_tf_idf:0.022194  positions:[3]
+doc:24  tf:1  len:187  norm_tf_idf:0.015440  positions:[4]
+doc:25  tf:1  len:53  norm_tf_idf:0.036819  positions:[3]
+doc:26  tf:1  len:48  norm_tf_idf:0.033385  positions:[3]
+doc:27  tf:1  len:40  norm_tf_idf:0.031865  positions:[7]
+doc:28  tf:1  len:499  norm_tf_idf:0.005501  positions:[4]
+doc:29  tf:1  len:75  norm_tf_idf:0.030516  positions:[4]
+doc:30  tf:1  len:59  norm_tf_idf:0.026978  positions:[5]
+
+humorous (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[33]
+
+hundred (df=2):
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[63]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[85]
+
+hunger (df=1):
+doc:22  tf:1  len:37  norm_tf_idf:0.190661  positions:[25]
+
+hungry (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[94]
+
+husband (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[55]
+
+hutchence (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[51]
+
+hype (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[81]
+
+iam (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[10]
+
+ibm (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[11]
+
+ice (df=2):
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[78]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[133]
+
+id (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[24]
+
+idiot (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[21]
+
+iecc (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[15]
+
+igniting (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[75]
+
+ihug (df=1):
+doc:9  tf:2  len:65  norm_tf_idf:0.259530  positions:[13, 44]
+
+illegal (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[52]
+
+ilmb (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[127]
+
+ilmk (df=1):
+doc:19  tf:4  len:193  norm_tf_idf:0.228932  positions:[95, 124, 131, 150]
+
+image (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[29]
+
+images (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[76]
+
+immediately (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[37]
+
+important (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[77]
+
+incarnation (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[76]
+
+incentive (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[34]
+
+include (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[180]
+
+includes (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[45]
+
+including (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[173]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[194]
+
+indirect (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[58]
+
+individuals (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[52]
+
+ineffective (df=1):
+doc:22  tf:2  len:37  norm_tf_idf:0.381321  positions:[0, 8]
+
+inflatable (df=5):
+doc:2  tf:1  len:67  norm_tf_idf:0.072207  positions:[65]
+doc:12  tf:1  len:64  norm_tf_idf:0.089276  positions:[62]
+doc:16  tf:1  len:60  norm_tf_idf:0.088286  positions:[58]
+doc:18  tf:1  len:166  norm_tf_idf:0.045971  positions:[164]
+doc:24  tf:1  len:187  norm_tf_idf:0.042745  positions:[185]
+
+informed (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[160]
+
+ingenious (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[74]
+
+initial (df=1):
+doc:19  tf:2  len:193  norm_tf_idf:0.114466  positions:[36, 59]
+
+initially (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[70]
+
+insert (df=2):
+doc:9  tf:1  len:65  norm_tf_idf:0.109623  positions:[48]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[288]
+
+institutions (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[134]
+
+intelligence (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[385]
+
+interchange (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[52]
+
+interface (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[165]
+
+interior (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[107]
+
+internet (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[112]
+doc:19  tf:1  len:193  norm_tf_idf:0.043153  positions:[28]
+doc:25  tf:1  len:53  norm_tf_idf:0.120161  positions:[18]
+
+interpretations (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[130]
+
+interrupted (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[22]
+
+interview (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[105]
+
+interviewed (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[32]
+
+invested (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[30]
+
+investment (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[134]
+
+investors (df=1):
+doc:19  tf:3  len:193  norm_tf_idf:0.171699  positions:[80, 121, 148]
+
+involve (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[47]
+
+ipo (df=1):
+doc:19  tf:2  len:193  norm_tf_idf:0.114466  positions:[2, 15]
+
+israel (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[28]
+
+issue (df=2):
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[74]
+doc:20  tf:1  len:51  norm_tf_idf:0.144861  positions:[33]
+
+issued (df=1):
+doc:8  tf:4  len:245  norm_tf_idf:0.179817  positions:[84, 90, 143, 227]
+
+ist (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[11]
+
+italy (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[221]
+
+item (df=1):
+doc:25  tf:2  len:53  norm_tf_idf:0.318732  positions:[33, 34]
+
+ithaca (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[159]
+
+j (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[75, 353]
+
+jack (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[258]
+
+jam (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[90]
+
+jan (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[29]
+
+jane (df=1):
+doc:0  tf:2  len:221  norm_tf_idf:0.090190  positions:[92, 94]
+
+january (df=4):
+doc:13  tf:2  len:286  norm_tf_idf:0.056293  positions:[213, 215]
+doc:14  tf:1  len:122  norm_tf_idf:0.067872  positions:[99]
+doc:15  tf:1  len:135  norm_tf_idf:0.060588  positions:[73]
+doc:24  tf:1  len:187  norm_tf_idf:0.046084  positions:[69]
+
+japanese (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[179]
+
+jenga (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[139]
+
+jeopardized (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[433]
+
+jesus (df=1):
+doc:18  tf:4  len:166  norm_tf_idf:0.287496  positions:[0, 11, 31, 45]
+
+jewish (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[151]
+
+job (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[13]
+
+john (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[16, 28]
+
+johnl (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[14]
+
+joke (df=31):
+doc:0  tf:2  len:221  norm_tf_idf:0.020837  positions:[9, 213]
+doc:1  tf:2  len:68  norm_tf_idf:0.055458  positions:[5, 60]
+doc:2  tf:2  len:67  norm_tf_idf:0.052165  positions:[9, 56]
+doc:3  tf:2  len:84  norm_tf_idf:0.045068  positions:[6, 76]
+doc:4  tf:2  len:61  norm_tf_idf:0.055691  positions:[6, 53]
+doc:5  tf:2  len:176  norm_tf_idf:0.028218  positions:[9, 168]
+doc:6  tf:2  len:97  norm_tf_idf:0.041793  positions:[7, 89]
+doc:7  tf:2  len:64  norm_tf_idf:0.060926  positions:[6, 56]
+doc:8  tf:2  len:245  norm_tf_idf:0.020772  positions:[8, 237]
+doc:9  tf:3  len:65  norm_tf_idf:0.089941  positions:[6, 54, 57]
+doc:10  tf:2  len:98  norm_tf_idf:0.049321  positions:[7, 90]
+doc:11  tf:2  len:136  norm_tf_idf:0.023232  positions:[6, 128]
+doc:12  tf:2  len:64  norm_tf_idf:0.064496  positions:[6, 53]
+doc:13  tf:2  len:286  norm_tf_idf:0.018861  positions:[6, 278]
+doc:14  tf:2  len:122  norm_tf_idf:0.045480  positions:[6, 114]
+doc:15  tf:2  len:135  norm_tf_idf:0.040599  positions:[7, 127]
+doc:16  tf:2  len:60  norm_tf_idf:0.063781  positions:[6, 49]
+doc:17  tf:2  len:114  norm_tf_idf:0.035243  positions:[7, 106]
+doc:18  tf:2  len:166  norm_tf_idf:0.033211  positions:[9, 155]
+doc:19  tf:2  len:193  norm_tf_idf:0.026446  positions:[11, 185]
+doc:20  tf:2  len:51  norm_tf_idf:0.079235  positions:[6, 43]
+doc:21  tf:2  len:42  norm_tf_idf:0.090263  positions:[6, 34]
+doc:22  tf:2  len:37  norm_tf_idf:0.088099  positions:[6, 29]
+doc:23  tf:2  len:92  norm_tf_idf:0.044387  positions:[6, 84]
+doc:24  tf:2  len:187  norm_tf_idf:0.030880  positions:[7, 176]
+doc:25  tf:2  len:53  norm_tf_idf:0.073639  positions:[6, 45]
+doc:26  tf:2  len:48  norm_tf_idf:0.066769  positions:[6, 40]
+doc:27  tf:2  len:40  norm_tf_idf:0.063730  positions:[10, 32]
+doc:28  tf:3  len:499  norm_tf_idf:0.016502  positions:[7, 335, 491]
+doc:29  tf:2  len:75  norm_tf_idf:0.061032  positions:[7, 67]
+doc:30  tf:2  len:59  norm_tf_idf:0.053956  positions:[8, 51]
+
+jokes (df=31):
+doc:0  tf:4  len:221  norm_tf_idf:0.041674  positions:[31, 46, 215, 217]
+doc:1  tf:2  len:68  norm_tf_idf:0.055458  positions:[62, 64]
+doc:2  tf:2  len:67  norm_tf_idf:0.052165  positions:[58, 60]
+doc:3  tf:2  len:84  norm_tf_idf:0.045068  positions:[78, 80]
+doc:4  tf:2  len:61  norm_tf_idf:0.055691  positions:[55, 57]
+doc:5  tf:2  len:176  norm_tf_idf:0.028218  positions:[170, 172]
+doc:6  tf:2  len:97  norm_tf_idf:0.041793  positions:[91, 93]
+doc:7  tf:2  len:64  norm_tf_idf:0.060926  positions:[58, 60]
+doc:8  tf:2  len:245  norm_tf_idf:0.020772  positions:[239, 241]
+doc:9  tf:2  len:65  norm_tf_idf:0.059961  positions:[59, 61]
+doc:10  tf:2  len:98  norm_tf_idf:0.049321  positions:[92, 94]
+doc:11  tf:2  len:136  norm_tf_idf:0.023232  positions:[130, 132]
+doc:12  tf:2  len:64  norm_tf_idf:0.064496  positions:[55, 57]
+doc:13  tf:2  len:286  norm_tf_idf:0.018861  positions:[280, 282]
+doc:14  tf:2  len:122  norm_tf_idf:0.045480  positions:[116, 118]
+doc:15  tf:2  len:135  norm_tf_idf:0.040599  positions:[129, 131]
+doc:16  tf:2  len:60  norm_tf_idf:0.063781  positions:[51, 53]
+doc:17  tf:2  len:114  norm_tf_idf:0.035243  positions:[108, 110]
+doc:18  tf:2  len:166  norm_tf_idf:0.033211  positions:[157, 159]
+doc:19  tf:2  len:193  norm_tf_idf:0.026446  positions:[187, 189]
+doc:20  tf:2  len:51  norm_tf_idf:0.079235  positions:[45, 47]
+doc:21  tf:2  len:42  norm_tf_idf:0.090263  positions:[36, 38]
+doc:22  tf:2  len:37  norm_tf_idf:0.088099  positions:[31, 33]
+doc:23  tf:2  len:92  norm_tf_idf:0.044387  positions:[86, 88]
+doc:24  tf:5  len:187  norm_tf_idf:0.077201  positions:[26, 41, 50, 178, 180]
+doc:25  tf:2  len:53  norm_tf_idf:0.073639  positions:[47, 49]
+doc:26  tf:2  len:48  norm_tf_idf:0.066769  positions:[42, 44]
+doc:27  tf:2  len:40  norm_tf_idf:0.063730  positions:[34, 36]
+doc:28  tf:4  len:499  norm_tf_idf:0.022002  positions:[25, 40, 493, 495]
+doc:29  tf:2  len:75  norm_tf_idf:0.061032  positions:[69, 71]
+doc:30  tf:2  len:59  norm_tf_idf:0.053956  positions:[53, 55]
+
+josh (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[142]
+
+june (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[48]
+
+k (df=5):
+doc:5  tf:8  len:176  norm_tf_idf:0.312476  positions:[1, 12, 28, 33, 43, 122, 128, 152]
+doc:24  tf:1  len:187  norm_tf_idf:0.042745  positions:[151]
+doc:28  tf:27  len:499  norm_tf_idf:0.411154  positions:[1, 10, 22, 54, 68, 80, 84, 92, 115, 147, 160, 185, 198, 218, 234, 254, 259, 273, 307, 318, 337, 342, 358, 362, 371, 406, 452]
+doc:29  tf:3  len:75  norm_tf_idf:0.253443  positions:[1, 10, 21]
+doc:30  tf:2  len:59  norm_tf_idf:0.149372  positions:[40, 46]
+
+keeper (df=2):
+doc:17  tf:1  len:114  norm_tf_idf:0.064432  positions:[99]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[247]
+
+keeping (df=1):
+doc:13  tf:3  len:286  norm_tf_idf:0.122452  positions:[76, 131, 136]
+
+kevin (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[145]
+
+kicked (df=1):
+doc:11  tf:2  len:136  norm_tf_idf:0.100558  positions:[54, 79]
+
+kidd (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[16]
+
+kids (df=2):
+doc:7  tf:1  len:64  norm_tf_idf:0.111387  positions:[23]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[99]
+
+kill (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[166]
+doc:7  tf:1  len:64  norm_tf_idf:0.111387  positions:[44]
+
+killfile (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[44]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[39]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[38]
+
+kilo (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[134]
+
+kitchen (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[478]
+
+kitty (df=1):
+doc:19  tf:5  len:193  norm_tf_idf:0.286165  positions:[43, 49, 70, 78, 89]
+
+knocked (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[101]
+
+knowing (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[22]
+
+kong (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[61]
+
+kraemer (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[396]
+
+ktty (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[51]
+
+l (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[253]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[315]
+
+labelled (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[170]
+
+labf (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[27, 125]
+
+laboriously (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[47]
+
+lacerations (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[85]
+
+laird (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[71, 76]
+
+large (df=3):
+doc:13  tf:1  len:286  norm_tf_idf:0.030776  positions:[137]
+doc:14  tf:1  len:122  norm_tf_idf:0.074213  positions:[54]
+doc:17  tf:1  len:114  norm_tf_idf:0.057507  positions:[80]
+
+late (df=2):
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[474]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[33]
+
+latest (df=1):
+doc:2  tf:2  len:67  norm_tf_idf:0.225786  positions:[0, 11]
+
+laugh (df=2):
+doc:17  tf:1  len:114  norm_tf_idf:0.064432  positions:[16]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[63]
+
+laughed (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[82]
+
+launch (df=1):
+doc:22  tf:1  len:37  norm_tf_idf:0.190661  positions:[24]
+
+law (df=2):
+doc:1  tf:1  len:68  norm_tf_idf:0.101390  positions:[30]
+doc:16  tf:1  len:60  norm_tf_idf:0.116607  positions:[41]
+
+lawyer (df=1):
+doc:3  tf:4  len:84  norm_tf_idf:0.390133  positions:[17, 34, 42, 60]
+
+lb (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[245]
+
+lcrocker (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[100]
+
+leading (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[78]
+
+leap (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[173]
+
+leave (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[50]
+
+lee (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[104]
+
+left (df=4):
+doc:4  tf:1  len:61  norm_tf_idf:0.083110  positions:[50]
+doc:6  tf:1  len:97  norm_tf_idf:0.062369  positions:[34]
+doc:8  tf:1  len:245  norm_tf_idf:0.030999  positions:[195]
+doc:11  tf:3  len:136  norm_tf_idf:0.104012  positions:[52, 66, 70]
+
+leg (df=1):
+doc:11  tf:4  len:136  norm_tf_idf:0.201115  positions:[53, 67, 78, 89]
+
+legal (df=1):
+doc:3  tf:3  len:84  norm_tf_idf:0.292600  positions:[0, 8, 37]
+
+letter (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[64]
+
+letters (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[73]
+
+levi (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[143, 149]
+
+levin (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[196]
+
+levine (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[18]
+
+librarian (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[23]
+
+library (df=1):
+doc:26  tf:2  len:48  norm_tf_idf:0.288999  positions:[26, 32]
+
+licences (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[125]
+
+lick (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[80]
+
+lie (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[43]
+
+lieutenant (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[19]
+
+life (df=2):
+doc:1  tf:1  len:68  norm_tf_idf:0.101390  positions:[28]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[97]
+
+lifted (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[51]
+
+lighting (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[181]
+
+limited (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[104]
+
+lincon (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[134]
+
+line (df=2):
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[182]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[242]
+
+lined (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[153]
+
+lines (df=2):
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[55]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[45]
+
+lip (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[48]
+
+liquor (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[402]
+
+list (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[25, 127]
+
+listed (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[87]
+
+listening (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[63]
+
+lists (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[32]
+
+live (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[51]
+
+llc (df=1):
+doc:19  tf:2  len:193  norm_tf_idf:0.114466  positions:[50, 71]
+
+local (df=6):
+doc:1  tf:1  len:68  norm_tf_idf:0.071865  positions:[20]
+doc:5  tf:1  len:176  norm_tf_idf:0.036566  positions:[133]
+doc:8  tf:1  len:245  norm_tf_idf:0.026918  positions:[157]
+doc:17  tf:1  len:114  norm_tf_idf:0.045669  positions:[96]
+doc:18  tf:1  len:166  norm_tf_idf:0.043036  positions:[41]
+doc:28  tf:2  len:499  norm_tf_idf:0.028512  positions:[279, 401]
+
+located (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[40]
+
+lock (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[38]
+doc:23  tf:1  len:92  norm_tf_idf:0.081151  positions:[30]
+
+locking (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[40]
+
+logistic (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[58]
+
+logo (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[172]
+
+logs (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[135]
+
+loiters (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[180]
+
+lonesome (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[96]
+
+long (df=4):
+doc:3  tf:1  len:84  norm_tf_idf:0.067256  positions:[73]
+doc:5  tf:1  len:176  norm_tf_idf:0.042111  positions:[157]
+doc:14  tf:1  len:122  norm_tf_idf:0.067872  positions:[82]
+doc:15  tf:1  len:135  norm_tf_idf:0.060588  positions:[94]
+
+longer (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[116]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[102]
+
+looters (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[79]
+
+looting (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[276]
+
+lord (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[33, 44]
+
+lot (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[16]
+
+loud (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[74]
+
+love (df=1):
+doc:19  tf:5  len:193  norm_tf_idf:0.286165  positions:[42, 48, 69, 88, 119]
+
+loves (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[77]
+
+low (df=3):
+doc:10  tf:1  len:98  norm_tf_idf:0.080480  positions:[60]
+doc:13  tf:1  len:286  norm_tf_idf:0.030776  positions:[234]
+doc:15  tf:1  len:135  norm_tf_idf:0.066248  positions:[92]
+
+luke (df=1):
+doc:9  tf:2  len:65  norm_tf_idf:0.259530  positions:[10, 15]
+
+lumber (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[37]
+
+m (df=7):
+doc:8  tf:5  len:245  norm_tf_idf:0.126829  positions:[106, 113, 125, 128, 147]
+doc:13  tf:1  len:286  norm_tf_idf:0.023032  positions:[206]
+doc:14  tf:2  len:122  norm_tf_idf:0.111076  positions:[93, 95]
+doc:20  tf:1  len:51  norm_tf_idf:0.096757  positions:[34]
+doc:21  tf:1  len:42  norm_tf_idf:0.110224  positions:[25]
+doc:24  tf:5  len:187  norm_tf_idf:0.188547  positions:[49, 94, 98, 131, 138]
+doc:25  tf:1  len:53  norm_tf_idf:0.089924  positions:[20]
+
+made (df=4):
+doc:13  tf:1  len:286  norm_tf_idf:0.028147  positions:[129]
+doc:19  tf:1  len:193  norm_tf_idf:0.039466  positions:[52]
+doc:23  tf:2  len:92  norm_tf_idf:0.132482  positions:[25, 67]
+doc:28  tf:2  len:499  norm_tf_idf:0.032835  positions:[87, 177]
+
+magazine (df=2):
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[80]
+doc:20  tf:1  len:51  norm_tf_idf:0.144861  positions:[29]
+
+mail (df=1):
+doc:21  tf:1  len:42  norm_tf_idf:0.195344  positions:[13]
+
+mailbox (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[57]
+
+mailhost (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[13]
+
+mailing (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[24, 126]
+
+main (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[123]
+
+make (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[47]
+
+makes (df=2):
+doc:19  tf:2  len:193  norm_tf_idf:0.096699  positions:[3, 16]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[90]
+
+making (df=2):
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[109]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[143]
+
+man (df=2):
+doc:11  tf:8  len:136  norm_tf_idf:0.339798  positions:[23, 39, 56, 63, 81, 87, 105, 111]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[63]
+
+management (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[297]
+
+manhattan (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[74, 81]
+
+manual (df=1):
+doc:5  tf:2  len:176  norm_tf_idf:0.122137  positions:[3, 14]
+
+manuals (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[26]
+
+marie (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[330]
+
+marine (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[55, 87]
+
+mark (df=3):
+doc:9  tf:1  len:65  norm_tf_idf:0.097841  positions:[41]
+doc:27  tf:1  len:40  norm_tf_idf:0.103993  positions:[20]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[74]
+
+markb (df=1):
+doc:27  tf:1  len:40  norm_tf_idf:0.137923  positions:[18]
+
+market (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[130]
+
+marketable (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[145]
+
+markets (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[100]
+
+married (df=1):
+doc:20  tf:2  len:51  norm_tf_idf:0.342954  positions:[25, 30]
+
+marvelous (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[39]
+
+maryland (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[140]
+
+massive (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[67]
+
+master (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[68]
+
+mastercard (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[31]
+
+match (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[135]
+
+material (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[57]
+
+mbna (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[134]
+
+mcclean (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[179]
+
+mcguire (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[15]
+
+meals (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[40]
+
+means (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[129]
+
+mechanics (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[53]
+
+media (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[122]
+
+medical (df=4):
+doc:1  tf:1  len:68  norm_tf_idf:0.082762  positions:[15]
+doc:3  tf:1  len:84  norm_tf_idf:0.067256  positions:[28]
+doc:10  tf:3  len:98  norm_tf_idf:0.220811  positions:[0, 9, 28]
+doc:15  tf:1  len:135  norm_tf_idf:0.060588  positions:[60]
+
+medium (df=2):
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[70]
+doc:17  tf:1  len:114  norm_tf_idf:0.064432  positions:[61]
+
+member (df=2):
+doc:2  tf:1  len:67  norm_tf_idf:0.095370  positions:[53]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[107]
+
+members (df=1):
+doc:2  tf:2  len:67  norm_tf_idf:0.225786  positions:[26, 30]
+
+memory (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[51]
+
+men (df=2):
+doc:20  tf:1  len:51  norm_tf_idf:0.144861  positions:[31]
+doc:27  tf:3  len:40  norm_tf_idf:0.349546  positions:[3, 15, 28]
+
+menacing (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[184]
+
+mensa (df=1):
+doc:24  tf:2  len:187  norm_tf_idf:0.133660  positions:[149, 160]
+
+merchandise (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[193]
+
+merchants (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[109]
+
+mercury (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[101]
+
+merger (df=1):
+doc:0  tf:7  len:221  norm_tf_idf:0.315664  positions:[30, 66, 71, 108, 148, 167, 173]
+
+merlin (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[263, 268]
+
+message (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[21]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[310]
+
+mhz (df=1):
+doc:21  tf:1  len:42  norm_tf_idf:0.195344  positions:[22]
+
+michael (df=2):
+doc:12  tf:1  len:64  norm_tf_idf:0.117915  positions:[50]
+doc:17  tf:1  len:114  norm_tf_idf:0.064432  positions:[14]
+
+microsoft (df=1):
+doc:30  tf:5  len:59  norm_tf_idf:0.583847  positions:[2, 12, 32, 38, 42]
+
+mid (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[213]
+
+midland (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[56, 88]
+
+midnight (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[43]
+
+milennium (df=1):
+doc:30  tf:2  len:59  norm_tf_idf:0.233539  positions:[0, 10]
+
+miles (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[160, 182]
+
+milk (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[74]
+
+milking (df=1):
+doc:11  tf:2  len:136  norm_tf_idf:0.100558  positions:[47, 96]
+
+millennia (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[376]
+
+millennium (df=4):
+doc:24  tf:3  len:187  norm_tf_idf:0.138252  positions:[62, 75, 79]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[414]
+doc:29  tf:1  len:75  norm_tf_idf:0.091081  positions:[25]
+doc:30  tf:1  len:59  norm_tf_idf:0.080521  positions:[24]
+
+milli (df=1):
+doc:12  tf:2  len:64  norm_tf_idf:0.279159  positions:[31, 39]
+
+million (df=2):
+doc:9  tf:1  len:65  norm_tf_idf:0.109623  positions:[31]
+doc:19  tf:3  len:193  norm_tf_idf:0.145049  positions:[4, 17, 54]
+
+millions (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[39]
+
+minor (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[91]
+
+miraculous (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[140]
+
+miscreants (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[85]
+
+misfits (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[83]
+
+missed (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[275]
+
+mittens (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[79]
+
+mm (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[203, 205]
+
+modern (df=2):
+doc:8  tf:2  len:245  norm_tf_idf:0.075953  positions:[2, 12]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[56]
+
+modified (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[212]
+
+mohawk (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[206]
+
+moment (df=2):
+doc:11  tf:1  len:136  norm_tf_idf:0.042475  positions:[120]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[72]
+
+monday (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[127]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[374]
+
+money (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[108]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[323]
+
+month (df=3):
+doc:14  tf:1  len:122  norm_tf_idf:0.074213  positions:[17]
+doc:20  tf:1  len:51  norm_tf_idf:0.129292  positions:[41]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[428]
+
+months (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[66]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[65]
+
+morning (df=3):
+doc:13  tf:1  len:286  norm_tf_idf:0.030776  positions:[113]
+doc:18  tf:1  len:166  norm_tf_idf:0.054192  positions:[39]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[476]
+
+morris (df=2):
+doc:4  tf:1  len:61  norm_tf_idf:0.101817  positions:[19]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[17]
+
+morton (df=1):
+doc:19  tf:2  len:193  norm_tf_idf:0.114466  positions:[136, 137]
+
+motor (df=1):
+doc:15  tf:2  len:135  norm_tf_idf:0.175725  positions:[24, 35]
+
+motorcycle (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[31]
+
+motorcycling (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[37]
+
+mount (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[96]
+
+mountain (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[11]
+
+move (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[132]
+
+movers (df=1):
+doc:17  tf:2  len:114  norm_tf_idf:0.152541  positions:[1, 10]
+
+moversnet (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[21]
+
+movies (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[26]
+
+moving (df=1):
+doc:17  tf:3  len:114  norm_tf_idf:0.228811  positions:[24, 90, 102]
+
+mpsingh (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[10]
+
+mt (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[144]
+
+munch (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[89]
+
+munindar (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[13]
+
+music (df=2):
+doc:12  tf:2  len:64  norm_tf_idf:0.235830  positions:[21, 25]
+doc:17  tf:2  len:114  norm_tf_idf:0.128864  positions:[51, 79]
+
+mystifying (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[84]
+
+n (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[142]
+
+naivity (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[27]
+
+nameless (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[18]
+
+nasdaq (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[44]
+
+national (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[77]
+
+nations (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[137]
+
+nationsbank (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[211, 226]
+
+nature (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[25]
+
+ncsu (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[12]
+
+neden (df=1):
+doc:24  tf:2  len:187  norm_tf_idf:0.133660  positions:[142, 146]
+
+neighborhood (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[20]
+
+neighbours (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[108]
+
+nelson (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[11]
+
+net (df=5):
+doc:0  tf:1  len:221  norm_tf_idf:0.028843  positions:[102]
+doc:1  tf:1  len:68  norm_tf_idf:0.076765  positions:[12]
+doc:19  tf:1  len:193  norm_tf_idf:0.036606  positions:[105]
+doc:28  tf:2  len:499  norm_tf_idf:0.030456  positions:[103, 328]
+doc:29  tf:1  len:75  norm_tf_idf:0.084481  positions:[14]
+
+netfunny (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[18]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[14]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[14]
+
+netherlands (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[105]
+
+netins (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[13]
+
+netscape (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[40]
+
+network (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[45]
+
+news (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[157]
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[63]
+
+nhcc (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[11]
+
+nibble (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[24]
+
+nicely (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[45]
+
+night (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[201]
+doc:13  tf:1  len:286  norm_tf_idf:0.030776  positions:[99]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[475]
+
+nitpicking (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[399]
+
+nivlac (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[12]
+
+nodded (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[106]
+
+noise (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[88]
+
+nope (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[423]
+
+north (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[42]
+
+northwest (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[173, 174]
+
+nospam (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[55]
+
+notable (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[61]
+
+note (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[204]
+doc:9  tf:1  len:65  norm_tf_idf:0.097841  positions:[39]
+doc:14  tf:1  len:122  norm_tf_idf:0.074213  positions:[108]
+
+noted (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[139]
+
+noteworthy (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[24]
+
+notice (df=2):
+doc:23  tf:1  len:92  norm_tf_idf:0.081151  positions:[61]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[290]
+
+number (df=4):
+doc:6  tf:1  len:97  norm_tf_idf:0.062369  positions:[25]
+doc:8  tf:3  len:245  norm_tf_idf:0.092998  positions:[39, 95, 231]
+doc:14  tf:1  len:122  norm_tf_idf:0.067872  positions:[33]
+doc:15  tf:1  len:135  norm_tf_idf:0.060588  positions:[122]
+
+numbers (df=2):
+doc:6  tf:2  len:97  norm_tf_idf:0.152815  positions:[31, 67]
+doc:8  tf:2  len:245  norm_tf_idf:0.075953  positions:[86, 145]
+
+nz (df=1):
+doc:9  tf:2  len:65  norm_tf_idf:0.259530  positions:[14, 45]
+
+object (df=1):
+doc:13  tf:3  len:286  norm_tf_idf:0.122452  positions:[0, 8, 146]
+
+occur (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[93]
+
+occurred (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[38]
+doc:28  tf:2  len:499  norm_tf_idf:0.040226  positions:[255, 261]
+
+odd (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[190]
+
+oddly (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[182]
+
+offense (df=3):
+doc:2  tf:1  len:67  norm_tf_idf:0.085120  positions:[23]
+doc:16  tf:1  len:60  norm_tf_idf:0.104075  positions:[18]
+doc:18  tf:1  len:166  norm_tf_idf:0.054192  positions:[25]
+
+offer (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[103]
+
+offering (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[38]
+
+offers (df=1):
+doc:19  tf:2  len:193  norm_tf_idf:0.114466  positions:[1, 14]
+
+office (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[39]
+
+official (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[117]
+
+officials (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[100]
+
+oil (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[56]
+
+oit (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[12]
+
+older (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[112]
+
+online (df=2):
+doc:0  tf:2  len:221  norm_tf_idf:0.076191  positions:[116, 150]
+doc:22  tf:1  len:37  norm_tf_idf:0.161067  positions:[20]
+
+ontario (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[367]
+
+open (df=4):
+doc:0  tf:1  len:221  norm_tf_idf:0.031096  positions:[186]
+doc:6  tf:1  len:97  norm_tf_idf:0.062369  positions:[57]
+doc:13  tf:1  len:286  norm_tf_idf:0.028147  positions:[44]
+doc:23  tf:1  len:92  norm_tf_idf:0.066241  positions:[45]
+
+opening (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[291]
+
+operate (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[201]
+
+operating (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[151]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[174]
+
+operation (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[53]
+
+opted (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[49]
+
+options (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[43]
+
+order (df=2):
+doc:2  tf:1  len:67  norm_tf_idf:0.095370  positions:[25]
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[139]
+
+org (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[28]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[144]
+
+organization (df=2):
+doc:0  tf:2  len:221  norm_tf_idf:0.076191  positions:[58, 60]
+doc:28  tf:2  len:499  norm_tf_idf:0.040226  positions:[108, 138]
+
+orient (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[175]
+
+oriented (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[64]
+
+original (df=6):
+doc:5  tf:1  len:176  norm_tf_idf:0.036566  positions:[24]
+doc:7  tf:1  len:64  norm_tf_idf:0.078950  positions:[14]
+doc:8  tf:1  len:245  norm_tf_idf:0.026918  positions:[19]
+doc:16  tf:1  len:60  norm_tf_idf:0.082650  positions:[16]
+doc:20  tf:1  len:51  norm_tf_idf:0.102676  positions:[20]
+doc:21  tf:1  len:42  norm_tf_idf:0.116967  positions:[17]
+
+originally (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[40]
+
+ounces (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[76]
+
+outlet (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[21]
+
+output (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[68]
+
+outreach (df=1):
+doc:2  tf:2  len:67  norm_tf_idf:0.225786  positions:[3, 14]
+
+overbeck (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[13]
+
+overhyped (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[93]
+
+owner (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[72]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[411]
+
+ozemail (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[56]
+
+p (df=5):
+doc:0  tf:1  len:221  norm_tf_idf:0.028843  positions:[78]
+doc:9  tf:1  len:65  norm_tf_idf:0.082998  positions:[11]
+doc:13  tf:2  len:286  norm_tf_idf:0.052214  positions:[217, 243]
+doc:16  tf:1  len:60  norm_tf_idf:0.088286  positions:[14]
+doc:28  tf:1  len:499  norm_tf_idf:0.015228  positions:[314]
+
+pack (df=1):
+doc:17  tf:2  len:114  norm_tf_idf:0.152541  positions:[35, 53]
+
+package (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[46]
+
+packing (df=1):
+doc:17  tf:2  len:114  norm_tf_idf:0.152541  positions:[25, 39]
+
+paddington (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[77]
+
+page (df=4):
+doc:10  tf:1  len:98  norm_tf_idf:0.073604  positions:[48]
+doc:15  tf:1  len:135  norm_tf_idf:0.060588  positions:[72]
+doc:19  tf:4  len:193  norm_tf_idf:0.157865  positions:[40, 75, 97, 153]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[364]
+
+paid (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[28]
+
+pain (df=2):
+doc:12  tf:1  len:64  norm_tf_idf:0.117915  positions:[30]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[110]
+
+paithankar (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[250]
+
+pants (df=3):
+doc:11  tf:1  len:136  norm_tf_idf:0.037910  positions:[121]
+doc:19  tf:1  len:193  norm_tf_idf:0.043153  positions:[108]
+doc:28  tf:2  len:499  norm_tf_idf:0.035903  positions:[149, 169]
+
+paper (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[23]
+
+parking (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[262]
+
+part (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[20]
+
+parties (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[161]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[28]
+
+partly (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[82]
+
+party (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[19]
+
+pascoe (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[16]
+
+pass (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[179]
+
+passed (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[23]
+
+patrick (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[81]
+
+patrons (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[33]
+
+paul (df=3):
+doc:3  tf:1  len:84  norm_tf_idf:0.073539  positions:[12]
+doc:13  tf:2  len:286  norm_tf_idf:0.061552  positions:[10, 14]
+doc:15  tf:1  len:135  norm_tf_idf:0.066248  positions:[117]
+
+pay (df=2):
+doc:2  tf:1  len:67  norm_tf_idf:0.095370  positions:[38]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[93]
+
+peace (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[86, 94]
+
+pearl (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[438, 442]
+
+pedro (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[103]
+
+pelted (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[82]
+
+pentium (df=1):
+doc:21  tf:1  len:42  norm_tf_idf:0.195344  positions:[28]
+
+people (df=4):
+doc:3  tf:2  len:84  norm_tf_idf:0.134512  positions:[23, 36]
+doc:8  tf:1  len:245  norm_tf_idf:0.030999  positions:[196]
+doc:18  tf:2  len:166  norm_tf_idf:0.099124  positions:[115, 126]
+doc:24  tf:1  len:187  norm_tf_idf:0.046084  positions:[171]
+
+peopleexpress (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[49]
+
+perfectly (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[202]
+
+permission (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[47]
+
+permit (df=2):
+doc:1  tf:1  len:68  norm_tf_idf:0.101390  positions:[52]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[263]
+
+person (df=1):
+doc:1  tf:3  len:68  norm_tf_idf:0.360058  positions:[37, 41, 48]
+
+personality (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[37]
+
+personally (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[70]
+
+pets (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[103]
+
+pharmacy (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[19]
+
+philistines (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[86]
+
+phone (df=3):
+doc:15  tf:1  len:135  norm_tf_idf:0.066248  positions:[121]
+doc:21  tf:2  len:42  norm_tf_idf:0.294575  positions:[24, 29]
+doc:23  tf:1  len:92  norm_tf_idf:0.072429  positions:[35]
+
+phrase (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[34]
+
+phudson (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[10]
+
+pick (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[39]
+
+picking (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[404]
+
+piclab (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[109]
+
+picture (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[38]
+
+pie (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[88]
+
+piece (df=1):
+doc:13  tf:4  len:286  norm_tf_idf:0.163270  positions:[82, 92, 227, 232]
+
+piedmont (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[205]
+
+place (df=3):
+doc:3  tf:1  len:84  norm_tf_idf:0.073539  positions:[56]
+doc:18  tf:1  len:166  norm_tf_idf:0.054192  positions:[137]
+doc:23  tf:1  len:92  norm_tf_idf:0.072429  positions:[51]
+
+places (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[31]
+
+plain (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[124]
+
+plan (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[62]
+
+planet (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[172]
+
+planned (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[174]
+
+planning (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[29]
+
+plated (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[44]
+
+plater (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[218]
+
+plates (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[244]
+
+playboy (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[28]
+
+plugged (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[127]
+
+pobox (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[11]
+
+poison (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[28]
+
+poled (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[106]
+
+police (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[22]
+
+pooh (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[76]
+
+poopy (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[158]
+
+population (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[148]
+
+pornography (df=1):
+doc:26  tf:3  len:48  norm_tf_idf:0.433499  positions:[1, 9, 35]
+
+position (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[105]
+
+positioned (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[129]
+
+positions (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[115]
+
+positively (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[121]
+
+possibility (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[379]
+
+post (df=4):
+doc:0  tf:1  len:221  norm_tf_idf:0.031096  positions:[36]
+doc:11  tf:2  len:136  norm_tf_idf:0.069342  positions:[69, 92]
+doc:24  tf:2  len:187  norm_tf_idf:0.092168  positions:[31, 155]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[30]
+
+posted (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[46]
+
+posting (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[34]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[29]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[28]
+
+pound (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[47]
+
+powder (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[37]
+
+practices (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[51]
+
+predictions (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[450]
+
+preferences (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[46]
+
+preparations (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[305, 473]
+
+prepare (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[65]
+doc:30  tf:1  len:59  norm_tf_idf:0.098645  positions:[37]
+
+prepared (df=2):
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[54]
+doc:14  tf:2  len:122  norm_tf_idf:0.166298  positions:[41, 57]
+
+preparing (df=2):
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[287]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[19]
+
+presidency (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[60]
+
+press (df=2):
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[76]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[161]
+
+pretending (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[163]
+
+preventing (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[31]
+
+previous (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[71]
+
+pricy (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[40]
+
+prince (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[93]
+
+print (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[63]
+
+prisoners (df=1):
+doc:22  tf:1  len:37  norm_tf_idf:0.190661  positions:[23]
+
+problem (df=3):
+doc:6  tf:1  len:97  norm_tf_idf:0.068196  positions:[37]
+doc:8  tf:1  len:245  norm_tf_idf:0.033895  positions:[26]
+doc:22  tf:1  len:37  norm_tf_idf:0.143756  positions:[27]
+
+problems (df=5):
+doc:5  tf:3  len:176  norm_tf_idf:0.117179  positions:[92, 119, 153]
+doc:6  tf:1  len:97  norm_tf_idf:0.057850  positions:[87]
+doc:16  tf:1  len:60  norm_tf_idf:0.088286  positions:[39]
+doc:28  tf:1  len:499  norm_tf_idf:0.015228  positions:[210]
+doc:29  tf:1  len:75  norm_tf_idf:0.084481  positions:[50]
+
+procedure (df=1):
+doc:6  tf:2  len:97  norm_tf_idf:0.180892  positions:[69, 80]
+
+process (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[26]
+
+processes (df=1):
+doc:7  tf:3  len:64  norm_tf_idf:0.395559  positions:[1, 9, 46]
+
+product (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[146]
+
+program (df=2):
+doc:2  tf:3  len:67  norm_tf_idf:0.286111  positions:[4, 15, 35]
+doc:9  tf:1  len:65  norm_tf_idf:0.109623  positions:[26]
+
+programming (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[30]
+
+progressive (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[57]
+
+propaganda (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[142]
+
+properties (df=1):
+doc:13  tf:4  len:286  norm_tf_idf:0.163270  positions:[1, 9, 145, 150]
+
+prophets (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[117]
+
+protect (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[124]
+
+protected (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[256]
+
+protest (df=1):
+doc:22  tf:2  len:37  norm_tf_idf:0.381321  positions:[1, 9]
+
+provided (df=1):
+doc:12  tf:2  len:64  norm_tf_idf:0.279159  positions:[1, 9]
+
+provider (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[114]
+
+provincetown (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[50]
+
+proving (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[49]
+
+public (df=2):
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[37]
+doc:26  tf:1  len:48  norm_tf_idf:0.122071  positions:[25]
+
+purchase (df=3):
+doc:7  tf:1  len:64  norm_tf_idf:0.099416  positions:[31]
+doc:23  tf:1  len:92  norm_tf_idf:0.072429  positions:[22]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[154]
+
+purposes (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[72]
+
+put (df=3):
+doc:14  tf:1  len:122  norm_tf_idf:0.074213  positions:[52]
+doc:17  tf:1  len:114  norm_tf_idf:0.057507  positions:[73]
+doc:29  tf:1  len:75  norm_tf_idf:0.099590  positions:[18]
+
+puts (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[35]
+
+q (df=2):
+doc:21  tf:1  len:42  norm_tf_idf:0.165024  positions:[11]
+doc:23  tf:3  len:92  norm_tf_idf:0.243453  positions:[26, 68, 80]
+
+quality (df=1):
+doc:23  tf:3  len:92  norm_tf_idf:0.288183  positions:[0, 8, 78]
+
+question (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[32]
+
+questionable (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[17]
+
+questions (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[233]
+
+quick (df=1):
+doc:20  tf:2  len:51  norm_tf_idf:0.342954  positions:[0, 8]
+
+quickies (df=3):
+doc:0  tf:2  len:221  norm_tf_idf:0.068002  positions:[3, 14]
+doc:24  tf:2  len:187  norm_tf_idf:0.100779  positions:[1, 10]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[23]
+
+quickly (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[74]
+
+quietly (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[91]
+
+quit (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[44]
+
+r (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[17]
+
+radical (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[83]
+
+radio (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[62]
+
+rafter (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[119]
+
+ranging (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[130]
+
+rared (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[46]
+
+ration (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[68]
+
+rationing (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[160]
+
+rcn (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[11]
+
+reaching (df=1):
+doc:2  tf:1  len:67  norm_tf_idf:0.112893  positions:[29]
+
+read (df=4):
+doc:15  tf:1  len:135  norm_tf_idf:0.060588  positions:[114]
+doc:23  tf:1  len:92  norm_tf_idf:0.066241  positions:[60]
+doc:24  tf:1  len:187  norm_tf_idf:0.046084  positions:[52]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[130]
+
+readers (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[41]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[36]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[35]
+
+readiness (df=2):
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[152]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[363]
+
+reading (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[53]
+
+ready (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[316, 445]
+
+real (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[89]
+doc:1  tf:1  len:68  norm_tf_idf:0.090493  positions:[27]
+doc:16  tf:1  len:60  norm_tf_idf:0.104075  positions:[29]
+
+realized (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[150]
+
+reappeared (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[56]
+
+reappearing (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[40]
+
+reason (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[90]
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[28]
+
+reasoned (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[45]
+
+reasoning (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[419]
+
+rebuild (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[110]
+
+rec (df=31):
+doc:0  tf:1  len:221  norm_tf_idf:0.010419  positions:[5]
+doc:1  tf:1  len:68  norm_tf_idf:0.027729  positions:[1]
+doc:2  tf:1  len:67  norm_tf_idf:0.026082  positions:[5]
+doc:3  tf:1  len:84  norm_tf_idf:0.022534  positions:[2]
+doc:4  tf:1  len:61  norm_tf_idf:0.027846  positions:[2]
+doc:5  tf:1  len:176  norm_tf_idf:0.014109  positions:[5]
+doc:6  tf:1  len:97  norm_tf_idf:0.020896  positions:[3]
+doc:7  tf:1  len:64  norm_tf_idf:0.030463  positions:[2]
+doc:8  tf:1  len:245  norm_tf_idf:0.010386  positions:[4]
+doc:9  tf:1  len:65  norm_tf_idf:0.029980  positions:[2]
+doc:10  tf:1  len:98  norm_tf_idf:0.024660  positions:[3]
+doc:11  tf:1  len:136  norm_tf_idf:0.011616  positions:[2]
+doc:12  tf:1  len:64  norm_tf_idf:0.032248  positions:[2]
+doc:13  tf:1  len:286  norm_tf_idf:0.009430  positions:[2]
+doc:14  tf:1  len:122  norm_tf_idf:0.022740  positions:[2]
+doc:15  tf:1  len:135  norm_tf_idf:0.020299  positions:[3]
+doc:16  tf:1  len:60  norm_tf_idf:0.031890  positions:[2]
+doc:17  tf:1  len:114  norm_tf_idf:0.017621  positions:[3]
+doc:18  tf:1  len:166  norm_tf_idf:0.016606  positions:[5]
+doc:19  tf:1  len:193  norm_tf_idf:0.013223  positions:[7]
+doc:20  tf:1  len:51  norm_tf_idf:0.039618  positions:[2]
+doc:21  tf:1  len:42  norm_tf_idf:0.045132  positions:[2]
+doc:22  tf:1  len:37  norm_tf_idf:0.044050  positions:[2]
+doc:23  tf:1  len:92  norm_tf_idf:0.022194  positions:[2]
+doc:24  tf:1  len:187  norm_tf_idf:0.015440  positions:[3]
+doc:25  tf:1  len:53  norm_tf_idf:0.036819  positions:[2]
+doc:26  tf:1  len:48  norm_tf_idf:0.033385  positions:[2]
+doc:27  tf:1  len:40  norm_tf_idf:0.031865  positions:[6]
+doc:28  tf:1  len:499  norm_tf_idf:0.005501  positions:[3]
+doc:29  tf:1  len:75  norm_tf_idf:0.030516  positions:[3]
+doc:30  tf:1  len:59  norm_tf_idf:0.026978  positions:[4]
+
+received (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[24]
+
+receiving (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[108]
+
+recent (df=2):
+doc:0  tf:2  len:221  norm_tf_idf:0.076191  positions:[25, 146]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[98]
+
+recently (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[93]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[22]
+
+rectal (df=1):
+doc:23  tf:2  len:92  norm_tf_idf:0.192122  positions:[23, 65]
+
+red (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[166]
+
+reference (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[82]
+
+registration (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[24]
+
+reinforced (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[38]
+
+reinstate (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[83]
+
+related (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[86]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[79]
+
+relating (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[29]
+
+relax (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[83]
+
+release (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[44]
+
+released (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[87]
+
+relief (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[27]
+
+rely (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[45]
+
+remain (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[153]
+
+remark (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[72]
+
+remarked (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[147]
+
+remember (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[60]
+
+remind (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[114]
+
+remove (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[48]
+
+removed (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[80]
+
+renamed (df=1):
+doc:8  tf:3  len:245  norm_tf_idf:0.134863  positions:[65, 82, 222]
+
+repair (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[88]
+
+replace (df=1):
+doc:21  tf:1  len:42  norm_tf_idf:0.195344  positions:[27]
+
+replied (df=2):
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[41]
+doc:11  tf:3  len:136  norm_tf_idf:0.127424  positions:[34, 61, 84]
+
+reported (df=2):
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[115]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[208]
+
+reporters (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[106]
+
+reports (df=1):
+doc:5  tf:2  len:176  norm_tf_idf:0.122137  positions:[117, 150]
+
+reproduced (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[69]
+
+republic (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[177]
+
+reputation (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[33]
+
+request (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[17]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[13]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[13]
+
+require (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[162]
+
+required (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[79, 97]
+
+requirements (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[62]
+
+requiring (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[86]
+
+reserv (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[110]
+
+reserved (df=2):
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[68]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[174]
+
+resources (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[85]
+
+respected (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[112]
+
+responce (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[22, 160]
+
+responded (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[33]
+
+response (df=4):
+doc:1  tf:1  len:68  norm_tf_idf:0.082762  positions:[55]
+doc:19  tf:1  len:193  norm_tf_idf:0.039466  positions:[147]
+doc:20  tf:2  len:51  norm_tf_idf:0.236491  positions:[1, 9]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[155]
+
+rest (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[152]
+
+restored (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[83]
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[74]
+
+result (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[47]
+
+retardant (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[79]
+
+retirement (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[59]
+
+retorted (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[38]
+
+return (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[121, 125]
+
+returns (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[1, 12]
+
+reuters (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[110]
+
+revelation (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[44]
+
+reversed (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[32]
+
+rhf (df=31):
+doc:0  tf:4  len:221  norm_tf_idf:0.041674  positions:[8, 45, 212, 218]
+doc:1  tf:3  len:68  norm_tf_idf:0.083187  positions:[4, 59, 65]
+doc:2  tf:3  len:67  norm_tf_idf:0.078247  positions:[8, 55, 61]
+doc:3  tf:3  len:84  norm_tf_idf:0.067601  positions:[5, 75, 81]
+doc:4  tf:3  len:61  norm_tf_idf:0.083537  positions:[5, 52, 58]
+doc:5  tf:3  len:176  norm_tf_idf:0.042327  positions:[8, 167, 173]
+doc:6  tf:3  len:97  norm_tf_idf:0.062689  positions:[6, 88, 94]
+doc:7  tf:3  len:64  norm_tf_idf:0.091389  positions:[5, 55, 61]
+doc:8  tf:3  len:245  norm_tf_idf:0.031158  positions:[7, 236, 242]
+doc:9  tf:3  len:65  norm_tf_idf:0.089941  positions:[5, 56, 62]
+doc:10  tf:3  len:98  norm_tf_idf:0.073981  positions:[6, 89, 95]
+doc:11  tf:3  len:136  norm_tf_idf:0.034849  positions:[5, 127, 133]
+doc:12  tf:3  len:64  norm_tf_idf:0.096744  positions:[5, 52, 58]
+doc:13  tf:3  len:286  norm_tf_idf:0.028291  positions:[5, 277, 283]
+doc:14  tf:3  len:122  norm_tf_idf:0.068220  positions:[5, 113, 119]
+doc:15  tf:3  len:135  norm_tf_idf:0.060898  positions:[6, 126, 132]
+doc:16  tf:3  len:60  norm_tf_idf:0.095671  positions:[5, 48, 54]
+doc:17  tf:3  len:114  norm_tf_idf:0.052864  positions:[6, 105, 111]
+doc:18  tf:4  len:166  norm_tf_idf:0.066422  positions:[8, 153, 154, 160]
+doc:19  tf:3  len:193  norm_tf_idf:0.039669  positions:[10, 184, 190]
+doc:20  tf:3  len:51  norm_tf_idf:0.118853  positions:[5, 42, 48]
+doc:21  tf:3  len:42  norm_tf_idf:0.135395  positions:[5, 33, 39]
+doc:22  tf:3  len:37  norm_tf_idf:0.132149  positions:[5, 28, 34]
+doc:23  tf:3  len:92  norm_tf_idf:0.066581  positions:[5, 83, 89]
+doc:24  tf:4  len:187  norm_tf_idf:0.061761  positions:[6, 40, 175, 181]
+doc:25  tf:3  len:53  norm_tf_idf:0.110458  positions:[5, 44, 50]
+doc:26  tf:3  len:48  norm_tf_idf:0.100154  positions:[5, 39, 45]
+doc:27  tf:3  len:40  norm_tf_idf:0.095596  positions:[9, 31, 37]
+doc:28  tf:4  len:499  norm_tf_idf:0.022002  positions:[6, 39, 490, 496]
+doc:29  tf:3  len:75  norm_tf_idf:0.091548  positions:[6, 66, 72]
+doc:30  tf:3  len:59  norm_tf_idf:0.080934  positions:[7, 50, 56]
+
+ribbing (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[24]
+
+rifled (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[106]
+
+rights (df=2):
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[67]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[173]
+
+riot (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[103]
+
+risk (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[37]
+
+rob (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[38]
+
+robes (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[49, 77]
+
+rochester (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[164]
+
+rocketed (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[58]
+
+roll (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[344]
+
+rope (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[115]
+
+ross (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[13]
+
+rounds (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[110]
+
+routinely (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[43]
+
+row (df=1):
+doc:22  tf:1  len:37  norm_tf_idf:0.190661  positions:[22]
+
+rr (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[139]
+
+rsn (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[14]
+
+rule (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[118]
+
+rum (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[48]
+
+rummaged (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[159]
+
+run (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[27]
+
+runway (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[198]
+
+rushed (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[95]
+
+russia (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[52, 61]
+
+rv (df=5):
+doc:2  tf:1  len:67  norm_tf_idf:0.072207  positions:[64]
+doc:12  tf:1  len:64  norm_tf_idf:0.089276  positions:[61]
+doc:16  tf:1  len:60  norm_tf_idf:0.088286  positions:[57]
+doc:18  tf:1  len:166  norm_tf_idf:0.045971  positions:[163]
+doc:24  tf:1  len:187  norm_tf_idf:0.042745  positions:[184]
+
+rx (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[8]
+
+sadly (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[36]
+
+safety (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[222]
+
+sale (df=2):
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[166]
+doc:25  tf:1  len:53  norm_tf_idf:0.134630  positions:[35]
+
+sam (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[16]
+
+sand (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[247]
+
+sang (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[46]
+
+santa (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[36]
+
+sat (df=1):
+doc:11  tf:3  len:136  norm_tf_idf:0.150836  positions:[41, 71, 93]
+
+satisfaction (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[68]
+
+saturday (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[431]
+
+sauces (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[43]
+
+saul (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[90]
+
+save (df=2):
+doc:6  tf:1  len:97  norm_tf_idf:0.076408  positions:[79]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[153]
+
+savior (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[34]
+
+scales (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[31]
+
+scanned (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[48]
+
+scarcely (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[86]
+
+scenario (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[53]
+
+scene (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[175]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[163]
+
+schlepstein (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[91]
+
+scotch (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[408]
+
+screen (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[293]
+
+search (df=31):
+doc:0  tf:1  len:221  norm_tf_idf:0.010419  positions:[220]
+doc:1  tf:1  len:68  norm_tf_idf:0.027729  positions:[67]
+doc:2  tf:1  len:67  norm_tf_idf:0.026082  positions:[63]
+doc:3  tf:1  len:84  norm_tf_idf:0.022534  positions:[83]
+doc:4  tf:1  len:61  norm_tf_idf:0.027846  positions:[60]
+doc:5  tf:1  len:176  norm_tf_idf:0.014109  positions:[175]
+doc:6  tf:1  len:97  norm_tf_idf:0.020896  positions:[96]
+doc:7  tf:1  len:64  norm_tf_idf:0.030463  positions:[63]
+doc:8  tf:1  len:245  norm_tf_idf:0.010386  positions:[244]
+doc:9  tf:1  len:65  norm_tf_idf:0.029980  positions:[64]
+doc:10  tf:1  len:98  norm_tf_idf:0.024660  positions:[97]
+doc:11  tf:1  len:136  norm_tf_idf:0.011616  positions:[135]
+doc:12  tf:1  len:64  norm_tf_idf:0.032248  positions:[60]
+doc:13  tf:2  len:286  norm_tf_idf:0.018861  positions:[274, 285]
+doc:14  tf:1  len:122  norm_tf_idf:0.022740  positions:[121]
+doc:15  tf:1  len:135  norm_tf_idf:0.020299  positions:[134]
+doc:16  tf:1  len:60  norm_tf_idf:0.031890  positions:[56]
+doc:17  tf:1  len:114  norm_tf_idf:0.017621  positions:[113]
+doc:18  tf:1  len:166  norm_tf_idf:0.016606  positions:[162]
+doc:19  tf:1  len:193  norm_tf_idf:0.013223  positions:[192]
+doc:20  tf:1  len:51  norm_tf_idf:0.039618  positions:[50]
+doc:21  tf:1  len:42  norm_tf_idf:0.045132  positions:[41]
+doc:22  tf:1  len:37  norm_tf_idf:0.044050  positions:[36]
+doc:23  tf:1  len:92  norm_tf_idf:0.022194  positions:[91]
+doc:24  tf:1  len:187  norm_tf_idf:0.015440  positions:[183]
+doc:25  tf:1  len:53  norm_tf_idf:0.036819  positions:[52]
+doc:26  tf:2  len:48  norm_tf_idf:0.066769  positions:[28, 47]
+doc:27  tf:1  len:40  norm_tf_idf:0.031865  positions:[39]
+doc:28  tf:1  len:499  norm_tf_idf:0.005501  positions:[498]
+doc:29  tf:1  len:75  norm_tf_idf:0.030516  positions:[74]
+doc:30  tf:1  len:59  norm_tf_idf:0.026978  positions:[58]
+
+season (df=1):
+doc:24  tf:2  len:187  norm_tf_idf:0.133660  positions:[122, 127]
+
+seats (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[207]
+
+seconds (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[430]
+
+section (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[20]
+
+security (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[30]
+
+sedative (df=1):
+doc:17  tf:2  len:114  norm_tf_idf:0.152541  positions:[48, 69]
+
+sehlat (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[12]
+
+selective (df=4):
+doc:0  tf:1  len:221  norm_tf_idf:0.031096  positions:[40]
+doc:15  tf:1  len:135  norm_tf_idf:0.060588  positions:[49]
+doc:24  tf:1  len:187  norm_tf_idf:0.046084  positions:[35]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[34]
+
+selling (df=1):
+doc:24  tf:2  len:187  norm_tf_idf:0.133660  positions:[119, 124]
+
+send (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[43]
+
+senile (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[64]
+
+sensitive (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[51]
+
+sentimental (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[157]
+
+separately (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[35]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[30]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[29]
+
+separation (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[93]
+
+sept (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[211]
+
+sequence (df=1):
+doc:6  tf:2  len:97  norm_tf_idf:0.180892  positions:[29, 36]
+
+served (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[170, 172]
+
+service (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[113]
+doc:8  tf:1  len:245  norm_tf_idf:0.033895  positions:[156]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[241]
+
+services (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[16]
+
+set (df=2):
+doc:2  tf:1  len:67  norm_tf_idf:0.095370  positions:[33]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[140]
+
+setting (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[230, 235]
+
+sex (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[49]
+
+sexist (df=2):
+doc:27  tf:1  len:40  norm_tf_idf:0.116515  positions:[23]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[19]
+
+sexual (df=4):
+doc:4  tf:1  len:61  norm_tf_idf:0.083110  positions:[17]
+doc:11  tf:1  len:136  norm_tf_idf:0.034671  positions:[16]
+doc:20  tf:1  len:51  norm_tf_idf:0.118246  positions:[22]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[18]
+
+shanghai (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[62]
+
+share (df=1):
+doc:19  tf:2  len:193  norm_tf_idf:0.114466  positions:[61, 66]
+
+sheesh (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[268]
+
+shelves (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[479]
+
+shiftily (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[179]
+
+shipping (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[107]
+
+shirt (df=2):
+doc:7  tf:2  len:64  norm_tf_idf:0.222775  positions:[24, 39]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[56]
+
+shocked (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[46]
+
+shook (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[32]
+
+shoot (df=2):
+doc:1  tf:1  len:68  norm_tf_idf:0.101390  positions:[58]
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[165]
+
+shop (df=1):
+doc:15  tf:3  len:135  norm_tf_idf:0.263588  positions:[32, 54, 97]
+
+short (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[20]
+
+shortwave (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[66]
+
+shove (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[14]
+
+show (df=2):
+doc:7  tf:1  len:64  norm_tf_idf:0.111387  positions:[50]
+doc:9  tf:1  len:65  norm_tf_idf:0.109623  positions:[24]
+
+showed (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[37]
+
+showing (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[144]
+
+shows (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[38]
+
+shsu (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[12]
+
+shut (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[59]
+
+sick (df=2):
+doc:12  tf:1  len:64  norm_tf_idf:0.117915  positions:[17]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[18]
+
+sigh (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[269]
+
+signal (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[135]
+
+silicon (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[29]
+
+sinai (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[97, 145]
+
+singh (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[15]
+
+sister (df=1):
+doc:19  tf:2  len:193  norm_tf_idf:0.114466  positions:[113, 152]
+
+site (df=2):
+doc:17  tf:1  len:114  norm_tf_idf:0.064432  positions:[30]
+doc:19  tf:2  len:193  norm_tf_idf:0.096699  positions:[86, 117]
+
+sites (df=2):
+doc:17  tf:1  len:114  norm_tf_idf:0.064432  positions:[26]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[104]
+
+sitting (df=2):
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[197]
+doc:11  tf:3  len:136  norm_tf_idf:0.127424  positions:[19, 27, 45]
+
+situation (df=2):
+doc:1  tf:1  len:68  norm_tf_idf:0.101390  positions:[46]
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[76]
+
+sixty (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[64]
+
+size (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[84, 201]
+
+sized (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[62]
+
+sk (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[265]
+
+skokie (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[24]
+
+slightly (df=1):
+doc:3  tf:1  len:84  norm_tf_idf:0.097533  positions:[51]
+
+slob (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[104]
+
+slower (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[72]
+
+slums (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[91]
+
+small (df=3):
+doc:5  tf:1  len:176  norm_tf_idf:0.046045  positions:[130]
+doc:8  tf:1  len:245  norm_tf_idf:0.033895  positions:[208]
+doc:23  tf:1  len:92  norm_tf_idf:0.072429  positions:[62]
+
+smartest (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[170]
+
+smells (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[98]
+
+smirk (df=22):
+doc:0  tf:1  len:221  norm_tf_idf:0.013882  positions:[21]
+doc:1  tf:1  len:68  norm_tf_idf:0.036946  positions:[17]
+doc:2  tf:1  len:67  norm_tf_idf:0.034752  positions:[22]
+doc:3  tf:1  len:84  norm_tf_idf:0.030024  positions:[14]
+doc:4  tf:1  len:61  norm_tf_idf:0.037101  positions:[16]
+doc:5  tf:1  len:176  norm_tf_idf:0.018799  positions:[25]
+doc:6  tf:1  len:97  norm_tf_idf:0.027842  positions:[17]
+doc:7  tf:1  len:64  norm_tf_idf:0.040588  positions:[15]
+doc:10  tf:1  len:98  norm_tf_idf:0.032857  positions:[17]
+doc:12  tf:1  len:64  norm_tf_idf:0.042967  positions:[16]
+doc:13  tf:1  len:286  norm_tf_idf:0.012565  positions:[21]
+doc:15  tf:1  len:135  norm_tf_idf:0.027047  positions:[21]
+doc:16  tf:1  len:60  norm_tf_idf:0.042491  positions:[17]
+doc:20  tf:1  len:51  norm_tf_idf:0.052786  positions:[21]
+doc:21  tf:1  len:42  norm_tf_idf:0.060133  positions:[18]
+doc:22  tf:1  len:37  norm_tf_idf:0.058691  positions:[15]
+doc:24  tf:1  len:187  norm_tf_idf:0.020572  positions:[17]
+doc:25  tf:1  len:53  norm_tf_idf:0.049058  positions:[17]
+doc:26  tf:1  len:48  norm_tf_idf:0.044482  positions:[13]
+doc:28  tf:1  len:499  norm_tf_idf:0.007329  positions:[17]
+doc:29  tf:1  len:75  norm_tf_idf:0.040659  positions:[15]
+doc:30  tf:1  len:59  norm_tf_idf:0.035945  positions:[20]
+
+snow (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[36]
+
+soaked (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[480]
+
+sobbed (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[34]
+
+social (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[94]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[84]
+
+society (df=1):
+doc:5  tf:2  len:176  norm_tf_idf:0.122137  positions:[96, 111]
+
+sock (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[19]
+
+software (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[37]
+
+sold (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[72, 130]
+
+solution (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[39]
+
+solves (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[83]
+
+someday (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[60]
+
+son (df=1):
+doc:4  tf:2  len:61  norm_tf_idf:0.241049  positions:[21, 31]
+
+soothing (df=1):
+doc:17  tf:2  len:114  norm_tf_idf:0.152541  positions:[49, 77]
+
+sorts (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[447]
+
+soto (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[184]
+
+sour (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[64]
+
+south (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[19]
+
+southern (df=1):
+doc:2  tf:3  len:67  norm_tf_idf:0.338679  positions:[1, 12, 31]
+
+space (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[33]
+
+spaces (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[68]
+
+spare (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[55]
+
+spd (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[9]
+
+special (df=4):
+doc:2  tf:1  len:67  norm_tf_idf:0.077848  positions:[47]
+doc:8  tf:1  len:245  norm_tf_idf:0.030999  positions:[188]
+doc:13  tf:1  len:286  norm_tf_idf:0.028147  positions:[48]
+doc:24  tf:1  len:187  norm_tf_idf:0.046084  positions:[132]
+
+speech (df=1):
+doc:4  tf:3  len:61  norm_tf_idf:0.361574  positions:[37, 41, 46]
+
+spend (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[60]
+
+splash (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[292]
+
+spotted (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[159]
+
+spring (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[66, 69]
+
+square (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[61]
+
+st (df=2):
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[277]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[56]
+
+stabler (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[49]
+
+staff (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[12]
+
+staid (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[31]
+
+standards (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[81]
+
+stanford (df=1):
+doc:27  tf:1  len:40  norm_tf_idf:0.137923  positions:[19]
+
+star (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[96]
+
+start (df=3):
+doc:6  tf:1  len:97  norm_tf_idf:0.068196  positions:[62]
+doc:17  tf:2  len:114  norm_tf_idf:0.115014  positions:[58, 76]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[345]
+
+started (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[168]
+
+starting (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[30]
+
+state (df=4):
+doc:8  tf:1  len:245  norm_tf_idf:0.030999  positions:[118]
+doc:20  tf:1  len:51  norm_tf_idf:0.118246  positions:[18]
+doc:26  tf:1  len:48  norm_tf_idf:0.099643  positions:[27]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[303]
+
+statement (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[64]
+
+stations (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[132]
+
+stay (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[155]
+
+std (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[394]
+
+step (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[223, 228]
+
+stephen (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[16]
+
+steve (df=1):
+doc:0  tf:3  len:221  norm_tf_idf:0.135284  positions:[176, 197, 199]
+
+stick (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[84]
+
+stock (df=4):
+doc:0  tf:1  len:221  norm_tf_idf:0.031096  positions:[125]
+doc:8  tf:1  len:245  norm_tf_idf:0.030999  positions:[190]
+doc:19  tf:3  len:193  norm_tf_idf:0.118398  positions:[45, 57, 125]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[462]
+
+stockpiled (df=1):
+doc:5  tf:2  len:176  norm_tf_idf:0.122137  positions:[86, 109]
+
+stockpiling (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[31]
+
+stole (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[122]
+
+stop (df=3):
+doc:3  tf:1  len:84  norm_tf_idf:0.073539  positions:[35]
+doc:23  tf:1  len:92  norm_tf_idf:0.072429  positions:[18]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[282]
+
+stopped (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[127]
+
+store (df=2):
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[35]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[403]
+
+stories (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[91]
+
+story (df=2):
+doc:7  tf:1  len:64  norm_tf_idf:0.111387  positions:[54]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[31]
+
+straight (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[29]
+
+strain (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[163]
+
+strategy (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[75]
+
+stratus (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[440]
+
+street (df=2):
+doc:13  tf:2  len:286  norm_tf_idf:0.068964  positions:[109, 224]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[400]
+
+strike (df=1):
+doc:22  tf:1  len:37  norm_tf_idf:0.190661  positions:[26]
+
+stroke (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[42]
+
+strongest (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[101]
+
+stsci (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[134, 139]
+
+stuck (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[34]
+
+studdert (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[45]
+
+students (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[107]
+
+stupid (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[99]
+
+style (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[244]
+
+subject (df=4):
+doc:0  tf:5  len:221  norm_tf_idf:0.155480  positions:[62, 84, 106, 144, 163]
+doc:12  tf:2  len:64  norm_tf_idf:0.192500  positions:[0, 8]
+doc:24  tf:5  len:187  norm_tf_idf:0.230421  positions:[61, 74, 91, 114, 148]
+doc:28  tf:10  len:499  norm_tf_idf:0.164176  positions:[51, 78, 113, 143, 252, 271, 333, 356, 398, 444]
+
+submissions (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[26]
+
+submit (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[21]
+
+submitted (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[23]
+
+subsidiaries (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[48]
+
+subsidiary (df=1):
+doc:8  tf:5  len:245  norm_tf_idf:0.224772  positions:[59, 101, 112, 136, 223]
+
+successor (df=1):
+doc:8  tf:4  len:245  norm_tf_idf:0.179817  positions:[44, 76, 176, 212]
+
+suicide (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[42]
+
+suit (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[42]
+
+summer (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[70, 94]
+
+sunglasses (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[112]
+
+super (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[254]
+
+superbowl (df=1):
+doc:26  tf:4  len:48  norm_tf_idf:0.577998  positions:[0, 8, 18, 37]
+
+supplies (df=1):
+doc:5  tf:2  len:176  norm_tf_idf:0.122137  positions:[106, 158]
+
+surfing (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[17]
+
+surgical (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[87]
+
+surprise (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[63]
+
+survey (df=2):
+doc:12  tf:1  len:64  norm_tf_idf:0.117915  positions:[23]
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[102]
+
+survivalists (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[29]
+
+survived (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[138]
+
+susceptible (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[84]
+
+susie (df=1):
+doc:10  tf:2  len:98  norm_tf_idf:0.213477  positions:[12, 15]
+
+suspect (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[144]
+
+sw (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[439]
+
+sward (df=1):
+doc:21  tf:1  len:42  norm_tf_idf:0.195344  positions:[16]
+
+sweat (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[41]
+
+sympatico (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[266, 350]
+
+synching (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[49]
+
+syracuse (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[165]
+
+system (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[176, 386]
+
+systems (df=4):
+doc:2  tf:1  len:67  norm_tf_idf:0.077848  positions:[21]
+doc:5  tf:2  len:176  norm_tf_idf:0.084222  positions:[48, 59]
+doc:13  tf:1  len:286  norm_tf_idf:0.028147  positions:[152]
+doc:29  tf:1  len:75  norm_tf_idf:0.091081  positions:[40]
+
+table (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[189]
+doc:23  tf:1  len:92  norm_tf_idf:0.081151  positions:[53]
+
+tag (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[181]
+
+tail (df=1):
+doc:11  tf:2  len:136  norm_tf_idf:0.100558  positions:[103, 118]
+
+takeover (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[114]
+
+takes (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[64]
+
+talking (df=2):
+doc:1  tf:1  len:68  norm_tf_idf:0.101390  positions:[24]
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[18]
+
+tank (df=2):
+doc:17  tf:3  len:114  norm_tf_idf:0.193296  positions:[42, 55, 75]
+doc:28  tf:2  len:499  norm_tf_idf:0.040226  positions:[461, 485]
+
+tanya (df=1):
+doc:19  tf:3  len:193  norm_tf_idf:0.171699  positions:[114, 140, 156]
+
+tapes (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[143]
+
+taste (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[26]
+
+tattered (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[174]
+
+tc (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[11]
+
+tcomeau (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[133]
+
+team (df=2):
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[63]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[141]
+
+tears (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[27]
+
+ted (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[91]
+doc:19  tf:1  len:193  norm_tf_idf:0.048350  positions:[138]
+
+templeton (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[19]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[19]
+
+templetons (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[17]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[17]
+
+ten (df=1):
+doc:27  tf:3  len:40  norm_tf_idf:0.413769  positions:[1, 13, 26]
+
+tent (df=5):
+doc:2  tf:1  len:67  norm_tf_idf:0.072207  positions:[66]
+doc:12  tf:1  len:64  norm_tf_idf:0.089276  positions:[63]
+doc:16  tf:1  len:60  norm_tf_idf:0.088286  positions:[59]
+doc:18  tf:1  len:166  norm_tf_idf:0.045971  positions:[165]
+doc:24  tf:1  len:187  norm_tf_idf:0.042745  positions:[186]
+
+terminal (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[35]
+
+terminology (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[29]
+
+terry (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[16]
+
+tested (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[71]
+
+tests (df=2):
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[390]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[35]
+
+tethered (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[139]
+
+texas (df=2):
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[45]
+doc:24  tf:5  len:187  norm_tf_idf:0.282286  positions:[47, 92, 96, 129, 136]
+
+text (df=1):
+doc:10  tf:2  len:98  norm_tf_idf:0.213477  positions:[1, 10]
+
+theodorus (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[74]
+
+therapy (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[37]
+
+thermometer (df=1):
+doc:23  tf:5  len:92  norm_tf_idf:0.480305  positions:[24, 47, 49, 59, 66]
+
+thermometers (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[21]
+
+thetoybox (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[143]
+
+thief (df=1):
+doc:13  tf:8  len:286  norm_tf_idf:0.326539  positions:[100, 119, 164, 169, 182, 190, 266, 272]
+
+thieves (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[120]
+
+thing (df=2):
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[53]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[424]
+
+things (df=2):
+doc:11  tf:7  len:136  norm_tf_idf:0.297324  positions:[0, 8, 35, 58, 85, 108, 125]
+doc:27  tf:3  len:40  norm_tf_idf:0.349546  positions:[2, 14, 27]
+
+thirty (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[53]
+
+thongs (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[237]
+
+thought (df=4):
+doc:14  tf:1  len:122  norm_tf_idf:0.067872  positions:[38]
+doc:16  tf:2  len:60  norm_tf_idf:0.190366  positions:[28, 44]
+doc:26  tf:1  len:48  norm_tf_idf:0.099643  positions:[16]
+doc:28  tf:2  len:499  norm_tf_idf:0.032835  positions:[429, 453]
+
+thousand (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[119, 122]
+
+throwback (df=1):
+doc:15  tf:2  len:135  norm_tf_idf:0.175725  positions:[0, 9]
+
+thunder (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[75]
+
+tied (df=1):
+doc:11  tf:3  len:136  norm_tf_idf:0.150836  positions:[68, 91, 117]
+
+till (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[74]
+
+tilted (df=1):
+doc:7  tf:1  len:64  norm_tf_idf:0.131853  positions:[40]
+
+tim (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[14]
+
+time (df=6):
+doc:0  tf:11  len:221  norm_tf_idf:0.297019  positions:[1, 12, 28, 64, 69, 87, 118, 130, 151, 165, 171]
+doc:1  tf:1  len:68  norm_tf_idf:0.071865  positions:[36]
+doc:11  tf:1  len:136  norm_tf_idf:0.030106  positions:[90]
+doc:15  tf:1  len:135  norm_tf_idf:0.052610  positions:[113]
+doc:21  tf:2  len:42  norm_tf_idf:0.233935  positions:[0, 8]
+doc:28  tf:1  len:499  norm_tf_idf:0.014256  positions:[280]
+
+times (df=2):
+doc:21  tf:1  len:42  norm_tf_idf:0.165024  positions:[30]
+doc:23  tf:1  len:92  norm_tf_idf:0.081151  positions:[75]
+
+timmy (df=1):
+doc:19  tf:5  len:193  norm_tf_idf:0.286165  positions:[22, 33, 73, 111, 154]
+
+tiniest (df=1):
+doc:29  tf:1  len:75  norm_tf_idf:0.132083  positions:[49]
+
+tip (df=1):
+doc:23  tf:3  len:92  norm_tf_idf:0.288183  positions:[27, 69, 81]
+
+tiresome (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[76]
+
+title (df=3):
+doc:0  tf:1  len:221  norm_tf_idf:0.034001  positions:[48]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[43]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[42]
+
+titled (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[41]
+
+tjm (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[11]
+
+tkraemer (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[392]
+
+tmorris (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[12]
+
+today (df=5):
+doc:11  tf:1  len:136  norm_tf_idf:0.032158  positions:[44]
+doc:17  tf:1  len:114  norm_tf_idf:0.048783  positions:[27]
+doc:22  tf:1  len:37  norm_tf_idf:0.121947  positions:[17]
+doc:26  tf:1  len:48  norm_tf_idf:0.092422  positions:[19]
+doc:28  tf:3  len:499  norm_tf_idf:0.045684  positions:[62, 256, 410]
+
+told (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[116]
+
+tom (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[135, 395]
+
+tonight (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[198]
+
+tony (df=1):
+doc:24  tf:2  len:187  norm_tf_idf:0.133660  positions:[109, 112]
+
+toolbar (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[41]
+
+tooth (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[44]
+
+toothless (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[89]
+
+top (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[111]
+doc:27  tf:3  len:40  norm_tf_idf:0.349546  positions:[0, 12, 25]
+
+topical (df=5):
+doc:5  tf:1  len:176  norm_tf_idf:0.039060  positions:[23]
+doc:18  tf:1  len:166  norm_tf_idf:0.045971  positions:[23]
+doc:24  tf:3  len:187  norm_tf_idf:0.128234  positions:[0, 9, 24]
+doc:25  tf:1  len:53  norm_tf_idf:0.101931  positions:[16]
+doc:26  tf:1  len:48  norm_tf_idf:0.092422  positions:[12]
+
+tops (df=1):
+doc:8  tf:2  len:245  norm_tf_idf:0.089909  positions:[98, 122]
+
+total (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[54]
+doc:15  tf:1  len:135  norm_tf_idf:0.074225  positions:[66]
+
+towels (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[239]
+
+tower (df=1):
+doc:18  tf:2  len:166  norm_tf_idf:0.143748  positions:[59, 73]
+
+toy (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[120]
+
+track (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[41]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[202]
+
+trade (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[84]
+
+traders (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[110]
+
+trading (df=1):
+doc:19  tf:4  len:193  norm_tf_idf:0.228932  positions:[6, 19, 56, 68]
+
+tradition (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[105]
+
+training (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[65]
+
+tray (df=1):
+doc:13  tf:2  len:286  norm_tf_idf:0.081635  positions:[81, 118]
+
+trinity (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[109]
+
+triple (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[24]
+
+trouble (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[21]
+
+true (df=3):
+doc:10  tf:1  len:98  norm_tf_idf:0.080480  positions:[18]
+doc:26  tf:1  len:48  norm_tf_idf:0.108951  positions:[15]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[163]
+
+trunk (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[60]
+
+trust (df=2):
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[186]
+doc:17  tf:2  len:114  norm_tf_idf:0.128864  positions:[2, 11]
+
+tuna (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[101]
+
+tune (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[36]
+
+turnover (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[227]
+
+turns (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[128]
+
+tv (df=1):
+doc:5  tf:5  len:176  norm_tf_idf:0.305342  positions:[39, 61, 71, 116, 149]
+
+twas (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[16]
+
+type (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[216]
+
+ubc (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[53]
+
+uclink (df=1):
+doc:6  tf:1  len:97  norm_tf_idf:0.090446  positions:[13]
+
+uk (df=2):
+doc:10  tf:1  len:98  norm_tf_idf:0.090171  positions:[80]
+doc:30  tf:1  len:59  norm_tf_idf:0.098645  positions:[17]
+
+ummm (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[425]
+
+umn (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[12]
+
+unable (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[100]
+
+unattributed (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[111]
+
+unc (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[13]
+
+understand (df=1):
+doc:27  tf:3  len:40  norm_tf_idf:0.413769  positions:[4, 16, 29]
+
+uni (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[261]
+
+unit (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[100]
+
+united (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[136]
+
+university (df=4):
+doc:13  tf:1  len:286  norm_tf_idf:0.028147  positions:[18]
+doc:20  tf:1  len:51  norm_tf_idf:0.118246  positions:[19]
+doc:24  tf:1  len:187  norm_tf_idf:0.046084  positions:[99]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[365]
+
+unix (df=1):
+doc:21  tf:1  len:42  norm_tf_idf:0.195344  positions:[12]
+
+unlocked (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[103]
+
+unplugged (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[125]
+
+upgraded (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[28]
+
+upholstery (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[252]
+
+upi (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[30]
+
+ups (df=1):
+doc:4  tf:1  len:61  norm_tf_idf:0.120525  positions:[48]
+
+upscale (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[26]
+
+urban (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[55]
+
+url (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[22]
+
+ursus (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[73]
+
+usa (df=2):
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[67]
+doc:10  tf:1  len:98  norm_tf_idf:0.090171  positions:[75]
+
+usair (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[203]
+
+usairways (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[202]
+
+user (df=2):
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[164]
+doc:30  tf:2  len:59  norm_tf_idf:0.197290  positions:[14, 19]
+
+usf (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[111]
+
+usps (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[29]
+
+usual (df=2):
+doc:5  tf:1  len:176  norm_tf_idf:0.051590  positions:[146]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[171]
+
+v (df=2):
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[104]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[200]
+
+validated (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[21]
+
+valley (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[30]
+
+vanilli (df=1):
+doc:12  tf:2  len:64  norm_tf_idf:0.279159  positions:[32, 40]
+
+vanished (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[77]
+
+variety (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[207]
+
+vcn (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[11]
+
+vcr (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[126]
+
+vega (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[249]
+
+vendors (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[190]
+
+venture (df=1):
+doc:5  tf:1  len:176  norm_tf_idf:0.061068  positions:[72]
+
+vet (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[97]
+
+veterinarian (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[101]
+
+veterinarians (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[20]
+
+veterinary (df=1):
+doc:10  tf:1  len:98  norm_tf_idf:0.106738  positions:[41]
+
+videos (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[26]
+
+viewitem (df=1):
+doc:25  tf:1  len:53  norm_tf_idf:0.159366  positions:[31]
+
+vinyl (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[251]
+
+violent (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[54]
+
+virginia (df=4):
+doc:0  tf:1  len:221  norm_tf_idf:0.031096  positions:[180]
+doc:10  tf:1  len:98  norm_tf_idf:0.073604  positions:[44]
+doc:16  tf:1  len:60  norm_tf_idf:0.095183  positions:[47]
+doc:21  tf:1  len:42  norm_tf_idf:0.134704  positions:[14]
+
+virginians (df=1):
+doc:16  tf:1  len:60  norm_tf_idf:0.138032  positions:[20]
+
+virulent (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[162]
+
+visa (df=1):
+doc:8  tf:4  len:245  norm_tf_idf:0.179817  positions:[70, 94, 152, 230]
+
+visible (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[193]
+doc:13  tf:1  len:286  norm_tf_idf:0.034482  positions:[147]
+
+vision (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[169]
+
+vj (df=1):
+doc:12  tf:1  len:64  norm_tf_idf:0.139580  positions:[20]
+
+vocabulary (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[81]
+
+voce (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[185]
+
+voice (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[64]
+
+volts (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[135]
+
+voting (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[185]
+
+w (df=1):
+doc:11  tf:1  len:136  norm_tf_idf:0.050279  positions:[13]
+
+wade (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[331]
+
+waist (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[30]
+
+wait (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[72]
+
+waiting (df=1):
+doc:24  tf:1  len:187  norm_tf_idf:0.066830  positions:[116]
+
+waiver (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[88]
+
+walk (df=1):
+doc:14  tf:1  len:122  norm_tf_idf:0.098426  positions:[36]
+
+walked (df=3):
+doc:7  tf:1  len:64  norm_tf_idf:0.099416  positions:[34]
+doc:11  tf:1  len:136  norm_tf_idf:0.037910  positions:[124]
+doc:14  tf:1  len:122  norm_tf_idf:0.074213  positions:[34]
+
+wandering (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[165]
+
+wanders (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[273]
+
+wanted (df=1):
+doc:15  tf:1  len:135  norm_tf_idf:0.087863  positions:[81]
+
+warn (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[34]
+
+warned (df=1):
+doc:30  tf:1  len:59  norm_tf_idf:0.116769  positions:[49]
+
+warner (df=1):
+doc:0  tf:10  len:221  norm_tf_idf:0.450948  positions:[2, 13, 29, 65, 70, 88, 119, 152, 166, 172]
+
+warning (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[148]
+
+warrant (df=3):
+doc:0  tf:2  len:221  norm_tf_idf:0.068002  positions:[33, 39]
+doc:24  tf:2  len:187  norm_tf_idf:0.100779  positions:[28, 34]
+doc:28  tf:2  len:499  norm_tf_idf:0.035903  positions:[27, 33]
+
+wars (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[97]
+
+wasn (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[469]
+
+watch (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[131]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[360]
+
+watching (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[20]
+
+water (df=4):
+doc:0  tf:1  len:221  norm_tf_idf:0.031096  positions:[142]
+doc:5  tf:1  len:176  norm_tf_idf:0.042111  positions:[70]
+doc:17  tf:2  len:114  norm_tf_idf:0.105188  positions:[45, 57]
+doc:28  tf:2  len:499  norm_tf_idf:0.032835  positions:[467, 482]
+
+watson (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[34]
+
+weapons (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[51]
+
+wearing (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[170]
+
+web (df=2):
+doc:3  tf:1  len:84  norm_tf_idf:0.082395  positions:[62]
+doc:19  tf:2  len:193  norm_tf_idf:0.096699  positions:[39, 74]
+
+website (df=1):
+doc:6  tf:3  len:97  norm_tf_idf:0.271339  positions:[1, 10, 23]
+
+webtv (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[101]
+
+week (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[383]
+
+weekly (df=1):
+doc:19  tf:2  len:193  norm_tf_idf:0.114466  positions:[25, 168]
+
+weeklygrumble (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[21]
+
+weeks (df=3):
+doc:5  tf:1  len:176  norm_tf_idf:0.046045  positions:[99]
+doc:13  tf:1  len:286  norm_tf_idf:0.030776  positions:[34]
+doc:16  tf:1  len:60  norm_tf_idf:0.104075  positions:[21]
+
+west (df=1):
+doc:16  tf:2  len:60  norm_tf_idf:0.276064  positions:[19, 46]
+
+western (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[366]
+
+wet (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[107]
+
+wheelbase (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[204]
+
+whilst (df=1):
+doc:9  tf:1  len:65  norm_tf_idf:0.129765  positions:[19]
+
+white (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[48]
+
+whopping (df=1):
+doc:19  tf:1  len:193  norm_tf_idf:0.057233  positions:[62]
+
+widomaker (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[13]
+
+wife (df=4):
+doc:7  tf:1  len:64  norm_tf_idf:0.090922  positions:[33]
+doc:11  tf:1  len:136  norm_tf_idf:0.034671  positions:[123]
+doc:17  tf:1  len:114  norm_tf_idf:0.052594  positions:[17]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[340]
+
+williams (df=1):
+doc:1  tf:1  len:68  norm_tf_idf:0.120019  positions:[14]
+
+winch (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[81]
+
+window (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[43]
+
+wine (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[187]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[47]
+
+winter (df=2):
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[200]
+doc:14  tf:1  len:122  norm_tf_idf:0.083149  positions:[61]
+
+wished (df=2):
+doc:24  tf:1  len:187  norm_tf_idf:0.056457  positions:[77]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[412]
+
+wishes (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[152]
+
+withdraw (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[284, 319]
+
+wives (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[339]
+
+woes (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[55]
+
+woman (df=1):
+doc:20  tf:1  len:51  norm_tf_idf:0.171477  positions:[32]
+
+women (df=1):
+doc:27  tf:3  len:40  norm_tf_idf:0.413769  positions:[5, 17, 30]
+
+word (df=1):
+doc:24  tf:3  len:187  norm_tf_idf:0.200490  positions:[78, 84, 118]
+
+words (df=2):
+doc:10  tf:2  len:98  norm_tf_idf:0.180342  positions:[25, 33]
+doc:18  tf:1  len:166  norm_tf_idf:0.060718  positions:[112]
+
+wore (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[50]
+
+work (df=4):
+doc:6  tf:1  len:97  norm_tf_idf:0.062369  positions:[26]
+doc:15  tf:1  len:135  norm_tf_idf:0.060588  positions:[87]
+doc:23  tf:2  len:92  norm_tf_idf:0.132482  positions:[17, 77]
+doc:29  tf:1  len:75  norm_tf_idf:0.091081  positions:[17]
+
+world (df=3):
+doc:0  tf:2  len:221  norm_tf_idf:0.068002  positions:[120, 203]
+doc:5  tf:2  len:176  norm_tf_idf:0.092090  positions:[56, 138]
+doc:28  tf:2  len:499  norm_tf_idf:0.035903  positions:[64, 393]
+
+worldnet (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[326]
+
+worried (df=1):
+doc:18  tf:1  len:166  norm_tf_idf:0.071874  positions:[132]
+
+worry (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[46]
+
+worst (df=3):
+doc:5  tf:1  len:176  norm_tf_idf:0.046045  positions:[51]
+doc:12  tf:1  len:64  norm_tf_idf:0.105242  positions:[24]
+doc:24  tf:1  len:187  norm_tf_idf:0.050389  positions:[123]
+
+worth (df=3):
+doc:13  tf:2  len:286  norm_tf_idf:0.061552  positions:[64, 275]
+doc:28  tf:1  len:499  norm_tf_idf:0.017951  positions:[322]
+doc:29  tf:1  len:75  norm_tf_idf:0.099590  positions:[59]
+
+worthless (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[156]
+
+written (df=1):
+doc:23  tf:1  len:92  norm_tf_idf:0.096061  positions:[56]
+
+wrong (df=2):
+doc:4  tf:1  len:61  norm_tf_idf:0.101817  positions:[32]
+doc:29  tf:1  len:75  norm_tf_idf:0.111582  positions:[58]
+
+x (df=1):
+doc:13  tf:10  len:286  norm_tf_idf:0.408174  positions:[223, 226, 231, 236, 238, 240, 242, 248, 257, 259]
+
+xxxiv (df=1):
+doc:26  tf:1  len:48  norm_tf_idf:0.144500  positions:[38]
+
+y (df=5):
+doc:5  tf:8  len:176  norm_tf_idf:0.312476  positions:[0, 11, 27, 32, 42, 121, 127, 151]
+doc:24  tf:1  len:187  norm_tf_idf:0.042745  positions:[150]
+doc:28  tf:27  len:499  norm_tf_idf:0.411154  positions:[0, 9, 21, 53, 67, 79, 83, 91, 114, 146, 159, 184, 197, 217, 233, 253, 258, 272, 306, 317, 336, 341, 357, 361, 370, 405, 451]
+doc:29  tf:3  len:75  norm_tf_idf:0.253443  positions:[0, 9, 20]
+doc:30  tf:2  len:59  norm_tf_idf:0.149372  positions:[39, 45]
+
+yahoo (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[80]
+doc:28  tf:1  len:499  norm_tf_idf:0.020113  positions:[248]
+
+yeah (df=1):
+doc:8  tf:1  len:245  norm_tf_idf:0.044954  positions:[40]
+
+year (df=6):
+doc:8  tf:1  len:245  norm_tf_idf:0.026918  positions:[153]
+doc:14  tf:3  len:122  norm_tf_idf:0.176806  positions:[1, 9, 105]
+doc:18  tf:2  len:166  norm_tf_idf:0.086073  positions:[55, 71]
+doc:21  tf:1  len:42  norm_tf_idf:0.116967  positions:[20]
+doc:24  tf:1  len:187  norm_tf_idf:0.040016  positions:[174]
+doc:28  tf:7  len:499  norm_tf_idf:0.099791  positions:[82, 95, 122, 260, 415, 418, 427]
+
+years (df=4):
+doc:2  tf:1  len:67  norm_tf_idf:0.077848  positions:[40]
+doc:18  tf:3  len:166  norm_tf_idf:0.148686  positions:[64, 120, 123]
+doc:24  tf:1  len:187  norm_tf_idf:0.046084  positions:[86]
+doc:28  tf:1  len:499  norm_tf_idf:0.016418  positions:[203]
+
+yeltsin (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[57]
+
+yesterday (df=3):
+doc:9  tf:1  len:65  norm_tf_idf:0.097841  positions:[23]
+doc:17  tf:1  len:114  norm_tf_idf:0.057507  positions:[59]
+doc:19  tf:1  len:193  norm_tf_idf:0.043153  positions:[47]
+
+ykk (df=1):
+doc:28  tf:1  len:499  norm_tf_idf:0.023808  positions:[178]
+
+york (df=2):
+doc:0  tf:1  len:221  norm_tf_idf:0.038095  positions:[109]
+doc:8  tf:1  len:245  norm_tf_idf:0.037977  positions:[53]
+
+zach (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[160]
+
+zeal (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[68]
+
+zealous (df=1):
+doc:13  tf:1  len:286  norm_tf_idf:0.040817  positions:[67]
+
+zipper (df=1):
+doc:28  tf:5  len:499  norm_tf_idf:0.119042  positions:[158, 196, 207, 226, 231]
+
+zippers (df=1):
+doc:28  tf:2  len:499  norm_tf_idf:0.047617  positions:[183, 213]
+
+zoo (df=1):
+doc:17  tf:1  len:114  norm_tf_idf:0.076270  positions:[98]
+
+ztf (df=1):
+doc:0  tf:1  len:221  norm_tf_idf:0.045095  positions:[159]
+
