@@ -316,7 +316,7 @@ def phrasal_search(word_frequency, query_words):
                 for id in word_frequency[search_word].list_doc_ids():
                     if id not in lefthandside:
                         lefthandside.append(id)
-                        indexes[id] = word_frequency[search_word].id_positions(id)
+                        indexes[id] = word_frequency[search_word].id_positions(id)[:]
             else:
                 leftandright = []
                 for id in word_frequency[search_word].list_doc_ids():
@@ -362,6 +362,7 @@ def phrasal_search(word_frequency, query_words):
 # For and, it only keeps doc_ids that match both sides. for but, it removes from the left any doc_ids that appear in the right
 # The vector space and phrasal search aren't implemented yet, if no boolean expressions are in the query, it treats it as or
 def search_loop(word_frequency, doc_id_to_file):
+    print("Task 2:")
     while True:
         search_key = input("Enter a word to search: ").strip().lower()
         or_mode = False
@@ -374,57 +375,58 @@ def search_loop(word_frequency, doc_id_to_file):
             break
         
         querie_words = tokenize_query(search_key)
-        for search_word in querie_words:
-            if or_mode:
-                or_mode = False
-                if search_word in word_frequency:
+        if search_key[0] == '"' and search_key.endswith('"'):
+            lefthandside = phrasal_search(word_frequency, querie_words)
+
+        else:
+            for search_word in querie_words:
+                if or_mode:
+                    or_mode = False
+                    if search_word in word_frequency:
+                        for id in word_frequency[search_word].list_doc_ids():
+                            if id not in lefthandside:
+                                lefthandside.append(id)
+                elif and_mode:
+                    and_mode = False
+                    leftandright = []
+                    if search_word in word_frequency:
+                        for id in word_frequency[search_word].list_doc_ids():
+                            if id not in righthandside:
+                                righthandside.append(id)
+                        for left_doc_id in lefthandside:
+                            for right_doc_id in righthandside:
+                                if left_doc_id == right_doc_id and left_doc_id not in leftandright:
+                                    leftandright.append(left_doc_id)
+                        lefthandside = []
+                        righthandside = []
+                        for accepted_ids in leftandright:
+                            lefthandside.append(accepted_ids)
+                    else:
+                        lefthandside = []
+                elif but_mode:
+                    but_mode = False
+                    if search_word in word_frequency:
+                        for id in word_frequency[search_word].list_doc_ids():
+                            if id not in righthandside:
+                                righthandside.append(id)
+                        for left_doc_id in lefthandside:
+                            for right_doc_id in righthandside:
+                                if left_doc_id == right_doc_id:
+                                    lefthandside.remove(left_doc_id)
+                    righthandside = []
+                        
+                            
+                elif search_word == "or":
+                    or_mode = True
+                elif search_word == "and":
+                    and_mode = True
+                elif search_word == "but":
+                    but_mode = True
+                elif search_word in word_frequency:
+                    
                     for id in word_frequency[search_word].list_doc_ids():
                         if id not in lefthandside:
                             lefthandside.append(id)
-            elif and_mode:
-                and_mode = False
-                leftandright = []
-
-                if search_word in word_frequency:
-                    for id in word_frequency[search_word].list_doc_ids():
-                        if id not in righthandside:
-                            righthandside.append(id)
-
-                    for left_doc_id in lefthandside:
-                        for right_doc_id in righthandside:
-                            if left_doc_id == right_doc_id and left_doc_id not in leftandright:
-                                leftandright.append(left_doc_id)
-
-                    lefthandside = []
-                    righthandside = []
-                    for accepted_ids in leftandright:
-                        lefthandside.append(accepted_ids)
-                else:
-                    lefthandside = []
-            elif but_mode:
-                but_mode = False
-                if search_word in word_frequency:
-                    for id in word_frequency[search_word].list_doc_ids():
-                        if id not in righthandside:
-                            righthandside.append(id)
-
-                    for left_doc_id in lefthandside:
-                        for right_doc_id in righthandside:
-                            if left_doc_id == right_doc_id:
-                                lefthandside.remove(left_doc_id)
-                righthandside = []
-                         
-            elif search_word == "or":
-                or_mode = True
-            elif search_word == "and":
-                and_mode = True
-            elif search_word == "but":
-                but_mode = True
-            elif search_word in word_frequency:
-                
-                for id in word_frequency[search_word].list_doc_ids():
-                    if id not in lefthandside:
-                        lefthandside.append(id)
 
         if lefthandside:
             print("Found a match!:")
