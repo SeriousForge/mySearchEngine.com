@@ -553,9 +553,28 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
     righthandside = []
 
     querie_words = tokenize_query(search_key)
+    has_boolean = any(word in ["or", "and", "but"] for word in querie_words)
+
+    # Phrasal search
     if search_key.startswith('"') and search_key.endswith('"'):
         lefthandside = phrasal_search(word_frequency, querie_words)
-    else:
+        
+        # Rank phrasal search results
+        results = []
+        if lefthandside:
+            ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
+            ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
+            
+            for doc_id, score in ranked_docs:
+                file_name = doc_id_to_file[doc_id]
+                results.append({
+                    "file": file_name,
+                    "score": round(score, 6)
+                })
+        return results
+
+    # Boolean retrieval
+    elif has_boolean:
         for search_word in querie_words:
             if or_mode:
                 or_mode = False
@@ -563,6 +582,7 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
                     for id in word_frequency[search_word].list_doc_ids():
                         if id not in lefthandside:
                             lefthandside.append(id)
+
             elif and_mode:
                 and_mode = False
                 leftandright = []
@@ -575,36 +595,57 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
                             if left_doc_id == right_doc_id and left_doc_id not in leftandright:
                                 leftandright.append(left_doc_id)
                     lefthandside = leftandright
+                    righthandside = []
                 else:
                     lefthandside = []
+
             elif but_mode:
                 but_mode = False
                 if search_word in word_frequency:
                     for id in word_frequency[search_word].list_doc_ids():
                         if id not in righthandside:
                             righthandside.append(id)
-                    for left_doc_id in list(lefthandside):
-                        if left_doc_id in righthandside:
-                            lefthandside.remove(left_doc_id)
+                to_remove = set(righthandside)
+                lefthandside = [id for id in lefthandside if id not in to_remove]
                 righthandside = []
+                        
             elif search_word == "or":
                 or_mode = True
             elif search_word == "and":
                 and_mode = True
             elif search_word == "but":
                 but_mode = True
+        
             elif search_word in word_frequency:
                 for id in word_frequency[search_word].list_doc_ids():
                     if id not in lefthandside:
                         lefthandside.append(id)
 
-    results = []
-    if lefthandside:
-        ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
+        # Rank boolean search results
+        results = []
+        if lefthandside:
+            ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
+            ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
+            
+            for doc_id, score in ranked_docs:
+                file_name = doc_id_to_file[doc_id]
+                results.append({
+                    "file": file_name,
+                    "score": round(score, 6)
+                })
+        return results
+
+    else:
+        # Vector Space retrieval (no boolean operators)
+        all_docs = list(doc_id_to_file.keys())
+        ranked_docs = rank_documents(querie_words, all_docs, word_frequency)
+        ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
+
+        results = []
         for doc_id, score in ranked_docs:
             file_name = doc_id_to_file[doc_id]
             results.append({
                 "file": file_name,
                 "score": round(score, 6)
             })
-    return results
+        return results
