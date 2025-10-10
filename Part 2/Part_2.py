@@ -63,7 +63,7 @@ HYPERLINKS = []
 DOCUMENTS = {}
 
 # Regular expression to find href links in HTML
-HREF_RE = re.compile(r'<a\s[^>]*?href\s*=\s*([\'"])(.*?)\1', re.IGNORECASE | re.DOTALL)
+HREF_RE = re.compile(r'<(?:a|area)\s[^>]*?href\s*=\s*([\'"])(.*?)\1', re.IGNORECASE | re.DOTALL)
 SCRIPT_STYLE_RE = re.compile(r"(?is)<(script|style)\b.*?>.*?</\1>")
 TAG_RE = re.compile(r"(?s)<[^>]+>")
 TITLE_RE = re.compile(r"(?is)<title>(.*?)</title>")
@@ -256,20 +256,42 @@ with open(file_path, 'w') as output_file:
 
 # Writes extracted data into TFIDF_List.txt
 tf_idf_path = "TFIDF_List.txt"
-with open(tf_idf_path, "w") as out:
+with open(tf_idf_path, "w") as output_file:
     for term in sorted(all_file_data.keys()):
         postings = all_file_data[term]
-        out.write(f"{term} (df={DOC_FREQS.get(term, 0)}):\n")
+        output_file.write(f"{term} (df={DOC_FREQS.get(term, 0)}):\n")
         current = postings.head
         while current:
-            out.write(
+            output_file.write(
                 f"doc:{current.doc_id}  tf:{current.frequency}  "
                 f"len:{DOC_LENGTHS.get(current.doc_id, 0)}  "
                 f"norm_tf_idf:{current.norm_tf_idf:.6f}  "
                 f"positions:{current.position}\n"
             )
             current = current.next
-        out.write("\n")
+        output_file.write("\n")
+
+# Writes extracted hyperlinks into Hyperlinks_Report.txt
+hyperlinks_path = "Hyperlinks_Report.txt"
+with open(hyperlinks_path, "w", encoding="utf-8") as output_file:
+    if not HYPERLINKS:
+        output_file.write("(no hyperlinks found)\n")
+    else:
+        for entry in HYPERLINKS:
+            seen = set()
+            links = []
+            for u in entry["links"]:
+                if u not in seen:
+                    seen.add(u)
+                    links.append(u)
+
+            output_file.write(f"Doc {entry['doc_id']} — {entry['file']}  (status: {entry['status']})\n")
+            if not links:
+                output_file.write("  (no links)\n\n")
+            else:
+                for u in links:
+                    output_file.write(f"  - {u}\n")
+                output_file.write("\n")
 
 # Creates a loop that allows the user to search for words
 # If the word is found, it prints the names of the files containing that word
