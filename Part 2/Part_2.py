@@ -429,12 +429,12 @@ def search_loop(word_frequency, doc_id_to_file):
                             lefthandside.append(id)
 
         if lefthandside:
-            print("Found a match! Ranked by relevance:")
-        # Rank the documents
+            # Rank results using vector space model
             ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
-        for doc_id, score in ranked_docs:
-            file_name = doc_id_to_file[doc_id]
-            print(f"  {file_name}  (score: {score:.6f})")
+            print("Found a match! Ranked results:")
+            for doc_id, score in ranked_docs:
+                file_name = doc_id_to_file[doc_id]
+                print(f"  {file_name}  (score: {score:.6f})")
         else:
             print("No match found")
 
@@ -442,21 +442,31 @@ def search_loop(word_frequency, doc_id_to_file):
 def rank_documents(query_words, current_result, word_frequency):
     scores = {}
     N = len(doc_id_to_file)
+
+    query_vec = {}
+    for word in query_words:
+        if word in word_frequency:
+            df = len(word_frequency[word].list_doc_ids())
+            idf = math.log((N + 1) / (df + 1)) + 1  
+            tf = query_words.count(word)
+            query_vec[word] = (1 + math.log(tf)) * idf
+
+    
     for doc_id in current_result:
-        score = 0
-        for word in query_words:
-            if word in word_frequency:
-                node = word_frequency[word].head
-                while node:
-                    if node.doc_id == doc_id:
-                        tf = 1 + math.log(node.frequency)
-                        df = len(word_frequency[word].list_doc_ids())
-                        idf = math.log(N / df) if df > 0 else 0
-                        score += tf * idf
-                        break
-                    node = node.next
-        scores[doc_id] = score
-    # Sort by score descending
+        dot_product = 0.0
+        query_norm = math.sqrt(sum(v ** 2 for v in query_vec.values()))
+        doc_norm = 0.0
+
+        for word, q_weight in query_vec.items():
+            node = word_frequency[word].head
+            while node:
+                if node.doc_id == doc_id:
+                    dot_product += q_weight * node.norm_tf_idf
+                    break
+                node = node.next
+
+        scores[doc_id] = dot_product / max(query_norm, 1e-9)  
+    
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     return ranked
 
