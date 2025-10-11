@@ -513,5 +513,139 @@ def phrasal_search(word_frequency, query_words):
     # If indexes[id] is empty it removes the id from lefthandside since that means it didn't match the phrase
     lefthandside = [id for id in lefthandside if indexes.get(id)]
     return lefthandside
+def build_index(zip_path):
+    """
+    Build the search index from a zip file.
+    Returns word_frequency and doc_id_to_file dictionaries.
+    """
+    # Clear global containers in case this is called multiple times
+    global DOC_LENGTHS, HYPERLINKS, DOCUMENTS, DOC_FREQS
+    DOC_LENGTHS = {}
+    HYPERLINKS = []
+    DOCUMENTS = {}
+    
+    # Extract data from zip file
+    word_frequency, doc_id_to_file = extract_from_zip(zip_path)
+    
+    # Compute document frequencies and tf-idf weights
+    doc_freqs = compute_doc_freqs(word_frequency)
+    compute_norm_tf_idf(
+        index_dict=word_frequency,
+        doc_lengths=DOC_LENGTHS,
+        doc_freqs=doc_freqs,
+        num_docs=len(doc_id_to_file)
+    )
+    
+    # Store doc_freqs globally for use in ranking
+    DOC_FREQS = doc_freqs
+    
+    return word_frequency, doc_id_to_file
 
-search_loop(all_file_data, doc_id_to_file)
+
+#search_loop(all_file_data, doc_id_to_file)
+
+def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
+    search_key = search_key.strip().lower()
+    or_mode = False
+    and_mode = False
+    but_mode = False
+    lefthandside = []
+    righthandside = []
+
+    querie_words = tokenize_query(search_key)
+    has_boolean = any(word in ["or", "and", "but"] for word in querie_words)
+
+    # Phrasal search
+    if search_key.startswith('"') and search_key.endswith('"'):
+        lefthandside = phrasal_search(word_frequency, querie_words)
+        
+        # Rank phrasal search results
+        results = []
+        if lefthandside:
+            ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
+            ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
+            
+            for doc_id, score in ranked_docs:
+                file_name = doc_id_to_file[doc_id]
+                results.append({
+                    "file": file_name,
+                    "score": round(score, 6)
+                })
+        return results
+
+    # Boolean retrieval
+    elif has_boolean:
+        for search_word in querie_words:
+            if or_mode:
+                or_mode = False
+                if search_word in word_frequency:
+                    for id in word_frequency[search_word].list_doc_ids():
+                        if id not in lefthandside:
+                            lefthandside.append(id)
+
+            elif and_mode:
+                and_mode = False
+                leftandright = []
+                if search_word in word_frequency:
+                    for id in word_frequency[search_word].list_doc_ids():
+                        if id not in righthandside:
+                            righthandside.append(id)
+                    for left_doc_id in lefthandside:
+                        for right_doc_id in righthandside:
+                            if left_doc_id == right_doc_id and left_doc_id not in leftandright:
+                                leftandright.append(left_doc_id)
+                    lefthandside = leftandright
+                    righthandside = []
+                else:
+                    lefthandside = []
+
+            elif but_mode:
+                but_mode = False
+                if search_word in word_frequency:
+                    for id in word_frequency[search_word].list_doc_ids():
+                        if id not in righthandside:
+                            righthandside.append(id)
+                to_remove = set(righthandside)
+                lefthandside = [id for id in lefthandside if id not in to_remove]
+                righthandside = []
+                        
+            elif search_word == "or":
+                or_mode = True
+            elif search_word == "and":
+                and_mode = True
+            elif search_word == "but":
+                but_mode = True
+        
+            elif search_word in word_frequency:
+                for id in word_frequency[search_word].list_doc_ids():
+                    if id not in lefthandside:
+                        lefthandside.append(id)
+
+        # Rank boolean search results
+        results = []
+        if lefthandside:
+            ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
+            ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
+            
+            for doc_id, score in ranked_docs:
+                file_name = doc_id_to_file[doc_id]
+                results.append({
+                    "file": file_name,
+                    "score": round(score, 6)
+                })
+        return results
+
+    else:
+        # Vector Space retrieval (no boolean operators)
+        all_docs = list(doc_id_to_file.keys())
+        ranked_docs = rank_documents(querie_words, all_docs, word_frequency)
+        ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
+
+        results = []
+        for doc_id, score in ranked_docs:
+            file_name = doc_id_to_file[doc_id]
+            results.append({
+                "file": file_name,
+                "score": round(score, 6)
+            })
+        return results
