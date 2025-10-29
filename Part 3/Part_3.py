@@ -115,6 +115,38 @@ def check_stopword(word):
         return True
     return False
 
+def spider_local_html(root_folder, start_file="index.html"):
+    """Traverse HTML files in `root_folder` following local hyperlinks."""
+    visited = set()
+    to_visit = [start_file]
+    html_files = []
+
+    while to_visit:
+        file_name = to_visit.pop()
+        if file_name in visited or not file_name.endswith(('.html', '.htm')):
+            continue
+
+        visited.add(file_name)
+        full_path = os.path.join(root_folder, file_name)
+        if not os.path.exists(full_path):
+            continue
+
+        with open(full_path, 'r', encoding='utf-8', errors='ignore') as f:
+            html = f.read()
+
+        html_files.append(full_path)
+
+        # Extract links
+        links = extract_links_from_html(html)
+        for link in links:
+            link_clean = link.strip()
+            if link_clean and not link_clean.startswith(('http://', 'https://')):  # Only local
+                link_path = os.path.join(root_folder, link_clean)
+                if os.path.exists(link_path):
+                    to_visit.append(link_clean)
+
+    return html_files
+
 def extract_words_from_html(text):
     text = SCRIPT_STYLE_RE.sub(" ", text)
     text = TAG_RE.sub(" ", text)
@@ -233,8 +265,9 @@ def extract_from_zip(zip_path):
         with ZipFile(zip_path, 'r') as zip_archive:
             files = zip_archive.namelist()
             for file_name in files:
-                with zip_archive.open(file_name) as file_in_zip:
-                    doc_id_to_file[i] = file_name
+                if file_name.endswith(('.html', '.htm')):
+                    with zip_archive.open(file_name) as file_in_zip:
+                        doc_id_to_file[i] = file_name
                     
                     file_info_undecoded = file_in_zip.read()
                     file_info = file_info_undecoded.decode('utf-8')
@@ -253,6 +286,7 @@ def extract_from_zip(zip_path):
                             word_frequency[word].update_list(i, pos)
                             pos += 1
                     DOC_LENGTHS[i] = pos
+                    links = extract_links_from_html(file_info)
                     DOCUMENTS[i] = {"file": file_name, "length": pos, "title" : title}
                     HYPERLINKS.append({"doc_id": i, "file": file_name, "links": links, "status": "unvisited"})
                     i += 1
@@ -265,7 +299,7 @@ def extract_from_zip(zip_path):
 # Looks for where the script is and changes to its directory before extracting from folder Jan
 script_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir(script_dir)
-all_file_data, doc_id_to_file = extract_from_zip("Jan.zip")
+all_file_data, doc_id_to_file = extract_from_zip("zhf.zip")
 
 # Computes the doc frequencies and normalized tf-idf weights
 DOC_FREQS = compute_doc_freqs(all_file_data)
