@@ -9,6 +9,10 @@ from io import BytesIO
 import re
 import math
 
+for file in ["Extract_List.txt", "TFIDF_List.txt", "Hyperlinks_Report.txt"]:
+    if os.path.exists(file):
+        os.remove(file)
+
 # Task 1: Build an indexer
 class Node:
     def __init__(self, doc_id, position, frequency=1):
@@ -167,6 +171,23 @@ def extract_words_from_html(text):
 
     return [w.lower() for w in words if not check_stopword(w.lower())]
 
+def extract_words_from_html_with_anchors(html):
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(html, 'html.parser')
+    # Remove script/style tags
+    for s in soup(['script', 'style']):
+        s.decompose()
+    words = []
+    # Add all text
+    text = soup.get_text()
+    words.extend(re.findall(r'[A-Za-z]+', text.lower()))
+    # Include anchor text
+    for a in soup.find_all('a'):
+        words.extend(re.findall(r'[A-Za-z]+', a.get_text().lower()))
+    # Remove stopwords
+    words = [w for w in words if not check_stopword(w)]
+    return words
+
 def extract_links_from_html(text):
     return [m[1].strip() for m in HREF_RE.findall(text)]
 
@@ -237,7 +258,7 @@ def extract_words_from_files(directory_path):
                         links = extract_links_from_html(file_info)
                         pos = 0
         
-                        for term in extract_words_from_html(file_info):
+                        for term in extract_words_from_html_with_anchors(file_info):
                             word = term.lower()
                             if not check_stopword(word):
                                 if word not in word_frequency:
@@ -278,7 +299,8 @@ def extract_from_zip(zip_path):
                     links = extract_links_from_html(file_info)
                     pos = 0
 
-                    for term in extract_words_from_html(file_info):
+                    for term in extract_words_from_html_with_anchors(file_info):
+
                         word = term.lower()
                         if not check_stopword(word):
                             if word not in word_frequency:
@@ -286,7 +308,6 @@ def extract_from_zip(zip_path):
                             word_frequency[word].update_list(i, pos)
                             pos += 1
                     DOC_LENGTHS[i] = pos
-                    links = extract_links_from_html(file_info)
                     DOCUMENTS[i] = {"file": file_name, "length": pos, "title" : title}
                     HYPERLINKS.append({"doc_id": i, "file": file_name, "links": links, "status": "unvisited"})
                     i += 1
