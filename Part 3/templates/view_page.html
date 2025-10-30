@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    body {
+      background: #1e1e2f;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      background: #27293d;
+      padding: 1rem;
+    }
+    .back-btn {
+      color: #9fc1ff;
+      text-decoration: none;
+      margin-right: 1rem;
+      font-size: 1.2rem;
+    }
+    .page-content {
+      padding: 2rem;
+      background: #2d2f45;
+      border-radius: 10px;
+      margin: 2rem auto;
+      width: 80%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    a {
+      color: #8ab4f8;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <a href="{{ url_for('index') }}" class="back-btn">← Back to search</a>
+    <h1>{{ title }}</h1>
+  </div>
+
+  <div class="page-content">
+    {{ html_content|safe }}
+  </div>
+</body>
+</html>

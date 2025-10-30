@@ -8,6 +8,7 @@ from zipfile import ZipFile
 from io import BytesIO
 import re
 import math
+import pickle
 
 for file in ["Extract_List.txt", "TFIDF_List.txt", "Hyperlinks_Report.txt"]:
     if os.path.exists(file):
@@ -282,45 +283,54 @@ def extract_from_zip(zip_path):
     doc_id_to_file = {}
     i = 0
     pos = 0
-    try:
-        with ZipFile(zip_path, 'r') as zip_archive:
-            files = zip_archive.namelist()
-            for file_name in files:
-                if file_name.endswith(('.html', '.htm')):
-                    with zip_archive.open(file_name) as file_in_zip:
-                        doc_id_to_file[i] = file_name
-                    
-                    file_info_undecoded = file_in_zip.read()
-                    file_info = file_info_undecoded.decode('utf-8')
 
-                    title_match = TITLE_RE.search(file_info)
-                    title = title_match.group(1).strip() if title_match else None
+    textlike_exts = ('.html', '.htm', '.txt', '.md', '.xml', '.json', '.js', '.css')
+    binary_exts = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg', '.ico', '.pdf', '.mp3', '.mp4', '.zip', '.gz')
+    with ZipFile(zip_path, 'r') as zip_archive:
+        for file_name in zip_archive.namelist():
+            # Skip folders and binaries
+            if file_name.endswith('/') or file_name.lower().endswith(binary_exts):
+                continue
+            if not file_name.lower().endswith(textlike_exts):
+                continue
 
-                    links = extract_links_from_html(file_info)
-                    pos = 0
+            try:
+                with zip_archive.open(file_name) as file_in_zip:
+                    raw_bytes = file_in_zip.read()
 
-                    for term in extract_words_from_html_with_anchors(file_info):
+                # Decode safely — fallback if encoding unknown
+                try:
+                    file_info = raw_bytes.decode('utf-8')
+                except UnicodeDecodeError:
+                    file_info = raw_bytes.decode('latin-1', errors='ignore')
 
-                        word = term.lower()
-                        if not check_stopword(word):
-                            if word not in word_frequency:
-                                word_frequency[word] = LinkedList()
-                            word_frequency[word].update_list(i, pos)
-                            pos += 1
-                    DOC_LENGTHS[i] = pos
-                    DOCUMENTS[i] = {"file": file_name, "length": pos, "title" : title}
-                    HYPERLINKS.append({"doc_id": i, "file": file_name, "links": links, "status": "unvisited"})
-                    i += 1
-    except FileNotFoundError:
-        print("Directory not found")
-    except Exception:
-        print("Error occurred")
+                title_match = TITLE_RE.search(file_info)
+                title = title_match.group(1).strip() if title_match else None
+                links = extract_links_from_html(file_info)
+
+                for term in extract_words_from_html_with_anchors(file_info):
+                    word = term.lower()
+                    if not check_stopword(word):
+                        if word not in word_frequency:
+                            word_frequency[word] = LinkedList()
+                        word_frequency[word].update_list(i, pos)
+                        pos += 1
+
+                DOC_LENGTHS[i] = pos
+                DOCUMENTS[i] = {"file": file_name, "length": pos, "title": title}
+                HYPERLINKS.append({"doc_id": i, "file": file_name, "links": links, "status": "unvisited"})
+                doc_id_to_file[i] = file_name
+                i += 1
+
+            except Exception as e:
+                print(f"⚠️ Skipping {file_name}: {e}")
+
     return word_frequency, doc_id_to_file
 
-# Looks for where the script is and changes to its directory before extracting from folder Jan
+# Looks for where the script is and changes to its directory before extracting from folder 
 script_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir(script_dir)
-all_file_data, doc_id_to_file = extract_from_zip("zhf.zip")
+all_file_data, doc_id_to_file = extract_from_zip("rhf")
 
 # Computes the doc frequencies and normalized tf-idf weights
 DOC_FREQS = compute_doc_freqs(all_file_data)
@@ -700,6 +710,7 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
         for doc_id, score in ranked_docs:
             file_name = doc_id_to_file[doc_id]
             results.append({
+                "doc_id": doc_id,
                 "file": file_name,
                 "score": round(score, 6)
             })
