@@ -1,6 +1,8 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, abort
 import Part_3
+import pickle
 from zipfile import ZipFile
+from datetime import datetime
 import os
 
 app = Flask(__name__)
@@ -8,6 +10,7 @@ app = Flask(__name__)
 # Global variables to store your index data
 word_frequency = None
 doc_id_to_file = None
+zip_path = "rhf.zip"
 
 @app.before_request
 def initialize_index():
@@ -32,27 +35,16 @@ def index():
 
 @app.route("/view/<int:doc_id>")
 def view_page(doc_id):
-    """Display the HTML content of a specific document."""
     file_name = doc_id_to_file.get(doc_id)
     if not file_name:
         abort(404, "Document not found")
+    with ZipFile(zip_path, "r") as zip_archive:
+        with zip_archive.open(file_name) as f:
+            html_content = f.read().decode("utf-8", errors="ignore")
+    title = Part_3.TITLE_RE.search(html_content)
+    title_text = title.group(1).strip() if title else file_name
+    return render_template("view_page.html", title=title_text, html_content=html_content)
 
-    try:
-        with ZipFile(zip_path, "r") as zip_archive:
-            with zip_archive.open(file_name) as file_in_zip:
-                html_content = file_in_zip.read().decode("utf-8", errors="ignore")
-
-        title = Part_3.TITLE_RE.search(html_content)
-        title_text = title.group(1).strip() if title else file_name
-
-        return render_template(
-            "view_page.html",
-            title=title_text,
-            html_content=html_content
-        )
-    except Exception as e:
-        print(f"Error opening {file_name}: {e}")
-        abort(500, "Failed to load document")
 
 if __name__ == "__main__":
     app.run(debug=True)

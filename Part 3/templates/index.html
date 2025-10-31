@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Dark Search</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
+
 <body>
     <div class="container">
         <h1>Crimson Search</h1>
@@ -17,7 +19,9 @@
         <div class="results">
             {% for result in results %}
             <div class="result">
-                <span class="file">{{ result.file }}</span>
+                <a class="file" href="{{ url_for('view_page', doc_id=result.doc_id) }}">
+                    {{ result.file }}
+                </a>
                 <span class="score">Score: {{ result.score }}</span>
             </div>
             {% endfor %}
@@ -27,4 +31,5 @@
         {% endif %}
     </div>
 </body>
+
 </html>

@@ -643,6 +643,8 @@ def build_index(zip_path):
     
     # Store doc_freqs globally for use in ranking
     DOC_FREQS = doc_freqs
+    word_frequency = dict(word_frequency)  # if it was a defaultdict
+    doc_id_to_file = dict(doc_id_to_file)
     
     return word_frequency, doc_id_to_file
 
@@ -750,6 +752,7 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
         for doc_id, score in ranked_docs:
             file_name = doc_id_to_file[doc_id]
             results.append({
+                "doc_id": doc_id,
                 "file": file_name,
                 "score": round(score, 6)
             })
