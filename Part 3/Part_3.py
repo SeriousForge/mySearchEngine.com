@@ -8,6 +8,8 @@ from zipfile import ZipFile
 from io import BytesIO
 import re
 import math
+from queue import Queue
+from posixpath import normpath, join as posixjoin
 
 # Task 1: Build an indexer
 class Node:
@@ -261,6 +263,109 @@ def extract_from_zip(zip_path):
     except Exception:
         print("Error occurred")
     return word_frequency, doc_id_to_file
+
+
+
+#helper function for spidering
+#Resolves a link relative to the current file's directory.
+#It makes sure that the correct file path is used to open it
+#posixjoin handles knowing how to combine the link
+#normpath removes stuff like // and anything that would make it not work as intended
+def resolve_path(current_file, link):
+    
+    current_dir = os.path.dirname(current_file)
+    if current_dir:
+        resolved = posixjoin(current_dir, link)
+    else:
+        resolved = link
+    normalized = normpath(resolved)
+    return normalized
+
+# this will handle spidering
+# the links are the anchors
+###########
+############
+#############
+##############
+def spiderIndex(zip_path, start_file):
+    word_frequency = {}
+    doc_id_to_file = {}
+    i = 0
+    pos = 0
+    visit = Queue()
+    visited = []
+    #pathhelp will help when opening the start_file, it gives it the zip_path/
+    pathhelp = ""
+    for char in zip_path:
+        if char != ".":
+            pathhelp += char
+        else:
+            pathhelp += "/"
+            break
+    z = 0 #counts how many total files it looked at
+    try:
+        with ZipFile(zip_path, 'r') as zip_archive: #opens the zip_path
+            
+            start_path = pathhelp + start_file
+            visit.put(start_path)
+            #as long as visit isn't empty, keep on looping
+            while(not visit.empty()):
+
+                fname = visit.get()
+                print(f"{i}  and file: {fname}")
+                z += 1
+                if fname in visited:
+                    continue
+                if not fname.endswith(('.html', '.htm')): #ignore non html, htm, add to visited to prevent adding again
+                    print(f"skipping non-HTML file: {fname}")
+                    visited.append(fname)
+                    continue
+                print(f"visited: {fname}")
+                visited.append(fname)
+                
+                
+                #mostly the same as in extract from zip, except at the end it adds unvisited links to visit
+                try:
+                    with zip_archive.open(fname) as fiz:
+                    
+                        file_info_undecoded = fiz.read()
+                        try:
+                            file_info = file_info_undecoded.decode('utf-8')
+                        except UnicodeDecodeError:
+                            file_info = file_info_undecoded.decode('latin-1')
+                        
+                        doc_id_to_file[i] = fname
+                        tmatch = TITLE_RE.search(file_info)
+                        title2 = tmatch.group(1).strip() if tmatch else None
+                        links = extract_links_from_html(file_info)
+                        pos = 0
+                        for term in extract_words_from_html(file_info):
+                            word = term.lower()
+                            if not check_stopword(word):
+                                if word not in word_frequency:
+                                    word_frequency[word] = LinkedList()
+                                word_frequency[word].update_list(i, pos)
+                                pos += 1
+                        DOC_LENGTHS[i] = pos
+                        DOCUMENTS[i] = {"file": fname, "length": pos, "title" : title2}
+                        HYPERLINKS.append({"doc_id": i, "file": fname, "links": links, "status": "unvisited"})
+                        for link in links:
+                            resolved_link = resolve_path(fname, link)
+                            if resolved_link not in visited:
+                                visit.put(resolved_link)
+                            
+                                
+                        i+=1
+                except Exception:
+                    print(f"skipped: {fname}")    
+            print(f"z: {z}")
+            
+    except FileNotFoundError:
+        print("Directory not found")
+    except Exception as e:
+        print(f"Error occurred: {e}")
+    return word_frequency, doc_id_to_file
+
 
 # Looks for where the script is and changes to its directory before extracting from folder Jan
 script_dir = os.path.dirname(os.path.realpath(__file__))
@@ -525,7 +630,7 @@ def build_index(zip_path):
     DOCUMENTS = {}
     
     # Extract data from zip file
-    word_frequency, doc_id_to_file = extract_from_zip(zip_path)
+    word_frequency, doc_id_to_file = spiderIndex(zip_path, "index.html")
     
     # Compute document frequencies and tf-idf weights
     doc_freqs = compute_doc_freqs(word_frequency)
