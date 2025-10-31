@@ -12,7 +12,7 @@ doc_id_to_file = None
 def initialize_index():
     global word_frequency, doc_id_to_file
     if word_frequency is None:
-        word_frequency, doc_id_to_file = Part_2.build_index("Jan.zip")
+        word_frequency, doc_id_to_file = Part_3.build_index("rhf.zip")
         print("Indexing complete! Ready to search.")
 
 
