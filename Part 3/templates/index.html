@@ -16,6 +16,10 @@
         </form>
 
         {% if results %}
+        <p class = "result-count">
+            {{ results | length }}
+            {{ 'document' if results | length == 1 else 'documents' }} found.
+        </p>
         <div class="results">
             {% for result in results %}
             <div class="result">
