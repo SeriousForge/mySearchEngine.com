@@ -675,6 +675,7 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
             for doc_id, score in ranked_docs:
                 file_name = doc_id_to_file[doc_id]
                 results.append({
+                    "doc_id": doc_id,
                     "file": file_name,
                     "score": round(score, 6)
                 })
@@ -733,13 +734,14 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
         if lefthandside:
             ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
             ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
-            
-            for doc_id, score in ranked_docs:
-                file_name = doc_id_to_file[doc_id]
-                results.append({
-                    "file": file_name,
-                    "score": round(score, 6)
-                })
+
+        for doc_id, score in ranked_docs:
+            file_name = doc_id_to_file[doc_id]
+            results.append({
+                "doc_id": doc_id,            # <-- add this
+                "file": file_name,
+                "score": round(score, 6)
+            })
         return results
 
     else:
