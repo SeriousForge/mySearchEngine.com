@@ -72,7 +72,7 @@ HYPERLINKS = []
 DOCUMENTS = {}
 
 # Regular expression to find href links in HTML
-HREF_RE = re.compile(r'<(?:a|area)\s[^>]*?href\s*=\s*([\'"])(.*?)\1', re.IGNORECASE | re.DOTALL)
+HREF_RE = re.compile(r'<(?:a|area)\s[^>]*?href\s*=\s*(?:[\'"]([^\'"]+)[\'"]|([^\s>]+))', re.IGNORECASE | re.DOTALL)
 SCRIPT_STYLE_RE = re.compile(r"(?is)<(script|style)\b.*?>.*?</\1>")
 TAG_RE = re.compile(r"(?s)<[^>]+>")
 TITLE_RE = re.compile(r"(?is)<title>(.*?)</title>")
@@ -138,7 +138,13 @@ def extract_words_from_html(text):
     return [w.lower() for w in words if not check_stopword(w.lower())]
 
 def extract_links_from_html(text):
-    return [m[1].strip() for m in HREF_RE.findall(text)]
+    links = []
+    # updated to get quoted and unquoted links, ex. href="link", href=link
+    for match in HREF_RE.findall(text):
+        link = (match[0] or match[1]).strip()
+        if link:
+            links.append(link)
+    return links
 
 # Tokenizes a query string into lowercase words, ignoring non-alphabetic characters
 QUERY_RE = re.compile(r"[A-Za-z]+")
@@ -271,8 +277,18 @@ def extract_from_zip(zip_path):
 #It makes sure that the correct file path is used to open it
 #posixjoin handles knowing how to combine the link
 #normpath removes stuff like // and anything that would make it not work as intended
+#added the top 2 if to deal with links that we can get from the rhf.zip
 def resolve_path(current_file, link):
     
+    if link.startswith('http://') or link.startswith('https://') or link.startswith('//'):
+        return None
+    
+    # Handle absolute paths (starting with /) - strip the leading slash
+    if link.startswith('/'):
+        normalized = normpath(link.lstrip('/'))
+        return normalized
+    
+    # Handle relative paths
     current_dir = os.path.dirname(current_file)
     if current_dir:
         resolved = posixjoin(current_dir, link)
@@ -302,7 +318,7 @@ def spiderIndex(zip_path, start_file):
         else:
             pathhelp += "/"
             break
-    z = 0 #counts how many total files it looked at
+    
     try:
         with ZipFile(zip_path, 'r') as zip_archive: #opens the zip_path
             
@@ -312,15 +328,14 @@ def spiderIndex(zip_path, start_file):
             while(not visit.empty()):
 
                 fname = visit.get()
-                print(f"{i}  and file: {fname}")
-                z += 1
+                
                 if fname in visited:
                     continue
                 if not fname.endswith(('.html', '.htm')): #ignore non html, htm, add to visited to prevent adding again
-                    print(f"skipping non-HTML file: {fname}")
+                    
                     visited.append(fname)
                     continue
-                print(f"visited: {fname}")
+                
                 visited.append(fname)
                 
                 
@@ -341,6 +356,7 @@ def spiderIndex(zip_path, start_file):
                         pos = 0
                         for term in extract_words_from_html(file_info):
                             word = term.lower()
+                            
                             if not check_stopword(word):
                                 if word not in word_frequency:
                                     word_frequency[word] = LinkedList()
@@ -351,14 +367,14 @@ def spiderIndex(zip_path, start_file):
                         HYPERLINKS.append({"doc_id": i, "file": fname, "links": links, "status": "unvisited"})
                         for link in links:
                             resolved_link = resolve_path(fname, link)
-                            if resolved_link not in visited:
+                            if resolved_link and resolved_link not in visited:
                                 visit.put(resolved_link)
                             
-                                
+                               
                         i+=1
                 except Exception:
                     print(f"skipped: {fname}")    
-            print(f"z: {z}")
+            
             
     except FileNotFoundError:
         print("Directory not found")
@@ -646,6 +662,7 @@ def build_index(zip_path):
     word_frequency = dict(word_frequency)  # if it was a defaultdict
     doc_id_to_file = dict(doc_id_to_file)
     
+    
     return word_frequency, doc_id_to_file
 
 
@@ -670,7 +687,7 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
         results = []
         if lefthandside:
             ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
-            ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
+            ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score != 0.0]
             
             for doc_id, score in ranked_docs:
                 file_name = doc_id_to_file[doc_id]
@@ -733,24 +750,25 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
         results = []
         if lefthandside:
             ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
-            ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
+            ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score != 0.0]
 
-        for doc_id, score in ranked_docs:
-            file_name = doc_id_to_file[doc_id]
-            results.append({
-                "doc_id": doc_id,            # <-- add this
-                "file": file_name,
-                "score": round(score, 6)
-            })
+            for doc_id, score in ranked_docs:
+                file_name = doc_id_to_file[doc_id]
+                results.append({
+                    "doc_id": doc_id,            # <-- add this
+                    "file": file_name,
+                    "score": round(score, 6)
+                })
         return results
 
     else:
         # Vector Space retrieval (no boolean operators)
         all_docs = list(doc_id_to_file.keys())
         ranked_docs = rank_documents(querie_words, all_docs, word_frequency)
-        ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
-
+        ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score != 0.0]
+        
         results = []
+        
         for doc_id, score in ranked_docs:
             file_name = doc_id_to_file[doc_id]
             results.append({
@@ -758,4 +776,5 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
                 "file": file_name,
                 "score": round(score, 6)
             })
+            
         return results

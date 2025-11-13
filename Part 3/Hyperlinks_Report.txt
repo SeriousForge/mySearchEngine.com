@@ -33,6 +33,7 @@ Doc 2 — Jan/baptist.html  (status: unvisited)
   - aol.html
   - mailto:cef@geodesic.com
   - ../../../past.html
+  - ../../../../index.html
 
 Doc 3 — Jan/bill.html  (status: unvisited)
   - ../../../best.html
@@ -153,6 +154,7 @@ Doc 12 — Jan/fab.html  (status: unvisited)
   - y2k.html
   - mailto:aardvark@vcn.bc.ca
   - ../../../past.html
+  - ../../../../index.html
 
 Doc 13 — Jan/galant.html  (status: unvisited)
   - ../../../best.html
@@ -201,6 +203,7 @@ Doc 16 — Jan/heartprob.html  (status: unvisited)
   - debug.html
   - mailto:mpsingh@eos.ncsu.edu
   - ../../../past.html
+  - ../../../../index.html
 
 Doc 17 — Jan/hippos.html  (status: unvisited)
   - ../../../best.html
@@ -225,6 +228,7 @@ Doc 18 — Jan/jesus.html  (status: unvisited)
   - y2kfollow.html
   - mailto:bt@templetons.com
   - ../../../past.html
+  - ../../../../index.html
 
 Doc 19 — Jan/kitty.html  (status: unvisited)
   - ../../../best.html
@@ -297,6 +301,7 @@ Doc 24 — Jan/quickies.html  (status: unvisited)
   - qc.html
   - mailto:funny-request@netfunny.com
   - ../../../past.html
+  - ../../../../index.html
 
 Doc 25 — Jan/snow.html  (status: unvisited)
   - ../../../best.html
