@@ -447,7 +447,7 @@ with open(hyperlinks_path, "w", encoding="utf-8") as output_file:
                 output_file.write("\n")
 
 # Task 3: Build a query searcher
-def rank_documents(query_words, current_result, word_frequency):
+def rank_documents(query_words, current_result, word_frequency, doc_id_to_file):
     scores = {}
     N = len(doc_id_to_file)
 
@@ -458,6 +458,7 @@ def rank_documents(query_words, current_result, word_frequency):
             idf = math.log((N + 1) / (df + 1)) + 1  
             tf = query_words.count(word)
             query_vec[word] = (1 + math.log(tf)) * idf
+            
 
     for doc_id in current_result:
         dot_product = 0.0
@@ -471,7 +472,7 @@ def rank_documents(query_words, current_result, word_frequency):
                     break
                 node = node.next
 
-        scores[doc_id] = dot_product / max(query_norm, 1e-9)  
+        scores[doc_id] = dot_product / max(query_norm, 1e-9)
 
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     return ranked
@@ -557,7 +558,7 @@ def search_loop(word_frequency, doc_id_to_file):
         else:
             # Vector Space retrieval
             all_docs = list(doc_id_to_file.keys())
-            ranked_docs = rank_documents(querie_words, all_docs, word_frequency)
+            ranked_docs = rank_documents(querie_words, all_docs, word_frequency, doc_id_to_file)
             ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
 
             if ranked_docs:
@@ -570,7 +571,7 @@ def search_loop(word_frequency, doc_id_to_file):
         
         if lefthandside:
             # Boolean and phrasal ranking results 
-            ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
+            ranked_docs = rank_documents(querie_words, lefthandside, word_frequency, doc_id_to_file)
             ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
 
             print("Found a match! Ranked results:")
@@ -686,7 +687,7 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
         # Rank phrasal search results
         results = []
         if lefthandside:
-            ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
+            ranked_docs = rank_documents(querie_words, lefthandside, word_frequency, doc_id_to_file)
             ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score != 0.0]
             
             for doc_id, score in ranked_docs:
@@ -749,7 +750,7 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
         # Rank boolean search results
         results = []
         if lefthandside:
-            ranked_docs = rank_documents(querie_words, lefthandside, word_frequency)
+            ranked_docs = rank_documents(querie_words, lefthandside, word_frequency, doc_id_to_file)
             ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score != 0.0]
 
             for doc_id, score in ranked_docs:
@@ -764,7 +765,7 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
     else:
         # Vector Space retrieval (no boolean operators)
         all_docs = list(doc_id_to_file.keys())
-        ranked_docs = rank_documents(querie_words, all_docs, word_frequency)
+        ranked_docs = rank_documents(querie_words, all_docs, word_frequency, doc_id_to_file)
         ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score != 0.0]
         
         results = []
