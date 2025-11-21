@@ -29,7 +29,7 @@ class LinkedList:
     def update_list(self, doc_id, position):
         # If doc already has a node
         node = self.nodes_by_doc.get(doc_id)
-        if self.head is None:
+        if node is not None:
             node.frequency += 1
             node.position.append(position)
             return
@@ -306,7 +306,9 @@ def spiderIndex(zip_path, start_file):
     i = 0
     pos = 0
     visit = Queue()
-    visited = []
+    visited = set()
+    enqueued = set()
+    
     #pathhelp will help when opening the start_file, it gives it the zip_path/
     pathhelp = ""
     for char in zip_path:
@@ -321,19 +323,20 @@ def spiderIndex(zip_path, start_file):
             
             start_path = pathhelp + start_file
             visit.put(start_path)
+            enqueued.add(start_path)
+
             #as long as visit isn't empty, keep on looping
             while(not visit.empty()):
-
                 fname = visit.get()
                 
                 if fname in visited:
                     continue
+
                 if not fname.endswith(('.html', '.htm')): #ignore non html, htm, add to visited to prevent adding again
-                    
-                    visited.append(fname)
+                    visited.add(fname)
                     continue
                 
-                visited.append(fname)
+                visited.add(fname)
                 
                 
                 #mostly the same as in extract from zip, except at the end it adds unvisited links to visit
@@ -351,6 +354,7 @@ def spiderIndex(zip_path, start_file):
                         title2 = tmatch.group(1).strip() if tmatch else None
                         links = extract_links_from_html(file_info)
                         pos = 0
+
                         for term in extract_words_from_html(file_info):
                             word = term.lower()
                             
@@ -359,15 +363,17 @@ def spiderIndex(zip_path, start_file):
                                     word_frequency[word] = LinkedList()
                                 word_frequency[word].update_list(i, pos)
                                 pos += 1
+
                         DOC_LENGTHS[i] = pos
                         DOCUMENTS[i] = {"file": fname, "length": pos, "title" : title2}
                         HYPERLINKS.append({"doc_id": i, "file": fname, "links": links, "status": "unvisited"})
+                        
                         for link in links:
                             resolved_link = resolve_path(fname, link)
-                            if resolved_link and resolved_link not in visited:
+                            if resolved_link and resolved_link not in visited and resolved_link not in enqueued:
                                 visit.put(resolved_link)
+                                enqueued.add(resolved_link)
                             
-                               
                         i+=1
                 except Exception:
                     print(f"skipped: {fname}")    
@@ -451,7 +457,7 @@ def rank_documents(query_words, current_result, word_frequency, doc_id_to_file):
     query_vec = {}
     for word in query_words:
         if word in word_frequency:
-            df = max(word_frequency[word].list_doc_ids())
+            df = max(1, word_frequency[word].doc_freq())
             idf = math.log((N + 1) / (df + 1)) + 1  
             tf = query_words.count(word)
             query_vec[word] = (1 + math.log(tf)) * idf
