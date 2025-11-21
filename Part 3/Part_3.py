@@ -382,69 +382,69 @@ def spiderIndex(zip_path, start_file):
         print(f"Error occurred: {e}")
     return word_frequency, doc_id_to_file
 
+if __name__ == "__main__":
+    # Looks for where the script is and changes to its directory before extracting from folder Jan
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    os.chdir(script_dir)
+    all_file_data, doc_id_to_file = extract_from_zip("Jan.zip")
 
-# Looks for where the script is and changes to its directory before extracting from folder Jan
-script_dir = os.path.dirname(os.path.realpath(__file__))
-os.chdir(script_dir)
-all_file_data, doc_id_to_file = extract_from_zip("Jan.zip")
+    # Computes the doc frequencies and normalized tf-idf weights
+    DOC_FREQS = compute_doc_freqs(all_file_data)
+    compute_norm_tf_idf(
+        index_dict = all_file_data,
+        doc_lengths = DOC_LENGTHS,
+        doc_freqs = DOC_FREQS,
+        num_docs = len(doc_id_to_file)
+    )
 
-# Computes the doc frequencies and normalized tf-idf weights
-DOC_FREQS = compute_doc_freqs(all_file_data)
-compute_norm_tf_idf(
-    index_dict = all_file_data,
-    doc_lengths = DOC_LENGTHS,
-    doc_freqs = DOC_FREQS,
-    num_docs = len(doc_id_to_file)
-)
+    # Extracts data into its appropriate files
 
-# Extracts data into its appropriate files
+    file_path = 'Extract_List.txt'
+    with open(file_path, 'w') as output_file:
+        for word, linked_list in all_file_data.items():
+            output_file.write(f"{word}:\n")
+            current = linked_list.head
+            while current:
+                output_file.write(f"doc: {current.doc_id} frequency: {current.frequency}\n")
+                current = current.next
+            output_file.write("\n")
 
-file_path = 'Extract_List.txt'
-with open(file_path, 'w') as output_file:
-    for word, linked_list in all_file_data.items():
-        output_file.write(f"{word}:\n")
-        current = linked_list.head
-        while current:
-            output_file.write(f"doc: {current.doc_id} frequency: {current.frequency}\n")
-            current = current.next
-        output_file.write("\n")
+    tf_idf_path = "TFIDF_List.txt"
+    with open(tf_idf_path, "w") as output_file:
+        for term in sorted(all_file_data.keys()):
+            postings = all_file_data[term]
+            output_file.write(f"{term} (df={DOC_FREQS.get(term, 0)}):\n")
+            current = postings.head
+            while current:
+                output_file.write(
+                    f"doc:{current.doc_id}  tf:{current.frequency}  "
+                    f"len:{DOC_LENGTHS.get(current.doc_id, 0)}  "
+                    f"norm_tf_idf:{current.norm_tf_idf:.6f}  "
+                    f"positions:{current.position}\n"
+                )
+                current = current.next
+            output_file.write("\n")
 
-tf_idf_path = "TFIDF_List.txt"
-with open(tf_idf_path, "w") as output_file:
-    for term in sorted(all_file_data.keys()):
-        postings = all_file_data[term]
-        output_file.write(f"{term} (df={DOC_FREQS.get(term, 0)}):\n")
-        current = postings.head
-        while current:
-            output_file.write(
-                f"doc:{current.doc_id}  tf:{current.frequency}  "
-                f"len:{DOC_LENGTHS.get(current.doc_id, 0)}  "
-                f"norm_tf_idf:{current.norm_tf_idf:.6f}  "
-                f"positions:{current.position}\n"
-            )
-            current = current.next
-        output_file.write("\n")
+    hyperlinks_path = "Hyperlinks_Report.txt"
+    with open(hyperlinks_path, "w", encoding="utf-8") as output_file:
+        if not HYPERLINKS:
+            output_file.write("(no hyperlinks found)\n")
+        else:
+            for entry in HYPERLINKS:
+                seen = set()
+                links = []
+                for u in entry["links"]:
+                    if u not in seen:
+                        seen.add(u)
+                        links.append(u)
 
-hyperlinks_path = "Hyperlinks_Report.txt"
-with open(hyperlinks_path, "w", encoding="utf-8") as output_file:
-    if not HYPERLINKS:
-        output_file.write("(no hyperlinks found)\n")
-    else:
-        for entry in HYPERLINKS:
-            seen = set()
-            links = []
-            for u in entry["links"]:
-                if u not in seen:
-                    seen.add(u)
-                    links.append(u)
-
-            output_file.write(f"Doc {entry['doc_id']} — {entry['file']}  (status: {entry['status']})\n")
-            if not links:
-                output_file.write("  (no links)\n\n")
-            else:
-                for u in links:
-                    output_file.write(f"  - {u}\n")
-                output_file.write("\n")
+                output_file.write(f"Doc {entry['doc_id']} — {entry['file']}  (status: {entry['status']})\n")
+                if not links:
+                    output_file.write("  (no links)\n\n")
+                else:
+                    for u in links:
+                        output_file.write(f"  - {u}\n")
+                    output_file.write("\n")
 
 # Task 3: Build a query searcher
 def rank_documents(query_words, current_result, word_frequency, doc_id_to_file):
