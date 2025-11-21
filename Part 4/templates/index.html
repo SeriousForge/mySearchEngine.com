@@ -15,6 +15,13 @@
             <button type="submit">Search</button>
         </form>
 
+        {% if suggestions %}
+        <p class="suggestions-line">
+            <strong>Suggested Words:</strong>
+            {{ suggestions | join(', ') }}
+        </p>
+        {% endif %}
+
         {% if results %}
         <div class="results">
             {% for result in results %}
