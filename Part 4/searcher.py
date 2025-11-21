@@ -198,6 +198,76 @@ def phrasal_search(word_frequency, query_words):
     return lefthandside
 
 #search_loop(all_file_data, doc_id_to_file)
+def compute_keyword_correlation(term1, term2, index):
+    """
+    Computes corr(term1, term2) by walking down the postings lists
+    and summing tf-idf products for documents that appear in both.
+    """
+    postings1 = index.get(term1)
+    postings2 = index.get(term2)
+    if postings1 is None or postings2 is None:
+        return 0.0
+
+    n1 = postings1.head
+    n2 = postings2.head
+    score = 0.0
+
+    while n1 and n2:
+        if n1.doc_id == n2.doc_id:
+            score += n1.norm_tf_idf * n2.norm_tf_idf
+            n1 = n1.next
+            n2 = n2.next
+        elif n1.doc_id < n2.doc_id:
+            n1 = n1.next
+        else:
+            n2 = n2.next
+
+    return score
+
+def extract_keywords_from_docs(doc_ids, index):
+    keyword_set = set()
+    for term, postings in index.items():
+        node = postings.head
+        while node:
+            if node.doc_id in doc_ids:
+                keyword_set.add(term)
+                break
+            node = node.next
+    return list(keyword_set)
+
+def suggest_keywords(query_terms, index, top_k=5):
+    scores = {}
+
+    # Get list K
+    for q in query_terms:
+        if q not in index:
+            continue
+        for k in index.keys():
+            if k == q:
+                continue
+            corr = compute_keyword_correlation(q, k, index)
+            if corr > 0:
+                scores[k] = scores.get(k, 0) + corr
+
+    # return top_k strongest correlations
+    sorted_terms = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+    return [term for term, _ in sorted_terms[:top_k]]
+
+def search_core(query_words, word_frequency, doc_id_to_file):
+    all_docs = list(doc_id_to_file.keys())
+    ranked_docs = rank_documents(query_words, all_docs, word_frequency, doc_id_to_file)
+    ranked_docs = [(doc_id, score) for doc_id, score in ranked_docs if score > 0.0]
+    
+    results = []
+    for doc_id, score in ranked_docs:
+        file_name = doc_id_to_file[doc_id]
+        results.append({
+            "doc_id": doc_id,
+            "file": file_name,
+            "score": round(score, 6)
+        })
+    return results
+
 
 def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
     search_key = search_key.strip().lower()
@@ -206,9 +276,29 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
     but_mode = False
     lefthandside = []
     righthandside = []
-
+    search_key = search_key.strip().lower()
     querie_words = tokenize_query(search_key)
+
+
+    original_results = search_core(querie_words, word_frequency, doc_id_to_file)
+    suggested_keywords = suggest_keywords(querie_words, word_frequency)
+    querie_words = tokenize_query(search_key)
+    results = original_results[:5]
     has_boolean = any(word in ["or", "and", "but"] for word in querie_words)
+    top_doc_ids = [r['doc_id'] for r in results]
+
+    # Suggest top 3 keywords correlated with query in top docs
+    all_keywords = extract_keywords_from_docs(top_doc_ids, word_frequency)
+    scores = {}
+    for q in querie_words:
+        for k in all_keywords:
+            if k == q:
+                continue
+            corr = compute_keyword_correlation(q, k, word_frequency)
+            if corr > 0:
+                scores[k] = scores.get(k, 0) + corr
+
+    top_keywords = [k for k, _ in sorted(scores.items(), key=lambda x: x[1], reverse=True)[:3]]
 
     # Phrasal search
     if search_key.startswith('"') and search_key.endswith('"'):
@@ -227,7 +317,14 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
                     "file": file_name,
                     "score": round(score, 6)
                 })
-        return results
+        suggested_keywords = top_keywords
+        reformulated_query_words = querie_words + suggested_keywords
+        reformulated_results = search_core(reformulated_query_words, word_frequency, doc_id_to_file)
+        return {
+            "results": results,
+            "suggestions": suggested_keywords,
+            "reformulated_results": reformulated_results
+        }
 
     # Boolean retrieval
     elif has_boolean:
@@ -286,11 +383,18 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
             for doc_id, score in ranked_docs:
                 file_name = doc_id_to_file[doc_id]
                 results.append({
-                    "doc_id": doc_id,            # <-- add this
+                    "doc_id": doc_id,            
                     "file": file_name,
                     "score": round(score, 6)
                 })
-        return results
+        suggested_keywords = top_keywords
+        reformulated_query_words = querie_words + suggested_keywords
+        reformulated_results = search_core(reformulated_query_words, word_frequency, doc_id_to_file)
+        return {
+            "results": results,
+            "suggestions": suggested_keywords,
+            "reformulated_results": reformulated_results
+        }
 
     else:
         # Vector Space retrieval (no boolean operators)
@@ -307,5 +411,11 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
                 "file": file_name,
                 "score": round(score, 6)
             })
-            
-        return results
+        suggested_keywords = top_keywords    
+        reformulated_query_words = querie_words + suggested_keywords
+        reformulated_results = search_core(reformulated_query_words, word_frequency, doc_id_to_file)
+        return {
+            "results": results,
+            "suggestions": suggested_keywords,
+            "reformulated_results": reformulated_results
+        }

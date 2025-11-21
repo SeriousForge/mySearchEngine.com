@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, abort
 import Part_4
 from zipfile import ZipFile
+from searcher import search_loop_equiv
 import os
 
 app = Flask(__name__)
@@ -20,16 +21,23 @@ def initialize_index():
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    results = []
     query = ""
-
+    results = []
+    suggestions = []
+    reformulated_results = []      
     if request.method == "POST":
-        query = request.form.get("query")
-        if query:
-            results = Part_4.search_loop_equiv(query, word_frequency, doc_id_to_file)
+        query = request.form.get("query", "")
+        search_output = search_loop_equiv(query, word_frequency, doc_id_to_file)
 
+        results = search_output["results"]
+        suggestions = search_output["suggestions"]
+        reformulated_results = search_output["reformulated_results"]
 
-    return render_template("index.html", results=results, query=query)
+    return render_template("index.html",
+                           query=query,
+                           results=results,
+                           suggestions=suggestions,
+                           reformulated_results=reformulated_results)
 
 @app.route("/view/<int:doc_id>")
 def view_page(doc_id):

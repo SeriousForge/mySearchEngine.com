@@ -67,3 +67,21 @@ button:hover {
     color: #888;
     margin-top: 30px;
 }
+
+.reformulated .result {
+    border-left: 4px solid #ff5555; 
+    padding-left: 11px; 
+    background-color: #1a1a1a;
+}
+.suggestions-line {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ff9999;
+}
+h2 {
+    color: #ff3c3c;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
