@@ -23,21 +23,25 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head = None
+        self.tail = None
+        self.nodes_by_doc = {}
 
     def update_list(self, doc_id, position):
+        # If doc already has a node
+        node = self.nodes_by_doc.get(doc_id)
         if self.head is None:
-            self.head = Node(doc_id, position)
+            node.frequency += 1
+            node.position.append(position)
+            return
+        
+        # Otherwise, create a new node and adds it to the end of the list
+        new_node = Node(doc_id, position)
+        if self.head is None:
+            self.head = self.tail = new_node
         else:
-            current = self.head
-            while current:
-                if current.doc_id == doc_id:
-                    current.frequency += 1
-                    current.position.append(position)
-                    return
-                if current.next == None:
-                    current.next = Node(doc_id, position)
-                    return
-                current = current.next
+            self.tail.next = new_node
+            self.tail = new_node
+        self.nodes_by_doc[doc_id] = new_node
             
     def display(self):
         current = self.head
@@ -52,20 +56,13 @@ class LinkedList:
             doc_ids.append(current.doc_id)
             current = current.next
         return doc_ids
+    
     def id_positions(self, id):
-        current = self.head
-        while current:
-            if current.doc_id == id:
-                return current.position
-            current = current.next
-        return []
+        node = self.nodes_by_doc.get(id)
+        return node.position if node else []
     
     def doc_freq(self):
-        c, count = self.head, 0
-        while c:
-            count += 1
-            c = c.next
-        return count
+        return len(self.nodes_by_doc)
     
 DOC_LENGTHS = {}
 HYPERLINKS = []
