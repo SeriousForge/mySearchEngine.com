@@ -646,6 +646,10 @@ def build_index(zip_path):
     Build the search index from a zip file.
     Returns word_frequency and doc_id_to_file dictionaries.
     """
+
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    os.chdir(script_dir)
+
     # Clear global containers in case this is called multiple times
     global DOC_LENGTHS, HYPERLINKS, DOCUMENTS, DOC_FREQS
     DOC_LENGTHS = {}
