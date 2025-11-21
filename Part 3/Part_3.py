@@ -23,21 +23,25 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head = None
+        self.tail = None
+        self.nodes_by_doc = {}
 
     def update_list(self, doc_id, position):
+        # If doc already has a node
+        node = self.nodes_by_doc.get(doc_id)
+        if node is not None:
+            node.frequency += 1
+            node.position.append(position)
+            return
+        
+        # Otherwise, create a new node and adds it to the end of the list
+        new_node = Node(doc_id, position)
         if self.head is None:
-            self.head = Node(doc_id, position)
+            self.head = self.tail = new_node
         else:
-            current = self.head
-            while current:
-                if current.doc_id == doc_id:
-                    current.frequency += 1
-                    current.position.append(position)
-                    return
-                if current.next == None:
-                    current.next = Node(doc_id, position)
-                    return
-                current = current.next
+            self.tail.next = new_node
+            self.tail = new_node
+        self.nodes_by_doc[doc_id] = new_node
             
     def display(self):
         current = self.head
@@ -52,20 +56,13 @@ class LinkedList:
             doc_ids.append(current.doc_id)
             current = current.next
         return doc_ids
+    
     def id_positions(self, id):
-        current = self.head
-        while current:
-            if current.doc_id == id:
-                return current.position
-            current = current.next
-        return []
+        node = self.nodes_by_doc.get(id)
+        return node.position if node else []
     
     def doc_freq(self):
-        c, count = self.head, 0
-        while c:
-            count += 1
-            c = c.next
-        return count
+        return len(self.nodes_by_doc)
     
 DOC_LENGTHS = {}
 HYPERLINKS = []
@@ -309,7 +306,9 @@ def spiderIndex(zip_path, start_file):
     i = 0
     pos = 0
     visit = Queue()
-    visited = []
+    visited = set()
+    enqueued = set()
+    
     #pathhelp will help when opening the start_file, it gives it the zip_path/
     pathhelp = ""
     for char in zip_path:
@@ -324,19 +323,20 @@ def spiderIndex(zip_path, start_file):
             
             start_path = pathhelp + start_file
             visit.put(start_path)
+            enqueued.add(start_path)
+
             #as long as visit isn't empty, keep on looping
             while(not visit.empty()):
-
                 fname = visit.get()
                 
                 if fname in visited:
                     continue
+
                 if not fname.endswith(('.html', '.htm')): #ignore non html, htm, add to visited to prevent adding again
-                    
-                    visited.append(fname)
+                    visited.add(fname)
                     continue
                 
-                visited.append(fname)
+                visited.add(fname)
                 
                 
                 #mostly the same as in extract from zip, except at the end it adds unvisited links to visit
@@ -354,6 +354,7 @@ def spiderIndex(zip_path, start_file):
                         title2 = tmatch.group(1).strip() if tmatch else None
                         links = extract_links_from_html(file_info)
                         pos = 0
+
                         for term in extract_words_from_html(file_info):
                             word = term.lower()
                             
@@ -362,15 +363,17 @@ def spiderIndex(zip_path, start_file):
                                     word_frequency[word] = LinkedList()
                                 word_frequency[word].update_list(i, pos)
                                 pos += 1
+
                         DOC_LENGTHS[i] = pos
                         DOCUMENTS[i] = {"file": fname, "length": pos, "title" : title2}
                         HYPERLINKS.append({"doc_id": i, "file": fname, "links": links, "status": "unvisited"})
+                        
                         for link in links:
                             resolved_link = resolve_path(fname, link)
-                            if resolved_link and resolved_link not in visited:
+                            if resolved_link and resolved_link not in visited and resolved_link not in enqueued:
                                 visit.put(resolved_link)
+                                enqueued.add(resolved_link)
                             
-                               
                         i+=1
                 except Exception:
                     print(f"skipped: {fname}")    
@@ -382,69 +385,69 @@ def spiderIndex(zip_path, start_file):
         print(f"Error occurred: {e}")
     return word_frequency, doc_id_to_file
 
+if __name__ == "__main__":
+    # Looks for where the script is and changes to its directory before extracting from folder Jan
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    os.chdir(script_dir)
+    all_file_data, doc_id_to_file = extract_from_zip("Jan.zip")
 
-# Looks for where the script is and changes to its directory before extracting from folder Jan
-script_dir = os.path.dirname(os.path.realpath(__file__))
-os.chdir(script_dir)
-all_file_data, doc_id_to_file = extract_from_zip("Jan.zip")
+    # Computes the doc frequencies and normalized tf-idf weights
+    DOC_FREQS = compute_doc_freqs(all_file_data)
+    compute_norm_tf_idf(
+        index_dict = all_file_data,
+        doc_lengths = DOC_LENGTHS,
+        doc_freqs = DOC_FREQS,
+        num_docs = len(doc_id_to_file)
+    )
 
-# Computes the doc frequencies and normalized tf-idf weights
-DOC_FREQS = compute_doc_freqs(all_file_data)
-compute_norm_tf_idf(
-    index_dict = all_file_data,
-    doc_lengths = DOC_LENGTHS,
-    doc_freqs = DOC_FREQS,
-    num_docs = len(doc_id_to_file)
-)
+    # Extracts data into its appropriate files
 
-# Extracts data into its appropriate files
+    file_path = 'Extract_List.txt'
+    with open(file_path, 'w') as output_file:
+        for word, linked_list in all_file_data.items():
+            output_file.write(f"{word}:\n")
+            current = linked_list.head
+            while current:
+                output_file.write(f"doc: {current.doc_id} frequency: {current.frequency}\n")
+                current = current.next
+            output_file.write("\n")
 
-file_path = 'Extract_List.txt'
-with open(file_path, 'w') as output_file:
-    for word, linked_list in all_file_data.items():
-        output_file.write(f"{word}:\n")
-        current = linked_list.head
-        while current:
-            output_file.write(f"doc: {current.doc_id} frequency: {current.frequency}\n")
-            current = current.next
-        output_file.write("\n")
+    tf_idf_path = "TFIDF_List.txt"
+    with open(tf_idf_path, "w") as output_file:
+        for term in sorted(all_file_data.keys()):
+            postings = all_file_data[term]
+            output_file.write(f"{term} (df={DOC_FREQS.get(term, 0)}):\n")
+            current = postings.head
+            while current:
+                output_file.write(
+                    f"doc:{current.doc_id}  tf:{current.frequency}  "
+                    f"len:{DOC_LENGTHS.get(current.doc_id, 0)}  "
+                    f"norm_tf_idf:{current.norm_tf_idf:.6f}  "
+                    f"positions:{current.position}\n"
+                )
+                current = current.next
+            output_file.write("\n")
 
-tf_idf_path = "TFIDF_List.txt"
-with open(tf_idf_path, "w") as output_file:
-    for term in sorted(all_file_data.keys()):
-        postings = all_file_data[term]
-        output_file.write(f"{term} (df={DOC_FREQS.get(term, 0)}):\n")
-        current = postings.head
-        while current:
-            output_file.write(
-                f"doc:{current.doc_id}  tf:{current.frequency}  "
-                f"len:{DOC_LENGTHS.get(current.doc_id, 0)}  "
-                f"norm_tf_idf:{current.norm_tf_idf:.6f}  "
-                f"positions:{current.position}\n"
-            )
-            current = current.next
-        output_file.write("\n")
+    hyperlinks_path = "Hyperlinks_Report.txt"
+    with open(hyperlinks_path, "w", encoding="utf-8") as output_file:
+        if not HYPERLINKS:
+            output_file.write("(no hyperlinks found)\n")
+        else:
+            for entry in HYPERLINKS:
+                seen = set()
+                links = []
+                for u in entry["links"]:
+                    if u not in seen:
+                        seen.add(u)
+                        links.append(u)
 
-hyperlinks_path = "Hyperlinks_Report.txt"
-with open(hyperlinks_path, "w", encoding="utf-8") as output_file:
-    if not HYPERLINKS:
-        output_file.write("(no hyperlinks found)\n")
-    else:
-        for entry in HYPERLINKS:
-            seen = set()
-            links = []
-            for u in entry["links"]:
-                if u not in seen:
-                    seen.add(u)
-                    links.append(u)
-
-            output_file.write(f"Doc {entry['doc_id']} — {entry['file']}  (status: {entry['status']})\n")
-            if not links:
-                output_file.write("  (no links)\n\n")
-            else:
-                for u in links:
-                    output_file.write(f"  - {u}\n")
-                output_file.write("\n")
+                output_file.write(f"Doc {entry['doc_id']} — {entry['file']}  (status: {entry['status']})\n")
+                if not links:
+                    output_file.write("  (no links)\n\n")
+                else:
+                    for u in links:
+                        output_file.write(f"  - {u}\n")
+                    output_file.write("\n")
 
 # Task 3: Build a query searcher
 def rank_documents(query_words, current_result, word_frequency, doc_id_to_file):
@@ -454,25 +457,28 @@ def rank_documents(query_words, current_result, word_frequency, doc_id_to_file):
     query_vec = {}
     for word in query_words:
         if word in word_frequency:
-            df = len(word_frequency[word].list_doc_ids())
+            df = max(1, word_frequency[word].doc_freq())
             idf = math.log((N + 1) / (df + 1)) + 1  
             tf = query_words.count(word)
             query_vec[word] = (1 + math.log(tf)) * idf
             
-
+    if not query_vec:
+        return []
+    
+    # Calculates cosine similarity using node lookup
     for doc_id in current_result:
         dot_product = 0.0
         query_norm = math.sqrt(sum(v ** 2 for v in query_vec.values()))
 
         for word, q_weight in query_vec.items():
-            node = word_frequency[word].head
-            while node:
-                if node.doc_id == doc_id:
-                    dot_product += q_weight * node.norm_tf_idf
-                    break
-                node = node.next
+            postings = word_frequency.get(word)
+            if postings is None:
+                continue
+            node = postings.nodes_by_doc.get(doc_id)
+            if node is not None:
+                dot_product += q_weight * node.norm_tf_idf
 
-        scores[doc_id] = dot_product / max(query_norm, 1e-9)
+        scores[doc_id] = dot_product / query_norm
 
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     return ranked
@@ -640,6 +646,10 @@ def build_index(zip_path):
     Build the search index from a zip file.
     Returns word_frequency and doc_id_to_file dictionaries.
     """
+
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    os.chdir(script_dir)
+
     # Clear global containers in case this is called multiple times
     global DOC_LENGTHS, HYPERLINKS, DOCUMENTS, DOC_FREQS
     DOC_LENGTHS = {}
