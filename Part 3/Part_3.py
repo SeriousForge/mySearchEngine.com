@@ -451,25 +451,28 @@ def rank_documents(query_words, current_result, word_frequency, doc_id_to_file):
     query_vec = {}
     for word in query_words:
         if word in word_frequency:
-            df = len(word_frequency[word].list_doc_ids())
+            df = max(word_frequency[word].list_doc_ids())
             idf = math.log((N + 1) / (df + 1)) + 1  
             tf = query_words.count(word)
             query_vec[word] = (1 + math.log(tf)) * idf
             
-
+    if not query_vec:
+        return []
+    
+    # Calculates cosine similarity using node lookup
     for doc_id in current_result:
         dot_product = 0.0
         query_norm = math.sqrt(sum(v ** 2 for v in query_vec.values()))
 
         for word, q_weight in query_vec.items():
-            node = word_frequency[word].head
-            while node:
-                if node.doc_id == doc_id:
-                    dot_product += q_weight * node.norm_tf_idf
-                    break
-                node = node.next
+            postings = word_frequency.get(word)
+            if postings is None:
+                continue
+            node = postings.nodes_by_doc.get(doc_id)
+            if node is not None:
+                dot_product += q_weight * node.norm_tf_idf
 
-        scores[doc_id] = dot_product / max(query_norm, 1e-9)
+        scores[doc_id] = dot_product / query_norm
 
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     return ranked
