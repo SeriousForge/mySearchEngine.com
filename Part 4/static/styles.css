@@ -1,0 +1,69 @@
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #ff3c3c;
+    font-size: 48px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+input[type="text"] {
+    width: 500px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 2px solid #ff3c3c;
+    background-color: #1a1a1a;
+    color: #fff;
+    outline: none;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff3c3c;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff5555;
+}
+
+.results {
+    margin-top: 40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.result {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+}
+
+.result .file {
+    font-weight: bold;
+    color: #ff3c3c;
+}
+
+.result .score {
+    float: right;
+    color: #ccc;
+}
+
+.no-results {
+    color: #888;
+    margin-top: 30px;
+}
