@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request, abort
-import Part_3
-import pickle
+import Part_4
 from zipfile import ZipFile
-from datetime import datetime
 import os
 
 app = Flask(__name__)
@@ -16,7 +14,7 @@ zip_path = "rhf.zip"
 def initialize_index():
     global word_frequency, doc_id_to_file
     if word_frequency is None:
-        word_frequency, doc_id_to_file = Part_3.build_index("rhf.zip")
+        word_frequency, doc_id_to_file = Part_4.build_index("rhf.zip")
         print("Indexing complete! Ready to search.")
 
 
@@ -28,7 +26,7 @@ def index():
     if request.method == "POST":
         query = request.form.get("query")
         if query:
-            results = Part_3.search_loop_equiv(query, word_frequency, doc_id_to_file)
+            results = Part_4.search_loop_equiv(query, word_frequency, doc_id_to_file)
 
 
     return render_template("index.html", results=results, query=query)
@@ -41,7 +39,7 @@ def view_page(doc_id):
     with ZipFile(zip_path, "r") as zip_archive:
         with zip_archive.open(file_name) as f:
             html_content = f.read().decode("utf-8", errors="ignore")
-    title = Part_3.TITLE_RE.search(html_content)
+    title = Part_4.TITLE_RE.search(html_content)
     title_text = title.group(1).strip() if title else file_name
     return render_template("view_page.html", title=title_text, html_content=html_content)
 

@@ -1,14 +1,6 @@
-# Jose X. Moreno 20387773
-# Andrea Garza 20581964
-# Leonardo Pérez 0444297
-# Misael Garay 20522356
-
-import os
-from zipfile import ZipFile
-
 import math
-from html_utils import check_stopword, extract_words_from_html, extract_links_from_html, tokenize_query, TITLE_RE
-from indexer import DOC_LENGTHS, HYPERLINKS, DOCUMENTS, build_index
+from html_utils import check_stopword, tokenize_query
+from indexer import DOC_LENGTHS
 
 # Task 3: Build a query searcher
 def rank_documents(query_words, current_result, word_frequency, doc_id_to_file):
@@ -43,6 +35,8 @@ def rank_documents(query_words, current_result, word_frequency, doc_id_to_file):
 
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     return ranked
+
+
 
 # Creates a loop that allows the user to search for words
 # If the word is found, it prints the names of the files containing that word
