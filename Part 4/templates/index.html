@@ -23,6 +23,7 @@
         {% endif %}
 
         {% if results %}
+        <h2>Original Results</h2>
         <div class="results">
             {% for result in results %}
             <div class="result">
@@ -33,7 +34,23 @@
             </div>
             {% endfor %}
         </div>
-        {% elif query %}
+        {% endif %}
+
+        {% if reformulated_results %}
+        <h2>Reformulated Results</h2>
+        <div class="results reformulated">
+            {% for result in reformulated_results %}
+            <div class="result">
+                <a class="file" href="{{ url_for('view_page', doc_id=result.doc_id) }}">
+                    {{ result.file }}
+                </a>
+                <span class="score">Score: {{ result.score }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if not results and not reformulated_results and query %}
         <p class="no-results">No match found.</p>
         {% endif %}
     </div>
