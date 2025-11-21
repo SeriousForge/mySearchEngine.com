@@ -24,18 +24,20 @@ def index():
     query = ""
     results = []
     suggestions = []
-
+    reformulated_results = []      
     if request.method == "POST":
         query = request.form.get("query", "")
         search_output = search_loop_equiv(query, word_frequency, doc_id_to_file)
 
         results = search_output["results"]
         suggestions = search_output["suggestions"]
+        reformulated_results = search_output["reformulated_results"]
 
     return render_template("index.html",
                            query=query,
                            results=results,
-                           suggestions=suggestions)
+                           suggestions=suggestions,
+                           reformulated_results=reformulated_results)
 
 @app.route("/view/<int:doc_id>")
 def view_page(doc_id):
