@@ -307,5 +307,7 @@ def build_index(zip_path):
     #document_correlations = compute_cosine_similarity(word_frequency, doc_ids)
     doc_ids = list(doc_id_to_file.keys())
     document_correlations = build_document_correlation_list(doc_ids, DOC_ID_WORDS, threshold=.1)
+
+    return word_frequency, doc_id_to_file, document_correlations
+
     
-    return word_frequency, doc_id_to_file
