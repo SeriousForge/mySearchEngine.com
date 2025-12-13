@@ -84,6 +84,10 @@ h2 {
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
+.recommended-title {
+    color: #ff9800;   /* orange */
+    letter-spacing: 1px;
+}
 .results.recommended .file {
     color: #ff9800;   /* orange */
 }
