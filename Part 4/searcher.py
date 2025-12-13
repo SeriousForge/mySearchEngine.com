@@ -253,6 +253,35 @@ def suggest_keywords(query_terms, index, top_k=5):
     sorted_terms = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     return [term for term, _ in sorted_terms[:top_k]]
 
+#returns the top k correlated documents for a doc_id
+def get_correlated_documents(doc_id, doc_correlations, top_k=3):
+    if doc_id not in doc_correlations:
+        return []
+    return doc_correlations[doc_id][:top_k]
+
+def get_recommended_results(results, document_correlations, doc_id_to_file):
+    i = 0
+    recommended_results = []
+    returned_results = []
+    if results:
+        for result in results:
+            if i > 9:
+                break
+            doc_id = result["doc_id"]
+            corr_docs = get_correlated_documents(doc_id, document_correlations)
+            if not corr_docs:
+                continue
+            for d_id in corr_docs:
+                if d_id not in recommended_results:
+                    recommended_results.append(d_id)
+            i += 1
+    if recommended_results:
+        for doc_id in recommended_results:
+            file_name = doc_id_to_file[doc_id[0]]
+            returned_results.append({"doc_id": doc_id[0],
+                            "file": file_name})
+    return returned_results
+
 def search_core(query_words, word_frequency, doc_id_to_file):
     all_docs = list(doc_id_to_file.keys())
     ranked_docs = rank_documents(query_words, all_docs, word_frequency, doc_id_to_file)

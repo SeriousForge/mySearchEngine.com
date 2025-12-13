@@ -62,6 +62,7 @@ DOC_LENGTHS = {}
 HYPERLINKS = []
 DOCUMENTS = {}
 DOC_FREQS = {}
+DOC_ID_WORDS = {}
 
 # Given an index dictionary, returns a dictionary w/ the doc frequencies for each term
 def compute_doc_freqs(index_dict):
@@ -87,7 +88,9 @@ def compute_norm_tf_idf(index_dict, doc_lengths, doc_freqs, num_docs):
 
             current = current.next
 
-    # Normalize tf-idf
+    # Normalize tf-idf and populate DOC_ID_WORDS
+    global DOC_ID_WORDS
+    DOC_ID_WORDS = {}
     for term, postings in index_dict.items():
         current = postings.head
         while current:
@@ -97,6 +100,11 @@ def compute_norm_tf_idf(index_dict, doc_lengths, doc_freqs, num_docs):
                 current.norm_tf_idf = (current._raw_w / denominator)
             else:
                 current.norm_tf_idf = 0.0
+
+            # Track word and its norm_tf_idf for this doc_id
+            if current.doc_id not in DOC_ID_WORDS:
+                DOC_ID_WORDS[current.doc_id] = {}
+            DOC_ID_WORDS[current.doc_id][term] = current.norm_tf_idf
 
             del current._raw_w
             current = current.next
@@ -218,6 +226,50 @@ def spiderIndex(zip_path, start_file):
         print(f"Error occurred: {e}")
     return word_frequency, doc_id_to_file
 
+
+
+
+#uses doc_id_words to efficiently compare the words in 2 docs
+#only computes dot product for shared words
+def compute_document_correlation(doc1, doc2, doc_id_words):
+    
+    words1 = doc_id_words.get(doc1, {})
+    words2 = doc_id_words.get(doc2, {})
+    #if doc1 has more words, use doc2 for iterating
+    if len(words1) > len(words2):
+        words1, words2 = words2, words1
+    
+    score = 0.0
+    for term, weight1 in words1.items():
+        if term in words2:
+            score += weight1 * words2[term]
+    
+    return score
+
+#returns the list of correlated documents for each doc_id
+#uses nested loop to find correlation between all docs
+#if the correlation is below the value, it doesn't add it to the list
+def build_document_correlation_list(doc_ids, doc_id_words, threshold=0.1):
+    
+    doc_correlations = {doc_id: [] for doc_id in doc_ids}
+    doc_id_list = list(doc_ids)
+    
+    for i in range(len(doc_id_list)):
+        for j in range(i + 1, len(doc_id_list)):
+            doc_i = doc_id_list[i]
+            doc_j = doc_id_list[j]
+            
+            corr = compute_document_correlation(doc_i, doc_j, doc_id_words)
+            
+            if corr >= threshold:
+                doc_correlations[doc_i].append((doc_j, corr))
+                doc_correlations[doc_j].append((doc_i, corr))
+    
+    for doc_id in doc_correlations:
+        doc_correlations[doc_id].sort(key=lambda x: x[1], reverse=True)
+    
+    return doc_correlations
+
 def build_index(zip_path):
     """
     Build the search index from a zip file.
@@ -250,5 +302,9 @@ def build_index(zip_path):
     DOC_FREQS = doc_freqs
     word_frequency = dict(word_frequency)  # if it was a defaultdict
     doc_id_to_file = dict(doc_id_to_file)
+
     
-    return word_frequency, doc_id_to_file
+    doc_ids = list(doc_id_to_file.keys())
+    document_correlations = build_document_correlation_list(doc_ids, DOC_ID_WORDS, threshold=.1)
+    
+    return word_frequency, doc_id_to_file, document_correlations
