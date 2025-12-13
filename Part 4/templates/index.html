@@ -36,12 +36,25 @@
         </div>
         {% endif %}
 
+        {% if recommended_results %}
+        <h2>Recommended Results</h2>
+        <div class="recommended results">
+            {% for result in recommended_results %}
+            <div class="result">
+                <a style="color: green;" class="file" href="{{ url_for('view_page', doc_id=result.doc_id) }}">
+                    {{ result.file }}
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
         {% if reformulated_results %}
         <h2>Reformulated Results</h2>
         <div class="results reformulated">
             {% for result in reformulated_results %}
             <div class="result">
-                <a class="file" href="{{ url_for('view_page', doc_id=result.doc_id) }}">
+                <a style="color: blue;" class="file" href="{{ url_for('view_page', doc_id=result.doc_id) }}">
                     {{ result.file }}
                 </a>
                 <span class="score">Score: {{ result.score }}</span>

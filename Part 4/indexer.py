@@ -303,9 +303,8 @@ def build_index(zip_path):
     word_frequency = dict(word_frequency)  # if it was a defaultdict
     doc_id_to_file = dict(doc_id_to_file)
 
-    #doc_ids = set(doc_id_to_file.keys())
-    #document_correlations = compute_cosine_similarity(word_frequency, doc_ids)
+    
     doc_ids = list(doc_id_to_file.keys())
     document_correlations = build_document_correlation_list(doc_ids, DOC_ID_WORDS, threshold=.1)
     
-    return word_frequency, doc_id_to_file
+    return word_frequency, doc_id_to_file, document_correlations
