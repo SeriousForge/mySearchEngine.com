@@ -9,13 +9,15 @@ app = Flask(__name__)
 # Global variables to store your index data
 word_frequency = None
 doc_id_to_file = None
+document_correlations = None
 zip_path = "rhf.zip"
 
 @app.before_request
 def initialize_index():
-    global word_frequency, doc_id_to_file
+    global word_frequency, doc_id_to_file, document_correlations
     if word_frequency is None:
-        word_frequency, doc_id_to_file = Part_4.build_index("rhf.zip")
+        word_frequency, doc_id_to_file, document_correlations = Part_4.build_index("rhf.zip")
+
         print("Indexing complete! Ready to search.")
 
 
@@ -24,20 +26,28 @@ def index():
     query = ""
     results = []
     suggestions = []
-    reformulated_results = []      
+    reformulated_results = []   
+    recommended_results = []   
     if request.method == "POST":
         query = request.form.get("query", "")
-        search_output = search_loop_equiv(query, word_frequency, doc_id_to_file)
+        search_output = search_loop_equiv(
+            query,
+            word_frequency,
+            doc_id_to_file,
+            document_correlations
+        )
 
         results = search_output["results"]
         suggestions = search_output["suggestions"]
         reformulated_results = search_output["reformulated_results"]
+        recommended_results = search_output.get("recommended_results", [])
 
     return render_template("index.html",
                            query=query,
                            results=results,
                            suggestions=suggestions,
-                           reformulated_results=reformulated_results)
+                           reformulated_results=reformulated_results,
+                           recommended_results= recommended_results)
 
 @app.route("/view/<int:doc_id>")
 def view_page(doc_id):

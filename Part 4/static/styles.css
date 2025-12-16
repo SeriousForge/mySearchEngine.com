@@ -84,4 +84,21 @@ h2 {
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
+.recommended-title {
+    color: #ff9800;   /* orange */
+    letter-spacing: 1px;
+}
+.results.recommended .file {
+    color: #ff9800;   /* orange */
+}
+
+.results.recommended .score {
+    color: #ffb74d;   /* lighter orange for score */
+}
+
+.results.recommended .result {
+    border-left: 4px solid #ff9800;
+    padding-left: 11px;
+    background-color: #1a1a1a;
+}
 

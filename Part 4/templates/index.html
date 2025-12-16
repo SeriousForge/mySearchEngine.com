@@ -35,6 +35,19 @@
             {% endfor %}
         </div>
         {% endif %}
+        {% if recommended_results %}
+        <h2 class="recommended-title">Recommended Results</h2>
+        <div class="results recommended">
+            {% for result in recommended_results %}
+            <div class="result">
+                <a class="file" href="{{ url_for('view_page', doc_id=result.doc_id) }}">
+                    {{ result.file }}
+                </a>
+                <span class="score">Score: {{ result.score }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
 
         {% if reformulated_results %}
         <h2>Reformulated Results</h2>

@@ -253,6 +253,12 @@ def suggest_keywords(query_terms, index, top_k=5):
     sorted_terms = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     return [term for term, _ in sorted_terms[:top_k]]
 
+#returns the top k correlated documents for a doc_id
+def get_correlated_documents(doc_id, doc_correlations, top_k=3):
+    if doc_id not in doc_correlations:
+        return []
+    return doc_correlations[doc_id][:top_k]
+
 def search_core(query_words, word_frequency, doc_id_to_file):
     all_docs = list(doc_id_to_file.keys())
     ranked_docs = rank_documents(query_words, all_docs, word_frequency, doc_id_to_file)
@@ -269,7 +275,7 @@ def search_core(query_words, word_frequency, doc_id_to_file):
     return results
 
 
-def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
+def search_loop_equiv(search_key, word_frequency, doc_id_to_file, document_correlations):
     search_key = search_key.strip().lower()
     or_mode = False
     and_mode = False
@@ -286,6 +292,20 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
     results = original_results[:5]
     has_boolean = any(word in ["or", "and", "but"] for word in querie_words)
     top_doc_ids = [r['doc_id'] for r in results]
+
+    recommended_list = []
+
+    if top_doc_ids:
+        seed_doc = top_doc_ids[0]  # best-ranked document
+        correlated = get_correlated_documents(seed_doc, document_correlations, top_k=3)
+
+    for doc_id, score in correlated:
+        recommended_list.append({
+            "doc_id": doc_id,
+            "file": doc_id_to_file[doc_id],
+            "score": round(score, 6)
+        })
+
 
     # Suggest top 3 keywords correlated with query in top docs
     all_keywords = extract_keywords_from_docs(top_doc_ids, word_frequency)
@@ -320,10 +340,12 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
         suggested_keywords = top_keywords
         reformulated_query_words = querie_words + suggested_keywords
         reformulated_results = search_core(reformulated_query_words, word_frequency, doc_id_to_file)
+
         return {
             "results": results,
             "suggestions": suggested_keywords,
-            "reformulated_results": reformulated_results
+            "reformulated_results": reformulated_results,
+            "recommended_results": recommended_list
         }
 
     # Boolean retrieval
@@ -393,7 +415,8 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
         return {
             "results": results,
             "suggestions": suggested_keywords,
-            "reformulated_results": reformulated_results
+            "reformulated_results": reformulated_results,
+            "recommended_results": recommended_list
         }
 
     else:
@@ -417,5 +440,6 @@ def search_loop_equiv(search_key, word_frequency, doc_id_to_file):
         return {
             "results": results,
             "suggestions": suggested_keywords,
-            "reformulated_results": reformulated_results
+            "reformulated_results": reformulated_results,
+            "recommended_results": recommended_list
         }
